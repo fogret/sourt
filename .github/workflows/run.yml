@@ -1,0 +1,35 @@
+name: Auto Run main.py
+
+on:
+  schedule:
+    - cron: "0 20 * * *"     # 北京时间 4 点运行
+  workflow_dispatch:        # 手动运行
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Run main.py
+      run: |
+        python main.py
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git add .
+        git commit -m "Auto update" || echo "No changes to commit"
+        git push
