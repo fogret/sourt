@@ -16,16 +16,23 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: "3.11"
+        python-version: "3.13"
+
+    - name: Install pipenv
+      run: pip3 install --user pipenv
+
+    - name: Install dependencies
+      run: |
+        pipenv --python 3.13
+        pipenv install --deploy
 
     - name: Run main.py
-      run: |
-        python main.py
+      run: pipenv run python main.py
 
     - name: Commit and push changes
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         git add .
-        git commit -m "Auto update" || echo "No changes to commit"
+        git commit -m "Auto update" || echo "No changes"
         git push
