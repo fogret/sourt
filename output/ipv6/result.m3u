@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/fogret/sourt/refs/heads/master/output/epg/epg.gz"
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV-1" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-1.png" group-title="🕘️更新时间",2026-03-30 14:42:01
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV-1" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-1.png" group-title="🕘️更新时间",2026-03-30 16:45:55
 http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226908/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV-1" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-1.png" group-title="📺央视频道",CCTV-1
 http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226908/index.m3u8
@@ -613,3 +613,159 @@ https://zby.130519.xyz/PLTV/11/224/3221226109/index.m3u8
 https://zby.130519.xyz/PLTV/11/224/3221226151/index.m3u8
 #EXTINF:-1 tvg-id="74" tvg-name="云南卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/云南卫视.png" group-title="📡卫视频道",云南卫视
 https://t.freetv.fun/live/yun-nan-wei-shi-2.m3u8
+#EXTINF:-1 tvg-id="75" tvg-name="上海都市" tvg-logo="https://www.xn--rgv465a.top/tvlogo/上海都市.png" group-title="📡地方频道",上海都市
+https://zby.130519.xyz/PLTV/11/224/3221225749/index.m3u8
+#EXTINF:-1 tvg-id="76" tvg-name="上海都市频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/上海都市频道.png" group-title="📡地方频道",上海都市频道
+https://zby.130519.xyz/PLTV/11/224/3221225749/index.m3u8
+#EXTINF:-1 tvg-id="77" tvg-name="上海都市HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/上海都市HD.png" group-title="📡地方频道",上海都市HD
+https://zby.130519.xyz/PLTV/11/224/3221225749/index.m3u8
+#EXTINF:-1 tvg-id="24" tvg-name="上海纪实" tvg-logo="https://www.xn--rgv465a.top/tvlogo/上海纪实.png" group-title="📡地方频道",上海纪实
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
+#EXTINF:-1 tvg-id="24" tvg-name="上海纪实" tvg-logo="https://www.xn--rgv465a.top/tvlogo/上海纪实.png" group-title="📡地方频道",上海纪实
+http://iptv.huuc.edu.cn/hls/docuchina.m3u8
+#EXTINF:-1 tvg-id="78" tvg-name="上海纪实频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/上海纪实频道.png" group-title="📡地方频道",上海纪实频道
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
+#EXTINF:-1 tvg-id="78" tvg-name="上海纪实频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/上海纪实频道.png" group-title="📡地方频道",上海纪实频道
+http://iptv.huuc.edu.cn/hls/docuchina.m3u8
+#EXTINF:-1 tvg-id="79" tvg-name="上海纪实HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/上海纪实HD.png" group-title="📡地方频道",上海纪实HD
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
+#EXTINF:-1 tvg-id="79" tvg-name="上海纪实HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/上海纪实HD.png" group-title="📡地方频道",上海纪实HD
+http://iptv.huuc.edu.cn/hls/docuchina.m3u8
+#EXTINF:-1 tvg-id="80" tvg-name="南京新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南京新闻综合.png" group-title="📡地方频道",南京新闻综合
+http://nklive.nbs.cn/hls/d511bc9d-a694-4453-b3a2-4fc842cc97a1/index.m3u8
+#EXTINF:-1 tvg-id="80" tvg-name="南京新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南京新闻综合.png" group-title="📡地方频道",南京新闻综合
+https://mgtv.ottiptv.cc/migu/838109047.m3u8?migutoken=d3d943815e6d6e9e9493a9b4b1d5a1d360bb5f3c04230f6d4d71f7f7c9f30771d321f1c262008c92ffde17fef4a62d1e1c58d5a9454573fb1489994d9be29f4e1cc7786813b671581eda4b9439
+#EXTINF:-1 tvg-id="81" tvg-name="南京新闻综合频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南京新闻综合频道.png" group-title="📡地方频道",南京新闻综合频道
+http://nklive.nbs.cn/hls/d511bc9d-a694-4453-b3a2-4fc842cc97a1/index.m3u8
+#EXTINF:-1 tvg-id="81" tvg-name="南京新闻综合频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南京新闻综合频道.png" group-title="📡地方频道",南京新闻综合频道
+https://mgtv.ottiptv.cc/migu/838109047.m3u8?migutoken=d3d943815e6d6e9e9493a9b4b1d5a1d360bb5f3c04230f6d4d71f7f7c9f30771d321f1c262008c92ffde17fef4a62d1e1c58d5a9454573fb1489994d9be29f4e1cc7786813b671581eda4b9439
+#EXTINF:-1 tvg-id="82" tvg-name="南京新闻综合HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南京新闻综合HD.png" group-title="📡地方频道",南京新闻综合HD
+http://nklive.nbs.cn/hls/d511bc9d-a694-4453-b3a2-4fc842cc97a1/index.m3u8
+#EXTINF:-1 tvg-id="82" tvg-name="南京新闻综合HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南京新闻综合HD.png" group-title="📡地方频道",南京新闻综合HD
+https://mgtv.ottiptv.cc/migu/838109047.m3u8?migutoken=d3d943815e6d6e9e9493a9b4b1d5a1d360bb5f3c04230f6d4d71f7f7c9f30771d321f1c262008c92ffde17fef4a62d1e1c58d5a9454573fb1489994d9be29f4e1cc7786813b671581eda4b9439
+#EXTINF:-1 tvg-id="83" tvg-name="无锡新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/无锡新闻综合.png" group-title="📡地方频道",无锡新闻综合
+http://stream.thmz.com/wxtv1/sd/live.m3u8?zjiangsd
+#EXTINF:-1 tvg-id="84" tvg-name="无锡新闻综合频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/无锡新闻综合频道.png" group-title="📡地方频道",无锡新闻综合频道
+http://stream.thmz.com/wxtv1/sd/live.m3u8?zjiangsd
+#EXTINF:-1 tvg-id="85" tvg-name="无锡新闻综合HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/无锡新闻综合HD.png" group-title="📡地方频道",无锡新闻综合HD
+http://stream.thmz.com/wxtv1/sd/live.m3u8?zjiangsd
+#EXTINF:-1 tvg-id="86" tvg-name="南通新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南通新闻综合.png" group-title="📡地方频道",南通新闻综合
+https://mgtv.ottiptv.cc/migu/955227985.m3u8?migutoken=03e9c85f19b5ac291f5863436507873a8f47ec3c677c7857c89bda5778edc8e38fc38b4270aa374c49eee39b39ffaf80a20b750130c27760df766c0cf7b5d437be8dc60c1ced9117d98f6c9b3e
+#EXTINF:-1 tvg-id="87" tvg-name="南通新闻综合频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南通新闻综合频道.png" group-title="📡地方频道",南通新闻综合频道
+https://mgtv.ottiptv.cc/migu/955227985.m3u8?migutoken=03e9c85f19b5ac291f5863436507873a8f47ec3c677c7857c89bda5778edc8e38fc38b4270aa374c49eee39b39ffaf80a20b750130c27760df766c0cf7b5d437be8dc60c1ced9117d98f6c9b3e
+#EXTINF:-1 tvg-id="88" tvg-name="南通新闻综合HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南通新闻综合HD.png" group-title="📡地方频道",南通新闻综合HD
+https://mgtv.ottiptv.cc/migu/955227985.m3u8?migutoken=03e9c85f19b5ac291f5863436507873a8f47ec3c677c7857c89bda5778edc8e38fc38b4270aa374c49eee39b39ffaf80a20b750130c27760df766c0cf7b5d437be8dc60c1ced9117d98f6c9b3e
+#EXTINF:-1 tvg-id="89" tvg-name="淮安新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/淮安新闻综合.png" group-title="📡地方频道",淮安新闻综合
+https://mgtv.ottiptv.cc/migu/639731826.m3u8?migutoken=383a4690d772fe16ccec98f2da2e7e0c3b362ae2d9a0fa219e9a7bb76bb96d4ca6392f861efb0a61154552c563897f4660867745735f85e310ec9fb52d7fc55cd30da8d55169f8c415c5a69a15
+#EXTINF:-1 tvg-id="90" tvg-name="淮安新闻综合频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/淮安新闻综合频道.png" group-title="📡地方频道",淮安新闻综合频道
+https://mgtv.ottiptv.cc/migu/639731826.m3u8?migutoken=383a4690d772fe16ccec98f2da2e7e0c3b362ae2d9a0fa219e9a7bb76bb96d4ca6392f861efb0a61154552c563897f4660867745735f85e310ec9fb52d7fc55cd30da8d55169f8c415c5a69a15
+#EXTINF:-1 tvg-id="91" tvg-name="淮安新闻综合HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/淮安新闻综合HD.png" group-title="📡地方频道",淮安新闻综合HD
+https://mgtv.ottiptv.cc/migu/639731826.m3u8?migutoken=383a4690d772fe16ccec98f2da2e7e0c3b362ae2d9a0fa219e9a7bb76bb96d4ca6392f861efb0a61154552c563897f4660867745735f85e310ec9fb52d7fc55cd30da8d55169f8c415c5a69a15
+#EXTINF:-1 tvg-id="92" tvg-name="嘉兴新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/嘉兴新闻综合.png" group-title="📡地方频道",嘉兴新闻综合
+http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
+#EXTINF:-1 tvg-id="93" tvg-name="嘉兴新闻综合频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/嘉兴新闻综合频道.png" group-title="📡地方频道",嘉兴新闻综合频道
+http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
+#EXTINF:-1 tvg-id="94" tvg-name="嘉兴新闻综合HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/嘉兴新闻综合HD.png" group-title="📡地方频道",嘉兴新闻综合HD
+http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
+#EXTINF:-1 tvg-id="95" tvg-name="黄山新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黄山新闻综合.png" group-title="📡地方频道",黄山新闻综合
+http://hslive.hsnewsnet.com/lsdream/hve9Wjs/1000/live.m3u8
+#EXTINF:-1 tvg-id="95" tvg-name="黄山新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黄山新闻综合.png" group-title="📡地方频道",黄山新闻综合
+http://hslive.hsnewsnet.com/lsdream/hve9Wjs/1000/live.m3u8?zanhd
+#EXTINF:-1 tvg-id="96" tvg-name="黄山新闻综合频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黄山新闻综合频道.png" group-title="📡地方频道",黄山新闻综合频道
+http://hslive.hsnewsnet.com/lsdream/hve9Wjs/1000/live.m3u8
+#EXTINF:-1 tvg-id="96" tvg-name="黄山新闻综合频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黄山新闻综合频道.png" group-title="📡地方频道",黄山新闻综合频道
+http://hslive.hsnewsnet.com/lsdream/hve9Wjs/1000/live.m3u8?zanhd
+#EXTINF:-1 tvg-id="97" tvg-name="黄山新闻综合HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黄山新闻综合HD.png" group-title="📡地方频道",黄山新闻综合HD
+http://hslive.hsnewsnet.com/lsdream/hve9Wjs/1000/live.m3u8
+#EXTINF:-1 tvg-id="97" tvg-name="黄山新闻综合HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黄山新闻综合HD.png" group-title="📡地方频道",黄山新闻综合HD
+http://hslive.hsnewsnet.com/lsdream/hve9Wjs/1000/live.m3u8?zanhd
+#EXTINF:-1 tvg-id="98" tvg-name="宿州新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宿州新闻综合.png" group-title="📡地方频道",宿州新闻综合
+http://live.ahsz.tv/video/s10001-szzh/index.m3u8
+#EXTINF:-1 tvg-id="99" tvg-name="宿州新闻综合频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宿州新闻综合频道.png" group-title="📡地方频道",宿州新闻综合频道
+http://live.ahsz.tv/video/s10001-szzh/index.m3u8
+#EXTINF:-1 tvg-id="100" tvg-name="宿州新闻综合HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宿州新闻综合HD.png" group-title="📡地方频道",宿州新闻综合HD
+http://live.ahsz.tv/video/s10001-szzh/index.m3u8
+#EXTINF:-1 tvg-id="101" tvg-name="宿州公共频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宿州公共频道.png" group-title="📡地方频道",宿州公共频道
+http://live.ahsz.tv/video/s10001-ggpd/index.m3u8
+#EXTINF:-1 tvg-id="101" tvg-name="宿州公共频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宿州公共频道.png" group-title="📡地方频道",宿州公共频道
+http://live.ahsz.tv/video/s10001-ggpd/index.m3u8?zanhd
+#EXTINF:-1 tvg-id="102" tvg-name="宿州公共频道HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宿州公共频道HD.png" group-title="📡地方频道",宿州公共频道HD
+http://live.ahsz.tv/video/s10001-ggpd/index.m3u8
+#EXTINF:-1 tvg-id="102" tvg-name="宿州公共频道HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宿州公共频道HD.png" group-title="📡地方频道",宿州公共频道HD
+http://live.ahsz.tv/video/s10001-ggpd/index.m3u8?zanhd
+#EXTINF:-1 tvg-id="103" tvg-name="六安新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/六安新闻综合.png" group-title="📡地方频道",六安新闻综合
+http://ls.qingting.fm/live/267.m3u8
+#EXTINF:-1 tvg-id="104" tvg-name="六安新闻综合频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/六安新闻综合频道.png" group-title="📡地方频道",六安新闻综合频道
+http://ls.qingting.fm/live/267.m3u8
+#EXTINF:-1 tvg-id="105" tvg-name="六安新闻综合HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/六安新闻综合HD.png" group-title="📡地方频道",六安新闻综合HD
+http://ls.qingting.fm/live/267.m3u8
+#EXTINF:-1 tvg-id="106" tvg-name="六安公共频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/六安公共频道.png" group-title="📡地方频道",六安公共频道
+http://ls.qingting.fm/live/1794199.m3u8
+#EXTINF:-1 tvg-id="107" tvg-name="六安公共频道HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/六安公共频道HD.png" group-title="📡地方频道",六安公共频道HD
+http://ls.qingting.fm/live/1794199.m3u8
+#EXTINF:-1 tvg-id="108" tvg-name="三明新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/三明新闻综合.png" group-title="📡地方频道",三明新闻综合
+http://ls.qingting.fm/live/4885.m3u8
+#EXTINF:-1 tvg-id="108" tvg-name="三明新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/三明新闻综合.png" group-title="📡地方频道",三明新闻综合
+https://ls.qingting.fm/live/5022100/64k.m3u8
+#EXTINF:-1 tvg-id="109" tvg-name="三明新闻综合频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/三明新闻综合频道.png" group-title="📡地方频道",三明新闻综合频道
+http://ls.qingting.fm/live/4885.m3u8
+#EXTINF:-1 tvg-id="109" tvg-name="三明新闻综合频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/三明新闻综合频道.png" group-title="📡地方频道",三明新闻综合频道
+https://ls.qingting.fm/live/5022100/64k.m3u8
+#EXTINF:-1 tvg-id="110" tvg-name="三明新闻综合HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/三明新闻综合HD.png" group-title="📡地方频道",三明新闻综合HD
+http://ls.qingting.fm/live/4885.m3u8
+#EXTINF:-1 tvg-id="110" tvg-name="三明新闻综合HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/三明新闻综合HD.png" group-title="📡地方频道",三明新闻综合HD
+https://ls.qingting.fm/live/5022100/64k.m3u8
+#EXTINF:-1 tvg-id="111" tvg-name="广州综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广州综合.png" group-title="📡地方频道",广州综合
+http://r.jdshipin.com/iR6Gq
+#EXTINF:-1 tvg-id="111" tvg-name="广州综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广州综合.png" group-title="📡地方频道",广州综合
+http://r.jdshipin.com/snhya
+#EXTINF:-1 tvg-id="111" tvg-name="广州综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广州综合.png" group-title="📡地方频道",广州综合
+http://php.jdshipin.com:8880/gztv.php?id=zhonghe
+#EXTINF:-1 tvg-id="112" tvg-name="广州综合频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广州综合频道.png" group-title="📡地方频道",广州综合频道
+http://r.jdshipin.com/iR6Gq
+#EXTINF:-1 tvg-id="112" tvg-name="广州综合频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广州综合频道.png" group-title="📡地方频道",广州综合频道
+http://r.jdshipin.com/snhya
+#EXTINF:-1 tvg-id="112" tvg-name="广州综合频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广州综合频道.png" group-title="📡地方频道",广州综合频道
+http://php.jdshipin.com:8880/gztv.php?id=zhonghe
+#EXTINF:-1 tvg-id="113" tvg-name="广州综合HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广州综合HD.png" group-title="📡地方频道",广州综合HD
+http://r.jdshipin.com/iR6Gq
+#EXTINF:-1 tvg-id="113" tvg-name="广州综合HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广州综合HD.png" group-title="📡地方频道",广州综合HD
+http://r.jdshipin.com/snhya
+#EXTINF:-1 tvg-id="113" tvg-name="广州综合HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广州综合HD.png" group-title="📡地方频道",广州综合HD
+http://php.jdshipin.com:8880/gztv.php?id=zhonghe
+#EXTINF:-1 tvg-id="114" tvg-name="广州新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广州新闻.png" group-title="📡地方频道",广州新闻
+http://php.jdshipin.com:8880/gztv.php?id=xinwen
+#EXTINF:-1 tvg-id="115" tvg-name="广州新闻频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广州新闻频道.png" group-title="📡地方频道",广州新闻频道
+http://php.jdshipin.com:8880/gztv.php?id=xinwen
+#EXTINF:-1 tvg-id="116" tvg-name="广州新闻HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广州新闻HD.png" group-title="📡地方频道",广州新闻HD
+http://php.jdshipin.com:8880/gztv.php?id=xinwen
+#EXTINF:-1 tvg-id="117" tvg-name="南宁都市生活" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南宁都市生活.png" group-title="📡地方频道",南宁都市生活
+http://615bbf179ba53515dccad7b1da5d1ad9.livehwc3.cn/hls.nntv.cn/nnlive/WLSH_24.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=2598844eaee8a4265e706fc14b3fc11d
+#EXTINF:-1 tvg-id="118" tvg-name="南宁都市生活频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南宁都市生活频道.png" group-title="📡地方频道",南宁都市生活频道
+http://615bbf179ba53515dccad7b1da5d1ad9.livehwc3.cn/hls.nntv.cn/nnlive/WLSH_24.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=2598844eaee8a4265e706fc14b3fc11d
+#EXTINF:-1 tvg-id="119" tvg-name="南宁都市生活HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南宁都市生活HD.png" group-title="📡地方频道",南宁都市生活HD
+http://615bbf179ba53515dccad7b1da5d1ad9.livehwc3.cn/hls.nntv.cn/nnlive/WLSH_24.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=2598844eaee8a4265e706fc14b3fc11d
+#EXTINF:-1 tvg-id="120" tvg-name="北京新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/北京新闻.png" group-title="📡地方频道",北京新闻
+http://iptv.huuc.edu.cn/hls/btv9hd.m3u8
+#EXTINF:-1 tvg-id="120" tvg-name="北京新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/北京新闻.png" group-title="📡地方频道",北京新闻
+https://ls.qingting.fm/live/339/64k.m3u8
+#EXTINF:-1 tvg-id="121" tvg-name="北京新闻频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/北京新闻频道.png" group-title="📡地方频道",北京新闻频道
+http://iptv.huuc.edu.cn/hls/btv9hd.m3u8
+#EXTINF:-1 tvg-id="121" tvg-name="北京新闻频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/北京新闻频道.png" group-title="📡地方频道",北京新闻频道
+https://ls.qingting.fm/live/339/64k.m3u8
+#EXTINF:-1 tvg-id="122" tvg-name="北京新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/北京新闻综合.png" group-title="📡地方频道",北京新闻综合
+http://iptv.huuc.edu.cn/hls/btv9hd.m3u8
+#EXTINF:-1 tvg-id="122" tvg-name="北京新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/北京新闻综合.png" group-title="📡地方频道",北京新闻综合
+https://ls.qingting.fm/live/339/64k.m3u8
+#EXTINF:-1 tvg-id="123" tvg-name="邯郸公共" tvg-logo="https://www.xn--rgv465a.top/tvlogo/邯郸公共.png" group-title="📡地方频道",邯郸公共
+https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8
+#EXTINF:-1 tvg-id="123" tvg-name="邯郸公共" tvg-logo="https://www.xn--rgv465a.top/tvlogo/邯郸公共.png" group-title="📡地方频道",邯郸公共
+https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8?zhebd
+#EXTINF:-1 tvg-id="124" tvg-name="邯郸公共频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/邯郸公共频道.png" group-title="📡地方频道",邯郸公共频道
+https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8
+#EXTINF:-1 tvg-id="124" tvg-name="邯郸公共频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/邯郸公共频道.png" group-title="📡地方频道",邯郸公共频道
+https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8?zhebd
+#EXTINF:-1 tvg-id="125" tvg-name="邯郸公共HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/邯郸公共HD.png" group-title="📡地方频道",邯郸公共HD
+https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8
+#EXTINF:-1 tvg-id="125" tvg-name="邯郸公共HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/邯郸公共HD.png" group-title="📡地方频道",邯郸公共HD
+https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8?zhebd
