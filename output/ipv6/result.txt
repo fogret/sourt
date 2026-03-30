@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2026-03-30 12:19:20,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226908/index.m3u8
+2026-03-30 13:26:11,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226908/index.m3u8
 
 📺央视频道,#genre#
 CCTV-1,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226908/index.m3u8
@@ -94,7 +94,14 @@ CHC动作电影,https://t.freetv.fun/live/chcdong-zuo-dian-ying.m3u8
 超级电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
 哒啵电竞,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225675/index.m3u8
 
-📚纪录频道,#genre#
+📚记录频道,#genre#
+纪实人文,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
+纪实人文,http://iptv.huuc.edu.cn/hls/docuchina.m3u8
+金鹰纪实,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226937/index.m3u8
+金鹰纪实,http://iptv.huuc.edu.cn/hls/gedocu.m3u8
+金鹰纪实,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226667/1.m3u8
+上海纪实,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
+上海纪实,http://iptv.huuc.edu.cn/hls/docuchina.m3u8
 
 🎵音乐频道,#genre#
 
@@ -123,6 +130,7 @@ CHC动作电影,https://t.freetv.fun/live/chcdong-zuo-dian-ying.m3u8
 动漫秀场,https://zby.130519.xyz/PLTV/11/224/3221225764/index.m3u8
 动漫秀场,https://zby.130519.xyz/PLTV/11/224/3221226138/index.m3u8
 纪实人文,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
+纪实人文,http://iptv.huuc.edu.cn/hls/docuchina.m3u8
 金鹰纪实,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226937/index.m3u8
 金鹰纪实,http://iptv.huuc.edu.cn/hls/gedocu.m3u8
 金鹰纪实,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226667/1.m3u8
