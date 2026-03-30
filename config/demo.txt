@@ -34,23 +34,26 @@ CHC电影频道
 电影,轮播
 NewTV
 
-📚纪录频道,#genre#
-求索
-记录
-实记
+📚记录频道,#genre#
+纪实人文
+金鹰纪实
+上海纪实
+CCTV-9纪录
+探索纪实
+环球纪录
+自然传奇
+地理中国
+人文地理
 
 🎵音乐频道,#genre#
-音乐
-MTV
-歌曲,歌
-Music
-Music Channel
-Music Live
-Music TV
-MTV
-Hits Music
-Pop Music
-Classic Music
+MTV音乐
+Channel[V]
+音乐现场
+音乐风云榜
+劲爆音乐
+潮流音乐
+经典音乐
+星光音乐
 
 📡贵州频道,#genre#
 贵州卫视
