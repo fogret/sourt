@@ -21,9 +21,9 @@ CCTV-16
 CCTV-17
 CCTV_风云剧场
 CCTV-风云音乐
-CCTV_风云足球
+CCTV-风云足球
 CCTV-央视台球
-CCTV_高尔夫网球
+CCTV-高尔夫网球
 CCTV-怀旧剧场
 CCTV-老故事
 CCTV-女性时尚
@@ -52,7 +52,6 @@ NewTV
 纪实人文
 金鹰纪实
 上海纪实
-CCTV-9纪录
 探索纪实
 环球纪录
 自然传奇
