@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2026-03-30 18:12:23,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226908/index.m3u8
+2026-03-30 20:28:09,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226908/index.m3u8
 
 📺央视频道,#genre#
 CCTV-1,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226908/index.m3u8
@@ -22,6 +22,7 @@ CCTV-4,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227441/index.m3u8
 CCTV-4,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227225/index.m3u8
 CCTV-4,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225802/index.m3u8
 CCTV-4,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226428/index.m3u8
+CCTV-4欧洲,https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
 CCTV-5,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227283/index.m3u8
 CCTV-5,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227229/index.m3u8
 CCTV-5,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
@@ -112,6 +113,45 @@ CHC动作电影,https://t.freetv.fun/live/chcdong-zuo-dian-ying.m3u8
 经典电影,https://yylunbo.ottiptv.cc/yy/1414812324
 天映经典,http://php.jdshipin.com:8880/smt.php?id=Celestial2
 
+📡贵州频道,#genre#
+贵州卫视,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227201/index.m3u8
+贵州卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
+贵州卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225626/index.m3u8
+贵州卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226383/index.m3u8
+贵州卫视,https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
+贵州卫视2,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227201/index.m3u8
+贵州卫视2,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
+贵州卫视2,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225626/index.m3u8
+贵州卫视2,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226383/index.m3u8
+贵州卫视2,https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
+贵州卫视3,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227201/index.m3u8
+贵州卫视3,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
+贵州卫视3,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225626/index.m3u8
+贵州卫视3,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226383/index.m3u8
+贵州卫视3,https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
+贵州卫视4,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227201/index.m3u8
+贵州卫视4,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
+贵州卫视4,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225626/index.m3u8
+贵州卫视4,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226383/index.m3u8
+贵州卫视4,https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
+贵州卫视5,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227201/index.m3u8
+贵州卫视5,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
+贵州卫视5,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225626/index.m3u8
+贵州卫视5,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226383/index.m3u8
+贵州卫视5,https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
+贵州卫视6,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227201/index.m3u8
+贵州卫视6,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
+贵州卫视6,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225626/index.m3u8
+贵州卫视6,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226383/index.m3u8
+贵州卫视6,https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
+贵州卫视7,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227201/index.m3u8
+贵州卫视7,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
+贵州卫视7,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225626/index.m3u8
+贵州卫视7,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226383/index.m3u8
+贵州卫视7,https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
+安顺新闻,http://hplayer1.juyun.tv/camera/154379194.m3u8
+安顺新闻,https://ls.qingting.fm/live/5022203/64k.m3u8
+
 🧩NewTV频道,#genre#
 NewTV爱情喜剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
 NewTV超级体育,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
@@ -194,7 +234,7 @@ ViuTV,http://r.jdshipin.com/TcKr2
 
 🎵音乐频道,#genre#
 
-🏅体育,#genre#
+🏅体育频道,#genre#
 CCTV-5,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227283/index.m3u8
 CCTV-5,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227229/index.m3u8
 CCTV-5,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
@@ -220,7 +260,7 @@ CCTV-5+,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8
 风云足球,https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8
 天元围棋,http://wouu.net:9977/udp/239.93.42.55:5140
 
-🎞️动画,#genre#
+🎞️动画频道,#genre#
 动漫秀场,https://zby.130519.xyz/PLTV/11/224/3221225764/index.m3u8
 动漫秀场,https://zby.130519.xyz/PLTV/11/224/3221226138/index.m3u8
 优漫卡通,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227339/index.m3u8
@@ -243,45 +283,6 @@ CCTV-5+,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8
 猫和老鼠,https://live.iill.top/huya/11352879
 蜡笔小新,https://live.ottiptv.cc/bilibili/30837590
 漫画解说,https://www.goodiptv.club/douyu/5907076
-
-📡贵州频道,#genre#
-贵州卫视,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227201/index.m3u8
-贵州卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
-贵州卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225626/index.m3u8
-贵州卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226383/index.m3u8
-贵州卫视,https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
-贵州卫视2,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227201/index.m3u8
-贵州卫视2,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
-贵州卫视2,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225626/index.m3u8
-贵州卫视2,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226383/index.m3u8
-贵州卫视2,https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
-贵州卫视3,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227201/index.m3u8
-贵州卫视3,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
-贵州卫视3,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225626/index.m3u8
-贵州卫视3,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226383/index.m3u8
-贵州卫视3,https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
-贵州卫视4,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227201/index.m3u8
-贵州卫视4,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
-贵州卫视4,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225626/index.m3u8
-贵州卫视4,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226383/index.m3u8
-贵州卫视4,https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
-贵州卫视5,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227201/index.m3u8
-贵州卫视5,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
-贵州卫视5,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225626/index.m3u8
-贵州卫视5,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226383/index.m3u8
-贵州卫视5,https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
-贵州卫视6,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227201/index.m3u8
-贵州卫视6,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
-贵州卫视6,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225626/index.m3u8
-贵州卫视6,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226383/index.m3u8
-贵州卫视6,https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
-贵州卫视7,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227201/index.m3u8
-贵州卫视7,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
-贵州卫视7,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225626/index.m3u8
-贵州卫视7,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226383/index.m3u8
-贵州卫视7,https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
-安顺新闻,http://hplayer1.juyun.tv/camera/154379194.m3u8
-安顺新闻,https://ls.qingting.fm/live/5022203/64k.m3u8
 
 🔢数字频道,#genre#
 金鹰卡通,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227018/index.m3u8

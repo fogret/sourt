@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<tv date="20260330094959 +0800">
+<tv date="20260330120224 +0800">
 	<channel id="CCTV-1">
 		<display-name lang="zh">CCTV-1</display-name>
 	</channel>
@@ -1799,6 +1799,246 @@
 	</programme>
 	<programme channel="CCTV-17" start="20260330234700 +0800" stop="20260330235959 +0800">
 		<title lang="zh">乡理乡亲</title>
+	</programme>
+	<channel id="CCTV-4欧洲">
+		<display-name lang="zh">CCTV-4欧洲</display-name>
+	</channel>
+	<programme channel="CCTV-4欧洲" start="20260330000000 +0800" stop="20260330001700 +0800">
+		<title lang="zh">精彩呈现</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330001700 +0800" stop="20260330010200 +0800">
+		<title lang="zh">动画城(四套)(79)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330010200 +0800" stop="20260330020130 +0800">
+		<title lang="zh">健康中国(13)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330020130 +0800" stop="20260330023000 +0800">
+		<title lang="zh">华人故事(13)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330023000 +0800" stop="20260330030000 +0800">
+		<title lang="zh">海峡两岸(88)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330030000 +0800" stop="20260330033200 +0800">
+		<title lang="zh">新闻联播</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330033200 +0800" stop="20260330040000 +0800">
+		<title lang="zh">鲁健访谈(13)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330040000 +0800" stop="20260330043000 +0800">
+		<title lang="zh">中国新闻</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330043000 +0800" stop="20260330050000 +0800">
+		<title lang="zh">今日关注</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330050000 +0800" stop="20260330050800 +0800">
+		<title lang="zh">记住乡愁片段展播(13)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330050800 +0800" stop="20260330051100 +0800">
+		<title lang="zh">记住乡愁片段展播(1)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330051100 +0800" stop="20260330052600 +0800">
+		<title lang="zh">平凡匠心(28)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330052600 +0800" stop="20260330062830 +0800">
+		<title lang="zh">中国文艺致敬经典(13)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330062830 +0800" stop="20260330070000 +0800">
+		<title lang="zh">海峡两岸(88)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330070000 +0800" stop="20260330073000 +0800">
+		<title lang="zh">中国新闻</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330073000 +0800" stop="20260330080000 +0800">
+		<title lang="zh">今日关注</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330080000 +0800" stop="20260330090000 +0800">
+		<title lang="zh">今日环球</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330090000 +0800" stop="20260330100000 +0800">
+		<title lang="zh">环球综艺秀(13)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330100000 +0800" stop="20260330102800 +0800">
+		<title lang="zh">中国缘(12)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330102800 +0800" stop="20260330111400 +0800">
+		<title lang="zh">那片花那片海第18集</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330111400 +0800" stop="20260330120000 +0800">
+		<title lang="zh">那片花那片海第19集</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330120000 +0800" stop="20260330140000 +0800">
+		<title lang="zh">中国新闻</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330140000 +0800" stop="20260330144600 +0800">
+		<title lang="zh">依依向北风第11集</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330144600 +0800" stop="20260330145400 +0800">
+		<title lang="zh">记住乡愁片段展播(13)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330145400 +0800" stop="20260330150000 +0800">
+		<title lang="zh">记住乡愁片段展播(21)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330150000 +0800" stop="20260330160000 +0800">
+		<title lang="zh">中国舆论场(13)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330160000 +0800" stop="20260330162630 +0800">
+		<title lang="zh">海峡两岸(88)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330162630 +0800" stop="20260330171230 +0800">
+		<title lang="zh">那片花那片海第20集</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330171230 +0800" stop="20260330180000 +0800">
+		<title lang="zh">那片花那片海第21集</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330180000 +0800" stop="20260330190000 +0800">
+		<title lang="zh">中国新闻</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330190000 +0800" stop="20260330193000 +0800">
+		<title lang="zh">中国新闻</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330193000 +0800" stop="20260330200000 +0800">
+		<title lang="zh">今日亚洲</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330200000 +0800" stop="20260330204500 +0800">
+		<title lang="zh">开讲啦（海外版）(5)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330204500 +0800" stop="20260330205000 +0800">
+		<title lang="zh">记住乡愁片段展播(22)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330205000 +0800" stop="20260330210000 +0800">
+		<title lang="zh">记住乡愁片段展播(23)</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330210000 +0800" stop="20260330213000 +0800">
+		<title lang="zh">中国新闻</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330213000 +0800" stop="20260330220000 +0800">
+		<title lang="zh">今日关注</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330220000 +0800" stop="20260330224600 +0800">
+		<title lang="zh">依依向北风第13集</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330224600 +0800" stop="20260330233200 +0800">
+		<title lang="zh">依依向北风第14集</title>
+	</programme>
+	<programme channel="CCTV-4欧洲" start="20260330233200 +0800" stop="20260330235900 +0800">
+		<title lang="zh">中国缘(13)</title>
+	</programme>
+	<channel id="CCTV-4美洲">
+		<display-name lang="zh">CCTV-4美洲</display-name>
+	</channel>
+	<programme channel="CCTV-4美洲" start="20260330000000 +0800" stop="20260330001920 +0800">
+		<title lang="zh">精彩呈现</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330001920 +0800" stop="20260330011650 +0800">
+		<title lang="zh">中国文艺致敬经典(13)</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330011650 +0800" stop="20260330014520 +0800">
+		<title lang="zh">华人故事(13)</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330014520 +0800" stop="20260330021220 +0800">
+		<title lang="zh">国宝发现(13)</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330021220 +0800" stop="20260330022800 +0800">
+		<title lang="zh">平凡匠心(27)</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330022800 +0800" stop="20260330031400 +0800">
+		<title lang="zh">武当一剑第14集</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330031400 +0800" stop="20260330040000 +0800">
+		<title lang="zh">武当一剑第15集</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330040000 +0800" stop="20260330043000 +0800">
+		<title lang="zh">中国新闻</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330043000 +0800" stop="20260330050000 +0800">
+		<title lang="zh">今日关注</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330050000 +0800" stop="20260330051500 +0800">
+		<title lang="zh">平凡匠心(28)</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330051500 +0800" stop="20260330052000 +0800">
+		<title lang="zh">记住乡愁片段展播(12)</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330052000 +0800" stop="20260330053000 +0800">
+		<title lang="zh">记住乡愁片段展播(25)</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330053000 +0800" stop="20260330060000 +0800">
+		<title lang="zh">新闻联播</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330060000 +0800" stop="20260330070000 +0800">
+		<title lang="zh">健康中国(13)</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330070000 +0800" stop="20260330073000 +0800">
+		<title lang="zh">中国新闻</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330073000 +0800" stop="20260330080000 +0800">
+		<title lang="zh">今日关注</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330080000 +0800" stop="20260330090000 +0800">
+		<title lang="zh">今日环球</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330090000 +0800" stop="20260330094600 +0800">
+		<title lang="zh">乌蒙深处第1集</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330094600 +0800" stop="20260330103200 +0800">
+		<title lang="zh">乌蒙深处第2集</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330103200 +0800" stop="20260330113200 +0800">
+		<title lang="zh">环球综艺秀(13)</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330113200 +0800" stop="20260330120000 +0800">
+		<title lang="zh">中国缘(13)</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330120000 +0800" stop="20260330140000 +0800">
+		<title lang="zh">中国新闻</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330140000 +0800" stop="20260330142630 +0800">
+		<title lang="zh">海峡两岸(88)</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330142630 +0800" stop="20260330152630 +0800">
+		<title lang="zh">中国舆论场(13)</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330152630 +0800" stop="20260330161230 +0800">
+		<title lang="zh">武当一剑第14集</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330161230 +0800" stop="20260330165830 +0800">
+		<title lang="zh">武当一剑第15集</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330165830 +0800" stop="20260330171230 +0800">
+		<title lang="zh">平凡匠心(28)</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330171230 +0800" stop="20260330180000 +0800">
+		<title lang="zh">乌蒙深处第1集</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330180000 +0800" stop="20260330190000 +0800">
+		<title lang="zh">中国新闻</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330190000 +0800" stop="20260330193000 +0800">
+		<title lang="zh">中国新闻</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330193000 +0800" stop="20260330200000 +0800">
+		<title lang="zh">今日亚洲</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330200000 +0800" stop="20260330210000 +0800">
+		<title lang="zh">环球综艺秀(13)</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330210000 +0800" stop="20260330213000 +0800">
+		<title lang="zh">中国新闻</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330213000 +0800" stop="20260330220000 +0800">
+		<title lang="zh">今日关注</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330220000 +0800" stop="20260330224500 +0800">
+		<title lang="zh">精彩音乐汇（海外版）(83)</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330224500 +0800" stop="20260330233000 +0800">
+		<title lang="zh">动画城(四套)(80)</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330233000 +0800" stop="20260330235600 +0800">
+		<title lang="zh">中国缘(13)</title>
+	</programme>
+	<programme channel="CCTV-4美洲" start="20260330235600 +0800" stop="20260330235900 +0800">
+		<title lang="zh">海峡两岸(88)</title>
 	</programme>
 	<channel id="重庆卫视">
 		<display-name lang="zh">重庆卫视</display-name>
