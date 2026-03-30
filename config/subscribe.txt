@@ -2,13 +2,13 @@
 # 支持设置UA：https://xxx.com/subscribe.m3u UA="xxx"
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
-https://live.fanmingming.com/tv/m3u/global.m3u
-https://mirror.ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u
+# https://raw.githubusercontent.com/gitgordon85/IPTV-Check/993791b49c05bc0a749b3a1502958027f78452fd/config/866-898-9898
 https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
-https://mirror.ghproxy.com/https://raw.githubusercontent.com/Meroser/IPTV/main/IPTV.m3u
 https://iptv-org.github.io/iptv/index.m3u
 
-# https://raw.githubusercontent.com/gitgordon85/IPTV-Check/993791b49c05bc0a749b3a1502958027f78452fd/config/866-898-9898
+# https://live.fanmingming.com/tv/m3u/global.m3u
+# https://mirror.ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u
+# https://mirror.ghproxy.com/https://raw.githubusercontent.com/Meroser/IPTV/main/IPTV.m3u
 # https://mirror.ghproxy.com/https://raw.githubusercontent.com/Meroser/IPTV/main/IPTV.m3u
 
 [WHITELIST]
