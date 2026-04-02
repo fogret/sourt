@@ -45,5 +45,5 @@ jobs:
     - name: Upload result.m3u to Jianguoyun
       run: |
         curl -T fogret/sourt/output/result.m3u \
-        -u "${{ caianxun@outlook.com }}:${{ azfc5wsvcvidyd9f }}" \
+        -u "${{ secrets.JY_USER }}:${{ secrets.JY_PASS }}" \
         "https://dav.jianguoyun.com/dav/github/result.m3u"
