@@ -44,6 +44,6 @@ jobs:
 
     - name: Upload result.m3u to Jianguoyun
       run: |
-        curl -T result.m3u \
+        curl -T output/result.m3u \
         -u "${{ secrets.JY_USER }}:${{ secrets.JY_PASS }}" \
         "https://dav.jianguoyun.com/dav/github/result.m3u"
