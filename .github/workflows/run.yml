@@ -2,7 +2,7 @@ name: Auto Run main.py
 
 on:
   schedule:
-    - cron: "0 20 * * *"     # 北京时间 4 点运行
+    - cron: "0 21 * * *"     # 每天北京时间 5 点运行
   workflow_dispatch:
 
 jobs:
@@ -11,10 +11,15 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Pull latest
+      run: git pull origin main
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: "3.13"
 
