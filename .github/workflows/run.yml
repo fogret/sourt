@@ -41,9 +41,3 @@ jobs:
         git add .
         git commit -m "Auto update" || echo "No changes"
         git push
-
-    - name: Upload result.m3u to Jianguoyun
-      run: |
-        curl -T output/result.m3u \
-        -u "${{ secrets.JY_USER }}:${{ secrets.JY_PASS }}" \
-        "https://dav.jianguoyun.com/dav/github/result.m3u"
