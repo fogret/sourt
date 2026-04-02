@@ -2,7 +2,7 @@ name: Auto Run main.py
 
 on:
   schedule:
-    - cron: "0 21 * * *"     # 每天北京时间 5 点运行
+    - cron: "0 21 * * *"     # 每天北京时间 5 点
   workflow_dispatch:
 
 jobs:
@@ -10,13 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Pull latest
-      run: git pull origin main
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -39,7 +36,7 @@ jobs:
     - name: Run main.py
       run: pipenv run python main.py
 
-    - name: Commit and push changes
+    - name: Commit and push
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
