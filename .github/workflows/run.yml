@@ -2,8 +2,8 @@ name: Auto Run main.py
 
 on:
   schedule:
-    - cron: "0 21 * * *"   # 每天北京时间 5 点运行（UTC+8 → UTC-8）
-  workflow_dispatch:        # 手动运行
+    - cron: "0 21 * * *"   # 每天北京时间 5 点运行（UTC 21:00）
+  workflow_dispatch:
 
 jobs:
   run:
@@ -12,6 +12,11 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+
+    - name: Install FFmpeg
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y ffmpeg
 
     - name: Set up Python
       uses: actions/setup-python@v4
