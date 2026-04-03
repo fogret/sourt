@@ -1,0 +1,8 @@
+pytz
+tqdm
+aiohttp
+requests
+lxml
+xmltodict
+PyYAML
+ffmpeg-python
