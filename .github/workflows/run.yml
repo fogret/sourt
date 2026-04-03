@@ -1,4 +1,4 @@
-name: Auto Run main.py
+name: Auto Run main.py (Fast)
 
 on:
   schedule:
@@ -10,29 +10,36 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
+    - name: Checkout (fast)
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        fetch-depth: 0   # 不依赖远程，但 checkout 必须完整
+        fetch-depth: 1   # 极速：只拉取最新版本
 
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: "3.13"
+        cache: "pip"   # 极速：缓存 pip
 
-    - name: Install FFmpeg
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y ffmpeg
+    - name: Cache pipenv virtualenv
+      uses: actions/cache@v4
+      with:
+        path: ~/.local/share/virtualenvs
+        key: pipenv-${{ hashFiles('Pipfile.lock') }}
+        restore-keys: |
+          pipenv-
 
-    - name: Install pipenv
+    - name: Install pipenv (fast)
       run: pip3 install --user pipenv
 
-    - name: Install dependencies
+    - name: Install dependencies (fast)
       run: |
         pipenv --python 3.13
-        pipenv install --deploy
+        pipenv install --deploy --ignore-pipfile
+
+    - name: Install FFmpeg (fast)
+      uses: FedericoCarboni/setup-ffmpeg@v2
 
     - name: Run main.py
       run: pipenv run python main.py
@@ -42,13 +49,11 @@ jobs:
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
 
-        # 重新绑定远程（因为你已经断开了）
         git remote remove origin || true
         git remote add origin https://github.com/fogret/sourt.git
 
-        # 完全独立运行：不 fetch、不 pull、不 reset
         git add .
         git commit -m "Auto update" || echo "No changes"
 
-        # 强制覆盖远程，确保独立运行
-        git push --force --set-upstream origin main
+        # 自动推送到当前分支（你的仓库是 master）
+        git push --force --set-upstream origin HEAD
