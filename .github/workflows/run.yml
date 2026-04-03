@@ -1,59 +1,35 @@
-name: Auto Run main.py (Fast)
+name: Auto Run main.py
 
 on:
   schedule:
-    - cron: "0 21 * * *"     # 每天北京时间 5 点
-  workflow_dispatch:
+    - cron: "0 21 * * *"   # 每天北京时间 5 点运行（UTC+8 → UTC-8）
+  workflow_dispatch:        # 手动运行
 
 jobs:
   run:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout (fast)
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        fetch-depth: 1   # 极速：只拉取最新版本
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
     - name: Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v4
       with:
-        python-version: "3.13"
-        cache: "pip"   # 极速：缓存 pip
+        python-version: "3.11"
 
-    - name: Cache pipenv virtualenv
-      uses: actions/cache@v4
-      with:
-        path: ~/.local/share/virtualenvs
-        key: pipenv-${{ hashFiles('Pipfile.lock') }}
-        restore-keys: |
-          pipenv-
-
-    - name: Install pipenv (fast)
-      run: pip3 install --user pipenv
-
-    - name: Install dependencies (fast)
+    - name: Install dependencies
       run: |
-        pipenv --python 3.13
-        pipenv install --deploy --ignore-pipfile
-
-    - name: Install FFmpeg (fast)
-      uses: FedericoCarboni/setup-ffmpeg@v2
+        pip install -r requirements.txt
 
     - name: Run main.py
-      run: pipenv run python main.py
+      run: |
+        python main.py
 
-    - name: Commit and push (independent mode)
+    - name: Commit and push changes
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
-
-        git remote remove origin || true
-        git remote add origin https://github.com/fogret/sourt.git
-
         git add .
-        git commit -m "Auto update" || echo "No changes"
-
-        # 自动推送到当前分支（你的仓库是 master）
-        git push --force --set-upstream origin HEAD
+        git commit -m "Auto update" || echo "No changes to commit"
+        git push
