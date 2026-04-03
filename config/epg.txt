@@ -1,4 +1,4 @@
 # 这是EPG订阅列表，用于生成M3U结果频道菜单信息
 # This is the EPG subscription list used to generate M3U result channel menu information
-https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
+https://epg.zsdc.eu.org/t.xml.gz
 https://raw.githubusercontent.com/alantang1977/iptv_api/main/output/epg.xml
