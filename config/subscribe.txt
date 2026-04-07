@@ -2,14 +2,7 @@
 # 支持设置UA：https://xxx.com/subscribe.m3u UA="xxx"
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
-电视家重生
-好朋友直播（几万电影频道）
-全球直播
-组播
-港澳
-国际
-看球
-比赛
+
 https://13035.kstore.space/url/歌曲.txt
 https://gh-proxy.org/https://raw.githubusercontent.com/xiaohuonihao/IPTV-api/refs/heads/master/output/love.txt
 https://gh-proxy.org/https://raw.githubusercontent.com/x22c/okk/refs/heads/master/output/user_result.txt
