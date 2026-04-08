@@ -160,9 +160,6 @@ def check_channel_need_frozen(info) -> bool:
     delay = info.get("delay", 0)
     if delay == -1 or info.get("speed", 0) == 0:
         return True
-    if info.get("resolution"):
-        if get_resolution_value(info["resolution"]) < min_resolution_value:
-            return True
     return False
 
 
@@ -438,17 +435,6 @@ def append_data_to_info_data(
 ) -> None:
     """
     Append channel data to total info data with deduplication and validation
-
-    Args:
-        info_data: The main data structure to update
-        category: Category key for the data
-        name: Name key within the category
-        data: List of channel items to process
-        origin: Default origin for items
-        whitelist_maps: Maps of whitelist keywords
-        blacklist: List of blacklist keywords
-        ipv_type_data: Dictionary to cache IP type information
-        skip_validation: If True, skip validation and directly append data
     """
     init_info_data(info_data, category, name)
 
@@ -700,30 +686,39 @@ def append_total_data(
 
 def is_valid_speed_result(info) -> bool:
     """
-    Check if the speed test result is valid
+    严格只保留：H.264 + 1080P + 25FPS
     """
     try:
         delay = info.get("delay")
         if delay is None or delay == -1:
             return False
 
-        res_str = info.get("resolution") or ""
         speed_val = info.get("speed", 0) or 0
         if not speed_val or math.isinf(speed_val):
             return False
-        if open_filter_speed:
-            if speed_val < resolution_speed_map.get(res_str, min_speed):
-                return False
 
-        if open_filter_resolution:
-            try:
-                res_value = get_resolution_value(res_str)
-            except Exception:
-                res_value = 0
-            if res_value < min_resolution_value:
-                return False
+        # 1. 视频编码必须是 H264 / AVC
+        vcodec = (info.get("video_codec") or "").strip().lower()
+        if vcodec not in ("h264", "avc", "x264"):
+            return False
+
+        # 2. 分辨率必须 1080P
+        res = (info.get("resolution") or "").lower()
+        if "1080" not in res:
+            return False
+
+        # 3. 帧率必须 25fps
+        fps_val = info.get("fps")
+        try:
+            fps = float(fps_val)
+        except (ValueError, TypeError):
+            return False
+
+        if not (24.5 <= fps <= 25.5):
+            return False
 
         return True
+
     except Exception:
         return False
 
@@ -956,11 +951,11 @@ def generate_channel_statistic(logger, cate, name, values):
     most_audio_str = most_audio[0][0] if most_audio else t('name.unknown')
     avg_fps = (sum(fps_values) / len(fps_values)) if fps_values else None
     if config.open_full_speed_test:
-        content = f"{f"{t('name.category')}: {cate}, {t('name.name')}: {name}, {t('name.total')}: {total}, {t('name.valid')}: {valid}, {t('name.valid_percent')}: {valid_rate:.2f}%, IPv4: {ipv4_count}, IPv6: {ipv6_count}, {t('name.min_delay')}: {min_delay} ms, {t('name.max_speed')}: {max_speed:.2f} M/s, {t('name.average_speed')}: {avg_speed:.2f} M/s, {t('name.max_resolution')}: {max_resolution}, {t('name.avg_fps')}: {f"{avg_fps:.2f}" if avg_fps is not None else t('name.unknown')}, {t('name.video_codec')}: {most_video_str}, {t('name.audio_codec')}: {most_audio_str}"}"
+        content = f"{f"{t('name.category')}: {cate}, {t('name.name')}: {name}, {t('name.total')}: {total}, {t('name.valid')}: {valid}, {t('name.valid_percent')}: {valid_rate:.2f}%, IPv4: {ipv4_count}, IPv6: {ipv6_count}, {t('name.min_delay')}: {min_delay} ms, {t('name.max_speed')}: {max_speed:.2f} M/s, {t('name.average_speed')}: {avg_speed:.2f} M/s, {t('name.max_resolution')}: {max_resolution}, {t('name.avg_fps')}: {f"{avg_fps:.2f}" if avg_fps else t('name.unknown')}, {t('name.video_codec')}: {most_video_str}, {t('name.audio_codec')}: {most_audio_str}"}"
         logger.info(content)
         print(f"📊 {content}")
     else:
-        content = f"{f"{t('name.category')}: {cate}, {t('name.name')}: {name}, {t('name.valid')}: {valid}, IPv4: {ipv4_count}, IPv6: {ipv6_count}, {t('name.min_delay')}: {min_delay} ms, {t('name.max_speed')}: {max_speed:.2f} M/s, {t('name.average_speed')}: {avg_speed:.2f} M/s, {t('name.max_resolution')}: {max_resolution}, {t('name.avg_fps')}: {f"{avg_fps:.2f}" if avg_fps is not None else t('name.unknown')}, {t('name.video_codec')}: {most_video_str}, {t('name.audio_codec')}: {most_audio_str}"}"
+        content = f"{f"{t('name.category')}: {cate}, {t('name.name')}: {name}, {t('name.valid')}: {valid}, IPv4: {ipv4_count}, IPv6: {ipv6_count}, {t('name.min_delay')}: {min_delay} ms, {t('name.max_speed')}: {max_speed:.2f} M/s, {t('name.average_speed')}: {avg_speed:.2f} M/s, {t('name.max_resolution')}: {max_resolution}, {t('name.avg_fps')}: {f"{avg_fps:.2f}" if avg_fps else t('name.unknown')}, {t('name.video_codec')}: {most_video_str}, {t('name.audio_codec')}: {most_audio_str}"}"
         logger.info(content)
         print(f"📊 {content}")
 
@@ -978,15 +973,6 @@ def process_write_content(
 ):
     """
     Get channel write content
-    :param path: write into path
-    :param data: channel data
-    :param hls_url: hls url
-    :param open_empty_category: show empty category
-    :param ipv_type_prefer: ipv type prefer
-    :param origin_type_prefer: origin type prefer
-    :param first_channel_name: the first channel name
-    :param enable_log: enable log
-    :param is_last: is last write
     """
     content = ""
     no_result_name = []
