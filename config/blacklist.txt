@@ -46,6 +46,70 @@ php.jdshipin.com/TVOD/iptv.php
 php.jdshipin.com:8880/smt.php
 php.jdshipin.com/TVOD/iptv.php
 
-
 110.42.37.69:6688
 fbd48279.ott.oxtvs.com
+# 中途跳广告路径
+/ad/
+/ads/
+/advert/
+/promo/
+/redirect/
+/jump/
+/track/
+/stat/
+/monitor/
+/start/
+/boot/
+/launch/
+
+# 短链接广告
+bit.ly
+tinyurl
+goo.gl
+t.cn
+s.cn
+dwz
+url.cn
+is.gd
+v.gd
+u.nu
+short
+link
+share
+
+# CatVod 广告源
+catvod
+catvod.com
+catvod.xyz
+catvod.top
+catvod.vip
+catvod.cc
+catvod.site
+catvod.tv
+
+# Telegram 广告
+t.me
+telegram
+tg
+
+# 网页直播广告
+h5
+web
+player
+liveplay
+play.html
+index.html
+m3u8?token=
+m3u8?auth=
+
+# 图片广告
+.jpg
+.jpeg
+.png
+.gif
+.webp
+banner
+poster
+cover
+logo
+img
