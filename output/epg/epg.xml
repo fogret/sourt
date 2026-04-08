@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<tv date="20260408044404 +0800">
+<tv date="20260408062910 +0800">
 	<channel id="CCTV-1">
 		<display-name lang="zh">CCTV-1</display-name>
 	</channel>
@@ -9018,6 +9018,207 @@
 	<programme channel="新疆卫视" start="20260408235800 +0800" stop="20260409003800 +0800">
 		<title lang="zh">新闻夜班车</title>
 	</programme>
+	<channel id="云南卫视">
+		<display-name lang="zh">云南卫视</display-name>
+	</channel>
+	<programme channel="云南卫视" start="20260407001000 +0800" stop="20260407005500 +0800">
+		<title lang="zh">上甘岭(10)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407005500 +0800" stop="20260407014000 +0800">
+		<title lang="zh">上甘岭(11)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407014000 +0800" stop="20260407022500 +0800">
+		<title lang="zh">上甘岭(12)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407022500 +0800" stop="20260407044600 +0800">
+		<title lang="zh">百年巨匠</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407044600 +0800" stop="20260407053400 +0800">
+		<title lang="zh">上甘岭(13)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407053400 +0800" stop="20260407062300 +0800">
+		<title lang="zh">上甘岭(14)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407062300 +0800" stop="20260407070000 +0800">
+		<title lang="zh">百年巨匠</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407070000 +0800" stop="20260407070100 +0800">
+		<title lang="zh">中华人民共和国国歌</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407070100 +0800" stop="20260407072800 +0800">
+		<title lang="zh">云南新闻联播</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407072800 +0800" stop="20260407080700 +0800">
+		<title lang="zh">下饭江湖1(4)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407080700 +0800" stop="20260407081400 +0800">
+		<title lang="zh">国宝时刻(48)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407081400 +0800" stop="20260407085000 +0800">
+		<title lang="zh">赵琳的探险日记</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407085000 +0800" stop="20260407094600 +0800">
+		<title lang="zh">壮丁也是兵(21)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407094600 +0800" stop="20260407104200 +0800">
+		<title lang="zh">壮丁也是兵(22)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407104200 +0800" stop="20260407115200 +0800">
+		<title lang="zh">壮丁也是兵(23)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407115200 +0800" stop="20260407125800 +0800">
+		<title lang="zh">壮丁也是兵(24)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407125800 +0800" stop="20260407140500 +0800">
+		<title lang="zh">包青天(36)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407140500 +0800" stop="20260407151100 +0800">
+		<title lang="zh">包青天(37)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407151100 +0800" stop="20260407161700 +0800">
+		<title lang="zh">包青天(38)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407161700 +0800" stop="20260407172200 +0800">
+		<title lang="zh">包青天(39)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407172200 +0800" stop="20260407183000 +0800">
+		<title lang="zh">包青天(40)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407183000 +0800" stop="20260407185600 +0800">
+		<title lang="zh">云南新闻联播</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407185600 +0800" stop="20260407190000 +0800">
+		<title lang="zh">天气预报</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407190000 +0800" stop="20260407193300 +0800">
+		<title lang="zh">转播中央台新闻联播</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407193300 +0800" stop="20260407201900 +0800">
+		<title lang="zh">真心英雄(37)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407201900 +0800" stop="20260407211600 +0800">
+		<title lang="zh">真心英雄(38)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407211600 +0800" stop="20260407212900 +0800">
+		<title lang="zh">好剧大放送</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407212900 +0800" stop="20260407214400 +0800">
+		<title lang="zh">自信中国说</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407214400 +0800" stop="20260407222000 +0800">
+		<title lang="zh">常书鸿(上)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407222000 +0800" stop="20260407225000 +0800">
+		<title lang="zh">晚间新闻</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407225000 +0800" stop="20260407225400 +0800">
+		<title lang="zh">南亚东南亚天气预报</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407225400 +0800" stop="20260407233400 +0800">
+		<title lang="zh">下饭江湖2(1)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260407233400 +0800" stop="20260408001900 +0800">
+		<title lang="zh">上甘岭(15)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408001900 +0800" stop="20260408010400 +0800">
+		<title lang="zh">上甘岭(16)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408010400 +0800" stop="20260408014900 +0800">
+		<title lang="zh">上甘岭(17)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408014900 +0800" stop="20260408023400 +0800">
+		<title lang="zh">上甘岭(18)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408023400 +0800" stop="20260408044600 +0800">
+		<title lang="zh">百年巨匠</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408044600 +0800" stop="20260408053400 +0800">
+		<title lang="zh">上甘岭(19)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408053400 +0800" stop="20260408062300 +0800">
+		<title lang="zh">上甘岭(20)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408062300 +0800" stop="20260408070000 +0800">
+		<title lang="zh">百年巨匠</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408070000 +0800" stop="20260408070100 +0800">
+		<title lang="zh">中华人民共和国国歌</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408070100 +0800" stop="20260408072800 +0800">
+		<title lang="zh">云南新闻联播</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408072800 +0800" stop="20260408080900 +0800">
+		<title lang="zh">下饭江湖1(5)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408080900 +0800" stop="20260408081600 +0800">
+		<title lang="zh">国宝时刻(49)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408081600 +0800" stop="20260408085100 +0800">
+		<title lang="zh">赵琳的探险日记</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408085100 +0800" stop="20260408094500 +0800">
+		<title lang="zh">壮丁也是兵(25)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408094500 +0800" stop="20260408104200 +0800">
+		<title lang="zh">壮丁也是兵(26)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408104200 +0800" stop="20260408115200 +0800">
+		<title lang="zh">壮丁也是兵(27)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408115200 +0800" stop="20260408130000 +0800">
+		<title lang="zh">壮丁也是兵(28)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408130000 +0800" stop="20260408140800 +0800">
+		<title lang="zh">人小鬼大刘罗锅(1)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408140800 +0800" stop="20260408151800 +0800">
+		<title lang="zh">人小鬼大刘罗锅(2)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408151800 +0800" stop="20260408162800 +0800">
+		<title lang="zh">人小鬼大刘罗锅(3)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408162800 +0800" stop="20260408172100 +0800">
+		<title lang="zh">人小鬼大刘罗锅(4)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408172100 +0800" stop="20260408183000 +0800">
+		<title lang="zh">人小鬼大刘罗锅(5)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408183000 +0800" stop="20260408185600 +0800">
+		<title lang="zh">云南新闻联播</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408185600 +0800" stop="20260408190000 +0800">
+		<title lang="zh">天气预报</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408190000 +0800" stop="20260408193300 +0800">
+		<title lang="zh">转播中央台新闻联播</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408193300 +0800" stop="20260408201700 +0800">
+		<title lang="zh">真心英雄(39)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408201700 +0800" stop="20260408212000 +0800">
+		<title lang="zh">破晓(1)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408212000 +0800" stop="20260408213300 +0800">
+		<title lang="zh">好剧大放送</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408213300 +0800" stop="20260408214900 +0800">
+		<title lang="zh">撷英云南(7)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408214900 +0800" stop="20260408222500 +0800">
+		<title lang="zh">常书鸿(下)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408222500 +0800" stop="20260408225500 +0800">
+		<title lang="zh">晚间新闻</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408225500 +0800" stop="20260408230000 +0800">
+		<title lang="zh">南亚东南亚天气预报</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408230000 +0800" stop="20260408233900 +0800">
+		<title lang="zh">下饭江湖2(2)</title>
+	</programme>
+	<programme channel="云南卫视" start="20260408233900 +0800" stop="20260409002400 +0800">
+		<title lang="zh">上甘岭(21)</title>
+	</programme>
 	<channel id="青海卫视">
 		<display-name lang="zh">青海卫视</display-name>
 	</channel>
@@ -15669,297 +15870,6 @@
 	</programme>
 	<programme channel="茶频道" start="20260408222500 +0800" stop="20260409015000 +0800">
 		<title lang="zh">最美茶艺师</title>
-	</programme>
-	<channel id="NewTV武搏世界">
-		<display-name lang="zh">NewTV武搏世界</display-name>
-	</channel>
-	<programme channel="NewTV武搏世界" start="20260407000000 +0800" stop="20260407005000 +0800">
-		<title lang="zh">少林英雄</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407005000 +0800" stop="20260407011000 +0800">
-		<title lang="zh">武林艺苑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407011000 +0800" stop="20260407013000 +0800">
-		<title lang="zh">功夫课堂</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407013000 +0800" stop="20260407020000 +0800">
-		<title lang="zh">名派真功</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407020000 +0800" stop="20260407021000 +0800">
-		<title lang="zh">科星太极十八式</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407021000 +0800" stop="20260407030000 +0800">
-		<title lang="zh">健身坊</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407030000 +0800" stop="20260407035000 +0800">
-		<title lang="zh">少林英雄</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407035000 +0800" stop="20260407043500 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407043500 +0800" stop="20260407052000 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407052000 +0800" stop="20260407060500 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407060500 +0800" stop="20260407065000 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407065000 +0800" stop="20260407071000 +0800">
-		<title lang="zh">武林艺苑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407071000 +0800" stop="20260407072000 +0800">
-		<title lang="zh">科星太极十八式</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407072000 +0800" stop="20260407074000 +0800">
-		<title lang="zh">功夫课堂</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407074000 +0800" stop="20260407081100 +0800">
-		<title lang="zh">名派真功</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407081100 +0800" stop="20260407090100 +0800">
-		<title lang="zh">健身坊</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407090100 +0800" stop="20260407092100 +0800">
-		<title lang="zh">武林艺苑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407092100 +0800" stop="20260407101200 +0800">
-		<title lang="zh">少林英雄</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407101200 +0800" stop="20260407102200 +0800">
-		<title lang="zh">科星太极十八式</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407102200 +0800" stop="20260407103200 +0800">
-		<title lang="zh">请您欣赏</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407103200 +0800" stop="20260407111700 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407111700 +0800" stop="20260407114700 +0800">
-		<title lang="zh">龙泉宝剑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407114700 +0800" stop="20260407123200 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407123200 +0800" stop="20260407130300 +0800">
-		<title lang="zh">名派真功</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407130300 +0800" stop="20260407134800 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407134800 +0800" stop="20260407143300 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407143300 +0800" stop="20260407152300 +0800">
-		<title lang="zh">少林英雄</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407152300 +0800" stop="20260407153300 +0800">
-		<title lang="zh">科星太极十八式</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407153300 +0800" stop="20260407155300 +0800">
-		<title lang="zh">功夫课堂</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407155300 +0800" stop="20260407160300 +0800">
-		<title lang="zh">请您欣赏</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407160300 +0800" stop="20260407162300 +0800">
-		<title lang="zh">武林艺苑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407162300 +0800" stop="20260407170800 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407170800 +0800" stop="20260407172800 +0800">
-		<title lang="zh">武林艺苑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407172800 +0800" stop="20260407181800 +0800">
-		<title lang="zh">少林英雄</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407181800 +0800" stop="20260407182800 +0800">
-		<title lang="zh">请您欣赏</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407182800 +0800" stop="20260407183900 +0800">
-		<title lang="zh">科星太极十八式</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407183900 +0800" stop="20260407184400 +0800">
-		<title lang="zh">请您欣赏</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407184400 +0800" stop="20260407191400 +0800">
-		<title lang="zh">龙泉宝剑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407191400 +0800" stop="20260407195900 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407195900 +0800" stop="20260407201900 +0800">
-		<title lang="zh">武林艺苑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407201900 +0800" stop="20260407210400 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407210400 +0800" stop="20260407213400 +0800">
-		<title lang="zh">龙泉宝剑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407213400 +0800" stop="20260407222000 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407222000 +0800" stop="20260407230500 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407230500 +0800" stop="20260407232500 +0800">
-		<title lang="zh">功夫课堂</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407232500 +0800" stop="20260407233000 +0800">
-		<title lang="zh">请您欣赏</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407233000 +0800" stop="20260407235000 +0800">
-		<title lang="zh">武林艺苑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260407235000 +0800" stop="20260408000000 +0800">
-		<title lang="zh">科星太极十八式</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408000000 +0800" stop="20260408005000 +0800">
-		<title lang="zh">少林英雄</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408005000 +0800" stop="20260408011000 +0800">
-		<title lang="zh">武林艺苑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408011000 +0800" stop="20260408013000 +0800">
-		<title lang="zh">功夫课堂</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408013000 +0800" stop="20260408020000 +0800">
-		<title lang="zh">名派真功</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408020000 +0800" stop="20260408021000 +0800">
-		<title lang="zh">科星太极十八式</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408021000 +0800" stop="20260408030000 +0800">
-		<title lang="zh">健身坊</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408030000 +0800" stop="20260408035000 +0800">
-		<title lang="zh">少林英雄</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408035000 +0800" stop="20260408043500 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408043500 +0800" stop="20260408052000 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408052000 +0800" stop="20260408060500 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408060500 +0800" stop="20260408065000 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408065000 +0800" stop="20260408071000 +0800">
-		<title lang="zh">武林艺苑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408071000 +0800" stop="20260408072000 +0800">
-		<title lang="zh">科星太极十八式</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408072000 +0800" stop="20260408074000 +0800">
-		<title lang="zh">功夫课堂</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408074000 +0800" stop="20260408081100 +0800">
-		<title lang="zh">名派真功</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408081100 +0800" stop="20260408090100 +0800">
-		<title lang="zh">健身坊</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408090100 +0800" stop="20260408092100 +0800">
-		<title lang="zh">武林艺苑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408092100 +0800" stop="20260408101200 +0800">
-		<title lang="zh">少林英雄</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408101200 +0800" stop="20260408102200 +0800">
-		<title lang="zh">科星太极十八式</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408102200 +0800" stop="20260408103200 +0800">
-		<title lang="zh">请您欣赏</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408103200 +0800" stop="20260408111700 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408111700 +0800" stop="20260408114700 +0800">
-		<title lang="zh">龙泉宝剑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408114700 +0800" stop="20260408123200 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408123200 +0800" stop="20260408130300 +0800">
-		<title lang="zh">名派真功</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408130300 +0800" stop="20260408134800 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408134800 +0800" stop="20260408143300 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408143300 +0800" stop="20260408152300 +0800">
-		<title lang="zh">少林英雄</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408152300 +0800" stop="20260408153300 +0800">
-		<title lang="zh">科星太极十八式</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408153300 +0800" stop="20260408155300 +0800">
-		<title lang="zh">功夫课堂</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408155300 +0800" stop="20260408160300 +0800">
-		<title lang="zh">请您欣赏</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408160300 +0800" stop="20260408162300 +0800">
-		<title lang="zh">武林艺苑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408162300 +0800" stop="20260408170800 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408170800 +0800" stop="20260408172800 +0800">
-		<title lang="zh">武林艺苑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408172800 +0800" stop="20260408181800 +0800">
-		<title lang="zh">少林英雄</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408181800 +0800" stop="20260408182800 +0800">
-		<title lang="zh">请您欣赏</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408182800 +0800" stop="20260408183900 +0800">
-		<title lang="zh">科星太极十八式</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408183900 +0800" stop="20260408184400 +0800">
-		<title lang="zh">请您欣赏</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408184400 +0800" stop="20260408191400 +0800">
-		<title lang="zh">龙泉宝剑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408191400 +0800" stop="20260408195900 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408195900 +0800" stop="20260408201900 +0800">
-		<title lang="zh">武林艺苑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408201900 +0800" stop="20260408210400 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408210400 +0800" stop="20260408213400 +0800">
-		<title lang="zh">龙泉宝剑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408213400 +0800" stop="20260408222000 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408222000 +0800" stop="20260408230500 +0800">
-		<title lang="zh">武林擂台</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408230500 +0800" stop="20260408232500 +0800">
-		<title lang="zh">功夫课堂</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408232500 +0800" stop="20260408233000 +0800">
-		<title lang="zh">请您欣赏</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408233000 +0800" stop="20260408235000 +0800">
-		<title lang="zh">武林艺苑</title>
-	</programme>
-	<programme channel="NewTV武搏世界" start="20260408235000 +0800" stop="20260409000000 +0800">
-		<title lang="zh">科星太极十八式</title>
 	</programme>
 	<channel id="发现之旅">
 		<display-name lang="zh">发现之旅</display-name>
