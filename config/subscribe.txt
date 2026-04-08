@@ -3,28 +3,8 @@
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
 
-https://raw.githubusercontent.com/fogret/aosr/main/IPTV.txt
-https://13035.kstore.space/url/歌曲.txt
-https://gh-proxy.org/https://raw.githubusercontent.com/xiaohuonihao/IPTV-api/refs/heads/master/output/love.txt
-https://gh-proxy.org/https://raw.githubusercontent.com/x22c/okk/refs/heads/master/output/user_result.txt
-https://ghfast.top/https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo_all.txt
-https://pastebin.com/raw/V0BhYHF4
-https://tmxk.pp.ua/smart-cn.m3u
-https://tmxk.pp.ua/4gtv-cn.m3u
-https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
-https://gitlab.com/tvkj/loong/-/raw/main/loog.txt
-https://gitee.com/rgzyyuncang/vip/raw/master/jars/quanq.png
-https://ghfast.top/https://raw.githubusercontent.com/altn2025/iptv/refs/heads/main/iptv.m3u
-http://tv.850930.xyz/kdsb.txt
-https://ghfast.top/https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
-https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
-https://ghfast.top/https://raw.githubusercontent.com/qingtingjjjjjjj/iptv-auto-update/refs/heads/main/my.txt
-http://rihou.cc:555/gggg.nzk
-http://rihou.cc:567/gggg.nzk
-https://ghfast.top/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
-https://live.zbds.top/tv/iptv4.txt
-https://sub.ottiptv.cc/douyuyqk.m3u
+https://t.freetv.fun/m3u/playlist_original.m3u
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
-# This is the whitelist for subscription sources. Subscription sources in the whitelist will not participate in speed testing and will always be retained at the front of the results.
+# This is the whitelist for subscription sources. Subscription sources in the whitelist will not participate in speed testing and will always be retained at the front of the results
