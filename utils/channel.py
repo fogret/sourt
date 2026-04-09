@@ -686,7 +686,7 @@ def append_total_data(
 
 def is_valid_speed_result(info) -> bool:
     """
-    严格只保留：H.264 + 1080P + 25FPS
+    终极广告屏蔽：彻底过滤播着播着跳广告、劫持、片头广告源
     """
     try:
         delay = info.get("delay")
@@ -697,25 +697,63 @@ def is_valid_speed_result(info) -> bool:
         if not speed_val or math.isinf(speed_val):
             return False
 
-        # 1. 视频编码必须是 H264 / AVC
+        url = (info.get("url") or "").lower()
+        name = (info.get("name") or "").lower()
+
+        # 广告关键词黑名单（完全匹配你提供的规则）
+        ad_keywords = [
+            "/ad/", "/ads/", "/advert/", "/promo/", "/redirect/", "/jump/",
+            "/track/", "/stat/", "/monitor/", "/start/", "/boot/", "/launch/",
+            "bit.ly", "tinyurl", "goo.gl", "t.cn", "s.cn", "dwz", "url.cn",
+            "is.gd", "v.gd", "u.nu", "short", "link", "share",
+            "catvod", "catvod.com", "catvod.xyz", "catvod.top", "catvod.vip",
+            "catvod.cc", "catvod.site", "catvod.tv",
+            "t.me", "telegram", "tg",
+            "h5", "web", "player", "liveplay", "play.html", "index.html",
+            "m3u8?token=", "m3u8?auth=",
+            ".jpg", ".jpeg", ".png", ".gif", ".webp",
+            "banner", "poster", "cover", "logo", "img",
+            "gslb", "dsdqpub", "testpub", "auth=testpub"
+        ]
+        for kw in ad_keywords:
+            if kw in url:
+                return False
+
+        # 视频编码必须为 H264 / AVC，央视卫视禁止 H265
         vcodec = (info.get("video_codec") or "").strip().lower()
+        is_tv_channel = any(key in name for key in ["cctv", "卫视"])
+        if is_tv_channel and vcodec in ("h265", "hevc", "av1", "vp9"):
+            return False
         if vcodec not in ("h264", "avc", "x264"):
             return False
 
-        # 2. 分辨率必须 1080P
+        # 只允许 1080P / 720P，排除广告常用低分辨率
         res = (info.get("resolution") or "").lower()
-        if "1080" not in res:
+        ad_res = ["320x", "360x", "480x", "640x", "720x480", "854x480", "960x540"]
+        for r in ad_res:
+            if r in res:
+                return False
+        if "1080" not in res and "720" not in res:
             return False
 
-        # 3. 帧率必须 25fps
+        # 帧率严格 25fps，广告几乎都不满足
         fps_val = info.get("fps")
         try:
             fps = float(fps_val)
         except (ValueError, TypeError):
             return False
-
-        if not (24.5 <= fps <= 25.5):
+        if not (24.9 <= fps <= 25.1):
             return False
+
+        # 广告切片时长 15s / 30s 直接拦截
+        duration = info.get("duration")
+        if duration is not None:
+            try:
+                d = float(duration)
+                if 14 <= d <= 16 or 29 <= d <= 31:
+                    return False
+            except:
+                pass
 
         return True
 
