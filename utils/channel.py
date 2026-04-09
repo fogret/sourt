@@ -64,16 +64,13 @@ resolution_speed_map = config.resolution_speed_map
 open_history = config.open_history
 open_local = config.open_local
 open_rtmp = config.open_rtmp
-retain_origin = ["whitelist", "hls"]
+retain_origin = ["whitelist", "local", "hls"]
 
 _TOTAL_URLS_CACHE_MAX_SIZE = 2048
 _TOTAL_URLS_CACHE = OrderedDict()
 
 
 def _build_total_urls_signature(info_list: list[ChannelData]) -> str:
-    """
-    Build a stable signature for a channel info list.
-    """
     hasher = hashlib.sha1()
     for info in info_list or []:
         if not isinstance(info, dict):
@@ -107,9 +104,6 @@ def _get_total_urls_cached(
         rtmp_type=None,
         apply_limit: bool = True,
 ) -> tuple:
-    """
-    Cached wrapper for `get_total_urls()`.
-    """
     ipv_key = tuple(ipv_type_prefer or ())
     origin_key = tuple(origin_type_prefer or ())
     rtmp_key = tuple(rtmp_type or ())
@@ -134,9 +128,6 @@ def _get_total_urls_cached(
 
 
 def format_channel_data(url: str, origin: OriginType) -> ChannelData:
-    """
-    Format the channel data
-    """
     url_partition = url.partition("$")
     url = url_partition[0]
     info = url_partition[2]
@@ -154,9 +145,6 @@ def format_channel_data(url: str, origin: OriginType) -> ChannelData:
 
 
 def check_channel_need_frozen(info) -> bool:
-    """
-    Check if the channel need to be frozen
-    """
     delay = info.get("delay", 0)
     if delay == -1 or info.get("speed", 0) == 0:
         return True
@@ -165,9 +153,6 @@ def check_channel_need_frozen(info) -> bool:
 
 def get_channel_data_from_file(channels, file, whitelist_maps, blacklist,
                                local_data=None, hls_data=None) -> CategoryChannelData:
-    """
-    Get the channel data from the file
-    """
     current_category = ""
     matched_local_names = set()
     matched_hls_names = set()
@@ -290,9 +275,6 @@ def get_channel_data_from_file(channels, file, whitelist_maps, blacklist,
 
 
 def get_channel_items(whitelist_maps, blacklist) -> CategoryChannelData:
-    """
-    Get the channel items from the source file
-    """
     user_source_file = resource_path(config.source_file)
     channels = defaultdict(lambda: defaultdict(list))
     hls_data = None
@@ -380,34 +362,22 @@ def get_channel_items(whitelist_maps, blacklist) -> CategoryChannelData:
 
 
 def format_channel_name(name):
-    """
-    Format the channel name with sub and replace and lower
-    """
     return channel_alias.get_primary(name)
 
 
 def channel_name_is_equal(name1, name2):
-    """
-    Check if the channel name is equal
-    """
     name1_format = format_channel_name(name1)
     name2_format = format_channel_name(name2)
     return name1_format == name2_format
 
 
 def get_channel_results_by_name(name, data):
-    """
-    Get channel results from data by name
-    """
     format_name = format_channel_name(name)
     results = data.get(format_name, [])
     return results
 
 
 def get_channel_url(text):
-    """
-    Get the url from text
-    """
     url = None
     url_search = constants.url_pattern.search(text)
     if url_search:
@@ -416,9 +386,6 @@ def get_channel_url(text):
 
 
 def init_info_data(data: dict, category: str, name: str) -> None:
-    """
-    Initialize channel info data structure if not exists
-    """
     data.setdefault(category, {}).setdefault(name, [])
 
 
@@ -433,9 +400,6 @@ def append_data_to_info_data(
         ipv_type_data: dict = None,
         skip_validation: bool = False
 ) -> None:
-    """
-    Append channel data to total info data with deduplication and validation
-    """
     init_info_data(info_data, category, name)
 
     channel_list = info_data[category][name]
@@ -557,10 +521,6 @@ def append_data_to_info_data(
 
 
 def append_old_data_to_info_data(info_data, cate, name, data, whitelist_maps=None, blacklist=None, ipv_type_data=None):
-    """
-    Append old existed channel data to total info data
-    """
-
     def append_and_print(items, origin, label):
         if items:
             append_data_to_info_data(
@@ -583,7 +543,7 @@ def append_old_data_to_info_data(info_data, cate, name, data, whitelist_maps=Non
 
     if open_rtmp:
         hls_data = [item for item in data if item["origin"] == "hls"]
-        append_and_print(hls_data, None, t("name.hls"))
+        append_and_print(hls, None, t("name.hls"))
 
     if open_history:
         history_data = [item for item in data if item["origin"] not in ["hls", "local", "whitelist"]]
@@ -591,9 +551,6 @@ def append_old_data_to_info_data(info_data, cate, name, data, whitelist_maps=Non
 
 
 def print_channel_number(data: CategoryChannelData, cate: str, name: str):
-    """
-    Print channel number
-    """
     channel_list = data.get(cate, {}).get(name, [])
     print("IPv4:", len([channel for channel in channel_list if channel["ipv_type"] == "ipv4"]), end=", ")
     print("IPv6:", len([channel for channel in channel_list if channel["ipv_type"] == "ipv6"]), end=", ")
@@ -610,9 +567,6 @@ def append_total_data(
         whitelist_maps=None,
         blacklist=None,
 ):
-    """
-    Append all method data to total info data
-    """
     items = list(items)
     total_result = [
         ("subscribe", subscribe_result),
@@ -685,67 +639,46 @@ def append_total_data(
 
 
 def is_valid_speed_result(info) -> bool:
-    """
-    终极广告屏蔽：彻底过滤播着播着跳广告、劫持、片头广告源
-    """
     try:
         delay = info.get("delay")
-        if delay is None or delay == -1:
-            return False
-
         speed_val = info.get("speed", 0) or 0
-        if not speed_val or math.isinf(speed_val):
-            return False
-
         url = (info.get("url") or "").lower()
         name = (info.get("name") or "").lower()
 
-        # 广告关键词黑名单（完全匹配你提供的规则）
+        if delay is None or delay == -1:
+            return False
+        if speed_val < 0.5 * 1024 * 1024:
+            return False
+        if math.isinf(speed_val):
+            return False
+
         ad_keywords = [
-            "/ad/", "/ads/", "/advert/", "/promo/", "/redirect/", "/jump/",
-            "/track/", "/stat/", "/monitor/", "/start/", "/boot/", "/launch/",
-            "bit.ly", "tinyurl", "goo.gl", "t.cn", "s.cn", "dwz", "url.cn",
-            "is.gd", "v.gd", "u.nu", "short", "link", "share",
-            "catvod", "catvod.com", "catvod.xyz", "catvod.top", "catvod.vip",
-            "catvod.cc", "catvod.site", "catvod.tv",
-            "t.me", "telegram", "tg",
-            "h5", "web", "player", "liveplay", "play.html", "index.html",
-            "m3u8?token=", "m3u8?auth=",
-            ".jpg", ".jpeg", ".png", ".gif", ".webp",
-            "banner", "poster", "cover", "logo", "img",
-            "gslb", "dsdqpub", "testpub", "auth=testpub"
+            "/ad/", "/ads/", "advert", "redirect", "jump", "track", "stat",
+            "bit.ly", "tinyurl", "goo.gl", "t.cn", "url.cn", "short", "link",
+            "catvod", "telegram", "t.me", "tg", "h5", "player", "play.html",
+            ".jpg", ".jpeg", ".png", ".gif", "banner", "poster", "cover",
+            "gslb", "testpub", "auth=test", "dsdqpub"
         ]
         for kw in ad_keywords:
             if kw in url:
                 return False
 
-        # 视频编码必须为 H264 / AVC，央视卫视禁止 H265
-        vcodec = (info.get("video_codec") or "").strip().lower()
-        is_tv_channel = any(key in name for key in ["cctv", "卫视"])
-        if is_tv_channel and vcodec in ("h265", "hevc", "av1", "vp9"):
-            return False
-        if vcodec not in ("h264", "avc", "x264"):
+        vcodec = (info.get("video_codec") or "").lower()
+        if vcodec not in ("h264", "avc", "x264", ""):
             return False
 
-        # 只允许 1080P / 720P，排除广告常用低分辨率
         res = (info.get("resolution") or "").lower()
-        ad_res = ["320x", "360x", "480x", "640x", "720x480", "854x480", "960x540"]
-        for r in ad_res:
-            if r in res:
-                return False
-        if "1080" not in res and "720" not in res:
+        if res and not any(k in res for k in ["720", "1080"]):
             return False
 
-        # 帧率严格 25fps，广告几乎都不满足
         fps_val = info.get("fps")
         try:
             fps = float(fps_val)
-        except (ValueError, TypeError):
-            return False
-        if not (24.9 <= fps <= 25.1):
+            if not (24 <= fps <= 30):
+                return False
+        except:
             return False
 
-        # 广告切片时长 15s / 30s 直接拦截
         duration = info.get("duration")
         if duration is not None:
             try:
@@ -762,9 +695,6 @@ def is_valid_speed_result(info) -> bool:
 
 
 async def test_speed(data, ipv6=False, callback=None, on_task_complete=None):
-    """
-    Test speed of channel data
-    """
     ipv6_proxy_url = None if (not config.open_ipv6 or ipv6) else constants.ipv6_proxy
     open_headers = config.open_headers
     open_full_speed_test = config.open_full_speed_test
@@ -776,6 +706,10 @@ async def test_speed(data, ipv6=False, callback=None, on_task_complete=None):
     async def limited_get_speed(channel_info):
         async with semaphore:
             headers = (open_headers and channel_info.get("headers")) or None
+            if not headers:
+                headers = {
+                    "User-Agent": "Mozilla/5.0 (Linux; Android 4.4.2; Xiaomi Box 2 Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36"
+                }
             return await get_speed(
                 channel_info,
                 headers=headers,
@@ -896,9 +830,6 @@ async def test_speed(data, ipv6=False, callback=None, on_task_complete=None):
 
 
 def sort_channel_result(channel_data, result=None, filter_host=False, ipv6_support=True, cate=None, name=None):
-    """
-    Sort channel result
-    """
     channel_result = defaultdict(lambda: defaultdict(list))
     categories = [cate] if cate else list(channel_data.keys())
     retain = retain_origin
@@ -955,9 +886,6 @@ def sort_channel_result(channel_data, result=None, filter_host=False, ipv6_suppo
 
 
 def generate_channel_statistic(logger, cate, name, values):
-    """
-    Generate channel statistic
-    """
     total = len(values)
     valid_items = [
         v for v in values
@@ -1009,9 +937,6 @@ def process_write_content(
         enable_log: bool = False,
         is_last: bool = False,
 ):
-    """
-    Get channel write content
-    """
     content = ""
     no_result_name = []
     first_cate = True
@@ -1133,9 +1058,6 @@ def process_write_content(
 
 
 def write_channel_to_file(data, ipv6=False, first_channel_name=None, skip_print=False, is_last=False):
-    """
-    Write channel to file
-    """
     try:
         if not skip_print:
             print(t("msg.writing_result"), flush=True)
