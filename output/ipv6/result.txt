@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2026-04-10 12:12:11,https://smart.dxjc.pp.ua/smart.php?id=cctv1&token=tmxk
+2026-04-10 14:10:40,https://smart.dxjc.pp.ua/smart.php?id=cctv1&token=tmxk
 
 📺央视频道,#genre#
 CCTV-1,https://smart.dxjc.pp.ua/smart.php?id=cctv1&token=tmxk
@@ -170,7 +170,6 @@ CHC影迷电影,https://t.freetv.fun/live/chcying-mi-dian-ying-5.m3u8
 靖天戏剧,http://breezy-audrie-zspace-7524863c.koyeb.app/vipsir?token=leifeng&id=4gtv-4gtv058
 靖天戏剧,https://mao.ffmking888.dpdns.org/?id=6Z2W5aSp5oiy5YqH5Yaw&auth=30234cedf871581989d3c91a3daec1e9f50e024aafcfa2247e7d44d91bb8d02fbc3f571b2d67f9d82642cc1d0f133d89
 靖天戏剧,https://tmxk.pp.ua/litv.php?token=tmxk&id=4gtv-4gtv058
-经典电影,https://down-hls.qxiu.com/live/453135/index.m3u8
 经典电影,https://yylunbo.ottiptv.cc/yy/1414812324
 经典电影,https://tv.iill.top/4gtv/201
 天映经典,https://smart.dxjc.pp.ua/smart.php?id=Celestial2&token=tmxk
@@ -198,11 +197,11 @@ CHC影迷电影,https://t.freetv.fun/live/chcying-mi-dian-ying-5.m3u8
 贵州卫视,https://t.freetv.fun/live/gui-zhou-wei-shi-16.m3u8
 
 📺港澳频道,#genre#
-翡翠台,https://o11.163189.xyz/stream/tvb/fct4k/
 翡翠台,http://r.jdshipin.com/qClQf
 翡翠台,http://r.jdshipin.com/qrfbg
 翡翠台,http://r.jdshipin.com/62WM7
 翡翠台,http://r.jdshipin.com/n90gt
+翡翠台,http://r.jdshipin.com/GeWKr
 明珠台,http://r.jdshipin.com/ZQ4kN
 明珠台,http://r.jdshipin.com/jUx8K
 明珠台,https://smart.dxjc.pp.ua/smart.php?id=pearl_twn&token=tmxk
@@ -224,7 +223,6 @@ ViuTV,http://r.jdshipin.com/TcKr2
 凤凰香港,http://r.jdshipin.com/yDoTN
 凤凰香港,http://r.jdshipin.com/NfC0f
 凤凰香港,https://smart.dxjc.pp.ua/smart.php?id=hkphoenix_twn&token=tmxk
-凤凰香港,https://t.freetv.fun/live/feng-huang-xiang-gang-1.php
 香港卫视,http://anren.live/HK/BSJDUFpB.m3u8
 澳视澳门,http://r.jdshipin.com/n2YZI
 
@@ -424,7 +422,6 @@ CETV-4,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226724/1.m3u8
 北京卫视,https://t.freetv.fun/live/bei-jing-wei-shi-7.php
 湖北卫视,https://smart.dxjc.pp.ua/smart.php?id=hubei&token=tmxk
 湖北卫视,http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226240/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ExfU_RR0RQok0w_xd7h22CQ%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNPVnDV2fEBphgm3TP7hAHBx%2CEND
-黑龙江卫视,https://idclive.hljtv.com:4430/live/hljws_own.m3u8
 黑龙江卫视,http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226239/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEHwpSHKc5p-bHJfhpIWFig%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNM5Y8rTELLykZJHp-bmY2YW%2CEND
 黑龙江卫视,http://iptv.huuc.edu.cn/hls/hljhd.m3u8
 重庆卫视,https://hlsbkmgsplive.miguvideo.com/envivo_x/2018/SD/chongqing/1000/01.m3u8?&HlsSubType=&encrypt=
@@ -432,6 +429,7 @@ CETV-4,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226724/1.m3u8
 东南卫视,https://smart.dxjc.pp.ua/smart.php?id=fujian&token=tmxk
 东南卫视,https://hlsbkmgsplive.miguvideo.com/migu/kailu/dongnanws/51/20230724/01.m3u8?&HlsSubType=&encrypt=
 东南卫视,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8#http://120.76.248.139/live/bfgd/4200000483.m3u8
+东南卫视,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 甘肃卫视,http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226545/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EPxObabIs3mLyPmSf2HHtqQ%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNBE3K16ZfzYGIqbP6z6cGJ%2CEND
 甘肃卫视,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 甘肃卫视,https://hls.gstv.com.cn/49048r/6e1sy2.m3u8
