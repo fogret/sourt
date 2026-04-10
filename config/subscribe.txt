@@ -5,23 +5,6 @@
 
 # 优质稳定（优先）
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u
-https://ghfast.top/https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
-https://ghfast.top/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
-https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
-https://tmxk.pp.ua/smart-cn.m3u
-
-# 可用备用
-https://raw.githubusercontent.com/quanyu98/zubo/main/IPTV.txt
-https://t.freetv.fun/m3u/playlist_original.m3u
-https://gh-proxy.org/https://raw.githubusercontent.com/xiaohuonihao/IPTV-api/refs/heads/master/output/love.txt
-https://gh-proxy.org/https://raw.githubusercontent.com/x22c/okk/refs/heads/master/output/user_result.txt
-https://ghfast.top/https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo_all.txt
-https://ghfast.top/https://raw.githubusercontent.com/altn2025/iptv/refs/heads/main/iptv.m3u
-http://tv.850930.xyz/kdsb.txt
-https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
-https://ghfast.top/https://raw.githubusercontent.com/qingtingjjjjjjj/iptv-auto-update/refs/heads/main/my.txt
-https://live.zbds.top/tv/iptv4.txt
-https://sub.ottiptv.cc/douyuyqk.m3u
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
