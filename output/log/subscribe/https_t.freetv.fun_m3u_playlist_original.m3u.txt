@@ -4,7 +4,7 @@
 #freetv.fun does not provide or store any streaming media content.All channels are automatically collected from the network through crawlers, without any manual participation, just for testing purposes. Therefore, we do not guarantee the stability and legality of the channels, nor do we assume corresponding legal responsibilities. All legal responsibilities It should be the responsibility of the user and the source provider.
 #If you don't know how to use it, or don't have time to test it, you can download this recommended app for testing.
 #https://freetv.fun/app
-#Generated on: 2026-04-10 04:00:02 UTC
+#Generated on: 2026-04-10 06:00:03 UTC
 
 
 #這個檔案是由https://freetv.fun自動生成的,僅僅只是用於測試epg的準確性.
@@ -12,7 +12,7 @@
 #freetv.fun並不提供也不儲存任何的流媒體內容.所有的頻道都是由自動化系統通過網路自動收集而來,並沒有任何人工參與,僅僅只是為了測試.因此我們並不保證頻道的穩定性與合法性,我們也不承擔任何相關的法律責任.所有的法律責任與相關後果應由頻道的使用者與提供者自行承擔.
 #如果您不知道如何使用這個檔案,或者並沒有時間進行測試,那麼您可以下載我們推薦的APP來進行測試.
 #下載地址為https://freetv.fun/app
-#生成時間: 2026-04-10 04:00:02 UTC
+#生成時間: 2026-04-10 06:00:03 UTC
 
 
 #EXTINF:-1 tvg-name="&FlixHD" tvg-id="" tvg-country="印度" tvg-language="印度" tvg-logo="https://epg.pw/media/images/channel/2021/06/24/large/20210624003447280269_10.png" group-title="電影",&FlixHD
@@ -990,8 +990,6 @@ https://t.freetv.fun/live/cctv-1.m3u8
 #EXTINF:-1 tvg-name="CCTV1(RTHK33)" tvg-id="368552" tvg-country="香港" tvg-language="香港" tvg-logo="https://epg.pw/media/images/channel/2024/05/16/large/20240516043525045887_55.png" group-title="新聞",CCTV1(RTHK33)
 https://t.freetv.fun/live/cctv1-4.m3u8
 #EXTINF:-1 tvg-name="CCTV1(RTHK33)" tvg-id="368552" tvg-country="香港" tvg-language="香港" tvg-logo="https://epg.pw/media/images/channel/2024/05/16/large/20240516043525045887_55.png" group-title="新聞",CCTV1(RTHK33)
-https://t.freetv.fun/live/cctv1zong-he.php
-#EXTINF:-1 tvg-name="CCTV1(RTHK33)" tvg-id="368552" tvg-country="香港" tvg-language="香港" tvg-logo="https://epg.pw/media/images/channel/2024/05/16/large/20240516043525045887_55.png" group-title="新聞",CCTV1(RTHK33)
 https://t.freetv.fun/live/cctv-1hd.m3u8
 #EXTINF:-1 tvg-name="CCTV1(RTHK33)" tvg-id="368552" tvg-country="香港" tvg-language="香港" tvg-logo="https://epg.pw/media/images/channel/2024/05/16/large/20240516043525045887_55.png" group-title="新聞",CCTV1(RTHK33)
 https://t.freetv.fun/live/cctv-1hd-1.m3u8
@@ -1514,8 +1512,6 @@ https://t.freetv.fun/live/espn-deportes.m3u8
 #EXTINF:-1 tvg-name="CDN Deportes" tvg-id="" tvg-country="多明尼加共和国" tvg-language="多明尼加共和国" tvg-logo="https://epg.pw/media/images/channel/2021/11/02/large/20211102205539113006_19.png" group-title="運動",CDN Deportes
 https://t.freetv.fun/live/tvc-deportes.m3u8
 #EXTINF:-1 tvg-name="CETV" tvg-id="" tvg-country="捷克" tvg-language="捷克" tvg-logo="https://epg.pw/media/uploads/tmp_logo/2015/10/23/20151023181206937281_49.jpg" group-title="綜合",CETV
-https://t.freetv.fun/live/cetv4-4.m3u8
-#EXTINF:-1 tvg-name="CETV" tvg-id="" tvg-country="捷克" tvg-language="捷克" tvg-logo="https://epg.pw/media/uploads/tmp_logo/2015/10/23/20151023181206937281_49.jpg" group-title="綜合",CETV
 https://t.freetv.fun/live/cetv4-5.m3u8
 #EXTINF:-1 tvg-name="CETV" tvg-id="" tvg-country="捷克" tvg-language="捷克" tvg-logo="https://epg.pw/media/uploads/tmp_logo/2015/10/23/20151023181206937281_49.jpg" group-title="綜合",CETV
 https://t.freetv.fun/live/cetv2-6.m3u8
@@ -1607,10 +1603,6 @@ https://t.freetv.fun/live/cgtn-6.m3u8
 https://t.freetv.fun/live/cgtnji-lu-3.m3u8
 #EXTINF:-1 tvg-name="CGTN(Spain)" tvg-id="" tvg-country="西班牙" tvg-language="西班牙" tvg-logo="https://epg.pw/media/uploads/tmp_logo/2018/05/16/20180516070123835480_63.jpg" group-title="新聞",CGTN(Spain)
 https://t.freetv.fun/live/cgtn-8.m3u8
-#EXTINF:-1 tvg-name="CGTN(Spain)" tvg-id="" tvg-country="西班牙" tvg-language="西班牙" tvg-logo="https://epg.pw/media/uploads/tmp_logo/2018/05/16/20180516070123835480_63.jpg" group-title="新聞",CGTN(Spain)
-https://t.freetv.fun/live/cgtne-yu-3.m3u8
-#EXTINF:-1 tvg-name="CGTN(Spain)" tvg-id="" tvg-country="西班牙" tvg-language="西班牙" tvg-logo="https://epg.pw/media/uploads/tmp_logo/2018/05/16/20180516070123835480_63.jpg" group-title="新聞",CGTN(Spain)
-https://t.freetv.fun/live/cgtnfa-yu-3.m3u8
 #EXTINF:-1 tvg-name="CGTN(Spain)" tvg-id="" tvg-country="西班牙" tvg-language="西班牙" tvg-logo="https://epg.pw/media/uploads/tmp_logo/2018/05/16/20180516070123835480_63.jpg" group-title="新聞",CGTN(Spain)
 https://t.freetv.fun/live/cgtn-9.m3u8
 #EXTINF:-1 tvg-name="CGTN(Spain)" tvg-id="" tvg-country="西班牙" tvg-language="西班牙" tvg-logo="https://epg.pw/media/uploads/tmp_logo/2018/05/16/20180516070123835480_63.jpg" group-title="新聞",CGTN(Spain)
@@ -1789,8 +1781,6 @@ https://t.freetv.fun/live/cnn.m3u8
 https://t.freetv.fun/live/cnn-1.m3u8
 #EXTINF:-1 tvg-name="CNN HD" tvg-id="464857" tvg-country="美國" tvg-language="美國" tvg-logo="https://epg.pw/media/images/channel/2019/01/13/large/20190113215800701920_63.jpg" group-title="新聞",CNN HD
 https://t.freetv.fun/live/cnn-int-2.m3u8
-#EXTINF:-1 tvg-name="CNN HD" tvg-id="464857" tvg-country="美國" tvg-language="美國" tvg-logo="https://epg.pw/media/images/channel/2019/01/13/large/20190113215800701920_63.jpg" group-title="新聞",CNN HD
-https://t.freetv.fun/live/cnn-4.m3u8
 #EXTINF:-1 tvg-name="CNN HD" tvg-id="464857" tvg-country="美國" tvg-language="美國" tvg-logo="https://epg.pw/media/images/channel/2019/01/13/large/20190113215800701920_63.jpg" group-title="新聞",CNN HD
 https://t.freetv.fun/live/cnn-5.m3u8
 #EXTINF:-1 tvg-name="CNN International" tvg-id="465021" tvg-country="美國" tvg-language="美國" tvg-logo="https://epg.pw/media/images/channel/2019/01/12/large/20190112195825903374_64.png" group-title="新聞",CNN International
@@ -2820,8 +2810,6 @@ https://t.freetv.fun/live/history-hit-channel.m3u8
 #EXTINF:-1 tvg-name="History(USA)" tvg-id="" tvg-country="美國" tvg-language="美國" tvg-logo="https://epg.pw/media/images/channel/2022/05/23/large/20220523014634644875_63.jpg" group-title="知識",History(USA)
 https://t.freetv.fun/live/viju-history.m3u8
 #EXTINF:-1 tvg-name="History(USA)" tvg-id="" tvg-country="美國" tvg-language="美國" tvg-logo="https://epg.pw/media/images/channel/2022/05/23/large/20220523014634644875_63.jpg" group-title="知識",History(USA)
-https://t.freetv.fun/live/history.m3u8
-#EXTINF:-1 tvg-name="History(USA)" tvg-id="" tvg-country="美國" tvg-language="美國" tvg-logo="https://epg.pw/media/images/channel/2022/05/23/large/20220523014634644875_63.jpg" group-title="知識",History(USA)
 https://t.freetv.fun/live/history-hunters.m3u8
 #EXTINF:-1 tvg-name="History(USA)" tvg-id="" tvg-country="美國" tvg-language="美國" tvg-logo="https://epg.pw/media/images/channel/2022/05/23/large/20220523014634644875_63.jpg" group-title="知識",History(USA)
 https://t.freetv.fun/live/history-1.m3u8
@@ -3081,8 +3069,6 @@ https://t.freetv.fun/live/music-pop.m3u8
 https://t.freetv.fun/live/pop-1.m3u8
 #EXTINF:-1 tvg-name="Kral Pop Music Türkiye" tvg-id="" tvg-country="土耳其" tvg-language="土耳其" tvg-logo="https://epg.pw/media/uploads/tmp_logo/2015/02/20/20150220204308565025_88.jpg" group-title="綜藝",Kral Pop Music Türkiye
 https://t.freetv.fun/live/pop-2.m3u8
-#EXTINF:-1 tvg-name="Kuriakos kids" tvg-id="" tvg-country="葡萄牙" tvg-language="葡萄牙" tvg-logo="https://epg.pw/media/images/channel/2022/01/19/large/20220119220034946726_98.png" group-title="兒童",Kuriakos kids
-https://t.freetv.fun/live/kuriakos-kids-1.m3u8
 #EXTINF:-1 tvg-name="LBC Europe" tvg-id="" tvg-country="黎巴嫩" tvg-language="黎巴嫩" tvg-logo="https://epg.pw/media/images/channel/2022/05/27/large/20220527020702363382_36.png" group-title="綜合",LBC Europe
 https://t.freetv.fun/live/cnbc-europe.m3u8
 #EXTINF:-1 tvg-name="LBC International" tvg-id="" tvg-country="黎巴嫩" tvg-language="黎巴嫩" tvg-logo="https://epg.pw/media/images/channel/2022/05/06/large/20220506174912035196_59.png" group-title="綜合",LBC International
@@ -4773,8 +4759,6 @@ https://t.freetv.fun/live/telemontecarlo.m3u8
 https://t.freetv.fun/live/tele5.m3u8
 #EXTINF:-1 tvg-name="TelePavia" tvg-id="" tvg-country="意大利" tvg-language="意大利" tvg-logo="https://epg.pw/media/" group-title="綜合",TelePavia
 https://t.freetv.fun/live/tele-pavia.m3u8
-#EXTINF:-1 tvg-name="Telecine Action" tvg-id="" tvg-country="巴西" tvg-language="巴西" tvg-logo="https://epg.pw/media/uploads/tmp_logo/2014/09/09/20140909015221436603_79.jpg" group-title="綜合",Telecine Action
-https://t.freetv.fun/live/telecine-action.m3u8
 #EXTINF:-1 tvg-name="Telefe Argentina" tvg-id="" tvg-country="阿根廷" tvg-language="阿根廷" tvg-logo="https://epg.pw/media/" group-title="綜藝",Telefe Argentina
 https://t.freetv.fun/live/telefe.m3u8
 #EXTINF:-1 tvg-name="Telefe Argentina" tvg-id="" tvg-country="阿根廷" tvg-language="阿根廷" tvg-logo="https://epg.pw/media/" group-title="綜藝",Telefe Argentina
@@ -5265,8 +5249,6 @@ https://t.freetv.fun/live/willow-sports.m3u8
 https://t.freetv.fun/live/willow-sports-1.m3u8
 #EXTINF:-1 tvg-name="Willow HD" tvg-id="" tvg-country="美國" tvg-language="美國" tvg-logo="https://epg.pw/media/images/channel/2018/04/18/large/20180418221927240524_53.png" group-title="運動",Willow HD
 https://t.freetv.fun/live/willow-sports-2.m3u8
-#EXTINF:-1 tvg-name="World Fishing Network" tvg-id="465358" tvg-country="美國" tvg-language="美國" tvg-logo="https://epg.pw/media/images/channel/2022/03/01/large/20220301205554812744_29.png" group-title="運動",World Fishing Network
-https://t.freetv.fun/live/world-fishing-network-1.m3u8
 #EXTINF:-1 tvg-name="World Poker Tour" tvg-id="" tvg-country="美國" tvg-language="美國" tvg-logo="https://epg.pw/media/images/channel/2022/01/19/large/20220119215837807839_96.png" group-title="其它",World Poker Tour
 https://t.freetv.fun/live/world-poker-tour.m3u8
 #EXTINF:-1 tvg-name="World Poker Tour" tvg-id="" tvg-country="美國" tvg-language="美國" tvg-logo="https://epg.pw/media/images/channel/2022/01/19/large/20220119215837807839_96.png" group-title="其它",World Poker Tour
@@ -5913,8 +5895,6 @@ https://t.freetv.fun/live/san-sha-wei-shi-15.m3u8
 https://t.freetv.fun/live/san-li-xin-wen-inews.php
 #EXTINF:-1 tvg-name="三立INEWS HD" tvg-id="370173" tvg-country="台灣" tvg-language="台灣" tvg-logo="https://epg.pw/media/images/channel/2022/11/27/large/20221127005733419108_21.jpg" group-title="新聞",三立INEWS HD
 https://t.freetv.fun/live/san-li-inews-10.m3u8
-#EXTINF:-1 tvg-name="三立都會" tvg-id="456530" tvg-country="台灣" tvg-language="台灣" tvg-logo="https://epg.pw/media/images/channel/2023/07/21/large/20230721172206208974_98.png" group-title="綜藝",三立都會
-https://t.freetv.fun/live/san-li-du-hui.php
 #EXTINF:-1 tvg-name="上海新聞綜合" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2024/07/28/large/20240728175315523478_16.jpg" group-title="新聞",上海新聞綜合
 https://t.freetv.fun/live/shang-hai-xin-wen-zong-he.m3u8
 #EXTINF:-1 tvg-name="上海新聞綜合" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2024/07/28/large/20240728175315523478_16.jpg" group-title="新聞",上海新聞綜合
@@ -6213,8 +6193,6 @@ https://t.freetv.fun/live/tai-shi-28.ts
 https://t.freetv.fun/live/tai-shi-xin-wen-1.m3u8
 #EXTINF:-1 tvg-name="台視新聞FHD" tvg-id="" tvg-country="台灣" tvg-language="台灣" tvg-logo="https://epg.pw/media/images/channel/2023/07/24/large/20230724094914581648_75.png" group-title="新聞",台視新聞FHD
 https://t.freetv.fun/live/tai-shi-xin-wen-1-1.m3u8
-#EXTINF:-1 tvg-name="台視新聞FHD" tvg-id="" tvg-country="台灣" tvg-language="台灣" tvg-logo="https://epg.pw/media/images/channel/2023/07/24/large/20230724094914581648_75.png" group-title="新聞",台視新聞FHD
-https://t.freetv.fun/live/tai-shi-xin-wen-2.php
 #EXTINF:-1 tvg-name="吉林生活" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2024/07/28/large/20240728204149894338_16.png" group-title="綜合",吉林生活
 https://t.freetv.fun/live/ji-lin-sheng-huo.m3u8
 #EXTINF:-1 tvg-name="吉林綜藝" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2024/07/28/large/20240728203909178119_58.png" group-title="綜藝",吉林綜藝
@@ -7407,8 +7385,6 @@ https://t.freetv.fun/live/jiang-su-wei-shi-21.m3u8
 https://t.freetv.fun/live/jiang-su-wei-shi-22.m3u8
 #EXTINF:-1 tvg-name="江蘇衛視" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2022/05/30/large/20220530225651709500_84.jpg" group-title="綜合",江蘇衛視
 https://t.freetv.fun/live/jiang-su-wei-shi-23.m3u8
-#EXTINF:-1 tvg-name="江蘇衛視" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2022/05/30/large/20220530225651709500_84.jpg" group-title="綜合",江蘇衛視
-https://t.freetv.fun/live/jiang-su-wei-shi-24.m3u8
 #EXTINF:-1 tvg-name="江蘇衛視(B)" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2024/12/31/large/20241231173306457410_14.png" group-title="綜合",江蘇衛視(B)
 https://t.freetv.fun/live/jiang-su-wei-shi-gao-qing.m3u8
 #EXTINF:-1 tvg-name="江蘇衛視(B)" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2024/12/31/large/20241231173306457410_14.png" group-title="綜合",江蘇衛視(B)
@@ -7464,8 +7440,6 @@ https://t.freetv.fun/live/he-bei-wei-shi-7.m3u8
 #EXTINF:-1 tvg-name="河北衛視" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2022/05/31/large/20220531145616881844_72.jpg" group-title="綜合",河北衛視
 https://t.freetv.fun/live/he-bei-wei-shi-8.m3u8
 #EXTINF:-1 tvg-name="河北衛視" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2022/05/31/large/20220531145616881844_72.jpg" group-title="綜合",河北衛視
-https://t.freetv.fun/live/he-bei-wei-shi-11.m3u8
-#EXTINF:-1 tvg-name="河北衛視" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2022/05/31/large/20220531145616881844_72.jpg" group-title="綜合",河北衛視
 https://t.freetv.fun/live/he-bei-wei-shi-14.m3u8
 #EXTINF:-1 tvg-name="河北衛視" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2022/05/31/large/20220531145616881844_72.jpg" group-title="綜合",河北衛視
 https://t.freetv.fun/live/he-bei-wei-shi-15.m3u8
@@ -7513,16 +7487,6 @@ https://t.freetv.fun/live/he-nan-wei-shi-16.m3u8
 https://t.freetv.fun/live/he-nan-wei-shi-17.m3u8
 #EXTINF:-1 tvg-name="河南衛視" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2022/05/30/large/20220530233814283449_10.jpg" group-title="綜合",河南衛視
 https://t.freetv.fun/live/he-nan-wei-shi-18.m3u8
-#EXTINF:-1 tvg-name="河南衛視" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2022/05/30/large/20220530233814283449_10.jpg" group-title="綜合",河南衛視
-https://t.freetv.fun/live/he-nan-wei-shi-19.m3u8
-#EXTINF:-1 tvg-name="河南衛視" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2022/05/30/large/20220530233814283449_10.jpg" group-title="綜合",河南衛視
-https://t.freetv.fun/live/he-nan-wei-shi-20.m3u8
-#EXTINF:-1 tvg-name="河南衛視" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2022/05/30/large/20220530233814283449_10.jpg" group-title="綜合",河南衛視
-https://t.freetv.fun/live/he-nan-wei-shi-21.m3u8
-#EXTINF:-1 tvg-name="河南衛視" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2022/05/30/large/20220530233814283449_10.jpg" group-title="綜合",河南衛視
-https://t.freetv.fun/live/he-nan-wei-shi-22.m3u8
-#EXTINF:-1 tvg-name="河南衛視" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2022/05/30/large/20220530233814283449_10.jpg" group-title="綜合",河南衛視
-https://t.freetv.fun/live/he-nan-wei-shi-23.m3u8
 #EXTINF:-1 tvg-name="洪金寶" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2022/08/25/large/20220825050929630341_40.png" group-title="電影",洪金寶
 https://t.freetv.fun/live/hong-jin-bao.flv
 #EXTINF:-1 tvg-name="洪金寶" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2022/08/25/large/20220825050929630341_40.png" group-title="電影",洪金寶
@@ -7621,8 +7585,6 @@ https://t.freetv.fun/live/zhe-jiang-wei-shi-9.php
 https://t.freetv.fun/live/zhe-jiang-wei-shi-10.m3u8
 #EXTINF:-1 tvg-name="浙江衛視" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2024/03/11/large/20240311112431672505_47.png" group-title="綜合",浙江衛視
 https://t.freetv.fun/live/zhe-jiang-wei-shi-13.m3u8
-#EXTINF:-1 tvg-name="浙江衛視" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2024/03/11/large/20240311112431672505_47.png" group-title="綜合",浙江衛視
-https://t.freetv.fun/live/zhe-jiang-wei-shi-15.m3u8
 #EXTINF:-1 tvg-name="浙江衛視" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2024/03/11/large/20240311112431672505_47.png" group-title="綜合",浙江衛視
 https://t.freetv.fun/live/zhe-jiang-wei-shi-17.m3u8
 #EXTINF:-1 tvg-name="浙江衛視" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2024/03/11/large/20240311112431672505_47.png" group-title="綜合",浙江衛視
@@ -8110,13 +8072,13 @@ https://t.freetv.fun/live/tai-shi.php
 #EXTINF:-1 tvg-name="臺視新聞臺" tvg-id="" tvg-country="台灣" tvg-language="台灣" tvg-logo="https://epg.pw/media/uploads/tmp_logo/2016/11/22/20161122123940121042_91.png" group-title="新聞",臺視新聞臺
 https://t.freetv.fun/live/tai-shi-xin-wen.m3u8
 #EXTINF:-1 tvg-name="臺視新聞臺" tvg-id="" tvg-country="台灣" tvg-language="台灣" tvg-logo="https://epg.pw/media/uploads/tmp_logo/2016/11/22/20161122123940121042_91.png" group-title="新聞",臺視新聞臺
-https://t.freetv.fun/live/tai-shi-xin-wen-3.m3u8
+https://t.freetv.fun/live/tai-shi-xin-wen-2.m3u8
 #EXTINF:-1 tvg-name="臺視新聞臺" tvg-id="" tvg-country="台灣" tvg-language="台灣" tvg-logo="https://epg.pw/media/uploads/tmp_logo/2016/11/22/20161122123940121042_91.png" group-title="新聞",臺視新聞臺
 https://t.freetv.fun/live/tai-shi-xin-wen-1-2.m3u8
 #EXTINF:-1 tvg-name="臺視新聞臺" tvg-id="" tvg-country="台灣" tvg-language="台灣" tvg-logo="https://epg.pw/media/uploads/tmp_logo/2016/11/22/20161122123940121042_91.png" group-title="新聞",臺視新聞臺
 https://t.freetv.fun/live/tai-shi-xin-wen-2-1.m3u8
 #EXTINF:-1 tvg-name="臺視新聞臺" tvg-id="" tvg-country="台灣" tvg-language="台灣" tvg-logo="https://epg.pw/media/uploads/tmp_logo/2016/11/22/20161122123940121042_91.png" group-title="新聞",臺視新聞臺
-https://t.freetv.fun/live/tai-shi-xin-wen-3-1.php
+https://t.freetv.fun/live/tai-shi-xin-wen-3.php
 #EXTINF:-1 tvg-name="臺視綜合" tvg-id="" tvg-country="台灣" tvg-language="台灣" tvg-logo="https://epg.pw/media/images/channel/2023/10/07/large/20231007173906735735_65.png" group-title="綜合",臺視綜合
 https://t.freetv.fun/live/tai-shi-zong-he.m3u8
 #EXTINF:-1 tvg-name="臺視綜合" tvg-id="" tvg-country="台灣" tvg-language="台灣" tvg-logo="https://epg.pw/media/images/channel/2023/10/07/large/20231007173906735735_65.png" group-title="綜合",臺視綜合
@@ -8399,8 +8361,6 @@ https://t.freetv.fun/live/chang-chun-zong-he-2.m3u8
 https://t.freetv.fun/live/chang-sha-zheng-fa.m3u8
 #EXTINF:-1 tvg-name="長沙新聞" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2022/05/30/large/20220530223441906867_43.jpg" group-title="新聞",長沙新聞
 https://t.freetv.fun/live/chang-sha-xin-wen-2.m3u8
-#EXTINF:-1 tvg-name="長沙新聞" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2022/05/30/large/20220530223441906867_43.jpg" group-title="新聞",長沙新聞
-https://t.freetv.fun/live/chang-sha-xin-wen-3.m3u8
 #EXTINF:-1 tvg-name="開封新聞綜合" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/img/logo/2_16.jpg" group-title="其它",開封新聞綜合
 https://t.freetv.fun/live/xin-wen-zong-he-1.m3u8
 #EXTINF:-1 tvg-name="陝西衛視" tvg-id="" tvg-country="中國大陸" tvg-language="中國大陸" tvg-logo="https://epg.pw/media/images/channel/2022/05/31/large/20220531150903888489_91.jpg" group-title="綜合",陝西衛視
