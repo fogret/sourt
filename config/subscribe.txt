@@ -4,7 +4,6 @@
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
 
 # 优质稳定（优先）
-https://cdn.jsdelivr.net/gh/q1017673817/iptvz/%E7%BB%84%E6%92%AD_%E8%B4%B5%E5%B7%9E%E7%94%B5%E4%BF%A1.txt
 https://ghfast.top/https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 https://ghfast.top/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
 https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
@@ -27,3 +26,4 @@ https://sub.ottiptv.cc/douyuyqk.m3u
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
 # This is the whitelist for subscription sources. Subscription sources in the whitelist will not participate in speed testing and will always be retained at the front of the results
+https://cdn.jsdelivr.net/gh/q1017673817/iptvz/%E7%BB%84%E6%92%AD_%E8%B4%B5%E5%B7%9E%E7%94%B5%E4%BF%A1.txt
