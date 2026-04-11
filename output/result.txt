@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2026-04-11 23:26:36,http://61.159.135.116:4022/rtp/238.255.2.91:5999
+2026-04-12 06:20:20,http://61.159.135.116:4022/rtp/238.255.2.91:5999
 
 📺央视频道,#genre#
 CCTV-1,http://61.159.135.116:4022/rtp/238.255.2.91:5999
@@ -19,9 +19,9 @@ CCTV-3,https://t.freetv.fun/live/cctv3.m3u8
 CCTV-3,https://t.freetv.fun/live/cctv3-1.php
 CCTV-4,http://61.159.135.116:4022/rtp/238.255.2.92:5999
 CCTV-4,http://61.159.135.25:4022/rtp/238.255.2.92:5999
-CCTV-4,http://114.254.85.177:8888/rtp/239.3.1.105:8092
 CCTV-4,https://smart.dxjc.pp.ua/smart.php?id=Cctv4&token=tmxk
 CCTV-4,https://smart.dxjc.pp.ua/smart.php?id=cctv4&token=tmxk
+CCTV-4,https://t.freetv.fun/live/cctv4-1.m3u8
 CCTV-4欧洲,http://61.159.135.116:4022/rtp/238.255.2.213:5999
 CCTV-4欧洲,http://61.159.135.25:4022/rtp/238.255.2.213:5999
 CCTV-4美洲,http://61.159.135.116:4022/rtp/238.255.2.214:5999
@@ -37,9 +37,9 @@ CCTV-5,https://zby.130519.xyz/PLTV/11/224/3221225734/index.m3u8
 CCTV-5,https://www.freetv.top/migu/641886683.m3u8?migutoken=3e5c01f93922de8d1c940fe15bb47349b27e8f7a2e624dde1a83dff3b2a80f58b7624151a3a4d00488edee34f202818557340903382fae02bb754084eb942bd50e59061df36fab62fb5b908903
 CCTV-5+,http://61.159.135.116:4022/rtp/238.255.2.185:5999
 CCTV-5+,http://61.159.135.25:4022/rtp/238.255.2.185:5999
-CCTV-5+,http://114.254.85.177:8888/rtp/239.3.1.130:8004
 CCTV-5+,https://www.freetv.top/migu/641886773.m3u8?migutoken=03a1b82e35e58cd89a95034ecb29e77e50493397000ec2b1e4d1ce59af01e6420d6dbc068c8230ec03be3a35a20eed8714e0959e3570a08713a7a2e8d86085eabf8f1aa85744c80c38343988b2
 CCTV-5+,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225603/index.m3u8
+CCTV-5+,https://smart.pendy.dpdns.org/Smart.php?id=cctv5plus
 CCTV-6,http://61.159.135.116:4022/rtp/238.255.2.135:5999
 CCTV-6,http://61.159.135.25:4022/rtp/238.255.2.135:5999
 CCTV-6,https://smart.dxjc.pp.ua/smart.php?id=cctv6&token=tmxk
@@ -291,7 +291,6 @@ ViuTV,http://r.jdshipin.com/TcKr2
 凤凰香港,http://r.jdshipin.com/yDoTN
 凤凰香港,http://r.jdshipin.com/NfC0f
 凤凰香港,https://smart.dxjc.pp.ua/smart.php?id=hkphoenix_twn&token=tmxk
-凤凰香港,https://t.freetv.fun/live/feng-huang-xiang-gang.m3u8
 香港卫视,http://anren.live/HK/BSJDUFpB.m3u8
 澳视澳门,http://r.jdshipin.com/n2YZI
 
@@ -381,7 +380,6 @@ CCTV-5+,https://smart.pendy.dpdns.org/Smart.php?id=cctv5plus
 JJ斗地主,https://live.iill.top/douyin/685317364746
 汽摩频道,http://61.159.135.116:4022/rtp/238.255.2.148:5999
 汽摩频道,http://61.159.135.25:4022/rtp/238.255.2.148:5999
-陕西体育休闲频道,https://t.freetv.fun/live/ti-yu-xiu-xian.php
 陕西体育休闲频道,https://t.freetv.fun/live/shan-xi-ti-yu-2.m3u8
 睛彩竞技,https://zby.130519.xyz/PLTV/11/224/3221226116/index.m3u8
 
@@ -757,6 +755,7 @@ KBS World,https://t.freetv.fun/live/pbs-ket-world-480p.m3u8
 
 ✨特色影视,#genre#
 美亚电影台,https://smart.dxjc.pp.ua/smart.php?id=meiyamovie_twn&token=tmxk
+美亚电影台,https://t.freetv.fun/live/mei-ya-dian-ying.m3u8
 美亚电影台,https://t.freetv.fun/live/mei-ya-dian-ying-28.php
 邵氏影院,http://www.goodiptv.club/douyu/4246519
 冰冰影剧,http://www.goodiptv.club/douyu/74374
