@@ -286,16 +286,16 @@ def check_ipv6_support():
     """
     if os.getenv("GITHUB_ACTIONS"):
         return False
-    url = "https://ipv6.tokyo.test-ipv6.com/ip/?callback=?&testdomain=test-ipv6.com&testname=test_aaaa"
+    url = "https://ipv6.tokyo.test-ipv6.com/?callback=?&testdomain=test-ipv6.com&testname=test_aaaa"
     try:
         print(t("msg.check_ipv6_support"))
         response = requests.get(url, timeout=10)
         if response.status_code == 200:
-            print(t("msg.ipv6_supported"))
+            print(t("msg.ipv6_support"))
             return True
     except Exception:
         pass
-    print(t("msg.ipv6_not_supported"))
+    print(t("msg.ipv6_not_support"))
     return False
 
 
@@ -402,20 +402,14 @@ def get_epg_url():
     """
     Get the epg result url
     """
-    if os.getenv("GITHUB_ACTIONS"):
-        repository = os.getenv("GITHUB_REPOSITORY", "Guovin/iptv-api")
-        ref = os.getenv("GITHUB_REF", "gd")
-        return f"https://gh-proxy.org/https://raw.githubusercontent.com/{repository}/{ref}/output/epg/epg.gz"
-    else:
-        return f"{get_public_url()}/epg/epg.gz"
+    return "https://gh-proxy.org/https://raw.githubusercontent.com/fogret/sourt/refs/heads/master/output/epg/epg.gz"
 
 
 def get_logo_url():
     """
     Get the logo url
     """
-    logo_url = join_url(config.cdn_url,
-                        config.logo_url) if "raw.githubusercontent.com" in config.logo_url else config.logo_url
+    logo_url = join_url(config.cdn_url, config.logo_url) if "raw.githubusercontent.com" in config.logo_url else config.logo_url
     if not logo_url:
         logo_url = f"{get_public_url()}/logo/"
     return logo_url
@@ -501,7 +495,7 @@ def get_result_file_content(path=None, show_content=False, file_type=None):
         if config.open_m3u_result:
             if file_type == "m3u" or not file_type:
                 result_file = os.path.splitext(path)[0] + ".m3u"
-            if file_type != "txt" and show_content == False:
+            if file_type != "txt" and not show_content == False:
                 return send_file(resource_path(result_file), as_attachment=True)
         with open(result_file, "r", encoding="utf-8") as file:
             content = file.read()
@@ -586,9 +580,9 @@ def resource_path(relative_path, persistent=False):
     else:
         try:
             base_path = sys._MEIPASS
-            return os.path.join(base_path, relative_path)
         except Exception:
-            return total_path
+            base_path = os.path.abspath(".")
+        return os.path.join(base_path, relative_path)
 
 
 def write_content_into_txt(content, path=None, position=None, callback=None):
@@ -613,7 +607,7 @@ def write_content_into_txt(content, path=None, position=None, callback=None):
 
 def format_name(name: str) -> str:
     """
-    Format the  name with sub and replace and lower
+    Format the name with sub and replace and lower
     """
     name = opencc_t2s.convert(name)
     name = constants.sub_pattern.sub("", name)
@@ -640,10 +634,10 @@ def get_headers_key_value(content: str) -> dict:
 def get_name_value(content, pattern, open_headers=False, check_value=True):
     """
     Extract name and value from content using a regex pattern.
-    :param content: str, the input content to search.
-    :param pattern: re.Pattern, the compiled regex pattern to match.
-    :param open_headers: bool, whether to extract headers.
-    :param check_value: bool, whether to validate the presence of a URL.
+    :param content: str, the input content to search
+    :param pattern: re.Pattern, the compiled regex pattern
+    :param open_headers: bool, whether to extract headers
+    :param check_value: bool, whether to validate the presence of a URL
     """
     result = []
 
@@ -707,7 +701,7 @@ def get_name_value(content, pattern, open_headers=False, check_value=True):
             name = remainder[separator_index + 1:].strip()
             index += 1
 
-            options_lines = []
+            option_lines = []
             value = ""
             while index < total:
                 candidate_raw = lines[index]
@@ -718,7 +712,7 @@ def get_name_value(content, pattern, open_headers=False, check_value=True):
                     continue
 
                 if candidate.startswith("#EXTVLCOPT:"):
-                    options_lines.append(candidate)
+                    option_lines.append(candidate)
                     index += 1
                     continue
 
@@ -732,7 +726,7 @@ def get_name_value(content, pattern, open_headers=False, check_value=True):
             if not name or (check_value and not value):
                 continue
 
-            attributes = get_headers_key_value("\n".join([part for part in [attributes_text, *options_lines] if part]))
+            attributes = get_headers_key_value("\n".join([part for part in [attributes_text] + option_lines if part]))
             append_item(name, value, attributes)
 
         return result
@@ -782,7 +776,7 @@ def get_name_urls_from_file(path: str | list, format_name_flag: bool = False) ->
     """
     Get the name and urls from file or list of files.
     - path: single file path or list of file paths.
-    - format_name_flag: whether to format the channel name.
+    - format_name_flag: whether to format the channel name
     """
     paths = path if isinstance(path, (list, tuple)) else [path]
     name_urls = defaultdict(list)
@@ -861,10 +855,10 @@ def get_version_info():
 
 def join_url(url1: str, url2: str) -> str:
     """
-    Get the join url
+    Join two urls
     :param url1: The first url
     :param url2: The second url
-    :return: The join url
+    :return: The joined url
     """
     if not url1:
         return url2
@@ -877,9 +871,8 @@ def join_url(url1: str, url2: str) -> str:
 
 def github_blob_to_raw(url: str) -> str:
     """
-    Convert a GitHub repository blob (or tree) page URL to the corresponding
-    raw.githubusercontent.com URL. Handles percent-encoded path segments and
-    decodes them before safely re-quoting the path for the raw URL.
+    Convert a GitHub blob or tree page URL to the corresponding raw.githubusercontent.com URL.
+    Handles percent-encoded path segments by decoding before safely re-quoting the path for the raw URL.
     """
 
     if not url:
@@ -1006,7 +999,7 @@ def render_nginx_conf(nginx_conf_template, nginx_conf):
 
 def parse_times(times_str: str):
     """
-    Parse times from a string in the format "HH:MM, HH:MM, ..."
+    Parse times from a string in the format HH:MM, HH:MM, ...
     """
     times = []
     for part in (times_str or "").split(","):
@@ -1032,7 +1025,7 @@ def build_path_list(
     """
     Build a list of file paths from a directory with filtering options.
     :param dir_path: The directory path to search.
-    :param exts: Optional; A string or iterable of file extensions to filter by (e.g., '.txt', 'jpg'). Case-insensitive.
+    :param exts: Optional; string or iterable of file extensions to filter by (e.g., '.txt', 'jpg'). Case-insensitive.
     :param recursive: Whether to search subdirectories recursively.
     :param include_hidden: Whether to include hidden files (those starting with a dot).
     :return: A sorted list of file paths matching the criteria.
@@ -1063,7 +1056,7 @@ def build_path_list(
 def to_serializable(obj):
     """
     Convert an object to a serializable form.
-    Handles dicts, lists, tuples, sets, and other iterables recursively.
+    Handles dicts, lists, tuples, sets and other iterables recursively.
     Non-serializable objects are returned as-is.
     """
     if isinstance(obj, dict):
@@ -1087,6 +1080,306 @@ def count_files_by_ext(
     """
     Count files in a directory with filtering options.
     :param dir_path: The directory path to search.
-    :param exts: Optional; A string or iterable of file extensions to filter by (e.g., '.txt', 'jpg'). Case-insensitive.
+    :param exts: Optional; string or iterable of file extensions to filter by (e.g., '.txt', 'jpg'). Case-insensitive.
     :param recursive: Whether to search subdirectories recursively.
-    :param the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the
+    :param include_hidden: Whether to include hidden files (those starting with a dot).
+    :return: The count of files matching the criteria.
+    """
+    p = Path(dir_path)
+    if not p.exists() or not p.is_dir():
+        return 0
+
+    exts_set = None
+    if exts:
+        if isinstance(exts, str):
+            exts = [exts]
+        exts_set = {e.lower() if e.startswith('.') else f".{e.lower()}" for e in exts}
+
+    iterator = p.rglob("*") if recursive else p.glob("*")
+    count = 0
+    for f in iterator:
+        if not f.is_file():
+            continue
+        if not include_hidden and f.name.startswith("."):
+            continue
+        if exts_set and f.suffix.lower() not in exts_set:
+            continue
+        count += 1
+
+    return count
+
+
+def sanitize_filename_from_url(url: str, max_len: int = 200) -> str:
+    """
+    Create a filesystem-safe filename from a URL. Limits length and falls back to a hash when needed.
+    """
+    try:
+        if not url:
+            raise ValueError("empty url")
+        safe = unquote(url)
+        safe = re.sub(r'[<>:"/\\|?*]', '_', safe)
+        safe = re.sub(r'\s+', '_', safe)
+        safe = re.sub(r'_+', '_', safe)
+        safe = safe.strip('._')
+        if not safe:
+            raise ValueError("sanitized empty")
+        if len(safe) > max_len:
+            h = hashlib.sha256(url.encode('utf-8')).hexdigest()
+            keep = max_len - (1 + len(h))
+            safe = safe[:keep] + '_' + h
+        return safe
+    except Exception:
+        return hashlib.sha256((url or '').encode('utf-8')).hexdigest()
+
+
+def save_url_content(category: str, url: str, content: str) -> None:
+    """
+    Save the raw content fetched at `url` into output/log/<category>/<sanitized_url>.txt.
+    Overwrites existing files when called multiple times for the same url.
+    """
+    try:
+        if not category:
+            category = "misc"
+        dir_path = os.path.join(constants.output_dir, "log", category)
+        os.makedirs(dir_path, exist_ok=True)
+        filename = sanitize_filename_from_url(url)
+        file_path = os.path.join(dir_path, f"{filename}.txt")
+        with open(file_path, "w", encoding="utf-8") as f:
+            if isinstance(content, bytes):
+                try:
+                    f.write(content.decode('utf-8'))
+                except Exception:
+                    f.write(content.decode('latin-1', errors='ignore'))
+            else:
+                f.write(str(content))
+    except Exception as e:
+        print(f"Failed to save content for {url} into {category}: {e}")
+
+
+def get_subscribe_entries(path: str = "config/subscribe.txt") -> tuple[list, list]:
+    """
+    Parse the subscribe file and return two lists of entries (inside [WHITELIST], outside).
+    Each entry is a dict: {"url": <url>, "headers": {<Header-Name>: <value>, ...}} where headers is optional.
+
+    Supported line format (simple):
+        <url> KEY=VALUE KEY2="value with spaces" KEY3='another'
+    KEY `UA` or `User-Agent` will be mapped to the `User-Agent` header.
+    """
+    real_path = get_real_path(resource_path(path))
+    inside = []
+    outside = []
+    if not os.path.exists(real_path):
+        return inside, outside
+
+    header_re = re.compile(r"^\[.*]$")
+    in_section = False
+    kv_re = re.compile(r"(?P<k>\w+)=((?P<q>\".*?\"|'.*?')|(?P<v>\S+))")
+    seen_inside = set()
+    seen_outside = set()
+
+    with open(real_path, "r", encoding="utf-8") as f:
+        for raw in f:
+            line = raw.rstrip("\n")
+            s = line.strip()
+            if not s:
+                continue
+            if header_re.match(s):
+                in_section = s.upper() == "[WHITELIST]"
+                continue
+            if s.startswith("#"):
+                continue
+
+            match = constants.url_pattern.search(s)
+            if not match:
+                continue
+
+            url = match.group().strip()
+            remainder = s[match.end():].strip()
+            headers = {}
+            for m in kv_re.finditer(remainder):
+                key = m.group("k")
+                val = m.group("q") or m.group("v")
+                if not val:
+                    continue
+                val = val.strip()
+                if (val.startswith('"') and val.endswith('"')) or (val.startswith("'") and val.endswith("'")):
+                    val = val[1:-1]
+                if key.lower() in ("ua", "useragent", "user-agent"):
+                    headers["User-Agent"] = val
+                else:
+                    headers[key] = val
+
+            entry = {"url": url}
+            if headers:
+                entry["headers"] = headers
+
+            target = inside if in_section else outside
+            seen = seen_inside if in_section else seen_outside
+            dedupe_key = (url, tuple(sorted(headers.items())))
+            if dedupe_key in seen:
+                continue
+            seen.add(dedupe_key)
+            target.append(entry)
+
+    return inside, outside
+
+
+def count_disabled_urls(path: str) -> int:
+    """
+    Count disabled url lines in the config file.
+    """
+    real_path = get_real_path(resource_path(path))
+    if not os.path.exists(real_path):
+        return 0
+
+    disabled_count = 0
+    with open(real_path, "r", encoding="utf-8") as f:
+        for raw in f:
+            line = raw.strip()
+            if not line.startswith("#"):
+                continue
+            commented = line.lstrip("#").strip()
+            if commented and constants.url_pattern.match(commented):
+                disabled_count += 1
+    return disabled_count
+
+
+def disable_urls_in_file(path: str, urls: Iterable[str]) -> dict[str, int]:
+    """
+    Comment out matching url lines in the config file and return counts.
+    Returns: {"disabled": <disabled_count>, "active": <active_count>}
+    Disabled urls are moved after active urls within the same section, separated by one blank line.
+    """
+    target_urls = {url.strip() for url in urls if url and str(url).strip()}
+    if not target_urls:
+        return {"disabled": 0, "active": 0}
+
+    real_path = get_real_path(resource_path(path))
+    if not os.path.exists(real_path):
+        return {"disabled": 0, "active": 0}
+
+    header_re = re.compile(r"^\s*\[.*]\s*$")
+
+    try:
+        with open(real_path, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+
+        newline = "\r\n" if any(line.endswith("\r\n") for line in lines) else "\n"
+
+        def new_section(header=None):
+            return {"header": header, "misc": [], "active": [], "disabled": []}
+
+        sections = [new_section()]
+        disabled_count = 0
+        active_count = 0
+
+        for raw in lines:
+            stripped = raw.strip()
+
+            if not stripped:
+                continue
+
+            if header_re.match(stripped):
+                sections.append(new_section(raw.rstrip("\r\n")))
+                continue
+
+            current = sections[-1]
+            indent = raw[: len(raw) - len(raw.lstrip())]
+
+            if stripped.startswith("#"):
+                commented = stripped.lstrip("#").strip()
+                match = constants.url_pattern.search(commented)
+                if match:
+                    url = match.group("url").strip()
+                    if url in target_urls:
+                        current["disabled"].append((indent, url))
+                        disabled_count += 1
+                    else:
+                        current["misc"].append(raw.rstrip("\r\n"))
+                else:
+                    current["misc"].append(raw.rstrip("\r\n"))
+                continue
+
+            match = constants.url_pattern.search(stripped)
+            if match:
+                url = match.group("url").strip()
+                if url in target_urls:
+                    current["disabled"].append((indent, url))
+                    disabled_count += 1
+                else:
+                    current["active"].append(raw.rstrip("\r\n"))
+                    active_count += 1
+            else:
+                current["misc"].append(raw.rstrip("\r\n"))
+
+        output_lines = []
+        for section in sections:
+            section_lines = []
+
+            if section["header"] is not None:
+                if output_lines and output_lines[-1] != "":
+                    output_lines.append("")
+                output_lines.append(section["header"])
+
+            section_lines.extend(section["misc"])
+            section_lines.extend(section["active"])
+
+            if section_lines and section["disabled"]:
+                if section_lines[-1] != "":
+                    section_lines.append("")
+
+            section_lines.extend(f"{indent}# {url}" for indent, url in section["disabled"])
+
+            cleaned_lines = []
+            prev_blank = False
+            for line in section_lines:
+                if not line.strip():
+                    if not prev_blank:
+                        cleaned_lines.append("")
+                    prev_blank = True
+                else:
+                    cleaned_lines.append(line)
+                    prev_blank = False
+
+            output_lines.extend(cleaned_lines)
+
+        new_content = newline.join(output_lines)
+        if lines and lines[-1].endswith(("\n", "\r")):
+            new_content += newline
+
+        original_content = "".join(lines)
+        if new_content != original_content:
+            with open(real_path, "w", encoding="utf-8") as f:
+                f.write(new_content)
+
+        return {"disabled": disabled_count, "active": active_count}
+    except Exception as e:
+        print(f"Failed to auto-disable urls in {real_path}: {e}")
+        return {"disabled": 0, "active": 0}
+
+
+def close_logger_handlers(logger) -> None:
+    for h in logger.handlers[:]:
+        try:
+            h.flush()
+            h.close()
+        except Exception:
+            pass
+        logger.removeHandler(h)
+
+
+def fast_get_ipv_type(host: str | None) -> str | None:
+    """
+    Infer the IPv type from a host string without DNS resolution.
+    """
+    if not host:
+        return None
+
+    normalized_host = host.strip().strip("[]")
+    if "%" in normalized_host:
+        normalized_host = normalized_host.split("%", 1)[0]
+
+    try:
+        return f"ipv{ipaddress.ip_address(normalized_host).version}"
+    except ValueError:
+        return "ipv4"
