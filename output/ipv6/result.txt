@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2026-04-11 06:16:32,https://smart.dxjc.pp.ua/smart.php?id=cctv1&token=tmxk
+2026-04-11 11:06:35,https://smart.dxjc.pp.ua/smart.php?id=cctv1&token=tmxk
 
 📺央视频道,#genre#
 CCTV-1,https://smart.dxjc.pp.ua/smart.php?id=cctv1&token=tmxk
@@ -22,6 +22,11 @@ CCTV-4,https://smart.dxjc.pp.ua/smart.php?id=cctv4&token=tmxk
 CCTV-4,https://t.freetv.fun/live/cctv4-1.m3u8
 CCTV-4,https://t.freetv.fun/live/cctv4-4.m3u8
 CCTV-4,https://t.freetv.fun/live/cctv4-5.m3u8
+CCTV-4K,https://t.freetv.fun/live/cctv-4kgao-qing.m3u8
+CCTV-4K,https://t.freetv.fun/live/cctv-4kgao-qing-1.m3u8
+CCTV-4K,https://t.freetv.fun/live/cctv-4kgao-qing-2.m3u8
+CCTV-4K,https://t.freetv.fun/live/cctv-4kgao-qing-3.m3u8
+CCTV-4K,https://t.freetv.fun/live/cctv-4kgao-qing-4.m3u8
 CCTV-5,http://iptv.huuc.edu.cn/hls/cctv5hd.m3u8
 CCTV-5,https://zby.130519.xyz/PLTV/11/224/3221225734/index.m3u8
 CCTV-5,https://www.freetv.top/migu/641886683.m3u8?migutoken=3e5c01f93922de8d1c940fe15bb47349b27e8f7a2e624dde1a83dff3b2a80f58b7624151a3a4d00488edee34f202818557340903382fae02bb754084eb942bd50e59061df36fab62fb5b908903
@@ -174,6 +179,7 @@ CHC影迷电影,https://t.freetv.fun/live/chcying-mi-dian-ying-3.m3u8
 靖天戏剧,https://t.freetv.fun/live/jing-tian-xi-ju-11.m3u8
 经典电影,https://yylunbo.ottiptv.cc/yy/1414812324
 经典电影,https://tv.iill.top/4gtv/201
+经典电影,https://down-hls.qxiu.com/live/453135/index.m3u8
 天映经典,https://smart.dxjc.pp.ua/smart.php?id=Celestial2&token=tmxk
 天映经典,https://smt.1678520.xyz/smt3.2.1.php?id=Celestial2
 天映经典,http://free.cnlive.club/channel/n7e49c99a.m3u8
@@ -399,8 +405,8 @@ JJ斗地主,https://live.iill.top/douyin/685317364746
 CETV-1,http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8
 CETV-1,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226494/1.m3u8
 CETV-1,https://t.freetv.fun/live/cetv1-1.m3u8
-CETV-1,https://t.freetv.fun/live/cetv1.m3u8
 CETV-1,https://t.freetv.fun/live/cetv1-2.m3u8
+CETV-1,https://t.freetv.fun/live/cetv1-3.m3u8
 CETV-2,http://[2409:8087:1a0b:df::4013]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226425/index.m3u8
 CETV-2,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226537/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7AxXs4eTU2oiWrhopr9sHw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNxsM0Bor098BJglrhfEQTl%2CEND
 CETV-3,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001309/index.m3u8
@@ -428,6 +434,7 @@ CETV-4,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226724/1.m3u8
 北京卫视,https://t.freetv.fun/live/bei-jing-wei-shi-6.m3u8
 北京卫视,https://t.freetv.fun/live/bei-jing-wei-shi-7.php
 湖北卫视,https://smart.dxjc.pp.ua/smart.php?id=hubei&token=tmxk
+黑龙江卫视,https://idclive.hljtv.com:4430/live/hljws_own.m3u8
 黑龙江卫视,http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226239/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEHwpSHKc5p-bHJfhpIWFig%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNM5Y8rTELLykZJHp-bmY2YW%2CEND
 黑龙江卫视,http://iptv.huuc.edu.cn/hls/hljhd.m3u8
 安徽卫视,http://[2409:8087:1:20:20::2a]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226490/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EcN5s_AlHugvAv9Pda6f9fA%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNOtRTFrO5eKiKNV40gMGHaS%2CEND
@@ -437,7 +444,6 @@ CETV-4,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226724/1.m3u8
 东南卫视,https://smart.dxjc.pp.ua/smart.php?id=fujian&token=tmxk
 东南卫视,https://hlsbkmgsplive.miguvideo.com/migu/kailu/dongnanws/51/20230724/01.m3u8?&HlsSubType=&encrypt=
 东南卫视,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8#http://120.76.248.139/live/bfgd/4200000483.m3u8
-东南卫视,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 甘肃卫视,http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226545/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EPxObabIs3mLyPmSf2HHtqQ%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNBE3K16ZfzYGIqbP6z6cGJ%2CEND
 甘肃卫视,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 甘肃卫视,https://hls.gstv.com.cn/49048r/6e1sy2.m3u8
@@ -526,8 +532,8 @@ CNA,https://t.freetv.fun/live/cna-3.m3u8
 CNN,https://t.freetv.fun/live/cnn.m3u8
 CNN,https://t.freetv.fun/live/cnn-1.m3u8
 CNN,https://t.freetv.fun/live/cnn-int-2.m3u8
+CNN,https://t.freetv.fun/live/cnn-4.m3u8
 CNN,https://t.freetv.fun/live/cnn-5.m3u8
-CNN,https://jmp2.uk/sam-GBBD8000016N.m3u8
 CBC News,https://t.freetv.fun/live/cbc-news.m3u8
 CBC News,https://t.freetv.fun/live/cbc-news-2.m3u8
 CBC News,https://t.freetv.fun/live/cbc-news-3.m3u8
@@ -644,6 +650,7 @@ KBS World,https://t.freetv.fun/live/pbs-ket-world-480p.m3u8
 冰冰影剧,http://www.goodiptv.club/douyu/74374
 刀刀影院,http://www.goodiptv.club/douyu/747764
 华语影视,http://www.goodiptv.club/douyu/3928
+斗鱼港剧,http://www.goodiptv.club/douyu/5061550
 橙记港剧,http://www.goodiptv.club/douyu/4549169
 经典剧集,http://www.goodiptv.club/douyu/6863367
 热门港剧,http://www.goodiptv.club/douyu/5522351
