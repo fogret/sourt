@@ -543,7 +543,7 @@ def append_old_data_to_info_data(info_data, cate, name, data, whitelist_maps=Non
 
     if open_rtmp:
         hls_data = [item for item in data if item["origin"] == "hls"]
-        append_and_print(hls, None, t("name.hls"))
+        append_and_print(hls_data, "hls", t("name.hls"))
 
     if open_history:
         history_data = [item for item in data if item["origin"] not in ["hls", "local", "whitelist"]]
@@ -640,11 +640,32 @@ def append_total_data(
 
 def is_valid_speed_result(info) -> bool:
     try:
-        delay = info.get("delay")
-        speed_val = info.get("speed", 0) or 0
         url = (info.get("url") or "").lower()
-        name = (info.get("name") or "").lower()
+        delay = info.get("delay", -1)
+        speed_val = info.get("speed", 0) or 0
 
+        # 自动识别所有组播地址：224.0.0.0 ~ 239.255.255.255
+        ip_pattern = re.compile(r'(\d+)\.(\d+)\.(\d+)\.(\d+)')
+        match = ip_pattern.search(url)
+        is_multicast = False
+
+        if match:
+            try:
+                first = int(match.group(1))
+                if 224 <= first <= 239:
+                    is_multicast = True
+            except:
+                pass
+
+        # 协议头也视为组播
+        if url.startswith(('rtp://', 'udp://')):
+            is_multicast = True
+
+        # 组播规则：能连通、有速度就保留
+        if is_multicast:
+            return delay != -1 and speed_val > 0
+
+        # 普通 HTTP 源原有严格校验
         if delay is None or delay == -1:
             return False
         if speed_val < 0.5 * 1024 * 1024:
@@ -921,7 +942,7 @@ def generate_channel_statistic(logger, cate, name, values):
         logger.info(content)
         print(f"📊 {content}")
     else:
-        content = f"{f"{t('name.category')}: {cate}, {t('name.name')}: {name}, {t('name.valid')}: {valid}, IPv4: {ipv4_count}, IPv6: {ipv6_count}, {t('name.min_delay')}: {min_delay} ms, {t('name.max_speed')}: {max_speed:.2f} M/s, {t('name.average_speed')}: {avg_speed:.2f} M/s, {t('name.max_resolution')}: {max_resolution}, {t('name.avg_fps')}: {f"{avg_fps:.2f}" if avg_fps else t('name.unknown')}, {t('name.video_codec')}: {most_video_str}, {t('name.audio_codec')}: {most_audio_str}"}"
+        content = f"{f"{t('name.category')}: {cate}, {t('name.name')}: {name}, {t('name.valid')}: {valid}, IPv4: {ipv4_count}, {t('name.min_delay')}: {min_delay} ms, {t('name.max_speed')}: {max_speed:.2f} M/s, {t('name.average_speed')}: {avg_speed:.2f} M/s, {t('name.max_resolution')}: {max_resolution}, {t('name.avg_fps')}: {f"{avg_fps:.2f}" if avg_fps else t('name.unknown')}, {t('name.video_codec')}: {most_video_str}, {t('name.audio_codec')}: {most_audio_str}"}"
         logger.info(content)
         print(f"📊 {content}")
 
