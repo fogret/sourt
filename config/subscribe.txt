@@ -2,18 +2,8 @@
 # 支持设置UA：https://xxx.com/subscribe.m3u UA="xxx"
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
-https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
-https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
-https://tmxk.pp.ua/smart-cn.m3u
-https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u
-https://t.freetv.fun/m3u/playlist_original.m3u
-https://raw.githubusercontent.com/xiaohuonihao/IPTV-api/refs/heads/master/output/love.txt
-https://raw.githubusercontent.com/x22c/okk/refs/heads/master/output/user_result.txt
-https://raw.githubusercontent.com/altn2025/iptv/refs/heads/main/iptv.m3u
-https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
-https://raw.githubusercontent.com/qingtingjjjjjjj/iptv-auto-update/refs/heads/main/my.txt
-https://live.zbds.top/tv/iptv4.txt
-https://sub.ottiptv.cc/douyuyqk.m3u
+
+https://github.com/Jsnzkpg/Jsnzkpg/blob/Jsnzkpg/Jsnzkpg1.m3u
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
