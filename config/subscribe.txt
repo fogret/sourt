@@ -13,6 +13,7 @@ https://gh-proxy.org/https://raw.githubusercontent.com/kakaxi-1/zubo/main/IPTV.t
 https://ghfast.top/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt
 https://iptv-org.github.io/iptv/countries/cn.m3u
 https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
+https://gh-proxy.org/https://github.com/Jsnzkpg/Jsnzkpg/blob/Jsnzkpg/Jsnzkpg1.m3u
 
 # https://proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
 # https://raw.githubusercontent.com/yangjianxin1/ChinaIPTV/main/TV.m3u
@@ -23,4 +24,4 @@ https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
 # This is the whitelist for subscription sources. Subscription sources in the whitelist will not participate in speed testing and will always be retained at the front of the results
-https://gh-proxy.org/https://github.com/Jsnzkpg/Jsnzkpg/blob/Jsnzkpg/Jsnzkpg1.m3u
+
