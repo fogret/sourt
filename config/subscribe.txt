@@ -2,7 +2,6 @@
 # 支持设置UA：https://xxx.com/subscribe.m3u UA="xxx"
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
-
 https://ghfast.top/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt
 https://raw.githubusercontent.com/zhi35/iptv/master/iptv.m3u
 https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8
@@ -13,7 +12,6 @@ https://raw.githubusercontent.com/jn950/live/main/tv/pllive.txt
 https://raw.githubusercontent.com/jn950/live/main/tv/holive.m3u
 https://raw.githubusercontent.com/jn950/live/main/tv/ysp1.m3u
 https://raw.githubusercontent.com/bjzhou/iptv-collector/output/iptv.m3u
-https://gitee.com/xiao-ping2/iptv-api/raw/master/output/xp_result.txt
 https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
 https://raw.githubusercontent.com/zbefine/iptv/main/iptv.m3u
 https://ghfast.top/raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt
@@ -31,6 +29,8 @@ https://gh-proxy.org/https://raw.githubusercontent.com/kakaxi-1/zubo/main/IPTV.t
 https://iptv-org.github.io/iptv/countries/cn.m3u
 https://cdn.jsdelivr.net/gh/woall/TV/output/result.m3u
 https://raw.githubusercontent.com/fuxinyi0505/Ku9-IPTV-source/refs/heads/main/Ku9-IPTV-source.txt
+
+# https://gitee.com/xiao-ping2/iptv-api/raw/master/output/xp_result.txt
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
