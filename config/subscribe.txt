@@ -33,6 +33,7 @@ https://iptv-org.github.io/iptv/countries/cn.m3u
 https://cdn.jsdelivr.net/gh/woall/TV/output/result.m3u
 https://raw.githubusercontent.com/fuxinyi0505/Ku9-IPTV-source/refs/heads/main/Ku9-IPTV-source.txt
 https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt
+https://raw.githubusercontent.com/q1017673817/iptvz/main/%E7%BB%84%E6%92%AD_%E8%B4%B5%E5%B7%9E%E7%94%B5%E4%BF%A1.txt
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
