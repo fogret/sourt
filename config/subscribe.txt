@@ -1,11 +1,6 @@
 # 这是订阅源列表，每行一个订阅地址
-# 支持设置UA：https://xxx.com/subscribe.m3u UA="xxx"
 # This is a list of subscription sources, with one subscription address per line
-# Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
-
-https://xxx.com/subscribe.m3u
 https://iptv-org.github.io/iptv/index.m3u
-https://iptv-org.github.io/iptv/countries/my.m3u
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1
 https://myernestlu.github.io/zby.txt
 https://raw.githubusercontent.com/q1017673817/iptvz/main/zubo_all.txt
@@ -62,13 +57,7 @@ https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
 https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
 https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt
 https://github.com/sumingyd/Telecom-Shandong-IPTV-List/blob/main/Telecom-Shandong.m3u
-https://github.com/sumingyd/Telecom-Shandong-IPTV-List/blob/main/Telecom-Shandong-Multicast.m3u
-https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt
-https://raw.githubusercontent.com/joevess/IPTV/main/iptv.m3u8
-https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt
-https://live.hacks.tools/tv/iptv6.txt
 https://pastebin.com/raw/V0BhYHF4
-https://gh-proxy.com/raw.githubusercontent.com/frxz751113/IPTVzb1/refs/heads/main/%E7%BD%91%E7%BB%9C%E6%94%B6%E9%9B%86.txt
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u
 https://gh-proxy.org/https://raw.githubusercontent.com/x22c/okk/refs/heads/master/output/user_result.txt
 https://ghfast.top/https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo_all.txt
@@ -135,9 +124,6 @@ https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt
 https://gitee.com/tushaoyong/live/raw/master/%E6%8E%A5%E5%8F%A3/IPV6.txt
 https://epg.pw/test_channels_china.m3u
 https://live.zbds.top/tv/iptv4.m3u
-http://www.52top.com.cn:678/downloads/migu.txt
-https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/yylunbo.m3u
-https://live.zbds.top/tv/iptv6.m3u
 https://iptv-org.github.io/iptv/languages/zho.m3u
 https://iptv-org.github.io/iptv/countries/hk.m3u
 https://cdn.jsdelivr.net/gh/suxuang/myIPTV@main/ipv6.m3u
@@ -162,19 +148,13 @@ https://raw.githubusercontent.com/BigBigGrandG/IPTV-URL/release/Gather.m3u
 https://epg.pw/test_channels.m3u
 https://epg.pw/test_channels_hong_kong.m3u
 https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8
-https://gongdian.top/tv/Mursor/yylunbo.m3u
-https://live.zbds.org/tv/iptv6.m3u
-https://live.zbds.top/tv/iptv6.txt
 https://web.utako.moe/jp.m3u
-https://epg.pw/test_channels_macau.m3u
 https://epg.pw/test_channels_taiwan.m3u
 https://iptv-org.github.io/iptv/countries/tw.m3u
 https://epg.pw/test_channels_singapore.m3u
 https://epg.pw/test_channels_malaysia.m3u
-https://live.freetv.top/huyayqk.m3u
 https://live.freetv.top/douyuyqk.m3u
 https://gongdian.top/tv/Mursor/bililive.m3u
-https://www.iyouhun.com/tv/dc
 https://raw.githubusercontent.com/best-fan/iptv-sources/refs/heads/main/cn_cctv.m3u8
 https://raw.githubusercontent.com/best-fan/iptv-sources/refs/heads/main/cn_province.m3u8
 https://github.com/ssili126/tv/raw/refs/heads/main/itvlist.txt
@@ -185,6 +165,26 @@ http://23.248.249.11:3000/o_all.m3u
 https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u
 https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv6.m3u
 https://live.iptv-free.com/iptv/languages/zho.m3u
+
+# https://xxx.com/subscribe.m3u
+# https://xxx.com/subscribe.m3u
+# https://xxx.com/subscribe.m3u
+# https://iptv-org.github.io/iptv/countries/my.m3u
+# https://github.com/sumingyd/Telecom-Shandong-IPTV-List/blob/main/Telecom-Shandong-Multicast.m3u
+# https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt
+# https://raw.githubusercontent.com/joevess/IPTV/main/iptv.m3u8
+# https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt
+# https://live.hacks.tools/tv/iptv6.txt
+# https://gh-proxy.com/raw.githubusercontent.com/frxz751113/IPTVzb1/refs/heads/main/%E7%BD%91%E7%BB%9C%E6%94%B6%E9%9B%86.txt
+# http://www.52top.com.cn:678/downloads/migu.txt
+# https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/yylunbo.m3u
+# https://live.zbds.top/tv/iptv6.m3u
+# https://gongdian.top/tv/Mursor/yylunbo.m3u
+# https://live.zbds.org/tv/iptv6.m3u
+# https://live.zbds.top/tv/iptv6.txt
+# https://epg.pw/test_channels_macau.m3u
+# https://live.freetv.top/huyayqk.m3u
+# https://www.iyouhun.com/tv/dc
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
