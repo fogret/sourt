@@ -3,7 +3,7 @@
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
 
-# 更新时间：2026-04-17 23:16:35（北京时间）
+# 更新时间：2026-04-17 23:23:05（北京时间）
 http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
 http://1.94.31.214/live/live9/dgtv.txt
 http://1.94.31.214/live/livelite.txt
@@ -596,7 +596,6 @@ https://gitlab.com/p2v5/wangtv/-/raw/main/lunbo.txt
 https://gitlab.com/tvkj/loong/-/raw/main/loog.txt
 https://gongdian.top/tv/Mursor/bililive.m3u
 https://gongdian.top/tv/Mursor/yylunbo.m3u
-https://goodiptv.vercel.app/douyuyqk.m3u
 https://gsn-cinevault-80s-2-us.roku.wurl.tv/playlist.m3u8
 https://gsn-cinevault-westerns-2-us.roku.wurl.tv/playlist.m3u8
 https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
@@ -645,6 +644,7 @@ https://live.fanmingming.cn/tv/m3u/ipv6.m3u
 https://live.fanmingming.com/tv/m3u/index.m3u
 https://live.fanmingming.com/tv/m3u/ipv6.m3u
 https://live.feed.thepalmbeaches.tv/index.m3u8
+https://live.freetv.top/huyayqk.m3u
 https://live.hacks.tools/tv/iptv4.txt
 https://live.hacks.tools/tv/iptv6.txt
 https://live.hacks.tools/tv/ipv4/categories/卫视频道.txt
@@ -671,7 +671,6 @@ https://live.mycamtv.com/skinny.m3u8
 https://live.mycamtv.com/squirt.m3u8
 https://live.mycamtv.com/white.m3u8
 https://live.mycamtv.com/young.m3u8
-https://live.zbds.org/tv/iptv4.m3u
 https://live.zbds.org/tv/iptv4.txt
 https://live.zbds.org/tv/iptv6.m3u
 https://live.zbds.org/tv/iptv6.txt
