@@ -28,7 +28,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          python scan_forks.py
+          python utils/scan_forks.py
 
       - name: Commit and push changes
         run: |
