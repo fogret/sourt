@@ -1,4 +1,3 @@
-import asyncio
 import gzip
 import hashlib
 import json
