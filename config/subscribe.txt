@@ -170,6 +170,7 @@
 # https://www.iyouhun.com/tv/myIPTV/ipv4.m3u
 # https://www.iyouhun.com/tv/myIPTV/ipv6.m3u
 # https://xxx.com/subscribe.m3u
+# https://github.com/sumingyd/Telecom-Shandong-IPTV-List/blob/main/Telecom-Shandong.m3u
 http://1.94.31.214/live/live9/dgtv.txt
 http://1.94.31.214/live/livelite.txt
 http://117.72.68.25:9230/latest.txt
@@ -290,7 +291,6 @@ https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/J
 https://gh-proxy.org/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
 https://gh-proxy.org/https://raw.githubusercontent.com/x22c/okk/refs/heads/master/output/user_result.txt
 https://gh-proxy.org/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
-https://gh.927223.xyz/https://raw.githubusercontent.com/kakaxi-1/zubo/refs/heads/main/IPTV.txt
 https://gh.halonice.com/https:/raw.githubusercontent.com/big-mouth-cn/tv/main/iptv-ok.m3u
 https://gh.jink.top/https://raw.githubusercontent.com/mytv-android/China-TV-Live-M3U8/main/webview.m3u
 https://gh.qninq.cn/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
@@ -364,7 +364,6 @@ https://gitee.com/tushaoyong/live/raw/master/接口/IPV6.txt
 https://gitee.com/vip8752/tv/raw/master/vip.txt
 https://gitee.com/wtzbyck/lm.20260206/raw/master/9603.txt
 https://gitee.com/ymxuit109/TV000/raw/master/TV.txt
-https://gitee.com/yuweirong6684/tv-live-streaming-source/raw/master/miguzb.txt
 https://gitee.com/zlmei/tvbox/raw/master/zb.txt
 https://github.com/250992941/iptv/raw/main/收集源.txt
 https://github.com/UserLinYa/zubo/raw/main/IPTV.txt
@@ -748,7 +747,8 @@ https://www.3kjs.com/tv.txt
 https://zbds.org/tv/iptv4.m3u
 https://zbds.org/tv/iptv4.txt
 
-# https://github.com/sumingyd/Telecom-Shandong-IPTV-List/blob/main/Telecom-Shandong.m3u
+# https://gh.927223.xyz/https://raw.githubusercontent.com/kakaxi-1/zubo/refs/heads/main/IPTV.txt
+# https://gitee.com/yuweirong6684/tv-live-streaming-source/raw/master/miguzb.txt
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
