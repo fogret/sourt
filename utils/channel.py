@@ -1,3 +1,4 @@
+import asyncio
 import gzip
 import hashlib
 import json
@@ -64,6 +65,11 @@ open_history = config.open_history
 open_local = config.open_local
 open_rtmp = config.open_rtmp
 retain_origin = ["whitelist", "hls"]
+
+# ==================== 新加配置项 ====================
+open_filter_supplement = config.open_filter_supplement
+open_filter_4k = config.open_filter_4k
+# ====================================================
 
 _TOTAL_URLS_CACHE_MAX_SIZE = 2048
 _TOTAL_URLS_CACHE = OrderedDict()
@@ -411,9 +417,11 @@ def get_channel_url(text):
     Get the url from text
     """
     url = None
-    url_search = constants.url_pattern.search(text)
-    if url_search:
-        url = url_search.group()
+    url_pattern = constants.url_pattern
+    if url_pattern:
+        url_search = url_pattern.search(text)
+        if url_search:
+            url = url_search.group()
     return url
 
 
@@ -437,17 +445,6 @@ def append_data_to_info_data(
 ) -> None:
     """
     Append channel data to total info data with deduplication and validation
-
-    Args:
-        info_data: The main data structure to update
-        category: Category key for the data
-        name: Name key within the category
-        data: List of channel items to process
-        origin: Default origin for items
-        whitelist_maps: Maps of whitelist keywords
-        blacklist: List of blacklist keywords
-        ipv_type_data: Dictionary to cache IP type information
-        skip_validation: If True, skip validation and directly append data
     """
     init_info_data(info_data, category, name)
 
@@ -610,10 +607,7 @@ def print_channel_number(data: CategoryChannelData, cate: str, name: str):
     channel_list = data.get(cate, {}).get(name, [])
     print("IPv4:", len([channel for channel in channel_list if channel["ipv_type"] == "ipv4"]), end=", ")
     print("IPv6:", len([channel for channel in channel_list if channel["ipv_type"] == "ipv6"]), end=", ")
-    print(
-        f"{t("name.total")}:",
-        len(channel_list),
-    )
+    print(f"{t("name.total")}: {len(channel_list)}")
 
 
 def append_total_data(
@@ -673,7 +667,7 @@ def append_total_data(
                         blacklist=blacklist,
                         ipv_type_data=url_hosts_ipv_type
                     )
-                    print(f"{t(f"name.{method}")}:", len(name_results), end=", ")
+                    print(f"{t(f"name.{method}")}: {len(name_results)}", end=", ")
             print_channel_number(data, cate, name)
 
     if config.open_unmatch_category and subscribe_result:
@@ -788,6 +782,7 @@ async def test_speed(data, ipv6=False, callback=None, on_task_complete=None):
                     result = {}
         except Exception:
             result = {}
+
         meta = channel_map.get(task)
         if not meta:
             return
@@ -925,10 +920,7 @@ def generate_channel_statistic(logger, cate, name, values):
     Generate channel statistic
     """
     total = len(values)
-    valid_items = [
-        v for v in values
-        if is_valid_speed_result(v)
-    ]
+    valid_items = [v for v in values if is_valid_speed_result(v)]
     valid = len(valid_items)
     valid_rate = (valid / total * 100) if total > 0 else 0
     ipv4_count = len([v for v in values if v.get("ipv_type") == "ipv4"])
@@ -955,11 +947,20 @@ def generate_channel_statistic(logger, cate, name, values):
     most_audio_str = most_audio[0][0] if most_audio else t('name.unknown')
     avg_fps = (sum(fps_values) / len(fps_values)) if fps_values else None
     if config.open_full_speed_test:
-        content = f"{f"{t('name.category')}: {cate}, {t('name.name')}: {name}, {t('name.total')}: {total}, {t('name.valid')}: {valid}, {t('name.valid_percent')}: {valid_rate:.2f}%, IPv4: {ipv4_count}, IPv6: {ipv6_count}, {t('name.min_delay')}: {min_delay} ms, {t('name.max_speed')}: {max_speed:.2f} M/s, {t('name.average_speed')}: {avg_speed:.2f} M/s, {t('name.max_resolution')}: {max_resolution}, {t('name.avg_fps')}: {f"{avg_fps:.2f}" if avg_fps is not None else t('name.unknown')}, {t('name.video_codec')}: {most_video_str}, {t('name.audio_codec')}: {most_audio_str}"}"
+        content = (f"{t('name.category')}: {cate}, {t('name.name')}: {name}, {t('name.total')}: {total}, "
+                   f"{t('name.valid')}: {valid}, {t('name.valid_percent')}: {valid_rate:.2f}%, IPv4: {ipv4_count}, "
+                   f"IPv6: {ipv6_count}, {t('name.min_delay')}: {min_delay} ms, {t('name.max_speed')}: {max_speed:.2f} M/s, "
+                   f"{t('name.average_speed')}: {avg_speed:.2f} M/s, {t('name.max_resolution')}: {max_resolution}, "
+                   f"{t('name.avg_fps')}: {f"{avg_fps:.2f}" if avg_fps else t('name.unknown')}, "
+                   f"{t('name.video_codec')}: {most_video_str}, {t('name.audio_codec')}: {most_audio_str}")
         logger.info(content)
         print(f"📊 {content}")
     else:
-        content = f"{f"{t('name.category')}: {cate}, {t('name.name')}: {name}, {t('name.valid')}: {valid}, IPv4: {ipv4_count}, IPv6: {ipv6_count}, {t('name.min_delay')}: {min_delay} ms, {t('name.max_speed')}: {max_speed:.2f} M/s, {t('name.average_speed')}: {avg_speed:.2f} M/s, {t('name.max_resolution')}: {max_resolution}, {t('name.avg_fps')}: {f"{avg_fps:.2f}" if avg_fps is not None else t('name.unknown')}, {t('name.video_codec')}: {most_video_str}, {t('name.audio_codec')}: {most_audio_str}"}"
+        content = (f"{t('name.category')}: {cate}, {t('name.name')}: {name}, {t('name.valid')}: {valid}, "
+                   f"IPv4: {ipv4_count}, IPv6: {ipv6_count}, {t('name.min_delay')}: {min_delay} ms, "
+                   f"{t('name.max_speed')}: {max_speed:.2f} M/s, {t('name.average_speed')}: {avg_speed:.2f} M/s, "
+                   f"{t('name.max_resolution')}: {max_resolution}, {t('name.avg_fps')}: {f"{avg_fps:.2f}" if avg_fps else t('name.unknown')}, "
+                   f"{t('name.video_codec')}: {most_video_str}, {t('name.audio_codec')}: {most_audio_str}")
         logger.info(content)
         print(f"📊 {content}")
 
@@ -977,15 +978,6 @@ def process_write_content(
 ):
     """
     Get channel write content
-    :param path: write into path
-    :param data: channel data
-    :param hls_url: hls url
-    :param open_empty_category: show empty category
-    :param ipv_type_prefer: ipv type prefer
-    :param origin_type_prefer: origin type prefer
-    :param first_channel_name: the first channel name
-    :param enable_log: enable log
-    :param is_last: is last write
     """
     content = ""
     no_result_name = []
@@ -995,10 +987,12 @@ def process_write_content(
     rtmp_type = ["hls"] if hls_url else []
     open_url_info = config.open_url_info
     unmatch_category = t("content.unmatch_channel")
+
     for cate, channel_obj in data.items():
         content += f"{'\n\n' if not first_cate else ''}{cate},#genre#"
         first_cate = False
         channel_obj_keys = channel_obj.keys()
+
         for i, name in enumerate(channel_obj_keys):
             info_list = data.get(cate, {}).get(name, [])
             channel_urls = _get_total_urls_cached(
@@ -1008,17 +1002,55 @@ def process_write_content(
                 rtmp_type,
                 apply_limit=cate != unmatch_category,
             )
-            result_data[name].extend(channel_urls)
-            if not channel_urls:
+
+            # ==================== 核心过滤逻辑：补足频道 + 4K 过滤 ====================
+            filtered = []
+            for item in channel_urls:
+                # 1. 全局4K过滤
+                if open_filter_4k:
+                    res = (item.get("resolution") or "").lower()
+                    url = (item.get("url") or "").lower()
+                    nm = name.lower()
+                    if any(k in res or k in url or k in nm for k in ["4k", "uhd", "4к", "超高清"]):
+                        continue
+
+                # 2. 补足频道速度&分辨率过滤
+                keep = True
+                if open_filter_supplement:
+                    origin = item.get("origin")
+                    if origin in ["whitelist", "local", "hls", "history"]:
+                        # 速度
+                        if open_filter_speed:
+                            spd = item.get("speed", 0) or 0
+                            r_str = item.get("resolution", "")
+                            threshold = resolution_speed_map.get(r_str, min_speed)
+                            if spd < threshold:
+                                keep = False
+                        # 分辨率
+                        if open_filter_resolution and keep:
+                            try:
+                                r_val = get_resolution_value(item.get("resolution", ""))
+                            except:
+                                r_val = 0
+                            if r_val < min_resolution_value:
+                                keep = False
+                if keep:
+                    filtered.append(item)
+            # ========================================================================
+
+            result_data[name].extend(filtered)
+            if not filtered:
                 if open_empty_category:
                     no_result_name.append(name)
                 continue
-            for item in channel_urls:
+
+            for item in filtered:
                 item_url = item["url"]
                 if open_url_info and item["extra_info"]:
                     item_url = add_url_info(item_url, item["extra_info"])
                 total_item_url = f"{hls_url}/{item['id']}.m3u8" if hls_url else item_url
                 content += f"\n{name},{total_item_url}"
+
     if open_empty_category and no_result_name and is_last:
         custom_print(f"\n{t("msg.no_result_channel")}")
         content += f"\n\n{t("content.no_result_channel")},#genre#"
@@ -1026,6 +1058,7 @@ def process_write_content(
             end_char = ", " if i < len(no_result_name) - 1 else ""
             custom_print(name, end=end_char)
             content += f"\n{name},url"
+
     if config.open_update_time:
         update_time_item = next(
             (urls[0] for channel_obj in data.values()
@@ -1049,6 +1082,7 @@ def process_write_content(
             content = f"{update_title},#genre#\n{now},{value}\n\n{content}"
         else:
             content += f"\n\n{update_title},#genre#\n{now},{value}"
+
     if hls_url:
         db_dir = os.path.dirname(constants.rtmp_data_path)
         if db_dir:
@@ -1082,6 +1116,7 @@ def process_write_content(
                 conn.commit()
             finally:
                 return_db_connection(constants.rtmp_data_path, conn)
+
     try:
         target_dir = os.path.dirname(path) or "."
         os.makedirs(target_dir, exist_ok=True)
@@ -1101,6 +1136,7 @@ def process_write_content(
         except Exception as e:
             print(t("msg.write_error").format(info=e), flush=True)
             return
+
     try:
         convert_to_m3u(path, first_channel_name, data=result_data)
     except Exception as e:
@@ -1128,16 +1164,8 @@ def write_channel_to_file(data, ipv6=False, first_channel_name=None, skip_print=
         if config.open_rtmp and not os.getenv("GITHUB_ACTIONS"):
             file_list += [
                 {"path": constants.hls_result_path, "hls_url": hls_url},
-                {
-                    "path": constants.hls_ipv4_result_path,
-                    "hls_url": hls_url,
-                    "ipv_type_prefer": ["ipv4"]
-                },
-                {
-                    "path": constants.hls_ipv6_result_path,
-                    "hls_url": hls_url,
-                    "ipv_type_prefer": ["ipv6"]
-                },
+                {"path": constants.hls_ipv4_result_path, "hls_url": hls_url, "ipv_type_prefer": ["ipv4"]},
+                {"path": constants.hls_ipv6_result_path, "hls_url": hls_url, "ipv_type_prefer": ["ipv6"]},
             ]
         for file in file_list:
             target_dir = os.path.dirname(file["path"])
