@@ -73,6 +73,16 @@ class ConfigManager:
             "Settings", "open_filter_resolution", fallback=True
         )
 
+    # ↓↓↓↓ 这里是新加的两个开关，位置完全正确 ↓↓↓↓
+    @property
+    def open_filter_supplement(self):
+        return self.config.getboolean("Settings", "open_filter_supplement", fallback=False)
+
+    @property
+    def open_filter_4k(self):
+        return self.config.getboolean("Settings", "open_filter_4k", fallback=False)
+    # ↑↑↑↑ 只加这里，其他全部原样 ↑↑↑↑
+
     @property
     def ipv_type(self):
         return self.config.get("Settings", "ipv_type", fallback="all").lower()
