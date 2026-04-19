@@ -174,6 +174,8 @@
 # https://gh.927223.xyz/https://raw.githubusercontent.com/kakaxi-1/zubo/refs/heads/main/IPTV.txt
 # https://gitee.com/yuweirong6684/tv-live-streaming-source/raw/master/miguzb.txt
 # https://github.com/maccmsapp/iptv/blob/main/iptv.m3u
+# https://ghproxy.it/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
+# https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-sniffer/refs/heads/main/static/lives/lives.txt
 http://1.94.31.214/live/live9/dgtv.txt
 http://1.94.31.214/live/livelite.txt
 http://117.72.68.25:9230/latest.txt
@@ -370,7 +372,6 @@ https://github.com/250992941/iptv/raw/main/收集源.txt
 https://github.com/UserLinYa/zubo/raw/main/IPTV.txt
 https://github.com/alenin-zhang/IPTV/raw/main/lenin.txt
 https://github.com/cs3306/IPTV-Sources/raw/refs/heads/main/data/output/iptv_collection.m3u
-https://github.com/frxz751113/IPTVzb1/blob/main/%E7%BB%BC%E5%90%88%E6%BA%90.txt
 https://github.com/kakaxi-1/IPTV/raw/main/iptv.txt
 https://github.com/kakaxi-1/IPTV/raw/main/ipv4.txt
 https://github.com/ssili126/tv/raw/refs/heads/main/itvlist.txt
@@ -747,8 +748,7 @@ https://www.3kjs.com/tv.txt
 https://zbds.org/tv/iptv4.m3u
 https://zbds.org/tv/iptv4.txt
 
-# https://ghproxy.it/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
-# https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-sniffer/refs/heads/main/static/lives/lives.txt
+# https://github.com/frxz751113/IPTVzb1/blob/main/%E7%BB%BC%E5%90%88%E6%BA%90.txt
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
