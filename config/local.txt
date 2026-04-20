@@ -4,3 +4,21 @@
 # The local source list, one line per source, format: channel name, interface address
 # Support setting whitelist: add $! after the interface
 # If there are multiple local source files, you can create a local directory under the config directory for storage, supporting txt/m3u file formats
+CCTV-1,http://43.251.226.110:8880/play/3.m3u8
+CCTV-2,http://43.251.226.110:8880/play/5.m3u8
+CCTV-3,http://43.251.226.110:8880/play/7.m3u8
+CCTV-4,http://43.251.226.110:8880/play/9.m3u8
+CCTV-5,http://43.251.226.110:8880/play/11.m3u8
+CCTV-6,http://43.251.226.110:8880/play/13.m3u8
+CCTV-7,http://43.251.226.110:8880/play/15.m3u8
+CCTV-8,http://43.251.226.110:8880/play/17.m3u8
+CCTV-9,http://43.251.226.110:8880/play/19.m3u8
+CCTV-10,http://43.251.226.110:8880/play/21.m3u8
+CCTV-11,http://43.251.226.110:8880/play/23.m3u8
+CCTV-12,http://43.251.226.110:8880/play/25.m3u8
+CCTV-13,http://43.251.226.110:8880/play/27.m3u8
+CCTV-14,http://43.251.226.110:8880/play/29.m3u8
+CCTV-15,http://43.251.226.110:8880/play/31.m3u8
+CCTV-16,http://43.251.226.110:8880/play/33.m3u8
+CCTV-17,http://43.251.226.110:8880/play/35.m3u8
+
