@@ -72,6 +72,10 @@ open_filter_supplement = config.open_filter_supplement
 open_filter_4k = config.open_filter_4k
 # ==========================================================================
 
+# ==================== 小米盒子2 固定 User-Agent ====================
+MI_BOX_USER_AGENT = "Dalvik/2.1.0 (Linux; U; Android 6.0.1; MI BOX Build/MOB30M)"
+# ==================================================================
+
 _TOTAL_URLS_CACHE_MAX_SIZE = 2048
 _TOTAL_URLS_CACHE = OrderedDict()
 
@@ -700,7 +704,10 @@ async def test_speed(data, ipv6=False, callback=None, on_task_complete=None):
     async def limited_get_speed(channel_info):
         async with semaphore:
             channel_info["url"] = accelerate_url(channel_info["url"])
-            headers = (open_headers and channel_info.get("headers")) or None
+            # 自动使用小米盒子2 UA，覆盖原有空headers
+            headers = {
+                "User-Agent": MI_BOX_USER_AGENT
+            }
             return await get_speed(
                 channel_info,
                 headers=headers,
