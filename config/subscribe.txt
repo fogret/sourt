@@ -1,4 +1,9 @@
 # 这是订阅源列表，每行一个订阅地址
+# 支持设置UA：https://xxx.com/subscribe.m3u UA="xxx"
+# This is a list of subscription sources, with one subscription address per line
+# Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
+
+# 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 # 更新时间：2026-04-20 10:10:29（北京时间）
 http://1.94.31.214/live/live9/dgtv.txt
@@ -743,3 +748,7 @@ https://www.iyouhun.com/tv/myIPTV/ipv6.m3u
 https://xxx.com/subscribe.m3u
 https://zbds.org/tv/iptv4.m3u
 https://zbds.org/tv/iptv4.txt
+
+[WHITELIST]
+# 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
+# This is the whitelist for subscription sources. Subscription sources in the whitelist will not participate in speed testing and will
