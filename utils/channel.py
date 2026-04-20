@@ -66,15 +66,16 @@ open_local = config.open_local
 open_rtmp = config.open_rtmp
 retain_origin = ["whitelist", "hls"]
 
-# ==================== 新加配置项 ====================
+# ==================== 从 config.ini 读取延时（nin 可控） ====================
+max_delay = getattr(config, "max_delay", 1500)  # 默认1500ms
 open_filter_supplement = config.open_filter_supplement
 open_filter_4k = config.open_filter_4k
-# ====================================================
+# ==========================================================================
 
 _TOTAL_URLS_CACHE_MAX_SIZE = 2048
 _TOTAL_URLS_CACHE = OrderedDict()
 
-# ==================== 多加速备用节点（最终版） ====================
+# ==================== 多加速备用节点 ====================
 _ACCELERATE_PROXIES = [
     "https://ghproxy.net/",
     "https://mirror.ghproxy.com/",
@@ -84,17 +85,14 @@ _ACCELERATE_PROXIES = [
 def accelerate_url(url: str) -> str:
     if not url:
         return url
-    # 只加速 GitHub 相关链接
     if "raw.githubusercontent.com" in url or "github.com" in url:
-        # 已加速则跳过
         if any(p in url for p in _ACCELERATE_PROXIES):
             return url
-        # 自动使用第一个可用代理
         for proxy in _ACCELERATE_PROXIES:
             if proxy:
                 return f"{proxy}{url}"
     return url
-# =================================================================
+# ========================================================
 
 def _build_total_urls_signature(info_list: list[ChannelData]) -> str:
     hasher = hashlib.sha1()
@@ -174,6 +172,8 @@ def format_channel_data(url: str, origin: OriginType) -> ChannelData:
 def check_channel_need_frozen(info) -> bool:
     delay = info.get("delay", 0)
     if delay == -1 or info.get("speed", 0) == 0:
+        return True
+    if delay > max_delay:
         return True
     if info.get("resolution"):
         if get_resolution_value(info["resolution"]) < min_resolution_value:
@@ -663,6 +663,8 @@ def is_valid_speed_result(info) -> bool:
     try:
         delay = info.get("delay")
         if delay is None or delay == -1:
+            return False
+        if delay > max_delay:
             return False
 
         res_str = info.get("resolution") or ""
