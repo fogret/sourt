@@ -2,8 +2,8 @@ name: Sync result.m3u to Jianguoyun
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # 每 6 小时自动上传一次
-  workflow_dispatch:         # 支持手动运行
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
 
 jobs:
   upload:
@@ -15,8 +15,6 @@ jobs:
 
       - name: Upload result.m3u to Jianguoyun
         run: |
-          echo "开始上传 output/result.m3u ..."
           curl -T "output/result.m3u" \
-            -u "${{caianxun@outlook.com}}:${{a4vfhnxq6cxvtwsj}}" \
+            -u "${{ secrets.JY_USER }}:${{ secrets.JY_PASS }}" \
             "https://dav.jianguoyun.com/dav/github/result.m3u"
-          echo "上传完成"
