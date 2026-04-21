@@ -729,6 +729,10 @@ async def test_speed(data, ipv6=False, callback=None, on_task_complete=None):
     urls_limit = config.urls_limit
     valid_count_by_channel = defaultdict(int)
 
+    # ====================== 测速前全局去重（已添加） ======================
+    processed_urls = set()
+    # ====================================================================
+
     def _cancel_remaining_channel_tasks(cate, name):
         for task, meta in list(channel_map.items()):
             if task.done():
@@ -814,8 +818,17 @@ async def test_speed(data, ipv6=False, callback=None, on_task_complete=None):
     for cate, channel_obj in data.items():
         for name, info_list in channel_obj.items():
             for info in info_list:
+                url = info.get("url")
+                if not url:
+                    continue
+                # 标准化URL并去重
+                norm_url = accelerate_url(url.strip())
+                if norm_url in processed_urls:
+                    continue
+                processed_urls.add(norm_url)
+
                 info['name'] = name
-                info['url'] = accelerate_url(info['url'])
+                info['url'] = norm_url
                 task = asyncio.create_task(limited_get_speed(info))
                 channel_map[task] = (cate, name, info)
                 task.add_done_callback(_on_task_done)
@@ -1037,7 +1050,7 @@ def process_write_content(
         now = get_datetime_now()
         update_time_item_url = accelerate_url(update_time_item["url"])
         update_title = t("content.update_time") if is_last else t("content.update_running")
-        if open_url_info and update_time_item["extra_info"]:
+        if open_url_info and update_time_item_url and update_time_item["extra_info"]:
             update_time_item_url = add_url_info(update_time_item_url, update_time_item["extra_info"])
         value = f"{hls_url}/{update_time_item["id"]}.m3u8" if hls_url else update_time_item_url
         if config.update_time_position == "top":
