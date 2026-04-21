@@ -583,12 +583,17 @@ CCTV17,http://223.95.198.3:8000/hls/17/index.m3u8
 CCTV6ç¯çç»å¸,https://www.9kds.com/d/1905.php?t=1&id=LIVE8J4LTCXPI7QJ5_261&kl=www.9kds.com
 CCTV6æµéå²æ,https://www.9kds.com/d/1905.php?t=1&id=LIVEOYY31H24H48NE&kl=www.9kds.com
 æ¸¯æ¾³å°,#genre#
-å¤å°æ¾³æ´²,http://as.288856.xyz/xg.php?id=%E5%87%A4%E5%87%B0%E6%BE%B3%E6%B4%B2&tid=1
-å¤å°ä¸­æ,https://a3f1b2.kylintv.tv/live/pxna_iphone.m3u8 
-å¤å°èµè®¯,https://a3f1b2.kylintv.tv/live/pxinhd_iphone.m3u8
-å¤å°é¦æ¸¯,https://a3f1b2.kylintv.tv/live/pxhkus_iphone.m3u8
-å¤å°ç¾æ´²,https://a3f1b2.kylintv.tv/live/pxnaus_iphone.m3u8
-TVBé»éè¯å,http://iptv.4666888.xyz/iptv2A.php?id=34
+æ°åäºº,http://rihou.cc:555/tv/NTD
+Love Nature,http://tl.061833.xyz/tl/lovenaturehd
+Wild TV,https://dfhsahpa45kk2.cloudfront.net/scheduler/scheduleMaster/476.m3u8
+ä¸­å¤©æ°é»å°,http://rihou.cc:555/tv/hktv/tb19tw0811tw
+ä¸æ£®æ°é»å°,http://rihou.cc:555/tv/hktv/tw0814tw
+å¯°å®æ°é»å°,http://rihou.cc:555/tv/hktv/tb19tw0815tw
+ä¸­è§æ°é»å°,http://rihou.cc:555/tv/hktv/tb19tw0816tw
+TVBS 56å°,http://rihou.cc:555/tv/hktv/tb19tw0812tw
+å¹´ä»£æ°é»å°,http://rihou.cc:555/tv/hktnhxw0877tw
+ä¸æ£®çµå½±å°,http://rihou.cc:555/tv/hktv/gzmjhftw
+é¾ç¥¥æ¶ä»£å°,http://rihou.cc:555/tv/hktv/tbbgghtw
 TVBç¿¡ç¿ (é¦¬ä¾),http://iptv.4666888.xyz/iptv2A.php?id=28
 TVBæç ,http://iptv.4666888.xyz/iptv2A.php?id=29
 åç¦§ç¶å¸,http://iptv.4666888.xyz/iptv2A.php?id=22
@@ -597,13 +602,11 @@ RTHK31,http://iptv.4666888.xyz/iptv2A.php?id=23
 TVBå¨æ¨æ°è,http://iptv.4666888.xyz/iptv2A.php?id=36
 MYTVé»éç¿¡ç¿ ,http://iptv.4666888.xyz/iptv2A.php?id=32
 ææé»å½±,http://iptv.4666888.xyz/iptv2A.php?id=59
-ROCK_Action,http://iptv.4666888.xyz/iptv2A.php?id=50
 æ¢¦å·¥åºå¨æ¼«,http://iptv.4666888.xyz/iptv2A.php?id=40
 Duck TVåç«¥å¡é,http://iptv.4666888.xyz/iptv2A.php?id=39
 MOMOè¦ªå­,http://iptv.4666888.xyz/iptv2A.php?id=49
 éåå¸è¢æ²,http://iptv.4666888.xyz/iptv2A.php?id=38
 æ°è¦ç¶è,http://iptv.4666888.xyz/iptv2A.php?id=46
-æ°è¦å½±å,http://iptv.4666888.xyz/iptv2A.php?id=53
 TVBSç²¾é,http://iptv.4666888.xyz/iptv2A.php?id=47
 èºè¦ç¶å,http://iptv.4666888.xyz/iptv2A.php?id=51
 å«åº¦ç©ºé,http://iptv.4666888.xyz/iptv2A.php?id=52
@@ -611,15 +614,12 @@ TVBSç²¾é,http://iptv.4666888.xyz/iptv2A.php?id=47
 å¨æ¨ç¾åç¾,http://iptv.4666888.xyz/iptv2A.php?id=64
 ç¶èå¤§è´å®¶,http://iptv.4666888.xyz/iptv2A.php?id=65
 å¤ç¨æ¸¯æ¾³å°,#genre#
-ä¸­åé»å½±,http://iptv.4666888.xyz/iptv2A.php?id=61
-PopCçµå½±,http://mytvsuper.webn.cc:2052/stream/mytv/popc/master.m3u8?u=yhy&p=447c04d6fbd1b6db532939627946d3ee4532fbe69a842ccfe439df51e0fff326
 å¤©æ é¢é,http://o11.163189.xyz/stream/live/typd/
 å¤©æ ç»å¸,http://o11.163189.xyz/stream/live/ccm/
 æç©ºå«è§,http://122.224.58.42:85/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0$æµæ±/ç»å´/çµä¿¡
 æç©ºå«è§,http://xhyx.gz.cn:1698/hls/35/index.m3u8$å¹¿ä¸/æ­é³/çµä¿¡
 çº¬æ¥çµå½±,http://rihou.cc:555/tv/çº¬æ¥çµå½±
 ä¸æ£®çµå½±,http://rihou.cc:555/tv/ä¸æ£®çµå½± 
-ä¸æ£®æ´ç,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUHWMHCytb2VBItbRCwo0LyueGr-6I5WurXyVzCPErAn1bIY0Xo0oD4WTTmWvbwk0WlRLAiSKjvvk1qlTgn_rvKqmndIlkvXOsgb2pLGqYWlBY4bum9lzyFDqrQV09sm9mH8Norh0gOkpeKmnKhs7l0EGvOTpy8B5LkIDy-zcVjSoBzBiSy2SqAL9FF4LqSM_pIZGYBuWkuHd68RQGk25yig.m3u8?u=1756878715 
 éæ´æå§,http://iptv.4666888.xyz/iptv2A.php?id=42
 éå¤©çµå½±,http://iptv.4666888.xyz/iptv2A.php?id=56
 éåå¸è¢æ,http://o11.163189.xyz/stream/live/jgbdx/
@@ -636,26 +636,11 @@ PopCçµå½±,http://mytvsuper.webn.cc:2052/stream/mytv/popc/master.m3u8?u=yh
 ROCK Action,http://iptv.4666888.xyz/iptv2A.php?id=50#http://tl.061833.xyz/tl/rockaction
 1905æµéå²æ,https://cdn.jdshipin.com/1905.php
 1905ç¯çç»å¸ å¤±æhttp://8.138.7.223/tv/1905.php?id=LIVE8J4LTCXPI7QJ5
-å¤å°çµå½±,http://122.224.58.42:85/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&authid=0$æµæ±/ç»å´/çµä¿¡
-å³¨ççµå½±,http://112.19.31.13:85/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
-å³¨ççµå½±,http://118.122.144.115:8888/newlive/live/hls/32/live.m3u8$åå·çµä¿¡éåº
-å³¨ççµå½±,http://183.220.20.17:4321/udp/239.11.0.11:5140$åå·ç§»å¨
-æ¹åçµå½±,http://218.77.84.102:85/tsfile/live/149/2005_1.m3u8?key=txiptv
-æ²³åä¹¡æ,http://222.89.32.155:85/tsfile/live/1066_1.m3u8?key=txiptv&playlive=1&authid=0
-æ²³åä¹¡æ,http://182.119.212.129:85/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&down=1
-æ²³åä¹¡æ,http://zmgd.zyrnet.com:8888/hls/28/index.m3u8
 è°è§£å§åº,http://39.165.39.49:85/tsfile/live/1124_1.m3u8?key=txiptv&playlive=0&authid=0
 éæ¸©ç»å¸,http://rihou.cc:555/tv/éæ¸©ç»å¸
 æ°è§è§HD,http://221.7.49.226:50085/tsfile/live/0016_2.m3u8?key=txiptv&playlive=1&authid=0
 æ°è§è§HD,http://gat.bkpcp.top/ymg.php?id=mlzq
 æ°è§è§HD,http://t.061899.xyz/tl/dq.php?id=mlzq
-åæ°çµå½±,http://hmfs.f3322.net:3388/hls/40/index.m3u8
-ä¸­ççæ´»,http://zmgd.zyrnet.com:8888/hls/20/index.m3u8$éå·/ç§»å¨éåº
-éµæ°åå§,http://rihou.cc:555/tv/[FY]éµæ°åå§
-éµæ°çµå½±,http://38.75.136.137:98/gslb/dsdqpub/lbssdy.m3u8?auth=testpub
-éµæ°æ­¦ä¾ ,http://38.75.136.137:98/gslb/dsdqpub/lbsswx.m3u8?auth=testpub
-éµæ°å¨ä½,http://38.75.136.137:98/gslb/dsdqpub/lbssdz.m3u8?auth=testpub
-éµæ°åå§,http://38.75.136.137:98/gslb/dsdqpub/lbssxj.m3u8?auth=testpub
 å¤å°ä¸­æ,https://cdn6.163189.xyz/163189/fhzw
 å¤å°èµè®¯,https://cdn6.163189.xyz/163189/fhzx
 å¤å°é¦æ¸¯,https://cdn6.163189.xyz/163189/fhhk
@@ -727,41 +712,6 @@ TVBSæ°é»,http://rihou.cc:555/tv/[FY]tvbSæ°é»
 TVBSç²¾é,http://iptv.4666888.xyz/iptv2A.php?id=47
 å°è§ç»¼å,http://iptv.4666888.xyz/iptv2A.php?id=51
 å«åº¦ç©ºé´,http://iptv.4666888.xyz/iptv2A.php?id=52
-æ°è§å½±å§,http://iptv.4666888.xyz/iptv2A.php?id=53
-æ°è§,rtmp://f13h.mine.nu/sat/tv051
-å°è§,rtmp://f13h.mine.nu/sat/tv071
-ä¸­è§,rtmp://f13h.mine.nu/sat/tv091
-åè§,rtmp://f13h.mine.nu/sat/tv111
-çº¬æ¥ä½è²,rtmp://f13h.mine.nu/sat/tv721
-çº¬æ¥ä½è²,https://hls.iill.top/api/wlty/index.m3u8
-çº¬æ¥è²ä¹,rtmp://f13h.mine.nu/sat/tv701
-çº¬æ¥æ¥æ¬,rtmp://f13h.mine.nu/sat/tv771
-ä¸æ£®è¶è§,rtmp://f13h.mine.nu/sat/tv331
-MoMoç»¼å,rtmp://f13h.mine.nu/sat/tv761
-ELEVENä½è²1,rtmp://f13h.mine.nu/sat/tv731
-ELEVENä½è²2,rtmp://f13h.mine.nu/sat/tv741
-NOW 70s,https://php.946985.filegear-sg.me/mytv265.php?id=NOW7
-NOW 80s,https://php.946985.filegear-sg.me/mytv265.php?id=NOW8
-NOW ROCK,https://php.946985.filegear-sg.me/mytv265.php?id=NOWR
-NOW 90s00s,https://php.946985.filegear-sg.me/mytv265.php?id=NOW9
-Concerto,https://php.946985.filegear-sg.me/mytv265.php?id=CONC
-TRACEURBAN,https://php.946985.filegear-sg.me/mytv265.php?id=TRUR
-NewsWorld,https://php.946985.filegear-sg.me/mytv265.php?id=NSWD
-Taiwan+,https://fastly.live.brightcove.com/6385235869112/ap-northeast-1/6282251407001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiaWU4OWZvLmVncmVzcy5pdjNqZDgiLCJhY2NvdW50X2lkIjoiNjI4MjI1MTQwNzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MjgyMjUxNDA3MDAxIl0sImp0aSI6IjYzODUyMzU4NjkxMTIifQ.4c-V1Ks3nBx9nRljtn5-jCNP_nLuWBbk-pw9BFWZfMQ/playlist-hls.m3u8
-æ°åäºº,http://rihou.cc:555/tv/NTD
-Love Nature,http://tl.061833.xyz/tl/lovenaturehd
-Wild TV,https://dfhsahpa45kk2.cloudfront.net/scheduler/scheduleMaster/476.m3u8
-
-å¨ç©æç 
-BBC Earth,https://hls.iill.top/api/BBC-Earth/index.m3u8
-BBC Lifestyle,https://hls.iill.top/api/BBC-Lifestyle/index.m3u8
-Discovery,https://hls.iill.top/api/Discovery/index.m3u8
-
-BBC Earth,https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist540p.m3u8
-NatGeo Wild
-äººé´å«è§,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
-çå½çµè§,http://61.216.67.119:1935/lifetv/lifetv.stream/manifest.m3u8 
-å¯å¿çµè§,http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/playlist.m3u8
 80åç»å¸æ­æ²,#genre#
 é»å®¶é©¹,https://vd4.bdstatic.com/mda-pdmaxg5vf0bmrpxx/sc/cae_h264/1682179055724322707/mda-pdmaxg5vf0bmrpxx.mp4
 é»å®¶é©¹ä¸åç¹è±«,https://vd3.bdstatic.com/mda-nm75269264v485fe/sc/cae_h264/1670475833350119754/mda-nm75269264v485fe.mp4
