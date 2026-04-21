@@ -40,6 +40,12 @@ jobs:
       - name: Update
         run: pipenv run dev
 
+      # ⭐⭐⭐ 只新增这一段：自动创建 public 并复制 m3u ⭐⭐⭐
+      - name: Copy m3u to Cloudflare Pages directory
+        run: |
+          mkdir -p public
+          cp output/result.m3u public/result.m3u
+
       - name: Commit and push if changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
