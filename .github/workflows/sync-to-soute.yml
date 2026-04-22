@@ -3,7 +3,9 @@ name: Sync M3U to fogret/soute
 on:
   push:
     branches:
-      - master  # 你的私有仓库主分支是master，这里不用改
+      - master
+    paths:
+      - 'output/result.m3u'  # 关键：只监听这个文件的变化
 
 jobs:
   sync:
@@ -21,7 +23,6 @@ jobs:
 
       - name: 复制 result.m3u 到公开仓库
         run: |
-          # 你的文件路径：fogret/sourt/master/output/result.m3u
           cp ./output/result.m3u ./public-repo/
 
       - name: 提交并推送到 fogret/soute
