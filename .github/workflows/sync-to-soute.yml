@@ -1,0 +1,36 @@
+name: Sync M3U to Public Repo
+
+# 当私有仓库的 main 分支有推送时触发
+on:
+  push:
+    branches:
+      - main  # 改成你私有仓库的主分支名，一般就是 main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取私有仓库代码
+        uses: actions/checkout@v4
+
+      - name: 拉取公开仓库代码
+        uses: actions/checkout@v4
+        with:
+          repository: 你的GitHub用户名/public-iptv  # 改成你刚才创建的公开仓库地址
+          token: ${{ secrets.PUBLIC_REPO_TOKEN }}
+          path: public-repo
+
+      - name: 复制 m3u 文件到公开仓库
+        run: |
+          # 下面这行改成你私有仓库里 m3u 文件的实际路径
+          # 示例：如果文件在私有仓库根目录，叫 playlist.m3u，就写：
+          cp ./playlist.m3u ./public-repo/
+
+      - name: 提交并推送到公开仓库
+        run: |
+          cd public-repo
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Auto sync m3u from private repo" || echo "No changes to commit"
+          git push
