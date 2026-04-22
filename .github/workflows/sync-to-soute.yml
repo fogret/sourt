@@ -5,31 +5,34 @@ on:
     branches:
       - master
     paths:
-      - 'output/result.m3u'  # 关键：只监听这个文件的变化
+      - 'output/result.m3u'
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: 拉取私有仓库 fogret/sourt 代码
+      - name: Checkout current private repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
-      - name: 拉取公开仓库 fogret/soute
+      - name: Checkout public repo fogret/soute
         uses: actions/checkout@v4
         with:
           repository: fogret/soute
           token: ${{ secrets.SOUTE_REPO_TOKEN }}
           path: public-repo
+          fetch-depth: 1
 
-      - name: 复制 result.m3u 到公开仓库
+      - name: Copy result.m3u to public repo
         run: |
-          cp ./output/result.m3u ./public-repo/
+          cp -f output/result.m3u public-repo/
 
-      - name: 提交并推送到 fogret/soute
+      - name: Commit and push to soute
         run: |
           cd public-repo
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Auto sync result.m3u from fogret/sourt" || echo "No changes to commit"
+          git add result.m3u
+          git diff --staged --quiet || git commit -m "Auto sync result.m3u from fogret/sourt"
           git push
