@@ -2,7 +2,7 @@ name: 'Update schedule'
 
 on:
   schedule:
-    - cron: "30 11 * * *"   # 每周一 北京时间 02:00 执行
+    - cron: "30 11 * * *"
   workflow_dispatch:
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
         with:
           ref: ${{ env.BRANCH_NAME }}
 
-      # ===================== 运行前清理缓存日志 =====================
+      # 清理缓存日志
       - name: Clean cache and log files
         run: |
           rm -rf output/log/
@@ -43,13 +43,13 @@ jobs:
       - name: Install pipenv
         run: pip3 install --user pipenv
 
-      - name: Install dependecies
+      - name: Install dependencies
         run: pipenv --python 3.13 && pipenv install --deploy
 
       - name: Update
         run: pipenv run dev
 
-      # ===================== 提交前再次清理，防止生成大文件 =====================
+      # 提交前再次清理
       - name: Clean again before commit
         run: |
           rm -rf output/log/
@@ -73,7 +73,7 @@ jobs:
             git push --force
           fi
 
-      # ===================== 下面完全是你那段能推送的原版代码，一字没改 =====================
+      # 同步到 fogret/soute
       - name: Checkout public repo fogret/soute
         uses: actions/checkout@v4
         with:
