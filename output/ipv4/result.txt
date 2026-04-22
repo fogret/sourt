@@ -1,66 +1,77 @@
 🕘️更新时间,#genre#
-2026-04-22 19:12:10,http://43.251.226.110:8880/play/4.m3u8
+2026-04-22 23:44:22,http://43.251.226.110:8880/play/4.m3u8
 
 央视频道,#genre#
 CCTV-1,http://43.251.226.110:8880/play/4.m3u8
-CCTV-2,http://43.251.226.110:8880/play/6.m3u8
+CCTV-1,http://39.152.103.17:8089/tsfile/live/1000_1.m3u8
 CCTV-2,http://43.251.226.110:8880/play/5.m3u8
+CCTV-2,http://43.251.226.110:8880/play/6.m3u8
 CCTV-3,http://43.251.226.110:8880/play/8.m3u8
+CCTV-3,http://43.251.226.110:8880/play/7.m3u8
 CCTV-4,http://43.251.226.110:8880/play/9.m3u8
 CCTV-4,http://43.251.226.110:8880/play/10.m3u8
+CCTV-5,http://43.251.226.110:8880/play/11.m3u8
 CCTV-5+,http://43.251.226.110:8880/play/12.m3u8
 CCTV-6,http://43.251.226.110:8880/play/14.m3u8
 CCTV-6,http://43.251.226.110:8880/play/13.m3u8
-CCTV-7,http://43.251.226.110:8880/play/16.m3u8
+CCTV-6,http://113.241.133.180:85/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV-7,http://43.251.226.110:8880/play/15.m3u8
+CCTV-7,http://43.251.226.110:8880/play/16.m3u8
 CCTV-8,http://43.251.226.110:8880/play/17.m3u8
 CCTV-8,http://43.251.226.110:8880/play/18.m3u8
-CCTV-9,http://43.251.226.110:8880/play/20.m3u8
 CCTV-9,http://43.251.226.110:8880/play/19.m3u8
-CCTV-10,http://43.251.226.110:8880/play/22.m3u8
+CCTV-9,http://43.251.226.110:8880/play/20.m3u8
 CCTV-10,http://43.251.226.110:8880/play/21.m3u8
+CCTV-10,http://43.251.226.110:8880/play/22.m3u8
+CCTV-10,http://113.241.133.180:85/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV-11,http://43.251.226.110:8880/play/23.m3u8
 CCTV-12,http://43.251.226.110:8880/play/24.m3u8
 CCTV-12,http://23.237.228.134/live3/CCTV12.m3u8
 CCTV-13,http://43.251.226.110:8880/play/25.m3u8
-CCTV-14,http://43.251.226.110:8880/play/26.m3u8
+CCTV-13,http://39.152.103.17:8089/tsfile/live/1012_1.m3u8
 CCTV-14,http://43.251.226.110:8880/play/27.m3u8
+CCTV-14,http://43.251.226.110:8880/play/26.m3u8
 CCTV-15,http://43.251.226.110:8880/play/28.m3u8
 CCTV-15,http://43.251.226.110:8880/play/29.m3u8
-CCTV-16,http://43.251.226.110:8880/play/31.m3u8
 CCTV-16,http://43.251.226.110:8880/play/30.m3u8
+CCTV-16,http://43.251.226.110:8880/play/31.m3u8
+CCTV-17,http://43.251.226.110:8880/play/32.m3u8
 CCTV-17,http://43.251.226.110:8880/play/33.m3u8
 
 卫视频道,#genre#
 浙江卫视,http://43.251.226.110:8880/play/58.m3u8
-湖南卫视,http://43.251.226.110:8880/play/65.m3u8
 湖南卫视,http://43.251.226.110:8880/play/64.m3u8
 北京卫视,http://43.251.226.110:8880/play/44.m3u8
 北京卫视,http://23.237.228.134/live3/beijing.m3u8
+湖北卫视,http://43.251.226.110:8880/play/63.m3u8
 湖北卫视,http://43.251.226.110:8880/play/62.m3u8
 安徽卫视,http://43.251.226.110:8880/play/49.m3u8
-重庆卫视,http://43.251.226.110:8880/play/70.m3u8
 重庆卫视,http://43.251.226.110:8880/play/71.m3u8
+重庆卫视,http://43.251.226.110:8880/play/70.m3u8
 东方卫视,http://43.251.226.110:8880/play/41.m3u8
-东方卫视,http://23.237.228.134/live3/dongfang.m3u8
 东方卫视,http://43.251.226.110:8880/play/42.m3u8
+东方卫视,http://23.237.228.134/live3/dongfang.m3u8
 东南卫视,http://43.251.226.110:8880/play/40.m3u8
 东南卫视,http://43.251.226.110:8880/play/39.m3u8
 甘肃卫视,http://43.251.226.110:8880/play/66.m3u8
-广西卫视,http://43.251.226.110:8880/play/52.m3u8
+海南卫视,http://43.251.226.110:8880/play/59.m3u8
 河北卫视,http://43.251.226.110:8880/play/56.m3u8
 河南卫视,http://43.251.226.110:8880/play/57.m3u8
 吉林卫视,http://43.251.226.110:8880/play/45.m3u8
+江苏卫视,http://43.251.226.110:8880/play/53.m3u8
 江苏卫视,http://43.251.226.110:8880/play/54.m3u8
 江苏卫视,http://23.237.228.134/live3/jiangsu.m3u8
 江西卫视,http://43.251.226.110:8880/play/55.m3u8
 辽宁卫视,http://43.251.226.110:8880/play/68.m3u8
 青海卫视,http://43.251.226.110:8880/play/74.m3u8
-山东卫视,http://43.251.226.110:8880/play/51.m3u8
 山东卫视,http://43.251.226.110:8880/play/50.m3u8
+山东卫视,http://43.251.226.110:8880/play/51.m3u8
 陕西卫视,http://43.251.226.110:8880/play/72.m3u8
-深圳卫视,http://43.251.226.110:8880/play/61.m3u8
+陕西卫视,http://43.251.226.110:8880/play/73.m3u8
+四川卫视,http://43.251.226.110:8880/play/47.m3u8
 深圳卫视,http://43.251.226.110:8880/play/60.m3u8
+深圳卫视,http://43.251.226.110:8880/play/61.m3u8
+深圳卫视,http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8
 三沙卫视,http://43.251.226.110:8880/play/38.m3u8
 天津卫视,http://43.251.226.110:8880/play/48.m3u8
 西藏卫视,http://43.251.226.110:8880/play/69.m3u8
@@ -69,12 +80,9 @@ CCTV-17,http://43.251.226.110:8880/play/33.m3u8
 付费频道,#genre#
 
 电影频道,#genre#
-冰冰影剧,http://43.251.226.110:8880/play/1441.m3u8
-华语影视,http://43.251.226.110:8880/play/1443.m3u8
-斗鱼港剧,http://43.251.226.110:8880/play/1444.m3u8
-热门港剧,http://43.251.226.110:8880/play/1447.m3u8
-动作电影,http://43.251.226.110:8880/play/528.m3u8
-家庭剧场,http://43.251.226.110:8880/play/530.m3u8
+CHC家庭影院,http://43.251.226.110:8880/play/76.m3u8
+美亚电影台,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU_ypc10evfk9Bu9_Omlyxg7I_bJVd6PHJW3O_8iuClaQv2fxz8fALRe2T-ogJ87ijCaxVOZ2bPDU19OAfHCuEH7pEtEyKaC5fQH83IQFKgtzrNJs9sRA_ZWtz7f_P7qo6AVu7NZkTmspa9rvOsdfPbS3JVHYZdD3YmQ4z04QanKIzTOcWRQ2fiCKdxZJI0HMUUxB1RvwrIu6Fs_jphyt87A.m3u8?u=1756878715
+惊悚悬疑,http://43.251.226.110:8880/play/531.m3u8
 
 系列电影,#genre#
 
@@ -82,16 +90,16 @@ CCTV-17,http://43.251.226.110:8880/play/33.m3u8
 
 NewTV,#genre#
 NewTV爱情喜剧,http://43.251.226.110:8880/play/534.m3u8
-NewTV军旅剧场,http://43.251.226.110:8880/play/529.m3u8
+NewTV精品大剧,http://43.251.226.110:8880/play/535.m3u8
+NewTV中国功夫,http://43.251.226.110:8880/play/536.m3u8
 
 贵州频道,#genre#
 
 港澳频道,#genre#
 明珠台,http://rihou.cc:555/tv/[Pd]无线明珠
-明珠台,http://iptv.4666888.xyz/iptv2A.php?id=29
 RTHK31,http://rihou.cc:555/tv/[Cx]RTHK-31
-RTHK31,http://iptv.4666888.xyz/iptv2A.php?id=23
 RTHK32,http://rihou.cc:555/tv/[Cx]RTHK-32
+凤凰中文,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUWdJdT-WvPAhPYAjqDDKUkgBhqPU05spvygdOQVMR-49HfUHqoz3BWysXpY3IcoxaskiJ6HCxNUFEGBHN7J9cHwJfR5qJYrfvRgFxEFVGK3M4e6U8zBBcXQ62XaSa7kUQZiYq5vbmVseM-xEImPe5pGROKnFK232_zwhQVcDCWqJ8GlcYI2uYcWREAj3tlSyt6pugIwt_wjsXByc9jMtMyw.m3u8?u=1756878715
 
 纪录频道,#genre#
 金鹰纪实,https://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/JYJSMPP360.m3u8
@@ -113,10 +121,8 @@ RTHK32,http://rihou.cc:555/tv/[Cx]RTHK-32
 
 国际频道,#genre#
 Newsmax,https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
-民视新闻HD,http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
 民视新闻HD,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 民视新闻HD,http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
-民视新闻HD,http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
 
 综艺频道,#genre#
 
