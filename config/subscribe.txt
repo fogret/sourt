@@ -3,7 +3,7 @@
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
 
-# 更新时间：2026-04-22 19:14:54（北京时间）
+# 更新时间：2026-04-22 23:49:41（北京时间）
 http://1.94.31.214/live/live9/dgtv.txt
 http://1.94.31.214/live/livelite.txt
 http://117.72.68.25:9230/latest.txt
@@ -259,7 +259,6 @@ https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-sniffer/refs/h
 https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt
 https://gist.githubusercontent.com/yzfneo/6ccc43ac7d633e7eef07b87d9c9081db/raw/mylist.m3u
 https://gitee.com/alexkw/app/raw/master/kgk.txt
-https://gitee.com/g1753462733/zb/raw/main/itvlist.txt
 https://gitee.com/hw2837/iptv/raw/master/iptv.txt
 https://gitee.com/king12985/tv/raw/master/lives/20180818.txt
 https://gitee.com/king12985/tv/raw/master/lives/zhizhu/20180818china.txt
@@ -272,7 +271,6 @@ https://gitee.com/mytv-android/mytvJS/raw/main/js.gitee.m3u
 https://gitee.com/myvisual/newzubo/raw/main/IPTV.txt
 https://gitee.com/php1632008/test/raw/master/iptv.m3u
 https://gitee.com/shi1tou/tvbox/raw/master/xiaofei.txt
-https://gitee.com/sunmingya001/tv-live-streaming-source/raw/master/TMDBNDY.txt
 https://gitee.com/szwxk/watch-television/raw/master/wxk.m3u
 https://gitee.com/szwxk/watch-television/raw/master/wxk1.m3u
 https://gitee.com/tushaoyong/live/raw/master/%E6%8E%A5%E5%8F%A3/IPV6.txt
@@ -284,7 +282,6 @@ https://gitee.com/yuweirong6684/tv-live-streaming-source/raw/master/AD.txt
 https://gitee.com/yuweirong6684/tv-live-streaming-source/raw/master/miguzb.txt
 https://gitee.com/zlmei/tvbox/raw/master/zb.txt
 https://github.com/0610840119/iptv-api/blob/master/output/xp_result.m3u
-https://github.com/250992941/iptv/raw/main/收集源.txt
 https://github.com/TianmuTNT/iptv/blob/main/iptv.m3u
 https://github.com/UserLinYa/zubo/raw/main/IPTV.txt
 https://github.com/alantang1977/IPTV_SuperB/blob/main/output/live_ipv4.m3u
@@ -310,7 +307,6 @@ https://github.com/zilong7728/Collect-IPTV/blob/main/best_sorted.m3u
 https://github.com/zwc456baby/iptv_alive/raw/refs/heads/master/live.txt
 https://gitlab.com/p2v5/wangtv/-/raw/main/lunbo.txt
 https://gitlab.com/tvkj/loong/-/raw/main/loog.txt
-https://goodiptv.vercel.app/huyayqk.m3u
 https://ifruitlet.com/haiwai.m3u
 https://imghost.subtlyrabbit.top/iptv/subscribe/ipv4v6.txt
 https://iptv-org.github.io/iptv/categories/sports.m3u
@@ -382,7 +378,6 @@ https://raw.bgithub.xyz/wwb521/live/refs/heads/main/tv.txt
 https://raw.gh.registry.cyou/sammy0101/hk-iptv-auto/refs/heads/main/hk_live.m3u
 https://raw.githubusercontent.com/0610840119/iptv-api/refs/heads/master/output/xp_result.txt
 https://raw.githubusercontent.com/10000ge10000/iptv-api/refs/heads/master/output/user_result.m3u
-https://raw.githubusercontent.com/250992941/iptv/refs/heads/main/st1.txt
 https://raw.githubusercontent.com/250992941/tv2/refs/heads/main/bbxx.m3u
 https://raw.githubusercontent.com/27619007-tech/iptv-jp-2025/refs/heads/main/jp.m3u
 https://raw.githubusercontent.com/Alan-Alana/IPTV/refs/heads/main/channl.txt
@@ -716,13 +711,13 @@ https://tv.850930.xyz/pix.m3u
 https://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt
 https://tzdr.com/iptv.txt
 https://www.3kjs.com/tv.txt
+https://www.goodiptv.club/bililive.m3u
 https://www.goodiptv.club/yylunbo.m3u?url=https://lunbo.freetv.top
 https://www.iyouhun.com/tv/myIPTV/ipv4.m3u
 https://www.iyouhun.com/tv/myIPTV/ipv6.m3u
 https://xxx.com/subscribe.m3u
 https://zbds.org/tv/iptv4.m3u
 https://zbds.org/tv/iptv4.txt
-
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
