@@ -6,6 +6,7 @@ on:
       - master
     paths:
       - 'output/result.m3u'
+  workflow_dispatch:  # 👈 这里就是手动触发开关
 
 jobs:
   sync:
