@@ -5,4 +5,4 @@
 # Support setting whitelist: add $! after the interface
 # If there are multiple local source files, you can create a local directory under the config directory for storage, supporting txt/m3u file formats
 
-https://raw.githubusercontent.com/q1017673817/iptvz/main/zubo_all.txt
+https://github.com/Jsnzkpg/Jsnzkpg/blob/Jsnzkpg/Jsnzkpg1.m3u
