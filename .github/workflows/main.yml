@@ -2,7 +2,7 @@ name: 'Update schedule'
 
 on:
   schedule:
-    - cron: "0 18 * * 0"   # 每周一 北京时间 02:00 执行
+    - cron: "30 11 * * *"   # 每周一 北京时间 02:00 执行
   workflow_dispatch:
 
 jobs:
