@@ -49,7 +49,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add output/ public/
+          git add -f public/result.m3u
           git reset -- .github/workflows/
           if ! git diff --staged --quiet; then
             git commit -m "Github Action Auto Updated"
