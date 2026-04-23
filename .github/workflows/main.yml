@@ -2,8 +2,8 @@ name: 'Update schedule'
 
 on:
   schedule:
-    - cron: "00 19 * * 0"  # 对应周一北京时间3点（UTC 19:00 周日）
-  workflow_dispatch:  # 支持手动触发
+    - cron: "00 19 * * 0"
+  workflow_dispatch:
 
 jobs:
   push:
@@ -12,77 +12,88 @@ jobs:
       matrix:
         operating-system: [ 'ubuntu-latest' ]
 
-    # 关键修复1：授予完整读写权限，解决workflows目录修改权限问题
-    permissions:
-      contents: write
-      workflows: write
-      actions: write
-
     steps:
       - name: Set branch name
         id: vars
-        run: |
-          # 自动识别目标分支：Guovin账号指向gd，其他指向master
-          echo "BRANCH_NAME=${{ github.repository_owner == 'Guovin' && 'gd' || 'master' }}" >> $GITHUB_ENV
+        run: echo "BRANCH_NAME=${{ github.repository_owner == 'Guovin' && 'gd' || 'master' }}" >> $GITHUB_ENV
 
-      - uses: actions/checkout@v4  # 升级到v4稳定性更高
+      - uses: actions/checkout@v3
         with:
           ref: ${{ env.BRANCH_NAME }}
-          fetch-depth: 0  # 拉取完整历史，保证提交可用
 
-      # 关键修复2：合并缓存清理，减少冗余步骤
+      # 清理缓存日志
       - name: Clean cache and log files
         run: |
-          rm -rf output/log/ output/cache/
-          rm -f output/log/unmatch.log *.log *.tmp
+          rm -rf output/log/
+          rm -rf output/cache/
+          rm -f output/log/unmatch.log
+          rm -f *.log
+          rm -f *.tmp
 
-      - name: Setup Python 3.13
-        uses: actions/setup-python@v5
+      - name: Run with setup-python 3.13
+        uses: actions/setup-python@v4
         with:
           python-version: '3.13'
-          cache: 'pip'  # 简化缓存，pipenv依赖pip
+          update-environment: true
+          cache: 'pipenv'
 
       - name: Install FFmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install pipenv
-          pipenv install --deploy
+      - name: Install pipenv
+        run: pip3 install --user pipenv
 
-      - name: Run update script
+      - name: Install dependencies
+        run: pipenv --python 3.13 && pipenv install --deploy
+
+      - name: Update
         run: pipenv run dev
 
-      # 关键修复3：仅在目标分支提交变更，避免跨分支冲突
-      - name: Commit and push to source repo
+      # 提交前再次清理
+      - name: Clean again before commit
+        run: |
+          rm -rf output/log/
+          rm -rf output/cache/
+          rm -f output/log/unmatch.log
+          rm -f *.log
+          rm -f *.tmp
+
+      - name: Copy m3u to Cloudflare Pages directory
+        run: |
+          mkdir -p public
+          cp output/result.m3u public/result.m3u
+
+      # ========== 修复段 关键修改 只看这里 ==========
+      - name: Commit and push if changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add .
-          if ! git diff --staged --quiet; then
-            git commit -m "Auto update: $(date +'%Y-%m-%d %H:%M')"
-            # 仅推送到当前工作分支（安全可控）
-            git push origin ${{ env.BRANCH_NAME }}
+          # 只添加需要的目录，彻底排除 .github
+          git add output/ public/
+          # 强制还原 .github 所有文件，杜绝工作流变更
+          git checkout -- .github/
+          # 无改动直接跳过
+          if [[ -n $(git status --porcelain) ]]; then
+            git commit -m "Github 行动自动更新"
+            git push
           fi
 
-      # 同步到 fogret/soute 公共仓库
-      - name: Checkout public repo
+      # 同步到 fogret/soute
+      - name: Checkout public repo fogret/soute
         uses: actions/checkout@v4
         with:
           repository: fogret/soute
           token: ${{ secrets.SOUTE_REPO_TOKEN }}
           path: public-repo
 
-      - name: Sync result.m3u
+      - name: Copy result.m3u
+        run: cp -f output/result.m3u public-repo/
+
+      - name: Push to soute
         run: |
-          cp -f output/result.m3u public-repo/
           cd public-repo
-          git config user.name "GitHub Action Bot"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
           git add result.m3u
-          # 仅在有变更时提交，避免空提交
-          if ! git diff --staged --quiet; then
-            git commit -m "Sync result.m3u (auto)"
-            git push
-          fi
+          git commit -m "Sync result.m3u" || true
+          git push
