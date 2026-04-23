@@ -314,10 +314,10 @@ def get_channel_items(whitelist_maps, blacklist) -> CategoryChannelData:
         print(t("msg.channel_logo_found").format(count=channel_logo_count))
 
     if os.path.exists(user_source_file):
-    with open(user_source_file, "r", encoding="utf-8") as file:
-        channels = get_channel_data_from_file(
-            channels, file, whitelist_maps, blacklist, local_data, hls_data
-        )
+        with open(user_source_file, "r", encoding="utf-8") as file:
+            channels = get_channel_data_from_file(
+                channels, file, whitelist_maps, blacklist, local_data, hls_data
+            )
 
     source_name_targets = defaultdict(list)
     for cate, data in channels.items():
@@ -854,7 +854,7 @@ def generate_channel_statistic(logger, cate, name, values):
     valid = len(valid_items)
     valid_rate = (valid / total * 100) if total > 0 else 0
     ipv4_count = len([v for v in values if v.get("ipv_type") == "ipv4"])
-    ipv6_count = len([v for v in values if v.get("ipv_type") == "ipv6"])
+    ipv6_count = len([v for the in values if v.get("ipv_type") == "ipv6"])
     min_delay = min((v.get("delay") for v in values if (v.get("delay") or -1) != -1), default=-1)
     max_speed = max((v.get("speed") for v in values if (v.get("speed") or 0) > 0 and not math.isinf(v.get("speed"))), default=0)
     avg_speed = sum(v.get("speed", 0) for v in valid_items) / valid if valid else 0
