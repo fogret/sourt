@@ -2,8 +2,8 @@ name: 'Update schedule'
 
 on:
   schedule:
-    - cron: "00 19 * * 0"
-  workflow_dispatch:
+    - cron: "00 19 * * 0"  # 对应周一北京时间3点（UTC 19:00 周日）
+  workflow_dispatch:  # 支持手动触发
 
 jobs:
   push:
@@ -12,83 +12,77 @@ jobs:
       matrix:
         operating-system: [ 'ubuntu-latest' ]
 
+    # 关键修复1：授予完整读写权限，解决workflows目录修改权限问题
+    permissions:
+      contents: write
+      workflows: write
+      actions: write
+
     steps:
       - name: Set branch name
         id: vars
-        run: echo "BRANCH_NAME=${{ github.repository_owner == 'Guovin' && 'gd' || 'master' }}" >> $GITHUB_ENV
+        run: |
+          # 自动识别目标分支：Guovin账号指向gd，其他指向master
+          echo "BRANCH_NAME=${{ github.repository_owner == 'Guovin' && 'gd' || 'master' }}" >> $GITHUB_ENV
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4  # 升级到v4稳定性更高
         with:
           ref: ${{ env.BRANCH_NAME }}
+          fetch-depth: 0  # 拉取完整历史，保证提交可用
 
-      # 清理缓存日志
+      # 关键修复2：合并缓存清理，减少冗余步骤
       - name: Clean cache and log files
         run: |
-          rm -rf output/log/
-          rm -rf output/cache/
-          rm -f output/log/unmatch.log
-          rm -f *.log
-          rm -f *.tmp
+          rm -rf output/log/ output/cache/
+          rm -f output/log/unmatch.log *.log *.tmp
 
-      - name: Run with setup-python 3.13
-        uses: actions/setup-python@v4
+      - name: Setup Python 3.13
+        uses: actions/setup-python@v5
         with:
           python-version: '3.13'
-          update-environment: true
-          cache: 'pipenv'
+          cache: 'pip'  # 简化缓存，pipenv依赖pip
 
       - name: Install FFmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
-      - name: Install pipenv
-        run: pip3 install --user pipenv
-
       - name: Install dependencies
-        run: pipenv --python 3.13 && pipenv install --deploy
+        run: |
+          python -m pip install --upgrade pip
+          pip install pipenv
+          pipenv install --deploy
 
-      - name: Update
+      - name: Run update script
         run: pipenv run dev
 
-      # 提交前再次清理
-      - name: Clean again before commit
-        run: |
-          rm -rf output/log/
-          rm -rf output/cache/
-          rm -f output/log/unmatch.log
-          rm -f *.log
-          rm -f *.tmp
-
-      - name: Copy m3u to Cloudflare Pages directory
-        run: |
-          mkdir -p public
-          cp output/result.m3u public/result.m3u
-
-      - name: Commit and push if changed
+      # 关键修复3：仅在目标分支提交变更，避免跨分支冲突
+      - name: Commit and push to source repo
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add .
           if ! git diff --staged --quiet; then
-            git commit -m "Github Action Auto Updated"
-            git push --force
+            git commit -m "Auto update: $(date +'%Y-%m-%d %H:%M')"
+            # 仅推送到当前工作分支（安全可控）
+            git push origin ${{ env.BRANCH_NAME }}
           fi
 
-      # 同步到 fogret/soute
-      - name: Checkout public repo fogret/soute
+      # 同步到 fogret/soute 公共仓库
+      - name: Checkout public repo
         uses: actions/checkout@v4
         with:
           repository: fogret/soute
           token: ${{ secrets.SOUTE_REPO_TOKEN }}
           path: public-repo
 
-      - name: Copy result.m3u
-        run: cp -f output/result.m3u public-repo/
-
-      - name: Push to soute
+      - name: Sync result.m3u
         run: |
+          cp -f output/result.m3u public-repo/
           cd public-repo
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
+          git config user.name "GitHub Action Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add result.m3u
-          git commit -m "Sync result.m3u" || true
-          git push
+          # 仅在有变更时提交，避免空提交
+          if ! git diff --staged --quiet; then
+            git commit -m "Sync result.m3u (auto)"
+            git push
+          fi
