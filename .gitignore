@@ -1,7 +1,5 @@
 cache.gz
 *.gz
-
-# 原有
 dist
 build
 .idea
@@ -9,8 +7,6 @@ __pycache__/
 *.log
 output/
 logs/
-
-# 额外防膨胀
 *.tmp
 *.pickle
 temp/
