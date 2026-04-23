@@ -314,10 +314,10 @@ def get_channel_items(whitelist_maps, blacklist) -> CategoryChannelData:
         print(t("msg.channel_logo_found").format(count=channel_logo_count))
 
     if os.path.exists(user_source_file):
-        with open(user_source_file, "utf-8") as file:
-            channels = get_channel_data_from_file(
-                channels, file, whitelist_maps, blacklist, local_data, hls_data
-            )
+    with open(user_source_file, "r", encoding="utf-8") as file:
+        channels = get_channel_data_from_file(
+            channels, file, whitelist_maps, blacklist, local_data, hls_data
+        )
 
     source_name_targets = defaultdict(list)
     for cate, data in channels.items():
