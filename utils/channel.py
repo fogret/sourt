@@ -314,9 +314,9 @@ def get_channel_items(whitelist_maps, blacklist) -> CategoryChannelData:
         print(t("msg.channel_logo_found").format(count=channel_logo_count))
 
     if os.path.exists(user_source_file):
-        with open(user_source_file, "r", encoding="utf-8") as file:
+        with open(user_source_file, "utf-8") as file:
             channels = get_channel_data_from_file(
-                channels, file, whitelist_maps, local_data, hls_data
+                channels, file, whitelist_maps, blacklist, local_data, hls_data
             )
 
     source_name_targets = defaultdict(list)
@@ -358,9 +358,7 @@ def get_channel_items(whitelist_maps, blacklist) -> CategoryChannelData:
                                 if not channel_data:
                                     for info in info_list:
                                         old_result_url = info.get("url") if info else None
-                                        if info and info.get(
-                                                "origin") not in retain_origin and old_result_url and not check_url_by_keywords(
-                                            old_result_url, blacklist):
+                                        if info and info.get("origin") not in retain_origin and old_result_url and not check_url_by_keywords(old_result_url, blacklist):
                                             channel_data.append(info)
                         else:
                             unmatched_history[name].extend(info_list)
@@ -411,11 +409,10 @@ def get_channel_url(text):
     """
     Get the url from text
     """
-    url = None
-    url_search = constants.url_pattern.search(text)
-    if url_search:
-        url = url_search.group()
-    return url
+    # 放开所有链接格式，不再限制协议
+    if not text:
+        return None
+    return text.strip()
 
 
 def init_info_data(data: dict, category: str, name: str) -> None:
@@ -438,17 +435,6 @@ def append_data_to_info_data(
 ) -> None:
     """
     Append channel data to total info data with deduplication and validation
-
-    Args:
-        info_data: The main data structure to update
-        category: Category key for the data
-        name: Name key within the category
-        data: List of channel items to process
-        origin: Default origin for items
-        whitelist_maps: Maps of whitelist keywords
-        blacklist: List of blacklist keywords
-        ipv_type_data: Dictionary to cache IP type information
-        skip_validation: If True, skip validation and directly append data
     """
     init_info_data(info_data, category, name)
 
@@ -485,8 +471,7 @@ def append_data_to_info_data(
                 if blacklist and check_url_by_keywords(normalized_url, blacklist):
                     continue
 
-            if url_origin != "whitelist" and whitelist_maps and is_url_whitelisted(whitelist_maps, normalized_url,
-                                                                                   name):
+            if url_origin != "whitelist" and whitelist_maps and is_url_whitelisted(whitelist_maps, normalized_url, name):
                 url_origin = "whitelist"
 
             if skip_validation and url_origin not in retain_origin and not ipv_type:
@@ -533,20 +518,16 @@ def append_data_to_info_data(
                             if ipv_type_data is not None:
                                 ipv_type_data[host] = ipv_type
 
-                    # 已放行IP类型识别失败的地址，允许组播/内网IP正常测速
+                    # 放开IP类型限制，所有链接都进测速
                     # if not check_ipv_type_match(ipv_type):
                     #     continue
 
-                    if not location or not isp:
-                        ip = ip_checker.get_ip(url)
-                        if ip:
-                            location, isp = ip_checker.find_map(ip)
-
-                    if location and location_list and not any(item in location for item in location_list):
-                        continue
-
-                    if isp and isp_list and not any(item in isp for item in isp_list):
-                        continue
+                    # 放开地区、运营商限制，全部保留
+                    # if location and location_list and not any(item in location for item in location_list):
+                    #     continue
+                    #
+                    # if isp and isp_list and not any(item in isp for item in isp_list):
+                    #     continue
 
             channel_list.append({
                 "id": channel_id,
@@ -572,10 +553,6 @@ def append_data_to_info_data(
 
 
 def append_old_data_to_info_data(info_data, cate, name, data, whitelist_maps=None, blacklist=None, ipv_type_data=None):
-    """
-    Append old existed channel data to total info data
-    """
-
     def append_and_print(items, origin, label):
         if items:
             append_data_to_info_data(
@@ -606,32 +583,15 @@ def append_old_data_to_info_data(info_data, cate, name, data, whitelist_maps=Non
 
 
 def print_channel_number(data: CategoryChannelData, cate: str, name: str):
-    """
-    Print channel number
-    """
     channel_list = data.get(cate, {}).get(name, [])
-    print("IPv4:", len([channel for channel in channel_list if channel["ipv_type"] == "ipv4"]), end=", ")
-    print("IPv6:", len([channel for channel in channel_list if channel["ipv_type"] == "ipv6"]), end=", ")
-    print(
-        f"{t("name.total")}:",
-        len(channel_list),
-    )
+    print("IPv4:", len([c for c in channel_list if c["ipv_type"] == "ipv4"]), end=", ")
+    print("IPv6:", len([c for c in channel_list if c["ipv_type"] == "ipv6"]), end=", ")
+    print(f"{t('name.total')}:", len(channel_list))
 
 
-def append_total_data(
-        items,
-        data,
-        subscribe_result=None,
-        whitelist_maps=None,
-        blacklist=None,
-):
-    """
-    Append all method data to total info data
-    """
+def append_total_data(items, data, subscribe_result=None, whitelist_maps=None, blacklist=None):
     items = list(items)
-    total_result = [
-        ("subscribe", subscribe_result),
-    ]
+    total_result = [("subscribe", subscribe_result)]
     unmatch_category = t("content.unmatch_channel")
     source_names = {
         format_channel_name(name)
@@ -643,39 +603,34 @@ def append_total_data(
     for obj in data.values():
         for value_list in obj.values():
             for value in value_list:
-                if value_ipv_type := value.get("ipv_type", None):
+                if value_ipv_type := value.get("ipv_type"):
                     url_hosts_ipv_type[get_url_host(value["url"])] = value_ipv_type
+
     for cate, channel_obj in items:
         if cate == unmatch_category:
             for name, old_info_list in channel_obj.items():
                 if old_info_list:
                     append_data_to_info_data(
-                        data,
-                        cate,
-                        name,
-                        old_info_list,
+                        data, cate, name, old_info_list,
                         whitelist_maps=whitelist_maps,
                         blacklist=blacklist,
                         ipv_type_data=url_hosts_ipv_type,
-                        skip_validation=True,
+                        skip_validation=True
                     )
             continue
 
         for name, old_info_list in channel_obj.items():
             print(f"{name}:", end=" ")
             if old_info_list:
-                append_old_data_to_info_data(data, cate, name, old_info_list, whitelist_maps=whitelist_maps,
-                                             blacklist=blacklist,
-                                             ipv_type_data=url_hosts_ipv_type)
+                append_old_data_to_info_data(data, cate, name, old_info_list, whitelist_maps, blacklist, url_hosts_ipv_type)
             for method, result in total_result:
                 if config.open_method[method]:
                     name_results = get_channel_results_by_name(name, result)
                     append_data_to_info_data(
-                        data, cate, name, name_results, origin=method, whitelist_maps=whitelist_maps,
-                        blacklist=blacklist,
-                        ipv_type_data=url_hosts_ipv_type
+                        data, cate, name, name_results, origin=method,
+                        whitelist_maps=whitelist_maps, blacklist=blacklist, ipv_type_data=url_hosts_ipv_type
                     )
-                    print(f"{t(f"name.{method}")}:", len(name_results), end=", ")
+                    print(f"{t(f'name.{method}')}: {len(name_results)}", end=", ")
             print_channel_number(data, cate, name)
 
     if config.open_unmatch_category and subscribe_result:
@@ -687,22 +642,13 @@ def append_total_data(
         if unmatch_result:
             for name, info_list in unmatch_result.items():
                 append_data_to_info_data(
-                    data,
-                    unmatch_category,
-                    name,
-                    info_list,
-                    origin="subscribe",
-                    whitelist_maps=whitelist_maps,
-                    blacklist=blacklist,
-                    ipv_type_data=url_hosts_ipv_type,
-                    skip_validation=True,
+                    data, unmatch_category, name, info_list,
+                    origin="subscribe", whitelist_maps=whitelist_maps, blacklist=blacklist,
+                    ipv_type_data=url_hosts_ipv_type, skip_validation=True
                 )
 
 
 def is_valid_speed_result(info) -> bool:
-    """
-    Check if the speed test result is valid
-    """
     try:
         delay = info.get("delay")
         if delay is None or delay == -1:
@@ -730,16 +676,13 @@ def is_valid_speed_result(info) -> bool:
 
 
 async def test_speed(data, ipv6=False, callback=None, on_task_complete=None):
-    """
-    Test speed of channel data
-    """
     ipv6_proxy_url = None if (not config.open_ipv6 or ipv6) else constants.ipv6_proxy
     open_headers = config.open_headers
     open_full_speed_test = config.open_full_speed_test
     get_resolution = config.open_filter_resolution and check_ffmpeg_installed_status()
     semaphore = asyncio.Semaphore(config.speed_test_limit)
-    logger = get_logger(constants.speed_test_log_path, level=INFO, init=True)
-    result_logger = get_logger(constants.result_log_path, level=INFO, init=True)
+    logger = get_logger(constants.speed_test_log_path, INFO, init=True)
+    result_logger = get_logger(constants.result_log_path, INFO, init=True)
 
     async def limited_get_speed(channel_info):
         async with semaphore:
@@ -779,17 +722,10 @@ async def test_speed(data, ipv6=False, callback=None, on_task_complete=None):
     def _on_task_done(task):
         nonlocal completed
         try:
-            if task.cancelled():
-                result = {}
-            else:
-                try:
-                    result = task.result()
-                except asyncio.CancelledError:
-                    result = {}
-                except Exception:
-                    result = {}
+            result = task.result() if not task.cancelled() else {}
         except Exception:
             result = {}
+
         meta = channel_map.get(task)
         if not meta:
             return
@@ -816,21 +752,18 @@ async def test_speed(data, ipv6=False, callback=None, on_task_complete=None):
                 origin = merged.get('origin')
                 origin_name = t(f"name.{origin}") if origin else origin
                 result_logger.info(
-                    f"ID: {merged.get('id')}, {t('name.name')}: {name}, "
-                    f"{t('pbar.url')}: {merged.get('url')}, {t('name.from')}: {origin_name}, "
-                    f"{t('name.ipv_type')}: {merged.get('ipv_type')}, {t('name.location')}: {merged.get('location')}, "
-                    f"{t('name.isp')}: {merged.get('isp')}, "
-                    f"{t('name.delay')}: {merged.get('delay') or -1} ms, {t('name.speed')}: {(merged.get('speed') or 0):.2f} M/s, "
-                    f"{t('name.resolution')}: {merged.get('resolution')}, {t('name.fps')}: {merged.get('fps') or t('name.unknown')}, "
-                    f"{t('name.video_codec')}: {merged.get('video_codec') or t('name.unknown')}, "
-                    f"{t('name.audio_codec')}: {merged.get('audio_codec') or t('name.unknown')}"
+                    f"ID: {merged.get('id')}, 频道: {name}, "
+                    f"地址: {merged.get('url')}, 来源: {origin_name}, "
+                    f"IP类型: {merged.get('ipv_type')}, 地区: {merged.get('location')}, 运营商: {merged.get('isp')}, "
+                    f"延迟: {merged.get('delay') or -1}ms, 速度: {merged.get('speed') or 0:.2f}M/s, "
+                    f"分辨率: {merged.get('resolution')}, FPS: {merged.get('fps') or t('name.unknown')}, "
+                    f"视频: {merged.get('video_codec') or t('name.unknown')}, 音频: {merged.get('audio_codec') or t('name.unknown')}"
                 )
             except Exception:
                 pass
 
         completed += 1
         completed_by_channel[(cate, name)] += 1
-
         is_channel_last = completed_by_channel[(cate, name)] >= total_tasks_by_channel.get((cate, name), 0)
         is_last = completed >= total_tasks
 
@@ -839,7 +772,6 @@ async def test_speed(data, ipv6=False, callback=None, on_task_complete=None):
                 on_task_complete(cate, name, merged, is_channel_last, is_last, is_valid)
             except Exception:
                 pass
-
         if callback:
             try:
                 callback()
@@ -864,9 +796,6 @@ async def test_speed(data, ipv6=False, callback=None, on_task_complete=None):
 
 
 def sort_channel_result(channel_data, result=None, filter_host=False, ipv6_support=True, cate=None, name=None):
-    """
-    Sort channel result
-    """
     channel_result = defaultdict(lambda: defaultdict(list))
     categories = [cate] if cate else list(channel_data.keys())
     retain = retain_origin
@@ -880,7 +809,7 @@ def sort_channel_result(channel_data, result=None, filter_host=False, ipv6_suppo
         for n in names:
             values = obj.get(n) or []
             whitelist_result = []
-            result_list = (result.get(c, {}).get(n, []) if result else [])
+            result_list = result.get(c, {}).get(n, []) if result else []
 
             if c == unmatch_category:
                 seen_urls = set()
@@ -901,7 +830,6 @@ def sort_channel_result(channel_data, result=None, filter_host=False, ipv6_suppo
                         host = value.get("host")
                         merged = {**value, **(speed_lookup(host) or {})}
                         merged_items.append(merged)
-
                 sorter_input = chain(result_list, merged_items) if merged_items else result_list
                 total_result = whitelist_result + sorter(sorter_input, ipv6_support=ipv6_support)
             else:
@@ -909,7 +837,6 @@ def sort_channel_result(channel_data, result=None, filter_host=False, ipv6_suppo
                     origin = value.get("origin")
                     if origin in retain or (not ipv6_support and result and value.get("ipv_type") == "ipv6"):
                         whitelist_result.append(value)
-
                 total_result = whitelist_result + sorter(result_list, ipv6_support=ipv6_support)
 
             seen_urls = set()
@@ -918,77 +845,56 @@ def sort_channel_result(channel_data, result=None, filter_host=False, ipv6_suppo
                 if url and url not in seen_urls:
                     channel_result[c][n].append(item)
                     seen_urls.add(url)
-
     return channel_result
 
 
 def generate_channel_statistic(logger, cate, name, values):
-    """
-    Generate channel statistic
-    """
     total = len(values)
-    valid_items = [
-        v for v in values
-        if is_valid_speed_result(v)
-    ]
+    valid_items = [v for v in values if is_valid_speed_result(v)]
     valid = len(valid_items)
     valid_rate = (valid / total * 100) if total > 0 else 0
     ipv4_count = len([v for v in values if v.get("ipv_type") == "ipv4"])
     ipv6_count = len([v for v in values if v.get("ipv_type") == "ipv6"])
     min_delay = min((v.get("delay") for v in values if (v.get("delay") or -1) != -1), default=-1)
-    max_speed = max(
-        (v.get("speed") for v in values if (v.get("speed") or 0) > 0 and not math.isinf(v.get("speed"))),
-        default=0
-    )
-    avg_speed = sum((v.get("speed") or 0) for v in valid_items) / valid if valid > 0 else 0
-    max_resolution = max(
-        (v.get("resolution") for v in values if v.get("resolution")),
-        key=lambda r: get_resolution_value(r),
-        default="None"
-    )
-    video_codecs = [v.get('video_codec') for v in values if v.get('video_codec')]
-    audio_codecs = [v.get('audio_codec') for v in values if v.get('audio_codec')]
-    fps_values = [float(v.get('fps')) for v in values if
-                  v.get('fps') is not None and isinstance(v.get('fps'), (int, float, str)) and str(
-                      v.get('fps')).replace('.', '').isdigit()]
-    most_video = Counter(video_codecs).most_common(1)
-    most_audio = Counter(audio_codecs).most_common(1)
-    most_video_str = most_video[0][0] if most_video else t('name.unknown')
-    most_audio_str = most_audio[0][0] if most_audio else t('name.unknown')
-    avg_fps = (sum(fps_values) / len(fps_values)) if fps_values else None
+    max_speed = max((v.get("speed") for v in values if (v.get("speed") or 0) > 0 and not math.isinf(v.get("speed"))), default=0)
+    avg_speed = sum(v.get("speed", 0) for v in valid_items) / valid if valid else 0
+    max_resolution = max((v.get("resolution") for v in values if v.get("resolution")), key=get_resolution_value, default="None")
+    video_codecs = [v.get("video_codec") for v in values if v.get("video_codec")]
+    audio_codecs = [v.get("audio_codec") for v in values if v.get("audio_codec")]
+    fps_values = []
+    for v in values:
+        fps = v.get("fps")
+        if fps and isinstance(fps, (int, float, str)):
+            s = str(fps).replace(".", "")
+            if s.isdigit():
+                fps_values.append(float(fps))
+    most_video = most_audio = None
+    if video_codecs:
+        most_video = Counter(video_codecs).most_common(1)[0][0]
+    if audio_codecs:
+        most_audio = Counter(audio_codecs).most_common(1)[0][0]
+    avg_fps = sum(fps_values) / len(fps_values) if fps_values else None
+    avg_fps_str = f"{avg_fps:.2f}" if avg_fps is not None else t("name.unknown")
+    video_str = most_video or t("name.unknown")
+    audio_str = most_audio or t("name.unknown")
+
     if config.open_full_speed_test:
-        content = f"{f"{t('name.category')}: {cate}, {t('name.name')}: {name}, {t('name.total')}: {total}, {t('name.valid')}: {valid}, {t('name.valid_percent')}: {valid_rate:.2f}%, IPv4: {ipv4_count}, IPv6: {ipv6_count}, {t('name.min_delay')}: {min_delay} ms, {t('name.max_speed')}: {max_speed:.2f} M/s, {t('name.average_speed')}: {avg_speed:.2f} M/s, {t('name.max_resolution')}: {max_resolution}, {t('name.avg_fps')}: {f"{avg_fps:.2f}" if avg_fps else t('name.unknown')}, {t('name.video_codec')}: {most_video_str}, {t('name.audio_codec')}: {most_audio_str}"}"
-        logger.info(content)
-        print(f"📊 {content}")
+        content = (f"分类: {cate}, 频道: {name}, 总数: {total}, 有效: {valid}, 有效率: {valid_rate:.2f}%, "
+                   f"IPv4: {ipv4_count}, IPv6: {ipv6_count}, 最低延迟: {min_delay}ms, 最高速度: {max_speed:.2f}M/s, "
+                   f"平均速度: {avg_speed:.2f}M/s, 最大分辨率: {max_resolution}, 平均FPS: {avg_fps_str}, "
+                   f"视频编码: {video_str}, 音频编码: {audio_str}")
     else:
-        content = f"{f"{t('name.category')}: {cate}, {t('name.name')}: {name}, {t('name.valid')}: {valid}, IPv4: {ipv4_count}, IPv6: {ipv6_count}, {t('name.min_delay')}: {min_delay} ms, {t('name.max_speed')}: {max_speed:.2f} M/s, {t('name.average_speed')}: {avg_speed:.2f} M/s, {t('name.max_resolution')}: {max_resolution}, {t('name.avg_fps')}: {f"{avg_fps:.2f}" if avg_fps else t('name.unknown')}, {t('name.video_codec')}: {most_video_str}, {t('name.audio_codec')}: {most_audio_str}"}"
-        logger.info(content)
-        print(f"📊 {content}")
+        content = (f"分类: {cate}, 频道: {name}, 有效: {valid}, IPv4: {ipv4_count}, IPv6: {ipv6_count}, "
+                   f"最低延迟: {min_delay}ms, 最高速度: {max_speed:.2f}M/s, 平均速度: {avg_speed:.2f}M/s, "
+                   f"最大分辨率: {max_resolution}, 平均FPS: {avg_fps_str}, 视频编码: {video_str}, 音频编码: {audio_str}")
+    logger.info(content)
+    print(f"📊 {content}")
 
 
 def process_write_content(
-        path: str,
-        data: CategoryChannelData,
-        hls_url: str = None,
-        open_empty_category: bool = False,
-        ipv_type_prefer: list[str] = None,
-        origin_type_prefer: list[str] = None,
-        first_channel_name: str = None,
-        enable_log: bool = False,
-        is_last: bool = False,
+        path: str, data: CategoryChannelData, hls_url=None, open_empty_category=False,
+        ipv_type_prefer=None, origin_type_prefer=None, first_channel_name=None, enable_log=False, is_last=False
 ):
-    """
-    Get channel write content
-    :param path: write into path
-    :param data: channel data
-    :param hls_url: hls url
-    :param open_empty_category: show empty category
-    :param ipv_type_prefer: ipv type prefer
-    :param origin_type_prefer: origin type prefer
-    :param first_channel_name: the first channel name
-    :param enable_log: enable log
-    :param is_last: is last write
-    """
     content = ""
     no_result_name = []
     first_cate = True
@@ -997,18 +903,15 @@ def process_write_content(
     rtmp_type = ["hls"] if hls_url else []
     open_url_info = config.open_url_info
     unmatch_category = t("content.unmatch_channel")
+
     for cate, channel_obj in data.items():
         content += f"{'\n\n' if not first_cate else ''}{cate},#genre#"
         first_cate = False
-        channel_obj_keys = channel_obj.keys()
-        for i, name in enumerate(channel_obj_keys):
+        for name in channel_obj:
             info_list = data.get(cate, {}).get(name, [])
             channel_urls = _get_total_urls_cached(
-                info_list,
-                ipv_type_prefer,
-                origin_type_prefer,
-                rtmp_type,
-                apply_limit=cate != unmatch_category,
+                info_list, ipv_type_prefer, origin_type_prefer, rtmp_type,
+                apply_limit=(cate != unmatch_category)
             )
             result_data[name].extend(channel_urls)
             if not channel_urls:
@@ -1016,147 +919,122 @@ def process_write_content(
                     no_result_name.append(name)
                 continue
             for item in channel_urls:
-                item_url = item.get("url")
-                if open_url_info and item.get("extra_info"):
-                    item_url = add_url_info(item_url, item.get("extra_info"))
+                item_url = item["url"]
+                if open_url_info and item["extra_info"]:
+                    item_url = add_url_info(item_url, item["extra_info"])
                 total_item_url = f"{hls_url}/{item['id']}.m3u8" if hls_url else item_url
                 content += f"\n{name},{total_item_url}"
+
     if open_empty_category and no_result_name and is_last:
-        custom_print(f"\n{t("msg.no_result_channel")}")
-        content += f"\n\n{t("content.no_result_channel")},#genre#"
+        custom_print(f"\n{t('msg.no_result_channel')}")
+        content += f"\n\n{t('content.no_result_channel')},#genre#"
         for i, name in enumerate(no_result_name):
-            end_char = ", " if i < len(no_result_name) - 1 else ""
-            custom_print(name, end=end_char)
+            end = ", " if i < len(no_result_name)-1 else ""
+            custom_print(name, end=end)
             content += f"\n{name},url"
+
     if config.open_update_time:
-        update_time_item = next(
-            (urls[0] for channel_obj in data.values()
-             for info_list in channel_obj.values()
-             if (urls := _get_total_urls_cached(
-                info_list,
-                ipv_type_prefer,
-                origin_type_prefer,
-                rtmp_type,
-                apply_limit=True,
-            ))),
-            {"id": "id", "url": "url"}
-        )
+        update_item = {"id": "id", "url": "url"}
+        for channel_obj in data.values():
+            for info_list in channel_obj.values():
+                urls = _get_total_urls_cached(info_list, ipv_type_prefer, origin_type_prefer, rtmp_type, True)
+                if urls:
+                    update_item = urls[0]
+                    break
+            if update_item["id"] != "id":
+                break
         now = get_datetime_now()
-        update_time_item_url = update_time_item.get("url")
-        update_title = t("content.update_time") if is_last else t("content.update_running")
-        if open_url_info and update_time_item.get("extra_info"):
-            update_time_item_url = add_url_info(update_time_item_url, update_time_item.get("extra_info"))
-        value = f"{hls_url}/{update_time_item["id"]}.m3u8" if hls_url else update_time_item_url
+        update_url = update_item["url"]
+        if open_url_info and update_item["extra_info"]:
+            update_url = add_url_info(update_url, update_item["extra_info"])
+        final_url = f"{hls_url}/{update_item['id']}.m3u8" if hls_url else update_url
+        title = t("content.update_time") if is_last else t("content.update_running")
         if config.update_time_position == "top":
-            content = f"{update_title},#genre#\n{now},{value}\n\n{content}"
+            content = f"{title},#genre#\n{now},{final_url}\n\n{content}"
         else:
-            content += f"\n\n{update_title},#genre#\n{now},{value}"
+            content += f"\n\n{title},#genre#\n{now},{final_url}"
+
     if hls_url:
         db_dir = os.path.dirname(constants.rtmp_data_path)
         if db_dir:
             os.makedirs(db_dir, exist_ok=True)
-
         try:
             ensure_result_data_schema(constants.rtmp_data_path)
             conn = get_db_connection(constants.rtmp_data_path)
-        except Exception as e:
-            print(t("msg.write_error").format(info=f"open rtmp db error: {e}"))
-        else:
-            try:
-                cursor = conn.cursor()
-                cursor.execute(
-                    "CREATE TABLE IF NOT EXISTS result_data (id TEXT PRIMARY KEY, url TEXT, headers TEXT, video_codec TEXT, audio_codec TEXT, resolution TEXT, fps REAL)"
-                )
-                for data_list in result_data.values():
-                    for item in data_list:
-                        cursor.execute(
-                            "INSERT OR REPLACE INTO result_data (id, url, headers, video_codec, audio_codec, resolution, fps) VALUES (?, ?, ?, ?, ?, ?, ?)",
-                            (
-                                str(item.get("id")),
-                                item.get("url"),
-                                json.dumps(item.get("headers", None)),
-                                item.get("video_codec"),
-                                item.get("audio_codec"),
-                                item.get("resolution"),
-                                item.get("fps"),
-                            )
-                        )
-                conn.commit()
-            finally:
-                return_db_connection(constants.rtmp_data_path, conn)
+            with conn.cursor() as cur:
+                cur.execute('''CREATE TABLE IF NOT EXISTS result_data
+                             (id TEXT PRIMARY KEY, url TEXT, headers TEXT,
+                              video_codec TEXT, audio_codec TEXT, resolution TEXT, fps REAL)''')
+                for lst in result_data.values():
+                    for item in lst:
+                        cur.execute('''INSERT OR REPLACE INTO result_data
+                                     (id, url, headers, video_codec, audio_codec, resolution, fps)
+                                     VALUES (?, ?, ?, ?, ?, ?, ?)''',
+                                    (str(item.get("id")), item.get("url"), json.dumps(item.get("headers")),
+                                     item.get("video_codec"), item.get("audio_codec"),
+                                     item.get("resolution"), item.get("fps")))
+            conn.commit()
+            return_db_connection(constants.rtmp_data_path, conn)
+        except Exception:
+            pass
+
     try:
         target_dir = os.path.dirname(path) or "."
         os.makedirs(target_dir, exist_ok=True)
         with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", delete=False, dir=target_dir,
-                                         prefix=os.path.basename(path) + ".tmp.") as tmpf:
-            tmpf.write(content)
-            tmp_path = tmpf.name
-        os.replace(tmp_path, path)
-        try:
-            os.chmod(path, 0o644)
-        except Exception:
-            pass
+                                         prefix=os.path.basename(path)+".tmp.") as f:
+            f.write(content)
+            tmp = f.name
+        os.replace(tmp, path)
+        os.chmod(path, 0o644)
     except Exception:
-        try:
-            with open(path, "w", encoding="utf-8") as f:
-                f.write(content)
-        except Exception as e:
-            print(t("msg.write_error").format(info=e), flush=True)
-            return
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(content)
+
     try:
         convert_to_m3u(path, first_channel_name, data=result_data)
-    except Exception as e:
-        print(t("msg.write_error").format(info=f"convert m3u error: {e}"), flush=True)
+    except Exception:
+        pass
 
 
 def write_channel_to_file(data, ipv6=False, first_channel_name=None, skip_print=False, is_last=False):
-    """
-    Write channel to file
-    """
-    try:
-        if not skip_print:
-            print(t("msg.writing_result"), flush=True)
-        open_empty_category = config.open_empty_category
-        ipv_type_prefer = list(config.ipv_type_prefer)
-        if any(pref == "auto" for pref in ipv_type_prefer):
-            ipv_type_prefer = ["ipv6", "ipv4"] if ipv6 else ["ipv4", "ipv6"]
-        origin_type_prefer = config.origin_type_prefer
-        hls_url = f"{get_public_url()}/hls"
-        file_list = [
-            {"path": config.final_file, "enable_log": True},
-            {"path": constants.ipv4_result_path, "ipv_type_prefer": ["ipv4"]},
-            {"path": constants.ipv6_result_path, "ipv_type_prefer": ["ipv6"]}
-        ]
-        if config.open_rtmp and not os.getenv("GITHUB_ACTIONS"):
-            file_list += [
-                {"path": constants.hls_result_path, "hls_url": hls_url},
-                {
-                    "path": constants.hls_ipv4_result_path,
-                    "hls_url": hls_url,
-                    "ipv_type_prefer": ["ipv4"]
-                },
-                {
-                    "path": constants.hls_ipv6_result_path,
-                    "hls_url": hls_url,
-                    "ipv_type_prefer": ["ipv6"]
-                },
-            ]
-        for file in file_list:
-            target_dir = os.path.dirname(file["path"])
-            if target_dir:
-                os.makedirs(target_dir, exist_ok=True)
-            process_write_content(
-                path=file["path"],
-                data=data,
-                hls_url=file.get("hls_url"),
-                open_empty_category=open_empty_category,
-                ipv_type_prefer=file.get("ipv_type_prefer", ipv_type_prefer),
-                origin_type_prefer=origin_type_prefer,
-                first_channel_name=first_channel_name,
-                enable_log=file.get("enable_log", False),
-                is_last=is_last
-            )
-        if not skip_print:
-            print(t("msg.write_success"), flush=True)
-    except Exception as e:
-        print(t("msg.write_error").format(info=e), flush=True)
+    if not skip_print:
+        print(t("msg.writing_result"), flush=True)
+
+    open_empty_category = config.open_empty_category
+    ipv_type_prefer = list(config.ipv_type_prefer)
+    if any(p == "auto" for p in ipv_type_prefer):
+        ipv_type_prefer = ["ipv6", "ipv4"] if ipv6 else ["ipv4", "ipv6"]
+    origin_type_prefer = config.origin_type_prefer
+    hls_url = f"{get_public_url()}/hls" if config.open_rtmp else None
+
+    file_list = [
+        {"path": config.final_file, "enable_log": True},
+        {"path": constants.ipv4_result_path, "ipv_type_prefer": ["ipv4"]},
+        {"path": constants.ipv6_result_path, "ipv_type_prefer": ["ipv6"]},
+    ]
+    if config.open_rtmp and not os.getenv("GITHUB_ACTIONS"):
+        file_list.extend([
+            {"path": constants.hls_result_path, "hls_url": hls_url},
+            {"path": constants.hls_ipv4_result_path, "hls_url": hls_url, "ipv_type_prefer": ["ipv4"]},
+            {"path": constants.hls_ipv6_result_path, "hls_url": hls_url, "ipv_type_prefer": ["ipv6"]},
+        ])
+
+    for fcfg in file_list:
+        d = os.path.dirname(fcfg["path"])
+        if d:
+            os.makedirs(d, exist_ok=True)
+        process_write_content(
+            path=fcfg["path"],
+            data=data,
+            hls_url=fcfg.get("hls_url"),
+            open_empty_category=open_empty_category,
+            ipv_type_prefer=fcfg.get("ipv_type_prefer", ipv_type_prefer),
+            origin_type_prefer=origin_type_prefer,
+            first_channel_name=first_channel_name,
+            enable_log=fcfg.get("enable_log", False),
+            is_last=is_last
+        )
+
+    if not skip_print:
+        print(t("msg.write_success"), flush=True)
