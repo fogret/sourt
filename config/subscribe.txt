@@ -3,7 +3,7 @@
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
 
-# 更新时间：2026-04-23 16:04:11（北京时间）
+# 更新时间：2026-04-24 05:51:20（北京时间）
 http://1.94.31.214/live/live9/dgtv.txt
 http://1.94.31.214/live/livelite.txt
 http://117.72.68.25:9230/latest.txt
@@ -42,29 +42,6 @@ https://beijing-iptv.vercel.app/IPTV-Unicom.m3u
 https://bitbucket.org/guot55/bhmb/raw/main/TVBoxOSC/bhzb.m3u
 https://bjiptv.gq/IPTV-Unicom.m3u
 https://cc-im-kefu-cos.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/d4fe44c5-107c-4511-af02-aa08fb10dff7/2024-04-25/2024-04-25_17:22:21/1714036941087/98644330/wexiptv.txt
-https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u
-https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.txt
-https://cdn.jsdelivr.net/gh/Tzwcard/ChinaTelecom-GuangdongIPTV-RTP-List@master/GuangdongIPTV_rtp_all.m3u
-https://cdn.jsdelivr.net/gh/YueChan/live@main/IPTV.m3u
-https://cdn.jsdelivr.net/gh/hostemail/cdn@main/data/smart.txt
-https://cdn.jsdelivr.net/gh/hostemail/cdn@main/data/smart1.txt
-https://cdn.jsdelivr.net/gh/hostemail/cdn@main/live/smart.txt
-https://cdn.jsdelivr.net/gh/isw866/iptv@main/iptv4.m3u
-https://cdn.jsdelivr.net/gh/isw866/iptv@main/iptv6.m3u
-https://cdn.jsdelivr.net/gh/isw866/iptv@main/ipv4.m3u
-https://cdn.jsdelivr.net/gh/isw866/iptv@main/ipv6-fmm.m3u
-https://cdn.jsdelivr.net/gh/isw866/iptv@main/ipv6-gather.m3u
-https://cdn.jsdelivr.net/gh/isw866/iptv@main/merged_playlist.m3u
-https://cdn.jsdelivr.net/gh/jisoypub/iptv@main/ipv4.m3u
-https://cdn.jsdelivr.net/gh/jisoypub/iptv@main/ipv6.m3u
-https://cdn.jsdelivr.net/gh/jisoypub/iptv@main/radio.m3u
-https://cdn.jsdelivr.net/gh/qwerttvv/Beijing-IPTV@master/IPTV-Mobile-Multicast.m3u
-https://cdn.jsdelivr.net/gh/qwerttvv/Beijing-IPTV@master/IPTV-Mobile.m3u
-https://cdn.jsdelivr.net/gh/qwerttvv/Beijing-IPTV@master/IPTV-Unicom-Multicast.m3u
-https://cdn.jsdelivr.net/gh/qwerttvv/Beijing-IPTV@master/IPTV-Unicom.m3u
-https://cdn.jsdelivr.net/gh/rain12335/zbiptv@master/zubo_all.txt
-https://cdn.jsdelivr.net/gh/vicjl/myIPTV@main/IPTV-all.m3u
-https://cdn.jsdelivr.net/gh/yuanzl77/IPTV@latest/live.m3u
 https://chinaiptv.pages.dev/Unicast/hubei/mobile.txt
 https://chinaiptv.pages.dev/Unicast/jiangsu/mobile.txt
 https://cloud.7so.top/f/xv80ux/天浪.txt
@@ -86,7 +63,6 @@ https://epg.pw/test_channels_malaysia.m3u
 https://epg.pw/test_channels_singapore.m3u
 https://epg.pw/test_channels_taiwan.m3u
 https://fanmingming.com/txt?url=https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
-https://fastly.jsdelivr.net/gh/qwerttvv/Beijing-IPTV@master/IPTV-Unicom.m3u
 https://fm1077.serv00.net/SmartTV.m3u
 https://framagit.org/knnnn/luye/-/raw/main/j/22.txt?ref_type=heads
 https://g-d.123933.xyz/https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
@@ -205,58 +181,6 @@ https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
 https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
 https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/tv.m3u
 https://gh.xxooo.cf/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
-https://ghfast.top/github.com/gnodgl/IPTV/blob/master/CCTV.m3u
-https://ghfast.top/github.com/gnodgl/IPTV/blob/master/IHOT.m3u
-https://ghfast.top/github.com/gnodgl/IPTV/blob/master/IPTV.m3u
-https://ghfast.top/github.com/gnodgl/IPTV/blob/master/STV.m3u
-https://ghfast.top/github.com/zzmaze/iptv/blob/main/cctv.m3u
-https://ghfast.top/github.com/zzmaze/iptv/blob/main/weishi.m3u
-https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.txt
-https://ghfast.top/https://raw.githubusercontent.com/ChiSheng9/iptv/refs/heads/master/playlist.m3u
-https://ghfast.top/https://raw.githubusercontent.com/SonyIPTV/Sony-IPTV-Live/refs/heads/main/Sony%20IPTV%20Live.m3u
-https://ghfast.top/https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt
-https://ghfast.top/https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u
-https://ghfast.top/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
-https://ghfast.top/https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Adult.m3u
-https://ghfast.top/https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/CUTV.txt
-https://ghfast.top/https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GNTV.m3u
-https://ghfast.top/https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u
-https://ghfast.top/https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u
-https://ghfast.top/https://raw.githubusercontent.com/alenin-zhang/IPTV/main/lenin.txt
-https://ghfast.top/https://raw.githubusercontent.com/altn2025/iptv/refs/heads/main/iptv.m3u
-https://ghfast.top/https://raw.githubusercontent.com/cymz6/AutoIPTV-Hotel/main/lives.txt
-https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
-https://ghfast.top/https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tw.m3u
-https://ghfast.top/https://raw.githubusercontent.com/jonhncatt/iptv-cn-finder/refs/heads/main/m3u/chinese-public-verified.m3u
-https://ghfast.top/https://raw.githubusercontent.com/kimwang1978/collect-txt/main/bbxx_lite.m3u
-https://ghfast.top/https://raw.githubusercontent.com/lalifeier/IPTV/main/m3u/IPTV.m3u
-https://ghfast.top/https://raw.githubusercontent.com/lalifeier/IPTV/main/m3u/Live.m3u
-https://ghfast.top/https://raw.githubusercontent.com/moonkeyhoo/3kids/refs/heads/main/dashengruoyu5lENmOjW.m3u
-https://ghfast.top/https://raw.githubusercontent.com/moonkeyhoo/3kids/refs/heads/main/webview-X5.m3u
-https://ghfast.top/https://raw.githubusercontent.com/plsy1/iptv/main/multicast/multicast-jining.m3u
-https://ghfast.top/https://raw.githubusercontent.com/plsy1/iptv/main/unicast/unicast-aptv.m3u#3jnltdb
-https://ghfast.top/https://raw.githubusercontent.com/plsy1/iptv/main/unicast/unicast-ku9.m3u
-https://ghfast.top/https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo_all.txt
-https://ghfast.top/https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u
-https://ghfast.top/https://raw.githubusercontent.com/tvbw/IPTV202508/refs/heads/main/ipv6.m3u
-https://ghfast.top/https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt
-https://ghfast.top/https://raw.githubusercontent.com/yuanzl77/IPTV/main/live.m3u
-https://ghfast.top/https://raw.githubusercontent.com/zbefine/iptv/main/iptv.m3u
-https://ghfast.top/https://raw.githubusercontent.com/zhaiyaa/iptv-api/refs/heads/master/output/ipv4/result.m3u
-https://ghfast.top/raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt
-https://ghfast.top/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.m3u
-https://ghfast.top/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt
-https://ghfast.top/raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
-https://ghfast.top/raw.githubusercontent.com/wwb521/live/main/tv.m3u
-https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/live.txt
-https://ghproxy.1888866.xyz/raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt
-https://ghproxy.1888866.xyz/raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
-https://ghproxy.1888866.xyz/raw.githubusercontent.com/xzw832/cmys/main/S_CCTV.txt
-https://ghproxy.1888866.xyz/raw.githubusercontent.com/xzw832/cmys/main/S_weishi.txt
-https://ghproxy.1888866.xyz/raw.githubusercontent.com/yuanzl77/IPTV/master/live.txt
-https://ghproxy.it/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
-https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-sniffer/refs/heads/main/static/lives/lives.txt
-https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt
 https://gist.githubusercontent.com/yzfneo/6ccc43ac7d633e7eef07b87d9c9081db/raw/mylist.m3u
 https://gitee.com/alexkw/app/raw/master/kgk.txt
 https://gitee.com/g1753462733/zb/raw/main/itvlist.txt
@@ -270,6 +194,7 @@ https://gitee.com/lee9108/tv/raw/master/gxhk2.m3u
 https://gitee.com/lwr851/live/raw/master/iptv.m3u
 https://gitee.com/mytv-android/mytvJS/raw/main/js.gitee.m3u
 https://gitee.com/myvisual/newzubo/raw/main/IPTV.txt
+https://gitee.com/php1632008/test/raw/master/iptv.m3u
 https://gitee.com/shi1tou/tvbox/raw/master/xiaofei.txt
 https://gitee.com/sunmingya001/tv-live-streaming-source/raw/master/TMDBNDY.txt
 https://gitee.com/szwxk/watch-television/raw/master/wxk.m3u
@@ -332,7 +257,6 @@ https://live.fanmingming.cn/tv/m3u/ipv6.m3u
 https://live.fanmingming.com/tv/m3u/index.m3u
 https://live.fanmingming.com/tv/m3u/ipv6.m3u
 https://live.freetv.top/douyuyqk.m3u
-https://live.freetv.top/huyayqk.m3u
 https://live.hacks.tools/tv/iptv4.txt
 https://live.hacks.tools/tv/iptv6.txt
 https://live.hacks.tools/tv/ipv4/categories/卫视频道.txt
@@ -384,6 +308,8 @@ https://raw.githubusercontent.com/250992941/tv2/refs/heads/main/bbxx.m3u
 https://raw.githubusercontent.com/Alan-Alana/IPTV/refs/heads/main/channl.txt
 https://raw.githubusercontent.com/BigBigGrandG/IPTV-URL/release/Gather.m3u
 https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u
+https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.txt
+https://raw.githubusercontent.com/ChiSheng9/iptv/refs/heads/master/playlist.m3u
 https://raw.githubusercontent.com/Guovin/TV/gd/output/result.txt
 https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u
 https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u
@@ -404,6 +330,7 @@ https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt
 https://raw.githubusercontent.com/PizazzGY/TVBox/main/live.txt
 https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt
 https://raw.githubusercontent.com/Rivens7/Livelist/refs/heads/main/IPTV.m3u
+https://raw.githubusercontent.com/SonyIPTV/Sony-IPTV-Live/refs/heads/main/Sony%20IPTV%20Live.m3u
 https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt
 https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt
 https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt
@@ -413,6 +340,9 @@ https://raw.githubusercontent.com/YanG-1989/m3u/main/Migu.m3u
 https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u
 https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Migu.m3u
 https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
+https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Adult.m3u
+https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/CUTV.txt
+https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GNTV.m3u
 https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u
 https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u
 https://raw.githubusercontent.com/Zekun5696/iptv-api/refs/heads/master/huuc.txt
@@ -443,10 +373,12 @@ https://raw.githubusercontent.com/alantang1977/jtv/refs/heads/main/网络收集.
 https://raw.githubusercontent.com/alantang1977/pg/main/live.txt
 https://raw.githubusercontent.com/alantang1977/pg/main/live_lite.txt
 https://raw.githubusercontent.com/alantang1977/yuanzl77/main/live.m3u
+https://raw.githubusercontent.com/alenin-zhang/IPTV/main/lenin.txt
 https://raw.githubusercontent.com/alenin-zhang/IPTV/refs/heads/main/lenin.txt
 https://raw.githubusercontent.com/alienlu/iptv/refs/heads/master/iptv.m3u
 https://raw.githubusercontent.com/alienlu/iptv/refs/heads/master/iptv.txt
 https://raw.githubusercontent.com/altn2025/iptv/main/iptv.m3u
+https://raw.githubusercontent.com/altn2025/iptv/refs/heads/main/iptv.m3u
 https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/kk.txt
 https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt
 https://raw.githubusercontent.com/asxs123/mytvboxlist/refs/heads/main/tvboxlist/iptv.txt
@@ -458,8 +390,6 @@ https://raw.githubusercontent.com/big-mouth-cn/tv/main/iptv-ok.m3u
 https://raw.githubusercontent.com/butterfly202400/dsy/refs/heads/main/ln2503.m3u
 https://raw.githubusercontent.com/cai23511/yex/master/TVlist/20210808226.m3u
 https://raw.githubusercontent.com/cai23511/yex/master/TVlist/20210808384.m3u
-https://raw.githubusercontent.com/ccjj800/zhiboyuan/main/py/gxtv.txt
-https://raw.githubusercontent.com/ccjj800/zhiboyuan/main/py/jiudianHD.txt
 https://raw.githubusercontent.com/chao921125/source/refs/heads/main/iptv/index.m3u
 https://raw.githubusercontent.com/chenblacker/iptv-api/refs/heads/master/output/user_result.txt
 https://raw.githubusercontent.com/chihu2006/self-address/refs/heads/main/bingcha.m3u
@@ -488,6 +418,7 @@ https://raw.githubusercontent.com/gaotianliuyun/Ftindy-IPTV-URL/refs/heads/main/
 https://raw.githubusercontent.com/gaotianliuyun/Ftindy-IPTV-URL/refs/heads/main/yqgd.m3u
 https://raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt
 https://raw.githubusercontent.com/hcyzl/m3u/refs/heads/main/Migu.m3u
+https://raw.githubusercontent.com/hjdhnx/hipy-sniffer/refs/heads/main/static/lives/lives.txt
 https://raw.githubusercontent.com/hst1189/iptv-m3u/refs/heads/main/m3u/7_YueChan_Live/Adult.m3u
 https://raw.githubusercontent.com/hupochun/iptv-api/refs/heads/master/output/result.txt
 https://raw.githubusercontent.com/illbnm/iptv/refs/heads/Files/IPTV.m3u
@@ -518,6 +449,7 @@ https://raw.githubusercontent.com/jiangnan1224/iptv_ipv4_live/refs/heads/main/ip
 https://raw.githubusercontent.com/jjjay001/sy-iptv/refs/heads/main/ShaanxiTV.m3u
 https://raw.githubusercontent.com/jn950/live/main/tv/pllive.txt
 https://raw.githubusercontent.com/jn950/live/refs/heads/main/tv/pllive.txt
+https://raw.githubusercontent.com/jonhncatt/iptv-cn-finder/refs/heads/main/m3u/chinese-public-verified.m3u
 https://raw.githubusercontent.com/judy-gotv/iptv/main/4gtv.m3u
 https://raw.githubusercontent.com/judy-gotv/iptv/main/smart.m3u
 https://raw.githubusercontent.com/junge3333/juds6/main/yszb1.txt
@@ -538,11 +470,13 @@ https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/refs/heads/main/ass
 https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/refs/heads/main/bbxx.txt
 https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/refs/heads/main/others_output.txt
 https://raw.githubusercontent.com/kimwang1978/collect-txt/main/bbxx.m3u
+https://raw.githubusercontent.com/kimwang1978/collect-txt/main/bbxx_lite.m3u
 https://raw.githubusercontent.com/kimwang1978/collect-txt/refs/heads/main/%E4%B8%93%E5%8C%BA/%E2%99%AA%E6%B8%AF%E6%BE%B3%E5%8F%B0.txt
 https://raw.githubusercontent.com/kimwang1978/collect-txt/refs/heads/main/bbxx_lite.m3u
 https://raw.githubusercontent.com/kimwang1978/collect-txt/refs/heads/main/bbxx_lite.txt
 https://raw.githubusercontent.com/kimwang1978/collect-txt/refs/heads/main/专区/♪优质央视.txt
 https://raw.githubusercontent.com/lalifeier/IPTV/main/m3u/IPTV.m3u
+https://raw.githubusercontent.com/lalifeier/IPTV/main/m3u/Live.m3u
 https://raw.githubusercontent.com/lalifeier/IPTV/main/txt/CCTV.txt
 https://raw.githubusercontent.com/lalifeier/IPTV/main/txt/IPTV.txt
 https://raw.githubusercontent.com/lalifeier/IPTV/main/txt/hotel/%E5%85%A8%E5%9B%BD.txt
@@ -571,6 +505,7 @@ https://raw.githubusercontent.com/ly6610111gmail6/iptv-api/refs/heads/master/sub
 https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt
 https://raw.githubusercontent.com/maitel2020/iptv-self-use/main/iptv.txt
 https://raw.githubusercontent.com/mlzlzj/hnyuan/refs/heads/main/iptv_list.txt
+https://raw.githubusercontent.com/moonkeyhoo/3kids/refs/heads/main/webview-X5.m3u
 https://raw.githubusercontent.com/moonkeyhoo/iptv-api/master/output/result.m3u
 https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/yylunbo.m3u
 https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/full_validated.m3u
@@ -589,6 +524,9 @@ https://raw.githubusercontent.com/onlylove2023/iptv/refs/heads/main/IPTV.m3u
 https://raw.githubusercontent.com/pdd520/IPTV/refs/heads/master/config/rtp/tw.txt
 https://raw.githubusercontent.com/peterHchina/iptv/refs/heads/main/CNTV-V4.m3u
 https://raw.githubusercontent.com/peterHchina/iptv/refs/heads/main/CNTV-V6.m3u
+https://raw.githubusercontent.com/plsy1/iptv/main/multicast/multicast-jining.m3u
+https://raw.githubusercontent.com/plsy1/iptv/main/unicast/unicast-aptv.m3u#3jnltdb
+https://raw.githubusercontent.com/plsy1/iptv/main/unicast/unicast-ku9.m3u
 https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo_all.txt
 https://raw.githubusercontent.com/qingwen07/awesome-iptv/main/tvbox_live_all.txt
 https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Mobile-Multicast.m3u
@@ -608,6 +546,7 @@ https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u
 https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv6.m3u
 https://raw.githubusercontent.com/torysuper/IPTV-P/refs/heads/Files/IPTV.m3u
 https://raw.githubusercontent.com/towerstreet/IPTV-TVBOX/refs/heads/main/IPTV.m3u
+https://raw.githubusercontent.com/tvbw/IPTV202508/refs/heads/main/ipv6.m3u
 https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u
 https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
 https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt
@@ -667,6 +606,7 @@ https://raw.githubusercontent.com/yuanzl77/IPTV/refs/heads/main/live.m3u
 https://raw.githubusercontent.com/yuanzl77/IPTV/refs/heads/main/live.txt
 https://raw.githubusercontent.com/zbefine/iptv/main/iptv.m3u
 https://raw.githubusercontent.com/zbefine/iptv/main/iptv.txt
+https://raw.githubusercontent.com/zhaiyaa/iptv-api/refs/heads/master/output/ipv4/result.m3u
 https://raw.githubusercontent.com/zheng197600/tvbox/refs/heads/main/tv/%E7%94%B5%E8%A7%86%E7%9B%B4%E6%92%AD.txt
 https://raw.githubusercontent.com/zht298/yingshi/0c25fc19575fce14a93bad6f905a31abb4441e2e/output/result.txt
 https://raw.githubusercontent.com/zilong7728/Collect-IPTV/refs/heads/main/best_sorted.m3u
