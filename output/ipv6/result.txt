@@ -1,15 +1,13 @@
 🕘️更新时间,#genre#
-2026-04-23 10:20:32,https://idclive.hljtv.com:4430/live/hljws_own.m3u8
+2026-04-23 14:41:54,url
 
 央视频道,#genre#
 
 卫视频道,#genre#
-黑龙江卫视,https://idclive.hljtv.com:4430/live/hljws_own.m3u8
 
 付费频道,#genre#
 
 电影频道,#genre#
-经典电影,https://down-hls.qxiu.com/live/453135/index.m3u8
 
 系列电影,#genre#
 
@@ -20,9 +18,6 @@ NewTV,#genre#
 贵州频道,#genre#
 
 港澳频道,#genre#
-翡翠台,http://o11.163189.xyz/stream/tvb/fct/
-翡翠台,http://o11.163189.xyz/stream/tvb/fct4k/
-明珠台,http://o11.163189.xyz/stream/tvb/mzt/
 
 纪录频道,#genre#
 
