@@ -316,7 +316,7 @@ def get_channel_items(whitelist_maps, blacklist) -> CategoryChannelData:
     if os.path.exists(user_source_file):
         with open(user_source_file, "r", encoding="utf-8") as file:
             channels = get_channel_data_from_file(
-                channels, file, whitelist_maps, blacklist, local_data, hls_data
+                channels, file, whitelist_maps, local_data, hls_data
             )
 
     source_name_targets = defaultdict(list)
@@ -533,8 +533,9 @@ def append_data_to_info_data(
                             if ipv_type_data is not None:
                                 ipv_type_data[host] = ipv_type
 
-                    if not check_ipv_type_match(ipv_type):
-                        continue
+                    # 已放行IP类型识别失败的地址，允许组播/内网IP正常测速
+                    # if not check_ipv_type_match(ipv_type):
+                    #     continue
 
                     if not location or not isp:
                         ip = ip_checker.get_ip(url)
@@ -956,11 +957,11 @@ def generate_channel_statistic(logger, cate, name, values):
     most_audio_str = most_audio[0][0] if most_audio else t('name.unknown')
     avg_fps = (sum(fps_values) / len(fps_values)) if fps_values else None
     if config.open_full_speed_test:
-        content = f"{f"{t('name.category')}: {cate}, {t('name.name')}: {name}, {t('name.total')}: {total}, {t('name.valid')}: {valid}, {t('name.valid_percent')}: {valid_rate:.2f}%, IPv4: {ipv4_count}, IPv6: {ipv6_count}, {t('name.min_delay')}: {min_delay} ms, {t('name.max_speed')}: {max_speed:.2f} M/s, {t('name.average_speed')}: {avg_speed:.2f} M/s, {t('name.max_resolution')}: {max_resolution}, {t('name.avg_fps')}: {f"{avg_fps:.2f}" if avg_fps is not None else t('name.unknown')}, {t('name.video_codec')}: {most_video_str}, {t('name.audio_codec')}: {most_audio_str}"}"
+        content = f"{f"{t('name.category')}: {cate}, {t('name.name')}: {name}, {t('name.total')}: {total}, {t('name.valid')}: {valid}, {t('name.valid_percent')}: {valid_rate:.2f}%, IPv4: {ipv4_count}, IPv6: {ipv6_count}, {t('name.min_delay')}: {min_delay} ms, {t('name.max_speed')}: {max_speed:.2f} M/s, {t('name.average_speed')}: {avg_speed:.2f} M/s, {t('name.max_resolution')}: {max_resolution}, {t('name.avg_fps')}: {f"{avg_fps:.2f}" if avg_fps else t('name.unknown')}, {t('name.video_codec')}: {most_video_str}, {t('name.audio_codec')}: {most_audio_str}"}"
         logger.info(content)
         print(f"📊 {content}")
     else:
-        content = f"{f"{t('name.category')}: {cate}, {t('name.name')}: {name}, {t('name.valid')}: {valid}, IPv4: {ipv4_count}, IPv6: {ipv6_count}, {t('name.min_delay')}: {min_delay} ms, {t('name.max_speed')}: {max_speed:.2f} M/s, {t('name.average_speed')}: {avg_speed:.2f} M/s, {t('name.max_resolution')}: {max_resolution}, {t('name.avg_fps')}: {f"{avg_fps:.2f}" if avg_fps is not None else t('name.unknown')}, {t('name.video_codec')}: {most_video_str}, {t('name.audio_codec')}: {most_audio_str}"}"
+        content = f"{f"{t('name.category')}: {cate}, {t('name.name')}: {name}, {t('name.valid')}: {valid}, IPv4: {ipv4_count}, IPv6: {ipv6_count}, {t('name.min_delay')}: {min_delay} ms, {t('name.max_speed')}: {max_speed:.2f} M/s, {t('name.average_speed')}: {avg_speed:.2f} M/s, {t('name.max_resolution')}: {max_resolution}, {t('name.avg_fps')}: {f"{avg_fps:.2f}" if avg_fps else t('name.unknown')}, {t('name.video_codec')}: {most_video_str}, {t('name.audio_codec')}: {most_audio_str}"}"
         logger.info(content)
         print(f"📊 {content}")
 
@@ -1015,9 +1016,9 @@ def process_write_content(
                     no_result_name.append(name)
                 continue
             for item in channel_urls:
-                item_url = item["url"]
-                if open_url_info and item["extra_info"]:
-                    item_url = add_url_info(item_url, item["extra_info"])
+                item_url = item.get("url")
+                if open_url_info and item.get("extra_info"):
+                    item_url = add_url_info(item_url, item.get("extra_info"))
                 total_item_url = f"{hls_url}/{item['id']}.m3u8" if hls_url else item_url
                 content += f"\n{name},{total_item_url}"
     if open_empty_category and no_result_name and is_last:
@@ -1041,10 +1042,10 @@ def process_write_content(
             {"id": "id", "url": "url"}
         )
         now = get_datetime_now()
-        update_time_item_url = update_time_item["url"]
+        update_time_item_url = update_time_item.get("url")
         update_title = t("content.update_time") if is_last else t("content.update_running")
-        if open_url_info and update_time_item["extra_info"]:
-            update_time_item_url = add_url_info(update_time_item_url, update_time_item["extra_info"])
+        if open_url_info and update_time_item.get("extra_info"):
+            update_time_item_url = add_url_info(update_time_item_url, update_time_item.get("extra_info"))
         value = f"{hls_url}/{update_time_item["id"]}.m3u8" if hls_url else update_time_item_url
         if config.update_time_position == "top":
             content = f"{update_title},#genre#\n{now},{value}\n\n{content}"
