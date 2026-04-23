@@ -21,15 +21,6 @@ jobs:
         with:
           ref: ${{ env.BRANCH_NAME }}
 
-      # 清理缓存日志
-      - name: Clean cache and log files
-        run: |
-          rm -rf output/log/
-          rm -rf output/cache/
-          rm -f output/log/unmatch.log
-          rm -f *.log
-          rm -f *.tmp
-
       - name: Run with setup-python 3.13
         uses: actions/setup-python@v4
         with:
@@ -48,15 +39,6 @@ jobs:
 
       - name: Update
         run: pipenv run dev
-
-      # 提交前再次清理
-      - name: Clean again before commit
-        run: |
-          rm -rf output/log/
-          rm -rf output/cache/
-          rm -f output/log/unmatch.log
-          rm -f *.log
-          rm -f *.tmp
 
       - name: Copy m3u to Cloudflare Pages directory
         run: |
