@@ -123,9 +123,7 @@ class ConfigManager:
 
     @property
     def min_speed(self):
-        # 只改了这一行，修复空字符串报错
-        val = self.config.get("Settings", "min_speed", fallback="0.5")
-        return float(val.strip() or 0.5)
+        return self.config.getfloat("Settings", "min_speed", fallback=0.5)
 
     @property
     def min_resolution(self):
