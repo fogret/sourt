@@ -63,19 +63,14 @@ jobs:
           mkdir -p public
           cp output/result.m3u public/result.m3u
 
-      # ========== 修复段 关键修改 只看这里 ==========
       - name: Commit and push if changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          # 只添加需要的目录，彻底排除 .github
-          git add output/ public/
-          # 强制还原 .github 所有文件，杜绝工作流变更
-          git checkout -- .github/
-          # 无改动直接跳过
-          if [[ -n $(git status --porcelain) ]]; then
-            git commit -m "Github 行动自动更新"
-            git push
+          git add .
+          if ! git diff --staged --quiet; then
+            git commit -m "Github Action Auto Updated"
+            git push --force
           fi
 
       # 同步到 fogret/soute
