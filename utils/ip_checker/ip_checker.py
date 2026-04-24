@@ -14,44 +14,40 @@ class IPChecker:
         self.host_ipv_type = {}
 
     def get_host(self, url: str) -> str:
-        """
-        Get the host from a URL
-        """
+        """Get the host from a URL"""
         if url in self.url_host:
             return self.url_host[url]
-
         host = urlparse(url).hostname or url
         self.url_host[url] = host
         return host
 
     def get_ip(self, url: str) -> str | None:
-        """
-        Get the IP from a URL
-        """
+        """Get the IP from a URL"""
         host = self.get_host(url)
         if host in self.host_ip:
             return self.host_ip[host]
-
         self.get_ipv_type(url)
         return self.host_ip.get(host)
 
     def get_ipv_type(self, url: str) -> str:
-        """
-        Get the IPv type of URL
-        """
+        """Get the IPv type of URL"""
         host = self.get_host(url)
         if host in self.host_ipv_type:
             return self.host_ipv_type[host]
 
+        ip = None
+        ipv_type = "ipv4"
         try:
             addr_info = socket.getaddrinfo(host, None, socket.AF_UNSPEC, socket.SOCK_STREAM)
-            ip = next((info[4][0] for info in addr_info if info[0] == socket.AF_INET6), None)
+            has_ipv6 = any(info[0] == socket.AF_INET6 for info in addr_info)
+            # 优先取ipv6
+            if has_ipv6:
+                ip = next((info[4][0] for info in addr_info if info[0] == socket.AF_INET6), None)
+                ipv_type = "ipv6"
             if not ip:
                 ip = next((info[4][0] for info in addr_info if info[0] == socket.AF_INET), None)
-            ipv_type = "ipv6" if any(info[0] == socket.AF_INET6 for info in addr_info) else "ipv4"
         except Exception:
-            ip = None
-            ipv_type = "ipv4"
+            pass
 
         self.host_ip[host] = ip
         self.host_ipv_type[host] = ipv_type
@@ -63,11 +59,12 @@ class IPChecker:
         :param ip: The IP address to find
         :return: A tuple of (location, ISP)
         """
+        if not ip:
+            return None, None
         try:
             result = self.db.find_map(ip, "CN")
             if not result:
                 return None, None
-
             location_parts = [
                 result.get('country_name', ''),
                 result.get('region_name', ''),
@@ -75,7 +72,6 @@ class IPChecker:
             ]
             location = "-".join(filter(None, location_parts))
             isp = result.get('isp_domain', None)
-
             return location, isp
         except Exception as e:
             print(f"Error on finding ip location and ISP: {e}")
