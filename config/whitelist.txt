@@ -1,15 +1,31 @@
-# 这是接口的白名单，白名单内的接口将不会参与测速，始终保留至结果最前；
-# 填写频道名称会直接保留该记录至该频道的最终结果，如：CCTV-1,接口地址；
-# 如果不填写频道名称，则该地址会被加入到所有频道的结果中，多条记录换行输入。
-# This is the whitelist for interfaces. Interfaces in the whitelist will not be speed tested and will always be kept at the top of the results;
-# Filling in the channel name will directly retain the record to the final result of the channel, such as: CCTV-1, interface address;
-# If the channel name is not filled in, the address will be added to the results of all channels, with multiple records entered on new lines
-
-
-
-
-
-[KEYWORDS]
-# 以下区域是关键字白名单，某频道获取到的接口地址中含有指定关键字，则该接口会被加入该频道的白名单，多条记录换行输入。
-# This area is the keyword whitelist. If the interface address obtained by a certain channel contains the specified keyword, the interface will be added to the whitelist of the channel, with multiple records entered on new lines.
-171.8.105.158:8800
+112.109.206.183
+124.112.189.152
+114.226.212.149
+124.112.240.142
+39.77.162.237
+114.226.212.147
+49.77.31.239
+123.118.56.249
+171.8.84.159
+60.4.30.55
+114.226.212.148
+42.237.212.27
+115.171.216.46
+115.171.216.23
+112.192.73.47
+112.192.73.60
+111.127.156.64
+114.238.59.74
+106.87.51.99
+220.167.170.232
+220.176.218.206
+106.116.126.196
+36.49.54.222
+111.196.131.68
+221.220.129.163
+121.29.215.108
+123.118.51.64
+1.58.66.249
+106.59.2.232
+114.254.87.121
+106.116.243.248
