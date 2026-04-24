@@ -3,7 +3,7 @@
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
 
-# 更新时间：2026-04-24 07:19:51（北京时间）
+# 更新时间：2026-04-24 08:17:26（北京时间）
 http://1.94.31.214/live/live9/dgtv.txt
 http://1.94.31.214/live/livelite.txt
 http://117.72.68.25:9230/latest.txt
@@ -119,13 +119,23 @@ https://gitee.com/hw2837/iptv/raw/master/iptv.txt
 https://gitee.com/king12985/tv/raw/master/lives/20180818.txt
 https://gitee.com/king12985/tv/raw/master/lives/zhizhu/20180818china.txt
 https://gitee.com/lee9108/tv/raw/505293fc7a9a245392b648aab50f66e21f523b63/gx.m3u
+https://gitee.com/lee9108/tv/raw/master/gx.m3u
+https://gitee.com/lee9108/tv/raw/master/gxhk.m3u
+https://gitee.com/lee9108/tv/raw/master/gxhk2.m3u
 https://gitee.com/lwr851/live/raw/master/iptv.m3u
 https://gitee.com/mytv-android/mytvJS/raw/main/js.gitee.m3u
 https://gitee.com/myvisual/newzubo/raw/main/IPTV.txt
+https://gitee.com/shi1tou/tvbox/raw/master/xiaofei.txt
+https://gitee.com/sunmingya001/tv-live-streaming-source/raw/master/TMDBNDY.txt
+https://gitee.com/szwxk/watch-television/raw/master/wxk.m3u
+https://gitee.com/szwxk/watch-television/raw/master/wxk1.m3u
+https://gitee.com/tushaoyong/live/raw/master/%E6%8E%A5%E5%8F%A3/IPV6.txt
 https://gitee.com/vip8752/tv/raw/master/vip.txt
 https://gitee.com/wtzbyck/lm.20260206/raw/master/9603.txt
+https://gitee.com/ymxuit109/TV000/raw/master/TV.txt
 https://gitee.com/yuweirong6684/tv-live-streaming-source/raw/master/AD.txt
 https://gitee.com/yuweirong6684/tv-live-streaming-source/raw/master/miguzb.txt
+https://gitee.com/zlmei/tvbox/raw/master/zb.txt
 https://github.com/0610840119/iptv-api/blob/master/output/xp_result.m3u
 https://github.com/TianmuTNT/iptv/blob/main/iptv.m3u
 https://github.com/UserLinYa/zubo/raw/main/IPTV.txt
@@ -175,7 +185,6 @@ https://live.fanmingming.cn/tv/m3u/ipv6.m3u
 https://live.fanmingming.com/tv/m3u/index.m3u
 https://live.fanmingming.com/tv/m3u/ipv6.m3u
 https://live.freetv.top/douyuyqk.m3u
-https://live.freetv.top/huyayqk.m3u
 https://live.hacks.tools/tv/iptv6.txt
 https://live.hacks.tools/tv/ipv4/categories/卫视频道.txt
 https://live.hacks.tools/tv/ipv4/categories/央视频道.txt
@@ -357,6 +366,7 @@ https://raw.githubusercontent.com/kakaxi-1/zubo/refs/heads/main/IPTV.txt
 https://raw.githubusercontent.com/kfkhfj/iptv/refs/heads/main/tv2026.m3u
 https://raw.githubusercontent.com/kilvn/iptv/refs/heads/master/iptv.m3u
 https://raw.githubusercontent.com/kimwang1978/TV/master/output/result.txt
+https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/assets/special/special.txt
 https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.m3u
 https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt
 https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
