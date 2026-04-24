@@ -43,9 +43,6 @@ stability_threshold = 0.12
 
 async def get_speed_with_download(url: str, headers: dict = None, session: ClientSession = None,
                                   timeout: int = speed_test_timeout) -> dict[str, float | None]:
-    """
-    Get the speed of the url with a total timeout
-    """
     start_time = time()
     delay = -1
     total_size = 0
@@ -105,9 +102,6 @@ async def get_speed_with_download(url: str, headers: dict = None, session: Clien
 
 
 async def get_headers(url: str, headers: dict = None, session: ClientSession = None, timeout: int = 3) -> dict:
-    """
-    Get the headers of the url
-    """
     if session is None:
         session = ClientSession(connector=TCPConnector(ssl=False), trust_env=True)
         created_session = True
@@ -127,9 +121,6 @@ async def get_headers(url: str, headers: dict = None, session: ClientSession = N
 
 async def get_url_content(url: str, headers: dict = None, session: ClientSession = None,
                           timeout: int = speed_test_timeout) -> str:
-    """
-    Get the content of the url
-    """
     if session is None:
         session = ClientSession(connector=TCPConnector(ssl=False), trust_env=True)
         created_session = True
@@ -151,9 +142,6 @@ async def get_url_content(url: str, headers: dict = None, session: ClientSession
 
 
 def check_m3u8_valid(headers: dict) -> bool:
-    """
-    Check if the m3u8 url is valid
-    """
     content_type = headers.get('Content-Type', '').lower()
     if not content_type:
         return False
@@ -161,9 +149,6 @@ def check_m3u8_valid(headers: dict) -> bool:
 
 
 def _parse_time_to_seconds(t: str) -> float:
-    """
-    Parse time string to seconds
-    """
     if not t:
         return 0.0
     parts = [p.strip() for p in t.split(':') if p.strip() != ""]
@@ -181,9 +166,6 @@ def _parse_time_to_seconds(t: str) -> float:
 async def get_result(url: str, headers: dict = None, resolution: str = None,
                      filter_resolution: bool = config.open_filter_resolution,
                      timeout: int = speed_test_timeout) -> dict[str, float | None]:
-    """
-    Get the test result of the url
-    """
     info = {'speed': 0.0, 'delay': -1, 'resolution': resolution}
     location = None
     try:
@@ -266,9 +248,6 @@ async def get_result(url: str, headers: dict = None, resolution: str = None,
 
 
 async def get_delay_requests(url, timeout=speed_test_timeout, proxy=None):
-    """
-    Get the delay of the url by requests
-    """
     async with ClientSession(
             connector=TCPConnector(ssl=False), trust_env=True
     ) as session:
@@ -283,15 +262,12 @@ async def get_delay_requests(url, timeout=speed_test_timeout, proxy=None):
                     end = time()
                 else:
                     return -1
-        except Exception as e:
+        except Exception:
             return -1
         return int(round((end - start) * 1000)) if end else -1
 
 
 def get_video_info(video_info):
-    """
-    Get the video info from ffmpeg stderr
-    """
     resolution = None
     fps = None
     video_codec = None
@@ -319,7 +295,7 @@ def get_video_info(video_info):
         m_ac = re.search(r"Audio:\s*([^,\n\r(]+)", video_info, re.IGNORECASE)
         if m_ac:
             ac = m_ac.group(1).strip()
-            ac = ac.split(',')[0].split()[0]
+            ac = vc.split(',')[0].split()[0]
             if ac:
                 audio_codec = ac
 
@@ -438,7 +414,7 @@ async def get_speed(data, headers=None, ipv6_proxy=None, filter_resolution=open_
                     timeout=speed_test_timeout, logger=None, callback=None) -> TestResult:
     url = data['url']
     resolution = data['resolution']
-    result: TestResult = {'speed': 0, 'delay': -1, 'resolution': resolution}
+    result: TestResult = {'speed': 0.0, 'delay': -1, 'resolution': resolution}
     headers = {**request_headers, **(headers or {})}
 
     try:
@@ -448,42 +424,31 @@ async def get_speed(data, headers=None, ipv6_proxy=None, filter_resolution=open_
         else:
             if data['ipv_type'] == "ipv6" and ipv6_proxy:
                 result.update(default_ipv6_result)
-            else:
-                # 组播/rtp 调试日志
-                rt_match = constants.rt_url_pattern.match(url) if hasattr(constants, 'rt_url_pattern') else None
-                print(f"[测速调试] URL: {url}")
-                print(f"[测速调试] IPv类型: {data['ipv_type']}")
-                print(f"[测速调试] 包含/rtp/: {'/rtp/' in url}")
-                print(f"[测速调试] rt正则匹配: {rt_match is not None}")
-
-            if (hasattr(constants, 'rt_url_pattern') and rt_match) or "/rtp/" in url:
-                print(f"[测速调试] ✅ 进入组播/rtp测速分支")
+            elif (hasattr(constants, 'rt_url_pattern') and constants.rt_url_pattern.match(url)) or "/rtp/" in url:
+                # 真实测速：不赋值假速度，只认ffmpeg实测结果
                 try:
                     start_time = time()
-                    rt_headers = await get_headers(url, headers)
-                    print(f"[测速调试] headers: {rt_headers}")
-                    print(f"[测速调试] 开始ffmpeg探测")
                     ff_out = await ffmpeg_url(url, headers, timeout)
                     parsed = get_video_info(ff_out) if ff_out else {}
-                    result['delay'] = int(round((time() - start_time) * 1000))
-                    result['speed'] = parsed.get('speed', 0.5)
-                    result['resolution'] = parsed.get('resolution', '1280x720')
-                    result['fps'] = parsed.get('fps')
-                    result['video_codec'] = parsed.get('video_codec')
-                    result['audio_codec'] = parsed.get('audio_codec')
-                    print(f"[测速调试] 探测成功: speed={result['speed']:.2f}, resolution={result['resolution']}, delay={result['delay']}ms")
-                except Exception as e:
-                    print(f"[测速调试] 异常: {e}")
-                    result['delay'] = 200
-                    result['speed'] = 0.5
-                    result['resolution'] = '1280x720'
+
+                    real_speed = parsed.get('speed')
+                    if real_speed and real_speed > 0:
+                        result['delay'] = int(round((time() - start_time) * 1000))
+                        result['speed'] = real_speed
+                        result['resolution'] = parsed.get('resolution')
+                        result['fps'] = parsed.get('fps')
+                        result['video_codec'] = parsed.get('video_codec')
+                        result['audio_codec'] = parsed.get('audio_codec')
+                    # 测不出来就保持 speed=0 delay=-1，不造假
+                except Exception:
+                    pass
             else:
-                print(f"[测速调试] ➡️ 进入普通测速分支")
                 result.update(await get_result(url, headers, resolution, filter_resolution, timeout))
+
             if cache_key:
                 cache.setdefault(cache_key, []).append(result)
-    except Exception as e:
-        print(f"[测速调试] 全局异常: {e}")
+    except Exception:
+        pass
     finally:
         if callback:
             callback()
@@ -491,7 +456,7 @@ async def get_speed(data, headers=None, ipv6_proxy=None, filter_resolution=open_
             origin = data.get('origin')
             origin_name = t(f"name.{origin}") if origin else origin
             logger.info(
-                f"ID: {data.get('id')}, {t('name.name')}: {data.get('name')}, {t('pbar.url')}: {data.get('url')}, {t('name.from')}: {origin_name}, {t('name.ipv_type')}: {data.get('ipv_type')}, {t('name.location')}: {data.get('location')}, {t('name.isp')}: {data.get('isp')}, {t('name.delay')}: {result.get('delay') or -1} ms, {t('name.speed')}: {result.get('speed') or 0:.2f} M/s, {t('name.resolution')}: {result.get('resolution')}, {t('name.fps')}: {result.get('fps') or t('name.unknown')}, {t('name.video_codec')}: {result.get('video_codec') or t('name.unknown')}, {t('name.audio_codec')}: {result.get('audio_codec') or t('name.unknown')}"
+                f"ID: {data.get('id')}, {t('name.name')}: {data.get('name')}, {t('pbar.url')}: {url}, {t('name.from')}: {origin_name}, {t('name.ipv_type')}: {data.get('ipv_type')}, {t('name.location')}: {data.get('location')}, {t('name.isp')}: {data.get('isp')}, {t('name.delay')}: {result.get('delay') or -1} ms, {t('name.speed')}: {result.get('speed') or 0:.2f} M/s, {t('name.resolution')}: {result.get('resolution')}, {t('name.fps')}: {result.get('fps') or t('name.unknown')}, {t('name.video_codec')}: {result.get('video_codec') or t('name.unknown')}, {t('name.audio_codec')}: {result.get('audio_codec') or t('name.unknown')}"
             )
     return result
 
