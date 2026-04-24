@@ -468,7 +468,8 @@ async def get_speed(data, headers=None, ipv6_proxy=None, filter_resolution=open_
         else:
             if data['ipv_type'] == "ipv6" and ipv6_proxy:
                 result.update(default_ipv6_result)
-            elif constants.rt_url_pattern.match(url) is not None:
+            # ↓↓↓ 这里是唯一修改：新增 /rtp/ 判断 ↓↓↓
+            elif constants.rt_url_pattern.match(url) is not None or "/rtp/" in url:
                 rt_headers = await get_headers(url, headers)
                 if rt_headers:
                     start_time = time()
