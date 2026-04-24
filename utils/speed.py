@@ -448,9 +448,21 @@ async def get_speed(data, headers=None, ipv6_proxy=None, filter_resolution=open_
         else:
             if data['ipv_type'] == "ipv6" and ipv6_proxy:
                 result.update(default_ipv6_result)
-            elif (hasattr(constants, 'rt_url_pattern') and constants.rt_url_pattern.match(url)) or "/rtp/" in url:
+            else:
+                # 组播/rtp 调试日志
+                rt_match = constants.rt_url_pattern.match(url) if hasattr(constants, 'rt_url_pattern') else None
+                print(f"[测速调试] URL: {url}")
+                print(f"[测速调试] IPv类型: {data['ipv_type']}")
+                print(f"[测速调试] 包含/rtp/: {'/rtp/' in url}")
+                print(f"[测速调试] rt正则匹配: {rt_match is not None}")
+
+            if (hasattr(constants, 'rt_url_pattern') and rt_match) or "/rtp/" in url:
+                print(f"[测速调试] ✅ 进入组播/rtp测速分支")
                 try:
                     start_time = time()
+                    rt_headers = await get_headers(url, headers)
+                    print(f"[测速调试] headers: {rt_headers}")
+                    print(f"[测速调试] 开始ffmpeg探测")
                     ff_out = await ffmpeg_url(url, headers, timeout)
                     parsed = get_video_info(ff_out) if ff_out else {}
                     result['delay'] = int(round((time() - start_time) * 1000))
@@ -459,16 +471,19 @@ async def get_speed(data, headers=None, ipv6_proxy=None, filter_resolution=open_
                     result['fps'] = parsed.get('fps')
                     result['video_codec'] = parsed.get('video_codec')
                     result['audio_codec'] = parsed.get('audio_codec')
-                except Exception:
+                    print(f"[测速调试] 探测成功: speed={result['speed']:.2f}, resolution={result['resolution']}, delay={result['delay']}ms")
+                except Exception as e:
+                    print(f"[测速调试] 异常: {e}")
                     result['delay'] = 200
                     result['speed'] = 0.5
                     result['resolution'] = '1280x720'
             else:
+                print(f"[测速调试] ➡️ 进入普通测速分支")
                 result.update(await get_result(url, headers, resolution, filter_resolution, timeout))
             if cache_key:
                 cache.setdefault(cache_key, []).append(result)
-    except Exception:
-        pass
+    except Exception as e:
+        print(f"[测速调试] 全局异常: {e}")
     finally:
         if callback:
             callback()
