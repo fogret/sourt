@@ -295,7 +295,7 @@ def get_video_info(video_info):
         m_ac = re.search(r"Audio:\s*([^,\n\r(]+)", video_info, re.IGNORECASE)
         if m_ac:
             ac = m_ac.group(1).strip()
-            ac = vc.split(',')[0].split()[0]
+            ac = ac.split(',')[0].split()[0]
             if ac:
                 audio_codec = ac
 
@@ -425,23 +425,21 @@ async def get_speed(data, headers=None, ipv6_proxy=None, filter_resolution=open_
             if data['ipv_type'] == "ipv6" and ipv6_proxy:
                 result.update(default_ipv6_result)
             elif (hasattr(constants, 'rt_url_pattern') and constants.rt_url_pattern.match(url)) or "/rtp/" in url:
-                # 真实测速：不赋值假速度，只认ffmpeg实测结果
                 try:
                     start_time = time()
                     ff_out = await ffmpeg_url(url, headers, timeout)
                     parsed = get_video_info(ff_out) if ff_out else {}
 
-                    real_speed = parsed.get('speed')
-                    if real_speed and real_speed > 0:
-                        result['delay'] = int(round((time() - start_time) * 1000))
-                        result['speed'] = real_speed
-                        result['resolution'] = parsed.get('resolution')
-                        result['fps'] = parsed.get('fps')
-                        result['video_codec'] = parsed.get('video_codec')
-                        result['audio_codec'] = parsed.get('audio_codec')
-                    # 测不出来就保持 speed=0 delay=-1，不造假
+                    # 修复：只要能探测，就不返回-1，避免能播被判无效
+                    result['delay'] = int(round((time() - start_time) * 1000))
+                    result['speed'] = parsed.get('speed') or 0.0
+                    result['resolution'] = parsed.get('resolution')
+                    result['fps'] = parsed.get('fps')
+                    result['video_codec'] = parsed.get('video_codec')
+                    result['audio_codec'] = parsed.get('audio_codec')
                 except Exception:
-                    pass
+                    result['delay'] = -1
+                    result['speed'] = 0.0
             else:
                 result.update(await get_result(url, headers, resolution, filter_resolution, timeout))
 
