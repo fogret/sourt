@@ -461,35 +461,66 @@ async def get_speed(data, headers=None, ipv6_proxy=None, filter_resolution=open_
     resolution = data['resolution']
     result: TestResult = {'speed': 0, 'delay': -1, 'resolution': resolution}
     headers = {**request_headers, **(headers or {})}
+
+    # ===================== 调试日志 =====================
+    print("\n========================================")
+    print(f"[测速调试] URL: {url}")
+    print(f"[测速调试] IPv类型: {data.get('ipv_type')}")
+    print(f"[测速调试] 包含/rtp/: {'/rtp/' in url}")
+    if hasattr(constants, 'rt_url_pattern') and constants.rt_url_pattern:
+        print(f"[测速调试] rt正则匹配: {constants.rt_url_pattern.match(url) is not None}")
+    # ====================================================
+
     try:
         cache_key = data['host'] if speed_test_filter_host else url
         if cache_key and cache_key in cache:
+            print(f"[测速调试] 使用缓存")
             result = get_avg_result(cache[cache_key])
         else:
             if data['ipv_type'] == "ipv6" and ipv6_proxy:
+                print(f"[测速调试] 进入IPv6分支")
                 result.update(default_ipv6_result)
-            # ↓↓↓ 这里是唯一修改：新增 /rtp/ 判断 ↓↓↓
-            elif constants.rt_url_pattern.match(url) is not None or "/rtp/" in url:
+
+            elif (hasattr(constants, 'rt_url_pattern') and constants.rt_url_pattern.match(url) is not None) or "/rtp/" in url:
+                print(f"[测速调试] ✅ 进入组播/rtp测速分支")
+
                 rt_headers = await get_headers(url, headers)
+                print(f"[测速调试] headers: {rt_headers}")
+
                 if rt_headers:
+                    print(f"[测速调试] 开始ffmpeg探测")
                     start_time = time()
                     ff_out = await ffmpeg_url(url, headers, timeout)
+                    print(f"[测速调试] ffmpeg输出长度: {len(ff_out) if ff_out else 0}")
+
                     if ff_out:
                         try:
                             parsed = get_video_info(ff_out)
-                            if parsed:
-                                result['delay'] = int(round((time() - start_time) * 1000))
-                                result['speed'] = parsed['speed']
-                                result['resolution'] = parsed['resolution']
-                                result['fps'] = parsed['fps']
-                                result['video_codec'] = parsed['video_codec']
-                                result['audio_codec'] = parsed['audio_codec']
-                        except Exception:
-                            pass
+                            print(f"[测速调试] 解析结果: {parsed}")
+
+                            result['delay'] = int(round((time() - start_time) * 1000))
+                            result['speed'] = parsed.get('speed')
+                            result['resolution'] = parsed.get('resolution')
+                            result['fps'] = parsed.get('fps')
+                            result['video_codec'] = parsed.get('video_codec')
+                            result['audio_codec'] = parsed.get('audio_codec')
+
+                            print(f"[测速调试] 组播结果: speed={result['speed']}, delay={result['delay']}, resolution={result['resolution']}")
+                        except Exception as e:
+                            print(f"[测速调试] 解析失败: {e}")
+                    else:
+                        print(f"[测速调试] ffmpeg无返回")
+                else:
+                    print(f"[测速调试] 获取headers失败")
             else:
+                print(f"[测速调试] 进入普通流测速分支")
                 result.update(await get_result(url, headers, resolution, filter_resolution, timeout))
+
             if cache_key:
                 cache.setdefault(cache_key, []).append(result)
+
+    except Exception as e:
+        print(f"[测速调试] 异常: {e}")
     finally:
         if callback:
             callback()
@@ -499,6 +530,7 @@ async def get_speed(data, headers=None, ipv6_proxy=None, filter_resolution=open_
             logger.info(
                 f"ID: {data.get('id')}, {t('name.name')}: {data.get('name')}, {t('pbar.url')}: {data.get('url')}, {t('name.from')}: {origin_name}, {t('name.ipv_type')}: {data.get('ipv_type')}, {t('name.location')}: {data.get('location')}, {t('name.isp')}: {data.get('isp')}, {t('name.delay')}: {result.get('delay') or -1} ms, {t('name.speed')}: {result.get('speed') or 0:.2f} M/s, {t('name.resolution')}: {result.get('resolution')}, {t('name.fps')}: {result.get('fps') or t('name.unknown')}, {t('name.video_codec')}: {result.get('video_codec') or t('name.unknown')}, {t('name.audio_codec')}: {result.get('audio_codec') or t('name.unknown')}"
             )
+        print("========================================\n")
         return result
 
 
@@ -525,15 +557,19 @@ def get_sort_result(
             result.get("resolution")
         )
         if result_delay == -1:
+            print(f"[排序过滤] 延迟=-1被过滤: {result.get('url')}")
             continue
         if not supply:
             if filter_speed and result_speed < resolution_speed_map.get(resolution, min_speed):
+                print(f"[排序过滤] 速度不达标被过滤: {result.get('url')}, speed={result_speed}")
                 continue
             if filter_resolution and resolution:
                 resolution_value = get_resolution_value(resolution)
                 if resolution_value < min_resolution or resolution_value > max_resolution:
+                    print(f"[排序过滤] 分辨率不达标被过滤: {result.get('url')}, resolution={resolution}")
                     continue
         total_result.append(result)
+
     total_result.sort(key=lambda item: item.get("speed") or 0, reverse=True)
     return total_result
 
