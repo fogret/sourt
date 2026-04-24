@@ -25,10 +25,7 @@ def check_ffmpeg_installed_status():
     except Exception as e:
         print(e)
     finally:
-        if status:
-            print(t("msg.ffmpeg_installed"))
-        else:
-            print(t("msg.ffmpeg_not_installed"))
+        print(t("msg.ffmpeg_installed") if status else t("msg.ffmpeg_not_installed"))
         return status
 
 
@@ -50,37 +47,32 @@ async def ffmpeg_url(url, headers=None, timeout=10):
     start = time()
 
     try:
-        proc = await asyncio.create_subprocess_exec(*args, stdout=asyncio.subprocess.PIPE,
-                                                    stderr=asyncio.subprocess.PIPE)
+        proc = await asyncio.create_subprocess_exec(
+            *args,
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE
+        )
 
         while True:
             try:
                 line = await asyncio.wait_for(proc.stderr.readline(), timeout=0.5)
             except asyncio.TimeoutError:
-                line = b''
-            now = time()
-            elapsed = now - start
+                line = b""
 
-            if line == b'':
-                if proc.returncode is None:
-                    if elapsed >= timeout:
-                        proc.kill()
-                        await proc.wait()
-                        break
-                    await asyncio.sleep(0)
-                    if proc.returncode is not None:
-                        break
-                    continue
-                else:
+            elapsed = time() - start
+            if not line:
+                # 进程已退出 或 超时终止
+                if proc.returncode is not None:
                     break
+                if elapsed >= timeout:
+                    break
+                await asyncio.sleep(0)
+                continue
 
             stderr_parts.append(line)
+            text = line.decode("ignore")
 
-            try:
-                text = line.decode(errors="ignore")
-            except Exception:
-                text = ""
-
+            # 解析码率
             m = bitrate_re.search(text)
             if m:
                 try:
@@ -90,67 +82,28 @@ async def ffmpeg_url(url, headers=None, timeout=10):
                 except Exception:
                     pass
 
+            # 稳定性判定 提前终止
             if elapsed >= min_measure_time and len(speed_samples) >= stability_window:
                 window = speed_samples[-stability_window:]
                 mean = sum(window) / len(window)
                 if mean > 0 and (max(window) - min(window)) / mean < stability_threshold:
-                    try:
-                        proc.kill()
-                    except Exception:
-                        pass
-                    await proc.wait()
                     break
 
-        try:
-            out, err = await asyncio.wait_for(proc.communicate(), timeout=1)
-            if err:
-                stderr_parts.append(err)
-            if out:
-                stderr_parts.append(out)
-        except asyncio.TimeoutError:
-            try:
-                proc.kill()
-            except Exception:
-                pass
-            try:
-                await proc.wait()
-            except Exception:
-                pass
-        except Exception:
-            try:
-                proc.kill()
-            except Exception:
-                pass
-            try:
-                await proc.wait()
-            except Exception:
-                pass
-    except asyncio.TimeoutError:
-        if proc:
-            try:
-                proc.kill()
-            except Exception:
-                pass
-            await proc.wait()
     except Exception:
-        if proc:
+        pass
+    finally:
+        # 统一安全销毁进程，杜绝僵尸进程
+        if proc and proc.returncode is None:
             try:
                 proc.kill()
             except Exception:
                 pass
             await proc.wait()
-    finally:
+
+        # 读取剩余未消费的stderr
         if proc:
-            try:
-                proc.kill()
-            except Exception:
-                pass
-            try:
-                await proc.wait()
-            except Exception:
-                pass
-        stderr_bytes = b"".join(stderr_parts)
-        try:
-            return stderr_bytes.decode(errors="ignore")
-        except Exception:
-            return None
+            remain_err = await proc.stderr.read()
+            stderr_parts.append(remain_err)
+
+    stderr_bytes = b"".join(stderr_parts)
+    return stderr_bytes.decode("ignore")
