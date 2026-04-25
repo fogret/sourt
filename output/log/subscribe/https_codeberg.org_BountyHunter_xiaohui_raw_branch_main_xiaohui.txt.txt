@@ -1,0 +1,74 @@
+#EXTM3U x-tvg-url="https://epg.946985.qzz.io/t.xml.gz"
+#EXTINF:-1 tvg-id="CCTV-1 综合" tvg-name="CCTV1" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV1.png" group-title="央视",CCTV-1 综合
+https://cdn13.178.indevs.in/163189/bea1d91d91364062
+#EXTINF:-1 tvg-id="CCTV-2 财经" tvg-name="CCTV2" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV2.png" group-title="央视",CCTV-2 财经
+https://cdn16.163189.xyz/163189/c8c76253ac65f6cf
+#EXTINF:-1 tvg-id="CCTV-3 综艺" tvg-name="CCTV3" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV3.png" group-title="央视",CCTV-3 综艺
+https://cdn16.163189.xyz/163189/6bb5cc0875486ce7
+#EXTINF:-1 tvg-id="CCTV-4 中文国际" tvg-name="CCTV4" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV4.png" group-title="央视",CCTV-4 中文国际
+https://cdn16.163189.xyz/163189/2df15a73d91208f3
+#EXTINF:-1 tvg-id="CCTV-5 体育" tvg-name="CCTV5" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV5.png" group-title="央视",CCTV-5 体育
+https://cdn16.163189.xyz/163189/245164482572a9f2
+#EXTINF:-1 tvg-id="CCTV-5+ 体育赛事" tvg-name="CCTV5+" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV5+.png" group-title="央视",CCTV-5+ 体育赛事
+https://cdn16.163189.xyz/163189/3c8b79c28a1ff196
+#EXTINF:-1 tvg-id="CCTV-6 电影" tvg-name="CCTV6" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV6.png" group-title="央视",CCTV-6 电影
+https://cdn16.163189.xyz/163189/fa9bcf3a053381ab
+#EXTINF:-1 tvg-id="CCTV-7 国防军事" tvg-name="CCTV7" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV7.png" group-title="央视",CCTV-7 国防军事
+https://cdn16.163189.xyz/163189/cf87ccdc86d29d58
+#EXTINF:-1 tvg-id="CCTV-8 电视剧" tvg-name="CCTV8" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV8.png" group-title="央视",CCTV-8 电视剧
+https://cdn16.163189.xyz/163189/1a61bc7b0b49370d
+#EXTINF:-1 tvg-id="CCTV-9 记录" tvg-name="CCTV9" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV9.png" group-title="央视",CCTV-9 记录
+https://cdn16.163189.xyz/163189/fc5fab4ed236bb81
+#EXTINF:-1 tvg-id="CCTV-10 科教" tvg-name="CCTV10" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV10.png" group-title="央视",CCTV-10 科教
+https://cdn16.163189.xyz/163189/7dc7cecc518c51ad
+#EXTINF:-1 tvg-id="CCTV-11 戏曲" tvg-name="CCTV11" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV11.png" group-title="央视",CCTV-11 戏曲
+https://cdn16.163189.xyz/163189/84e8588d94ea522a
+#EXTINF:-1 tvg-id="CCTV-12 社会与法" tvg-name="CCTV12" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV12.png" group-title="央视",CCTV-12 社会与法
+https://cdn16.163189.xyz/163189/c55aade87ae9663c
+#EXTINF:-1 tvg-id="CCTV-13 新闻" tvg-name="CCTV13" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV13.png" group-title="央视",CCTV-13 新闻
+https://cdn13.178.indevs.in/163189/790bc5f7f0f06879
+#EXTINF:-1 tvg-id="CCTV-14 少儿" tvg-name="CCTV14" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV14.png" group-title="央视",CCTV-14 少儿
+https://cdn16.163189.xyz/163189/48c68d50752edc12
+#EXTINF:-1 tvg-id="CCTV-15 音乐" tvg-name="CCTV15" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV15.png" group-title="央视",CCTV-15 音乐
+https://cdn16.163189.xyz/163189/9301fb9a6f59e01e
+#EXTINF:-1 tvg-id="CCTV-16 奥林匹克" tvg-name="CCTV16" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV16.png" group-title="央视",CCTV-16 奥林匹克
+http://api.kkitv.itv888.cn:8080/hls/qazacsm0hgl/index.m3u8
+#EXTINF:-1 tvg-id="CCTV-17 农业农村" tvg-name="CCTV17" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV17.png" group-title="央视",CCTV-17 农业农村
+https://cdn16.163189.xyz/163189/c47f0a6c4e8d3e51
+
+
+
+#EXTINF:-1 group-title="卫视台" tvg-logo="https://live.fanmingming.com/tv/河南卫视.png",河南卫视
+http://1.94.31.214/php/hntv.php?id=hnws
+
+
+#EXTINF:-1 group-title="体育",五星体育
+https://cdn15.163189.xyz/163189/9c893bb003e1c7de
+#EXTINF:-1 group-title="体育",纬来体育
+https://pixman.passwdwork.cc.cd/proxy/e817c60fff235471.m3u8
+
+
+#EXTINF:-1 group-title="电影",CHC家庭影院
+https://cdn13.178.indevs.in/163189/adafdc2e9ef83fe0
+#EXTINF:-1 group-title="电影",CHC动作电影
+https://cdn13.178.indevs.in/163189/32a810b251717bd0
+#EXTINF:-1 group-title="电影",Popc
+https://pixman.passwdwork.cc.cd/proxy/103718b37d47a623.m3u8
+#EXTINF:-1 group-title="电影",AMC
+https://cdn12.178.indevs.in/163189/0bcf9bb8c452e56a
+#EXTINF:-1 group-title="电影",CinemaWorld
+https://cdn12.178.indevs.in/163189/6086cfe7a9756110
+#EXTINF:-1 group-title="电影",纬来电影台
+https://pixman.passwdwork.cc.cd/proxy/a7de9e9ba71250e9.m3u8
+#EXTINF:-1 group-title="电影",东森洋片台
+https://pixman.passwdwork.cc.cd/proxy/c18ab737012f7f1d.m3u8
+#EXTINF:-1 group-title="电影",东森电影台
+https://pixman.passwdwork.cc.cd/proxy/475b00abccfc3e16.m3u8
+#EXTINF:-1 group-title="电影",龙祥时代
+https://pixman.passwdwork.cc.cd/proxy/6a3f1f69d2e85833.m3u8
+#EXTINF:-1 group-title="电影",美亚电影
+https://pixman.passwdwork.cc.cd/proxy/55cea032f24219d7.m3u8
+#EXTINF:-1 group-title="电影",龍華電影台
+https://pixman.passwdwork.cc.cd/proxy/d9255b48be481af4.m3u8
+#EXTINF:-1 group-title="电影",龍華洋片
+https://pixman.passwdwork.cc.cd/proxy/06d0b0bbd784014c.m3u8

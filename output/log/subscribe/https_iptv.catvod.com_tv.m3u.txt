@@ -1,0 +1,62 @@
+#EXTM3U x-tvg-url="https://epg.catvod.com/epg.xml"
+#EXTINF:-1 group-title="公告",🎁 全部频道进群免费获取
+https://cdn.jsdelivr.net/gh/namegenliang/fast-github-access@main/hosts/1080p.m3u8
+
+#EXTINF:-1 tvg-id="体育休闲频道" tvg-name="体育休闲频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/554/202104022139_5100186459_H32_1080.webp" group-title="地方",[免费] 体育休闲频道
+https://iptv.catvod.com/catvod?id=%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2%E9%A2%91%E9%81%93&line=1
+#EXTINF:-1 tvg-id="体育休闲频道" tvg-name="体育休闲频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/554/202104022139_5100186459_H32_1080.webp" group-title="地方",[免费] 体育休闲频道
+https://iptv.catvod.com/catvod?id=%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2%E9%A2%91%E9%81%93&line=2
+#EXTINF:-1 tvg-id="体育休闲频道" tvg-name="体育休闲频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/554/202104022139_5100186459_H32_1080.webp" group-title="地方",[免费] 体育休闲频道
+https://iptv.catvod.com/catvod?id=%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2%E9%A2%91%E9%81%93&line=3
+#EXTINF:-1 tvg-id="体育休闲频道" tvg-name="体育休闲频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/554/202104022139_5100186459_H32_1080.webp" group-title="地方",[免费] 体育休闲频道
+https://iptv.catvod.com/catvod?id=%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2%E9%A2%91%E9%81%93&line=4
+#EXTINF:-1 group-title="咪视",[免费] 晴彩广场舞
+https://iptv.catvod.com/catvod?id=%E6%99%B4%E5%BD%A9%E5%B9%BF%E5%9C%BA%E8%88%9E&line=1
+#EXTINF:-1 group-title="咪视",[免费] 咪视通-45
+https://iptv.catvod.com/catvod?id=%E5%92%AA%E8%A7%86%E9%80%9A-45&line=1
+#EXTINF:-1 group-title="咪视",[免费] 咪视通-25
+https://iptv.catvod.com/catvod?id=%E5%92%AA%E8%A7%86%E9%80%9A-25&line=1
+#EXTINF:-1 tvg-id="中学生" tvg-name="中学生" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/355/202405081702_1715158115119_H32_1080.webp" group-title="央视",[免费] 中学生
+https://iptv.catvod.com/catvod?id=%E4%B8%AD%E5%AD%A6%E7%94%9F&line=1
+#EXTINF:-1 tvg-id="中学生" tvg-name="中学生" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/355/202405081702_1715158115119_H32_1080.webp" group-title="央视",[免费] 中学生
+https://iptv.catvod.com/catvod?id=%E4%B8%AD%E5%AD%A6%E7%94%9F&line=2
+#EXTINF:-1 tvg-id="中学生" tvg-name="中学生" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/355/202405081702_1715158115119_H32_1080.webp" group-title="央视",[免费] 中学生
+https://iptv.catvod.com/catvod?id=%E4%B8%AD%E5%AD%A6%E7%94%9F&line=3
+#EXTINF:-1 tvg-id="中学生" tvg-name="中学生" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/355/202405081702_1715158115119_H32_1080.webp" group-title="央视",[免费] 中学生
+https://iptv.catvod.com/catvod?id=%E4%B8%AD%E5%AD%A6%E7%94%9F&line=4
+#EXTINF:-1 tvg-id="CGTN阿拉伯语" tvg-name="CGTN阿拉伯语" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/303/202502251557_1740470230464_H32_1080.webp" group-title="央视",[免费] CGTN阿拉伯语
+https://iptv.catvod.com/catvod?id=CGTN%E9%98%BF%E6%8B%89%E4%BC%AF%E8%AF%AD&line=1
+#EXTINF:-1 tvg-id="CGTN阿拉伯语" tvg-name="CGTN阿拉伯语" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/303/202502251557_1740470230464_H32_1080.webp" group-title="央视",[免费] CGTN阿拉伯语
+https://iptv.catvod.com/catvod?id=CGTN%E9%98%BF%E6%8B%89%E4%BC%AF%E8%AF%AD&line=2
+#EXTINF:-1 tvg-id="CGTN阿拉伯语" tvg-name="CGTN阿拉伯语" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/303/202502251557_1740470230464_H32_1080.webp" group-title="央视",[免费] CGTN阿拉伯语
+https://iptv.catvod.com/catvod?id=CGTN%E9%98%BF%E6%8B%89%E4%BC%AF%E8%AF%AD&line=3
+#EXTINF:-1 tvg-id="CGTN阿拉伯语" tvg-name="CGTN阿拉伯语" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/303/202502251557_1740470230464_H32_1080.webp" group-title="央视",[免费] CGTN阿拉伯语
+https://iptv.catvod.com/catvod?id=CGTN%E9%98%BF%E6%8B%89%E4%BC%AF%E8%AF%AD&line=4
+#EXTINF:-1 group-title="咪视",[免费] 咪视通-43
+https://iptv.catvod.com/catvod?id=%E5%92%AA%E8%A7%86%E9%80%9A-43&line=1
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/185/202508040856_5100043384_H32_1080.webp" group-title="卫视",[免费] 东方卫视
+https://iptv.catvod.com/catvod?id=%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86&line=1
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/185/202508040856_5100043384_H32_1080.webp" group-title="卫视",[免费] 东方卫视
+https://iptv.catvod.com/catvod?id=%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86&line=2
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/185/202508040856_5100043384_H32_1080.webp" group-title="卫视",[免费] 东方卫视
+https://iptv.catvod.com/catvod?id=%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86&line=3
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/185/202508040856_5100043384_H32_1080.webp" group-title="卫视",[免费] 东方卫视
+https://iptv.catvod.com/catvod?id=%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86&line=4
+#EXTINF:-1 tvg-id="东方卫视" tvg-logo="https://logo.catvod.com/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png" group-title="卫视",[免费] 东方卫视
+https://iptv.catvod.com/catvod?id=%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86&line=5
+#EXTINF:-1 tvg-id="东方卫视" tvg-logo="https://logo.catvod.com/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png" group-title="卫视",[免费] 东方卫视
+https://iptv.catvod.com/catvod?id=%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86&line=6
+#EXTINF:-1 tvg-id="东方卫视" tvg-logo="https://logo.catvod.com/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png" group-title="卫视",[免费] 东方卫视
+https://iptv.catvod.com/catvod?id=%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86&line=7
+#EXTINF:-1 tvg-id="和美乡途轮播台" tvg-name="和美乡途轮播台" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/525/202504151721_1744708812840_H32_1080.webp" group-title="其他",[免费] 和美乡途轮播台
+https://iptv.catvod.com/catvod?id=%E5%92%8C%E7%BE%8E%E4%B9%A1%E9%80%94%E8%BD%AE%E6%92%AD%E5%8F%B0&line=1
+#EXTINF:-1 tvg-id="和美乡途轮播台" tvg-name="和美乡途轮播台" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/525/202504151721_1744708812840_H32_1080.webp" group-title="其他",[免费] 和美乡途轮播台
+https://iptv.catvod.com/catvod?id=%E5%92%8C%E7%BE%8E%E4%B9%A1%E9%80%94%E8%BD%AE%E6%92%AD%E5%8F%B0&line=2
+#EXTINF:-1 tvg-id="和美乡途轮播台" tvg-name="和美乡途轮播台" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/525/202504151721_1744708812840_H32_1080.webp" group-title="其他",[免费] 和美乡途轮播台
+https://iptv.catvod.com/catvod?id=%E5%92%8C%E7%BE%8E%E4%B9%A1%E9%80%94%E8%BD%AE%E6%92%AD%E5%8F%B0&line=3
+#EXTINF:-1 tvg-id="和美乡途轮播台" tvg-name="和美乡途轮播台" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/525/202504151721_1744708812840_H32_1080.webp" group-title="其他",[免费] 和美乡途轮播台
+https://iptv.catvod.com/catvod?id=%E5%92%8C%E7%BE%8E%E4%B9%A1%E9%80%94%E8%BD%AE%E6%92%AD%E5%8F%B0&line=4
+#EXTINF:-1 group-title="咪视",[免费] 咪视通-41
+https://iptv.catvod.com/catvod?id=%E5%92%AA%E8%A7%86%E9%80%9A-41&line=1
+#EXTINF:-1 group-title="提示",更多频道请联系管理员
+https://cdn.jsdelivr.net/gh/namegenliang/fast-github-access@main/hosts/1080p.m3u8

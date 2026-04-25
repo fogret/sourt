@@ -1,0 +1,844 @@
+#EXTINF:-1 ,CCTV1
+http://112.46.105.20:8009/hls/501/index.m3u8
+#EXTINF:-1 ,CCTV1
+http://112.123.206.32:808/hls/1/index.m3u8
+#EXTINF:-1 ,CCTV2
+http://112.46.105.20:8009/hls/502/index.m3u8
+#EXTINF:-1 ,CCTV2
+https://piccpndali.v.myalicdn.com/audio/cctv2_2.m3u8
+#EXTINF:-1 ,CCTV3
+http://112.46.105.20:8009/hls/3/index.m3u8
+#EXTINF:-1 ,CCTV4
+http://112.46.105.20:8009/hls/4/index.m3u8
+#EXTINF:-1 ,CCTV4
+https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
+#EXTINF:-1 ,CCTV4
+http://120.76.248.139/live/bfgd/4200000063.m3u8
+#EXTINF:-1 ,CCTV4
+http://112.46.85.60:8009/hls/4/index.m3u8
+#EXTINF:-1 ,CCTV4
+https://piccpndali.v.myalicdn.com/audio/cctv4_2.m3u8
+#EXTINF:-1 ,CCTV5
+http://112.46.105.20:8009/hls/503/index.m3u8
+#EXTINF:-1 ,CCTV5
+http://120.76.248.139/live/bfgd/4200000064.m3u8
+#EXTINF:-1 ,CCTV5+
+http://120.76.248.139/live/bfgd/4200000246.m3u8
+#EXTINF:-1 ,CCTV5+
+https://piccpndali.v.myalicdn.com/audio/cctv5plus_2.m3u8
+#EXTINF:-1 ,CCTV6
+http://112.46.105.20:8009/hls/6/index.m3u8
+#EXTINF:-1 ,CCTV6
+https://piccpndali.v.myalicdn.com/audio/cctv6_2.m3u8
+#EXTINF:-1 ,CCTV7
+http://112.46.105.20:8009/hls/504/index.m3u8
+#EXTINF:-1 ,CCTV7
+http://112.46.85.60:8009/hls/504/index.m3u8
+#EXTINF:-1 ,CCTV7
+https://piccpndali.v.myalicdn.com/audio/cctv7_2.m3u8
+#EXTINF:-1 ,CCTV8
+http://112.46.105.20:8009/hls/8/index.m3u8
+#EXTINF:-1 ,CCTV9
+http://112.46.105.20:8009/hls/509/index.m3u8
+#EXTINF:-1 ,CCTV10
+http://112.46.105.20:8009/hls/506/index.m3u8
+#EXTINF:-1 ,CCTV11
+http://112.46.105.20:8009/hls/11/index.m3u8
+#EXTINF:-1 ,CCTV12
+http://112.46.105.20:8009/hls/507/index.m3u8
+#EXTINF:-1 ,CCTV12
+https://piccpndali.v.myalicdn.com/audio/cctv12_2.m3u8
+#EXTINF:-1 ,CCTV13
+http://112.46.105.20:8009/hls/13/index.m3u8
+#EXTINF:-1 ,CCTV13
+https://event.pull.hebtv.com/jishi/cp1.m3u8
+#EXTINF:-1 ,CCTV13
+http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
+#EXTINF:-1 ,CCTV14
+http://112.46.105.20:8009/hls/14/index.m3u8
+#EXTINF:-1 ,CCTV14
+https://event.pull.hebtv.com/jishi/cp2.m3u8
+#EXTINF:-1 ,CCTV15
+http://112.46.105.20:8009/hls/15/index.m3u8
+#EXTINF:-1 ,CCTV17
+http://120.238.94.10:9901/tsfile/live/1048_1.m3u8
+#EXTINF:-1 ,CCTV17
+https://piccpndali.v.myalicdn.com/audio/cctv17_2.m3u8
+#EXTINF:-1 ,CCTVé£äºè¶³ç
+https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8
+#EXTINF:-1 ,4Kåå½é½å¸é¢é
+http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4
+#EXTINF:-1,tvg-id="éæ¸©ç»å¸" tvg-name="éæ¸©ç»å¸" tvg-logo="https://11.112114.xyz/logo/éæ¸©ç»å¸.png" group-title="å¶ä»",éæ¸©ç»å¸
+https://gdcucc.v1.mk/gdcucc/cwjd.m3u8
+#EXTINF:-1,tvg-id="äºæä½è²" tvg-name="äºæä½è²" tvg-logo="https://11.112114.xyz/logo/äºæä½è².png" group-title="å¶ä»",äºæä½è²
+https://gdcucc.v1.mk/gdcucc/wxty.m3u8
+#EXTINF:-1 ,å®å¾½ å®¿å·å¬å±
+http://live.ahsz.tv/video/s10001-ggpd/index.m3u8?zanhd
+#EXTINF:-1 ,å®å¾½åºéæ°é»
+http://www.guzhenm.com:7001/hls/hd-live.m3u8
+#EXTINF:-1 ,å®å¾½åºéå½±è§
+http://www.guzhenm.com:7004/hls/hd-live.m3u8
+#EXTINF:-1 ,å®å¾½å®¿å·å¬å±
+http://live.ahsz.tv/video/s10001-ggpd/index.m3u8
+#EXTINF:-1 ,ç½å±±å¬å±
+http://stream8.jlntv.cn/baishan2/playlist.m3u8?zjild
+#EXTINF:-1 ,æ¯è-ä¸æå³çµè§å°
+https://live.us.sinaimg.cn/001LSU8Gjx07KMe2Cb6L070d010007wB0k01.m3u8
+#EXTINF:-1 ,ç§å±±ç»¼å
+http://222.179.42.129:8181/hls1.m3u8
+#EXTINF:-1 ,åµå¢äºå¸åæ²³æ°é»ç»¼å
+https://liveout.btzx.com.cn/62ds9e/4nxdih.m3u8
+#EXTINF:-1 ,äº³å·åæ
+http://zbbf2.ahbztv.com/live/418.m3u8
+#EXTINF:-1 ,èåæ°é»
+http://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8?zzhed?
+#EXTINF:-1 ,èåæ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8
+#EXTINF:-1 ,æé³æ°é»ç»¼å
+http://120.76.248.139/live/bfgd/4200000282.m3u8
+#EXTINF:-1 ,å¾·æ ç»¼å
+http://stream11.jlntv.cn/dehuitv/sd/live.m3u8
+#EXTINF:-1 ,å¾·æ ç»¼å
+http://stream11.jlntv.cn/dehuitv/sd/live.m3u8?zjild
+#EXTINF:-1 ,éå·æ°é»
+http://live.dxhmt.cn:9081/tv/11381-1.m3u8
+#EXTINF:-1 ,å®è¥ç»¼å
+http://lbyzztfe.live.sxmty.com:80/live/hls/645ff4c60e0a49f0a203abbd73dd8be9/0720e665f10f48e98c9639f4f492fb4a-1.m3u8
+#EXTINF:-1 ,ä¸ä¸°ç»¼å
+http://stream5.jlntv.cn/df/sd/live.m3u8?zjild
+#EXTINF:-1 ,æ´å¤´ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8?zzhed?
+#EXTINF:-1 ,æ´å¤´ç»¼åé¢é
+http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8
+#EXTINF:-1 ,æ¦åä¸å¥
+http://stream8.jlntv.cn/dhtv/playlist.m3u8
+#EXTINF:-1 ,æ¦åä¸å¥
+http://stream8.jlntv.cn/dhtv/playlist.m3u8?zjild
+#EXTINF:-1 ,çªç¦ºç»¼å
+http://video.epaper.pybtv.cn:8080/live/rtmp_live_demo.flv
+#EXTINF:-1 ,æ¹åä¸å¥
+http://live.dxhmt.cn:9081/tv/11322-1.m3u8
+#EXTINF:-1 ,ç¦æµ·ç»´è¯­ç»¼å
+http://222.81.86.42:8060/hls/ch4/ch4.m3u8
+#EXTINF:-1 ,ç¦å»ºç¦å·å°å¿
+http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
+#EXTINF:-1 ,ç¦å»ºç¦å·çæ´»
+http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
+#EXTINF:-1 ,ç¦å»ºç¦å·æ°é»
+http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
+#EXTINF:-1 ,ç¦å»ºæ­¦å¤·å±±ææè¶
+http://fjwysdb.chinashadt.com:2036/live/3.stream/playlist.m3u8
+#EXTINF:-1 ,ç¦å»ºæ­¦å¤·å±±ç»¼å
+http://fjwysdb.chinashadt.com:2036/live/1.stream/playlist.m3u8
+#EXTINF:-1 ,ç¦å»ºäºéç»¼å
+http://live.zzyxxw.com:85/live/xwzh.m3u8
+#EXTINF:-1 ,å¤å¿ç»¼å
+https://l2fpdktp.live.sxmty.com/live/hls/e4c3b363cc4549788e2d983f403e07db/d99ce1eb686e41b9afc888110bd95aa7.m3u8
+#EXTINF:-1 ,å¤å¿ç»¼å
+https://l2fpdktp.live.sxmty.com/live/hls/e4c3b363cc4549788e2d983f403e07db/d99ce1eb686e41b9afc888110bd95aa7.m3u8?zshanxd
+#EXTINF:-1 ,åºå§ç»¼å
+http://live.dxhmt.cn:9081/tv/11525-1.m3u8
+#EXTINF:-1 ,åºéæ°é»
+http://www.guzhenm.com:7001/hls/hd-live.m3u8?zanhd
+#EXTINF:-1 ,å¹¿å®å¬å±
+http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8
+#EXTINF:-1 ,å¹¿å®ç»¼å
+http://live1.gatv.com.cn:85/live/XWZH.m3u8
+#EXTINF:-1 ,å¹¿åå¬å±
+https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8
+#EXTINF:-1 ,å¹¿åç»¼å
+https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8
+#EXTINF:-1 ,å¹¿å·çµè§å°æ°é»é¢é
+https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=520177bc9dd6916a7d6fa86bdb3f8830&txTime=191b5f5b230
+#EXTINF:-1 ,å¹¿å·çµè§å°ç»¼åé¢é
+https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=dce137597806f62ae6fdfc40328a336e&txTime=191b5fc1c86
+#EXTINF:-1 ,å¹¿å·åå½é½å¸é¢é
+https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=babbcbacdbcf13a3311a264e4dd66b8d&txTime=191b60b41a7
+#EXTINF:-1 ,åå°æ»¨é½å¸èµè®¯
+https://stream.hrbtv.net/zxpd/sd/live.m3u8
+#EXTINF:-1 ,åå°æ»¨çæ´»
+http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild
+#EXTINF:-1 ,åå°æ»¨æ°é»ç»¼å
+http://stream.hrbtv.net/xwzh/sd/live.m3u8?zheild
+#EXTINF:-1 ,åå°æ»¨å½±
+http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild
+#EXTINF:-1 ,åå°æ»¨å¨±ä¹
+http://stream.hrbtv.net/ylpd/sd/live.m3u8?zheild
+#EXTINF:-1 ,åå°æ»¨èµè®¯
+http://stream.hrbtv.net/zxpd/sd/live.m3u8
+#EXTINF:-1 ,æ²³åèé¨å¬å±
+http://stream.jmtv.com.cn/ngpd/sd/live.m3u8
+#EXTINF:-1 ,æ²³åèé¨æè²
+http://stream.jmtv.com.cn/ggsh/sd/live.m3u8
+#EXTINF:-1 ,æ²³åèé¨æ°é»
+http://stream.jmtv.com.cn/xwzh/sd/live.m3u8
+#EXTINF:-1 ,æ²³åå®é³æ°é»
+http://live.dxhmt.cn:9081/tv/10522-1.m3u8
+#EXTINF:-1 ,æ²³åå®ä¸°
+http://live.dxhmt.cn:9081/tv/10421-1.m3u8
+#EXTINF:-1 ,æ²³åé¸åæ°é»ç»¼å
+http://live.dxhmt.cn:9081/tv/11625-1.m3u8
+#EXTINF:-1 ,æ²³åèå¿æ°é»ç»¼å
+http://live.dxhmt.cn:9080/13603832636/13abd3089d9c47058fe34c49a6182981.m3u8
+#EXTINF:-1 ,æ²³åå°ä¸æ°é»ç»¼å
+http://live.dxhmt.cn:9081/tv/10727-1.m3u8
+#EXTINF:-1 ,æ²³åæ²³åå¼å°æ°é»
+http://live.dxhmt.cn:9081/tv/10181-1.m3u8
+#EXTINF:-1 ,æ²³åæ²³åæ°é»
+http://live.dxhmt.cn:9081/tv/10825-1.m3u8
+#EXTINF:-1 ,æ²³åæ»å¿
+http://live.dxhmt.cn:9081/tv/10526-1.m3u8
+#EXTINF:-1 ,æ²³åè·åç»¼å
+http://live.dxhmt.cn:9081/tv/10724-1.m3u8
+#EXTINF:-1 ,æ²³åæµæºçµè§ä¸å¥
+http://live.dxhmt.cn:9081/tv/19001-1.m3u8
+#EXTINF:-1 ,æ²³åéå¿
+http://live.dxhmt.cn:9081/tv/10425-1.m3u8
+#EXTINF:-1 ,æ²³åçå½©ä¸­å
+http://live.dxhmt.cn:9080/19903718786/854deb36f8db4c9098cad18cc35bd632.m3u8
+#EXTINF:-1 ,æ²³åæµå¿
+http://live.dxhmt.cn:9081/tv/10621-1.m3u8
+#EXTINF:-1 ,æ²³åå¼å°å¬å±
+http://live.dxhmt.cn:9081/tv/10200-3.m3u8
+#EXTINF:-1 ,æ²³åå¼å°æ°é»ç»¼å
+http://live.dxhmt.cn:9081/tv/10200-2.m3u8
+#EXTINF:-1 ,æ²³åå°èæ°é»
+http://live.dxhmt.cn:9081/tv/10225-1.m3u8
+#EXTINF:-1 ,æ²³åçµå®çµè§
+http://live.dxhmt.cn:9081/tv/11282-1.m3u8
+#EXTINF:-1 ,æ²³åé²å±±
+http://live.dxhmt.cn:9081/tv/10423-1.m3u8
+#EXTINF:-1 ,æ²³åæ ¾å·æ°é»
+http://live.dxhmt.cn:9081/tv/10324-1.m3u8
+#EXTINF:-1 ,æ²³åå­å·çµè§
+http://live.dxhmt.cn:9081/tv/10883-1.m3u8
+#EXTINF:-1 ,æ²³åæ³é³ç»¼å
+http://live.dxhmt.cn:9081/tv/10882-1.m3u8
+#EXTINF:-1 ,æ²³åæ¸æ± ç»¼å
+http://live.dxhmt.cn:9081/tv/11221-1.m3u8
+#EXTINF:-1 ,æ²³åæ·å¿
+http://live.dxhmt.cn:9081/tv/10622-1.m3u8
+#EXTINF:-1 ,æ²³åæå¿ç»¼å
+http://live.dxhmt.cn:9081/tv/10221-1.m3u8
+#EXTINF:-1 ,æ²³åæ±é³
+http://live.dxhmt.cn:9081/tv/10326-1.m3u8
+#EXTINF:-1 ,æ²³åæ²ä¸æ°é»ç»¼å
+http://live.dxhmt.cn:9081/tv/11624-1.m3u8
+#EXTINF:-1 ,æ²³åæ±¤é´çµè§
+http://live.dxhmt.cn:9081/tv/10523-1.m3u8
+#EXTINF:-1 ,æ²³åéè®¸
+http://live.dxhmt.cn:9081/tv/10222-1.m3u8
+#EXTINF:-1 ,æ²³åå«è¾ç»¼å
+http://live.dxhmt.cn:9081/tv/10781-1.m3u8
+#EXTINF:-1 ,æ²³åå°æ°ç»¼å
+http://live.dxhmt.cn:9081/tv/10223-1.m3u8
+#EXTINF:-1 ,æ²³åèé¢
+http://live.dxhmt.cn:9081/tv/10481-1.m3u8
+#EXTINF:-1 ,æ²³åæ·å·çµè§
+http://live.dxhmt.cn:9081/tv/11326-1.m3u8
+#EXTINF:-1 ,æ²³åè¥åçµè§
+http://live.dxhmt.cn:9081/tv/11025-1.m3u8
+#EXTINF:-1 ,æ²³åé¡¹åçµè§
+http://live.dxhmt.cn:9081/tv/11681-1.m3u8
+#EXTINF:-1 ,æ²³åæ°å®çµè§
+http://live.dxhmt.cn:9081/tv/10323-1.m3u8
+#EXTINF:-1 ,æ²³åæ°è¡
+http://live.dxhmt.cn:9081/tv/11729-1.m3u8
+#EXTINF:-1 ,æ²³åæ°ä¹¡
+http://live.dxhmt.cn:9081/tv/10721-1.m3u8
+#EXTINF:-1 ,æ²³åæ°éç»¼å
+http://live.dxhmt.cn:9081/tv/11329-1.m3u8
+#EXTINF:-1 ,æ²³åå¶å¿çµè§
+http://live.dxhmt.cn:9081/tv/10422-1.m3u8
+#EXTINF:-1 ,æ²³åå®é³ç»¼å
+http://live.dxhmt.cn:9081/tv/10327-1.m3u8
+#EXTINF:-1 ,æ²³åç§»å¨ææ²
+http://live.dxhmt.cn:9080/19903718786/a9aab4c5eef74da18d684c75c6dd7e10.m3u8
+#EXTINF:-1 ,æ²³åä¹é©¬çµè§
+http://live.dxhmt.cn:9081/tv/11281-1.m3u8
+#EXTINF:-1 ,æ²³åç¦¹å·ç»¼å
+http://live.dxhmt.cn:9081/tv/11081-1.m3u8
+#EXTINF:-1 ,æ²³ååé³æ°é»ç»¼å
+http://live.dxhmt.cn:9081/tv/10725-1.m3u8
+#EXTINF:-1 ,æ²³åå¨å£æ¶æ²
+http://live.dxhmt.cn:9081/tv/11621-1.m3u8
+#EXTINF:-1 ,é»é¾æ±åå°æ»¨çæ´»
+http://stream.hrbtv.net/shpd/sd/live.m3u8
+#EXTINF:-1 ,é»é¾æ±åå°æ»¨æ°é»
+http://stream.hrbtv.net/xwzh/sd/live.m3u8
+#EXTINF:-1 ,é»é¾æ±åå°æ»¨å½±è§
+http://stream.hrbtv.net/yspd/sd/live.m3u8
+#EXTINF:-1 ,é»é¾æ±åå°æ»¨å¨±ä¹
+http://stream.hrbtv.net/ylpd/sd/live.m3u8
+#EXTINF:-1 ,æ¹åå´é³ç»¼å
+http://61.184.176.248:10500/live/live.m3u8
+#EXTINF:-1 ,æ¹å·é¿å´ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXchangxing1/720p.m3u8
+#EXTINF:-1 ,æ¡¦ç¸ç»¼å
+http://stream10.jlntv.cn/huadian/sd/live.m3u8?zjild
+#EXTINF:-1 ,é»å±±æ°é»ç»¼å
+http://hslive.hsnewsnet.com/lsdream/hve9Wjs/1000/live.m3u8?zanhd
+#EXTINF:-1 ,æ½¢å·ç»¼å
+http://live.dxhmt.cn:9081/tv/11526-1.m3u8
+#EXTINF:-1 ,ç²æ¥æ°é»ç»¼å
+http://stream8.jlntv.cn/hctv/sd/live.m3u8?zjild
+#EXTINF:-1 ,ç²æ¥ç»¼å
+http://stream8.jlntv.cn/hctv/sd/live.m3u8
+#EXTINF:-1 ,è¾åæ°é»ç»¼å
+http://stream5.jlntv.cn/hn/sd/live.m3u8?zjild
+#EXTINF:-1 ,åæ éå®ç»¼å
+http://stream8.jlntv.cn/jytv/sd/live.m3u8
+#EXTINF:-1 ,åæ é¾äºç»¼å
+http://stream8.jlntv.cn/ljtv/sd/live.m3u8
+#EXTINF:-1 ,åæ éåå¿ç»¼å
+http://stream5.jlntv.cn/thx/sd/live.m3u8
+#EXTINF:-1 ,åæ æ±ªæ¸ç»¼å
+http://stream5.jlntv.cn/wq/sd/live.m3u8
+#EXTINF:-1 ,åæç½å±±å¬å±
+http://stream8.jlntv.cn/baishan2/playlist.m3u8
+#EXTINF:-1 ,åæä¸ä¸°ç»¼å
+http://stream5.jlntv.cn/df/sd/live.m3u8
+#EXTINF:-1 ,åæä¸è¾½ç»¼å
+http://stream5.jlntv.cn/dl/sd/live.m3u8
+#EXTINF:-1 ,åææ¡¦ç¸ç»¼å
+http://stream10.jlntv.cn/huadian/sd/live.m3u8
+#EXTINF:-1 ,åæè¾åæ°é»ç»¼å
+http://stream5.jlntv.cn/hn/sd/live.m3u8
+#EXTINF:-1 ,åææ±æºç»¼å
+http://stream10.jlntv.cn/jiangyuantv/sd/live.m3u8
+#EXTINF:-1 ,åææ°¸åç»¼åé¢é
+http://stream10.jlntv.cn/yongji/sd/live.m3u8
+#EXTINF:-1 ,åæé¿ç½å±±çµè§å°
+http://stream8.jlntv.cn/cbstv/sd/live.m3u8
+#EXTINF:-1 ,æµååä¸èåª1
+https://jsylivealone302.iqilu.com:443/lixia/lixia_tv01/index.m3u8
+#EXTINF:-1 ,æµååä¸èåª2
+https://jsylivealone302.iqilu.com:443/lixia/lixia_tv02/index.m3u8
+#EXTINF:-1 ,æµååä¸èåª3
+https://jsylivealone302.iqilu.com:443/lixia/lixia_tv03/index.m3u8
+#EXTINF:-1 ,æµååä¸èåª4
+https://jsylivealone302.iqilu.com:443/lixia/lixia_tv04/index.m3u8
+#EXTINF:-1 ,æ±æ´¥ç»æµçæ´»
+http://222.179.155.21:1935/ch0.m3u8
+#EXTINF:-1 ,æ±æ´¥æ°é»
+http://222.179.155.21:1935/ch1.m3u8
+#EXTINF:-1 ,æ±æ´¥æ°é»ç»¼å
+http://222.179.155.21:1935/ch1.m3u8?zzhongqd
+#EXTINF:-1 ,æ±èéæ±æ°é»ç»¼å
+http://visit.jjbctv.com:1935/live/xwzhmb/playlist.m3u8
+#EXTINF:-1 ,æ±èå¥å®¹åå»ºé¢é
+http://jrlive.jrntv.com/live/_definst_/dangjians/playlist.m3u8
+#EXTINF:-1 ,æ±èå¥å®¹çæ´»
+http://jrlive.jrntv.com/live/_definst_/shenghuos/playlist.m3u8
+#EXTINF:-1 ,æ±èå¥å®¹æ°é»ç»¼å
+http://jrlive.jrntv.com/live/_definst_/jrxwzhs/playlist.m3u8
+#EXTINF:-1 ,æ±èå¥å®¹å½±è§
+http://jrlive.jrntv.com/live/_definst_/yingshis/playlist.m3u8
+#EXTINF:-1 ,æ±èæ°æ²çæ´»é¢é
+http://live.xysrmt.cn/shpd/sd/live.m3u8
+#EXTINF:-1 ,æ±èæ°æ²æ°é»é¢é
+http://live.xysrmt.cn/xwzh/sd/live.m3u8
+#EXTINF:-1 ,æ±é´æ°é»ç»¼å
+http://221.228.70.101:8080/live/xinwen.m3u8
+#EXTINF:-1 ,éå·ä¹¡æ
+http://live.jinchuanrmt.com:90/live/jcxc.m3u8
+#EXTINF:-1 ,éå·ä¹¡æ
+http://live.jinchuanrmt.com:90/live/jcxc.m3u8?zsicd
+#EXTINF:-1 ,éå·æ°é»ç»¼å
+http://139.203.180.9:90/live/zhxw.m3u8
+#EXTINF:-1 ,éå·æ°é»ç»¼å
+http://live.jinchuanrmt.com:90/live/zhxw.m3u8
+#EXTINF:-1 ,éå·æ°é»ç»¼å
+http://live.jinchuanrmt.com:90/live/zhxw.m3u8?zsicd
+#EXTINF:-1 ,æ´¥åä¸å¥
+http://play.jinnantv.top/live/JNTV1.m3u8?ztianjd
+#EXTINF:-1 ,æåå¬å±
+http://live.jinnews.com.cn/ggpd/sd/live.m3u8
+#EXTINF:-1 ,æåæ°é»
+http://live.jinnews.com.cn/xwzh/sd/live.m3u8
+#EXTINF:-1 ,ç¼äºç»¼åé¢é
+http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8
+#EXTINF:-1 ,èé¨
+http://stream.jmtv.com.cn/xwzh/sd/live.m3u8?zhubd
+#EXTINF:-1 ,éå®ç»¼å
+http://stream8.jlntv.cn/jytv/sd/live.m3u8?zjild
+#EXTINF:-1 ,ä¹å°ç»¼å
+http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8
+#EXTINF:-1 ,ä¹å°ç»¼å
+http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8?zjild
+#EXTINF:-1 ,å¥å®¹åå»ºé¢é
+http://jrlive.jrntv.com/live/_definst_/dangjians/playlist.m3u8?zjiangsd
+#EXTINF:-1 ,å¥å®¹çæ´»é¢é
+http://jrlive.jrntv.com/live/_definst_/shenghuos/playlist.m3u8?zjiangsd
+#EXTINF:-1 ,å¥å®¹æ°é»ç»¼å
+http://jrlive.jrntv.com/live/_definst_/jrxwzhs/playlist.m3u8?zjiangsd
+#EXTINF:-1 ,å¥å®¹å½±é¢é¢é
+http://jrlive.jrntv.com/live/_definst_/yingshis/playlist.m3u8?zjiangsd
+#EXTINF:-1 ,å¡æçä¾æ±è¯­ç»¼å
+http://klmysjtzb.rcsxzx.com/hls/klmy1.m3u8
+#EXTINF:-1 ,å¡æçä¾ç»´è¯­ç»¼å
+http://klmysjtzb.rcsxzx.com/hls/klmy2.m3u8
+#EXTINF:-1 ,å¡æçä¾å½±è§
+http://klmysjtzb.rcsxzx.com/hls/klmy3.m3u8
+#EXTINF:-1 ,å¼åå¬å­
+http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8?zzhed?
+#EXTINF:-1 ,å¼åå½å®¶å¬å­
+http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8
+#EXTINF:-1 ,å¼åæ°é»
+http://l.cztvcloud.com/channels/lantian/SXkaihua1/720p.m3u8?zzhed?
+#EXTINF:-1 ,å¼åæ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXkaihua1/720p.m3u8
+#EXTINF:-1 ,åº·å®æ°é»ç»¼å
+http://kdfile.ganzitv.com/nmip-media/channellive/channel100663/playlist.m3u8
+#EXTINF:-1 ,å¥å±¯åè¨åè¯­
+http://218.84.12.186:8002/hls/main/playlist.m3u8
+#EXTINF:-1 ,å¥å±¯æ±è¯­ç»¼å
+http://218.84.12.186:8001/hls/main/playlist.m3u8
+#EXTINF:-1 ,æ¥å®¾ç»¼å
+http://zb.gxlbamc.com:1935/live/lbzh.stream/playlist.m3u8
+#EXTINF:-1 ,å°æºªæ°é»
+http://l.cztvcloud.com/channels/lantian/SXlanxi1/720p.m3u8?zzhed?
+#EXTINF:-1 ,å°æºªæ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXlanxi1/720p.m3u8
+#EXTINF:-1 ,å°æºªæ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXlanxi1/720p.m3u8?zzhed
+#EXTINF:-1 ,ä¹è³ç»¼å
+http://175.155.106.72:89/live1/live1.m3u8
+#EXTINF:-1 ,ä¹è³ç»¼å
+http://175.155.106.72:89/live1/live1.m3u8?zsicd
+#EXTINF:-1 ,æ¢¨å­
+http://live.dxhmt.cn:9080/19903718786/3159ec673c114135816d45dd52ad7396.m3u8
+#EXTINF:-1 ,å©å·ç»¼å
+http://tvfile.lzgbdst.com/nmip-media/channellive/channel106876/playlist.m3u8
+#EXTINF:-1 ,å©å·ç»¼å
+http://tvfile.lzgbdst.com/nmip-media/channellive/channel106876/playlist.m3u8?zsicd
+#EXTINF:-1 ,åå±±æ°é»ç»¼å
+http://file.yizu.tv/nmip-media/channellive/channel106606/playlist.m3u8
+#EXTINF:-1 ,åå±±æ°é»ç»¼å
+http://file.yizu.tv/nmip-media/channellive/channel106606/playlist.m3u8?zsicd
+#EXTINF:-1 ,åå±±è¯­
+http://file.yizu.tv/nmip-media/channellive/channel107323/playlist.m3u8
+#EXTINF:-1 ,åå±±è¯­
+http://file.yizu.tv/nmip-media/channellive/channel107323/playlist.m3u8?zsicd
+#EXTINF:-1 ,è¾½å®äº¤éå¹¿æ­
+https://satellitepull.cnr.cn/live/wxlnjtgb/playlist.m3u8
+#EXTINF:-1 ,è¾½å®æè²éå°
+http://120.76.248.139/live/bfgd/4200000075.m3u8
+#EXTINF:-1 ,è¾½å®ç»å¸å¹¿æ­
+https://satellitepull.cnr.cn/live/wxlnwygb/playlist.m3u8
+#EXTINF:-1 ,è¾½å®ç»æµå¹¿æ­
+https://satellitepull.cnr.cn/live/wxlnjjtb/playlist.m3u8
+#EXTINF:-1 ,è¾½å®ä¹¡æå¹¿æ­
+https://satellitepull.cnr.cn/live/wxlnxcgb/playlist.m3u8
+#EXTINF:-1 ,è¾½å®ä¹å£°
+https://satellitepull.cnr.cn/live/wxlnzhgb/playlist.m3u8
+#EXTINF:-1 ,æ³æ²³ç»¼å
+http://stream5.jlntv.cn/lh/sd/live.m3u8
+#EXTINF:-1 ,æ³æ²³ç»¼å
+http://stream5.jlntv.cn/lh/sd/live.m3u8?zjild
+#EXTINF:-1 ,é¾äºç»¼å
+http://stream8.jlntv.cn/ljtv/sd/live.m3u8?zjild
+#EXTINF:-1 ,é¾æ³æ°é»
+http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8?zzhed?
+#EXTINF:-1 ,é¾æ³æ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8
+#EXTINF:-1 ,é¾æ¸¸çæ´»å¨±ä¹
+http://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8
+#EXTINF:-1 ,é¾æ¸¸æ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8
+#EXTINF:-1 ,å¢æ°ç»¼å
+http://live.dxhmt.cn:9081/tv/11224-1.m3u8
+#EXTINF:-1 ,æ³¸å¿æ°é»ç»¼å
+http://lxfile.lxxcb.cn/nmip-media/channellive/channel103799/playlist.m3u8
+#EXTINF:-1 ,æ³¸å¿æ°é»ç»¼å
+http://lxfile.lxxcb.cn/nmip-media/channellive/channel103799/playlist.m3u8?zsicd
+#EXTINF:-1 ,æ³¸å·å¬å±
+http://m3u8.channel.luzhoubs.com/nmip-media/channellive/channel102221/playlist.m3u8
+#EXTINF:-1 ,æ³¸å·ç§æ
+http://m3u8.channel.luzhoubs.com/nmip-media/channellive/channel103074/playlist.m3u8
+#EXTINF:-1 ,æ³¸å·æ°é»ç»¼å
+http://m3u8.channel.luzhoubs.com/nmip-media/channellive/channel106011/playlist.m3u8
+#EXTINF:-1 ,éº»æ å¡çµè§å°
+http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel18/playlist.m3u8
+#EXTINF:-1 ,éº»æ å¡çµè§å°
+http://tvdrs.wsrtv.com.cn:8100/channellive/mlptv.flv
+#EXTINF:-1 ,æ³é³ç»¼å
+http://live.dxhmt.cn:9081/tv/11726-1.m3u8
+#EXTINF:-1 ,åé¨æ°é»ç»¼å
+http://pili-live-rtmp.148.i2863.com/i2863-148/live_148_811389.m3u8
+#EXTINF:-1 ,åå®é½å¸çæ´»
+http://hls.nntv.cn/nnlive/WLSH_24.m3u8
+#EXTINF:-1 ,åå®å¬å±
+http://hls.nntv.cn/nnlive/GGPD_24.m3u8
+#EXTINF:-1 ,åä¹¡ç»¼å
+http://live.dxhmt.cn:9081/tv/11325-1.m3u8
+#EXTINF:-1 ,ç£ç³ç»¼å
+http://stream5.jlntv.cn/ps/sd/live.m3u8
+#EXTINF:-1 ,ç£ç³ç»¼å
+http://stream5.jlntv.cn/ps/sd/live.m3u8?zjild
+#EXTINF:-1 ,å¹³é¡¶å±±åå¸
+http://live.dxhmt.cn:9080/13781808226/9cd43fb472b04787970623e77ae58199.m3u8
+#EXTINF:-1 ,å¹³é¡¶å±±å¬å±
+http://live.dxhmt.cn:9080/13781808226/fd44664050dc4e8c8b1157e869721c0e.m3u8
+#EXTINF:-1 ,å¹³é¡¶å±±æ°é»
+http://live.dxhmt.cn:9080/13781808226/9a468f23270e457d8872da5e630d9e54.m3u8
+#EXTINF:-1 ,å¹³æ¹æ°ç
+http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8?zzhed?
+#EXTINF:-1 ,å¹³æ¹æ°çä¼é²
+http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8
+#EXTINF:-1 ,å¹³æ¹æ°çä¼é²
+http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8?zzhed
+#EXTINF:-1 ,å¹³æ¹æ°é»
+http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed?
+#EXTINF:-1 ,å¹³æ¹æ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8
+#EXTINF:-1 ,å¹³æ¹æ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed
+#EXTINF:-1 ,æ®éæ°é»
+http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8?zzhed?
+#EXTINF:-1 ,æ®éæ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
+#EXTINF:-1 ,æ®éæ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8?zzhed
+#EXTINF:-1 ,ä¸å°æ²³æ°çç¤¾æ
+http://live.qthnews.org.cn:1935/live/live2/800k/tzwj_video.m3u8
+#EXTINF:-1 ,ä¸å°æ²³æ°é»ç»¼å
+http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8
+#EXTINF:-1 ,éæµ· è¥¿å®çæ´»æå¡
+https://liveout.xntv.tv/a65jur/90p2i1.m3u8?zqinghd
+#EXTINF:-1 ,éæµ· è¥¿å®æ°é»ç»¼å
+https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd
+#EXTINF:-1 ,éæµ·è¥¿å®çæ´»
+https://liveout.xntv.tv/a65jur/90p2i1.m3u8
+#EXTINF:-1 ,éæµ·è¥¿å®æ°é»
+https://liveout.xntv.tv/a65jur/96iln2.m3u8
+#EXTINF:-1 ,éç°çµè§
+http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8?zzhed
+#EXTINF:-1 ,åºåç»¼åé¢é
+http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8
+#EXTINF:-1 ,ä¸åçµè§å°
+http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel14/playlist.m3u8
+#EXTINF:-1 ,è¡¢æ±æ°é»
+http://l.cztvcloud.com/channels/lantian/SXqujiang1/720p.m3u8?zzhed?
+#EXTINF:-1 ,è¡¢æ±æ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXqujiang1/720p.m3u8
+#EXTINF:-1 ,ä¸å°çµè§ä¸å¥
+http://125.65.94.91:12351/live
+#EXTINF:-1 ,å±±è¥¿é»åç»¼å
+http://111.53.96.67:8081/live/1/index.m3u8
+#EXTINF:-1 ,å±±è¥¿æ­¦ä¹¡æ°é»ç»¼å
+http://uzoiczhh.live.sxmty.com/live/hls/0d41f1480c4042d49927858f01fde707/53130407737b417b9a6259b57246bae3.m3u8
+#EXTINF:-1 ,ä¸èæå
+http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8?zzhed?
+#EXTINF:-1 ,ä¸èæåå½±é¢
+http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
+#EXTINF:-1 ,ä¸èæåå½±é¢
+http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8?zzhed
+#EXTINF:-1 ,ä¸èæ°åé½
+http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8
+#EXTINF:-1 ,ä¸èæ°åé½
+http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8?zzhed
+#EXTINF:-1 ,ä¸èæ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8
+#EXTINF:-1 ,ä¸èæ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed
+#EXTINF:-1 ,ä¸èç»¼å
+http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8?zzhed?
+#EXTINF:-1 ,ç»å´å¬å±
+http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8
+#EXTINF:-1 ,ç»å´å¬å±
+http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8?zzhed
+#EXTINF:-1 ,ç»å´æå
+http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8?zzhed?
+#EXTINF:-1 ,ç»å´æåå½±è§
+http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8
+#EXTINF:-1 ,ç»å´æåå½±é¢
+http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8?zzhed
+#EXTINF:-1 ,ç»å´æ°é»
+http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8?zzhed?
+#EXTINF:-1 ,ç»å´æ°é»ç»¼å
+http://live.shaoxing.com.cn/video/s10001-sxhb/index.m3u8
+#EXTINF:-1 ,ç»å´æ°é»ç»¼å
+http://live.shaoxing.com.cn/video/s10001-sxhb/index.m3u8?zzhed
+#EXTINF:-1 ,ç»å´æ°é»ç»¼å
+http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8
+#EXTINF:-1 ,ç»å´æ°é»ç»¼å
+http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8?zzhed
+#EXTINF:-1 ,ä»é¡æ°é»é¢é
+http://live.sfrmt.com:85/live/zhpd.m3u8
+#EXTINF:-1 ,åµå·æ°é»
+http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed?
+#EXTINF:-1 ,åµå·æ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
+#EXTINF:-1 ,åµå·æ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed
+#EXTINF:-1 ,èå°æ°é»ç»¼å
+http://stream8.jlntv.cn/shulan/sd/live.m3u8
+#EXTINF:-1 ,èå°æ°é»ç»¼å
+http://stream8.jlntv.cn/shulan/sd/live.m3u8?zjild
+#EXTINF:-1 ,åè¾½ç»¼å
+http://stream5.jlntv.cn/sl/sd/live.m3u8
+#EXTINF:-1 ,åè¾½ç»¼å
+http://stream5.jlntv.cn/sl/sd/live.m3u8?zjild
+#EXTINF:-1 ,åé³ç»¼å
+http://stream11.jlntv.cn/shuangyang/sd/live.m3u8
+#EXTINF:-1 ,åé³ç»¼å
+http://stream11.jlntv.cn/shuangyang/sd/live.m3u8?zjild
+#EXTINF:-1 ,åå·å·´ä¸­ç»¼å
+http://ocj2.kksmg.com/ocj1/ocj1.m3u8
+#EXTINF:-1 ,åå·é»æ°´æ°é»ç»¼å
+http://live.schstv.com:90/live/xwzh.m3u8
+#EXTINF:-1 ,åå·ç§æ
+http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
+#EXTINF:-1 ,åå·æ¾æ½æ°é»ç»¼å
+http://live.spccmc.com:90/live/spxwzh.m3u8
+#EXTINF:-1 ,åå·æ±¶å·æ°é»ç»¼å
+http://live.iwcmt.cn:90/live/zhxw.m3u8
+#EXTINF:-1 ,åå·è¥å±±çµè§å°
+http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8
+#EXTINF:-1 ,åå·é¿å®ç»¼å
+http://cnpull.sccnfb.com/live/123456.m3u8
+#EXTINF:-1 ,æ¾æ½æ°é»ç»¼å
+http://live.spccmc.com:90/live/spxwzh.m3u8?zsicd
+#EXTINF:-1 ,æ¾é³ç»¼åé¢é
+http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8
+#EXTINF:-1 ,æ¾åå¬å±
+http://stream8.jlntv.cn/sytv2/sd/live.m3u8
+#EXTINF:-1 ,åµ©å¿ç»¼åæ°é»
+http://live.dxhmt.cn:9081/tv/10325-1.m3u8
+#EXTINF:-1 ,å®¿å·ç§æ
+http://live.ahsz.tv/video/s10001-kxjy/index.m3u8?zanhd
+#EXTINF:-1 ,éæç»¼åé¢é
+http://l.cztvcloud.com/channels/lantian/SXsuichang1/720p.m3u8
+#EXTINF:-1 ,éå¹³ä¸å¥
+http://live.dxhmt.cn:9081/tv/11728-1.m3u8
+#EXTINF:-1 ,å¤ªåº·ç»¼å
+http://live.dxhmt.cn:9081/tv/11627-1.m3u8
+#EXTINF:-1 ,åæ²³ä¸å¥
+http://live.dxhmt.cn:9081/tv/11328-1.m3u8
+#EXTINF:-1 ,ç°çµè§å°
+http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8
+#EXTINF:-1 ,éåå¿ç»¼å
+http://stream5.jlntv.cn/thx/sd/live.m3u8?zjild
+#EXTINF:-1 ,æ½¼åç»¼å
+http://183.230.184.51:65500/tntv1.m3u8?zzhongqd
+#EXTINF:-1 ,ä¸è£ç»¼å
+http://60.222.246.220:19433/hls1.m3u8
+#EXTINF:-1 ,ä¸å·ä¸å³¡ç§»æ°
+http://123.146.162.24:8017/c2F0hmi/1000/live.m3u8
+#EXTINF:-1 ,ä¸å·ä¸å³¡ç§»æ°
+http://123.146.162.24:8017/c2F0hmi/1000/live.m3u8?zzhongqd
+#EXTINF:-1 ,ä¸å·ç»¼å
+http://123.146.162.24:8017/iTXwrGs/800/live.m3u8
+#EXTINF:-1 ,ä¸å·ç»¼å
+http://123.146.162.24:8017/iTXwrGs/800/live.m3u8?zzhongqd
+#EXTINF:-1 ,æ±ªæ¸ç»¼å
+http://stream5.jlntv.cn/wq/sd/live.m3u8?zjild
+#EXTINF:-1 ,æºèæ°é»ç»¼å
+http://channel.wcrmt.cn:80/nmip-media/channellive/channel105268/playlist.m3u8
+#EXTINF:-1 ,ææç»¼åé¢é
+http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8
+#EXTINF:-1 ,é»åç»¼å
+https://www.wxhcgbds.com:8081/channelTv/WXTV_1.m3u8
+#EXTINF:-1 ,é»åç»¼å
+https://www.wxhcgbds.com:8081/channelTv/WXTV_1.m3u8?zshanxd
+#EXTINF:-1 ,é»åç»¼åé¢é
+https://www.wxhcgbds.com:8081/channelTv/WXTV_1.flv
+#EXTINF:-1 ,æ±¶å·æ°é»ç»¼å
+http://live.iwcmt.cn:90/live/zhxw.m3u8?zsicd
+#EXTINF:-1 ,æ é¡ç§»å¨çµè§
+http://m.m3u8.wifiwx.com/live/wifiwx-494.m3u8
+#EXTINF:-1 ,äºå¸åæ²³ç»¼å
+http://liveout.btzx.com.cn/62ds9e/4nxdih.m3u8
+#EXTINF:-1 ,æ­¦è¿çæ´»
+https://live.wjyanghu.com/live/CH2.m3u8
+#EXTINF:-1 ,æ­¦è¿çæ´»é¢é
+https://live.wjyanghu.com/live/CH2.m3u8?zjiangsd
+#EXTINF:-1 ,æ­¦è¿æ°é»
+https://live.wjyanghu.com/live/CH1.m3u8
+#EXTINF:-1 ,æ­¦è¿æ°é»é¢é
+https://live.wjyanghu.com/live/CH1.m3u8?zjiangsd
+#EXTINF:-1 ,æ­¦æ¯ä¸ç
+http://live.dxhmt.cn:9080/live/yshnpre.m3u8
+#EXTINF:-1 ,æ­¦ä¹¡æ°é»ç»¼å
+http://60.220.198.84:81/0.m3u8
+#EXTINF:-1 ,æ­¦ä¹æ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8
+#EXTINF:-1 ,æ­¦ä¹æ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8?zzhed
+#EXTINF:-1 ,è¥¿å¹³ç»¼å
+http://live.dxhmt.cn:9081/tv/11721-1.m3u8
+#EXTINF:-1 ,è±¡å±±æ°é»
+http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8?zzhed?
+#EXTINF:-1 ,è±¡å±±æ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8
+#EXTINF:-1 ,è§å±±çæ´»é¢é
+http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
+#EXTINF:-1 ,è§å±±çæ´»é¢é
+http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8?zzhed
+#EXTINF:-1 ,è§å±±æ°é»
+http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8?zzhed?
+#EXTINF:-1 ,è§å±±æ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
+#EXTINF:-1 ,è§å±±æ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8?zzhed
+#EXTINF:-1 ,å°éç»¼å
+http://xjlive.xjxrmt.cn:8091/live/xwpd.m3u8
+#EXTINF:-1 ,æ°ææ°é»ç¶å
+http://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8
+#EXTINF:-1 ,æ°æä¼é²å½±è§
+http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
+#EXTINF:-1 ,æ°ç ä¼çåè¨å
+http://110.153.180.106:55555/out_3/index.m3u8
+#EXTINF:-1 ,æ°ç ä¼çç»æµæ³å¶
+http://110.153.180.106:55555/out_4/index.m3u8
+#EXTINF:-1 ,æ°ç ä¼çç»´å¾å°
+http://110.153.180.106:55555/out_2/index.m3u8
+#EXTINF:-1 ,æ°çå·´é³é­æ¥å·
+http://file.loulannews.cn/nmip-media/channellive/channel101476/playlist.m3u8
+#EXTINF:-1 ,æ°å¯æ°é»
+http://live.dxhmt.cn:9081/tv/10183-2.m3u8
+#EXTINF:-1 ,æ°å¿ç»¼å
+http://live.dxhmt.cn:9081/tv/11523-1.m3u8
+#EXTINF:-1 ,è¥é³ç»¼å
+http://live.dxhmt.cn:9081/tv/10182-1.m3u8
+#EXTINF:-1 ,é³æ²ç»¼å
+https://83awgyp5.live.sxmty.com/live/hls/6f6f4b36f9bd42628b718b595ba507ed/724b7e8907a8414d873eb2a2f69bfa18.m3u8
+#EXTINF:-1 ,é³æ²ç»¼å
+https://83awgyp5.live.sxmty.com/live/hls/6f6f4b36f9bd42628b718b595ba507ed/724b7e8907a8414d873eb2a2f69bfa18.m3u8?zshanxd
+#EXTINF:-1 ,å®å´æ°é»é¢é
+http://yixing-tv-ori-hls.jstv.com/yixing-tv-ori/yixing_xw.m3u8?zjiangsd
+#EXTINF:-1 ,å®å´æ°é»ç»¼å
+http://yixing-tv-ori-hls.jstv.com/yixing-tv-ori/yixing_xw.m3u8
+#EXTINF:-1 ,ä¹ä¹æ°é»ç»¼å
+https://44911.hlsplay.aodianyun.com/tv_radio_44911/tv_channel_1796.m3u8?auth_key=4830573978-0-0-92824c2c03f95906a3c49a4aa28f1709&extra_key=Yc1XsmxOKy2UBoPM4Wy5vCPsEYqnj06taCR2SRB2Xrg2w28NPilH03KdIbbM5wgSql-VBohSnoO9AOKl94q2t2DWMftz-XB-2qUX-UjXcS80StcSZahBFjrKLivXaRjiY5r2NOMKWMKFbv-S0Bz2G6iEXgCK8yGjtrFHDcPfAQEE0pvXq0Bwy34b7We8zARN&ali_ffmpeg_version=mpengine
+#EXTINF:-1 ,è¥å±±çµè§å°
+http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd
+#EXTINF:-1 ,æ°¸åç»¼å
+http://live.dxhmt.cn:9081/tv/11481-1.m3u8
+#EXTINF:-1 ,æ°¸åæ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXyongjia1/720p.m3u8
+#EXTINF:-1 ,æ°¸æ¸å½±è§é¢é
+http://60.10.203.69:8000/4.m3u8
+#EXTINF:-1 ,æ°¸æ¸ç»¼åé¢é
+http://60.10.203.69:8000/0.m3u8
+#EXTINF:-1 ,ä½æ­æªæ¥E
+http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?zzhed
+#EXTINF:-1 ,ä½æ­æªæ¥Eé¢é
+http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8
+#EXTINF:-1 ,ä½æ­ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8?zzhed
+#EXTINF:-1 ,ä½æ­ç»¼åé¢é
+http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8
+#EXTINF:-1 ,ä½å§æ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
+#EXTINF:-1 ,ä½å§æ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8?zzhed
+#EXTINF:-1 ,ä½å§æ°é»ç»¼å
+https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
+#EXTINF:-1 ,ä½å§å§æ±æå
+http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8
+#EXTINF:-1 ,ä½å§å§æ±æå
+http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8?zzhed
+#EXTINF:-1 ,åå®å±±ç»¼å
+http://l2yx82zv.live2.danghongyun.com/live/hls/8be0890a1b0c4d7aaf80b51ea8646682/5a8988f5ecc64986a19aa9b6b3a052a6-1.m3u8
+#EXTINF:-1 ,äºåæ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8
+#EXTINF:-1 ,äºå æå±±å·å¬å±
+http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel8/playlist.m3u8
+#EXTINF:-1 ,äºå æå±±å·æ°é»ç»¼å
+http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel7/playlist.m3u8
+#EXTINF:-1 ,äºå æå±±å·æ°é»ç»¼å
+http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv
+#EXTINF:-1 ,äºåæå±±å¸çµè§å°
+http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel17/playlist.m3u8
+#EXTINF:-1 ,äºåç å±±é¢é
+http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel16/playlist.m3u8
+#EXTINF:-1 ,äºéç»¼å
+http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian
+#EXTINF:-1 ,æ£å¼ºç»¼å
+http://hbzqdb.chinashadt.com:1937/live/zqzh.stream_360p/playlist.m3u8
+#EXTINF:-1 ,é¿ç½å±±çµè§å°
+http://stream8.jlntv.cn/cbstv/sd/live.m3u8?zjild
+#EXTINF:-1 ,é¿å®ç»¼å
+http://cnpull.sccnfb.com:80/live/123456.m3u8
+#EXTINF:-1 ,é¿å£ç»¼å
+http://live.dxhmt.cn:9081/tv/10728-1.m3u8
+#EXTINF:-1 ,æµæ±å½é
+https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
+#EXTINF:-1 ,æµæ±æ­å·è§å±±ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXxiaoshan3/720p.m3u8
+#EXTINF:-1 ,æµæ±æ­å·ä½æ­å¹³å®
+http://l.cztvcloud.com/channels/lantian/SXyuhang2/720p.m3u8
+#EXTINF:-1 ,æµæ±æç§
+https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
+#EXTINF:-1 ,æµæ±æç§å½±é¢
+http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
+#EXTINF:-1 ,æµæ±éåä¸é³å½±è§
+http://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8
+#EXTINF:-1 ,æµæ±éåä¸é³ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8
+#EXTINF:-1 ,æµæ±ç»æµ
+https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
+#EXTINF:-1 ,æµæ±ç»æµçæ´»
+http://ls.qingting.fm/live/1099.m3u8
+#EXTINF:-1 ,æµæ±æ°ç
+http://ali-m-l.cztv.com/channels/lantian/channel06/720p.m3u8
+#EXTINF:-1 ,æµæ±æ°ç
+https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
+#EXTINF:-1 ,æµæ±å®æ³¢ä½å§çæ´»
+http://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8
+#EXTINF:-1 ,æµæ±é±æ±
+http://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
+#EXTINF:-1 ,æµæ±é±æ±
+https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
+#EXTINF:-1 ,æµæ±è¡¢å·é¾æ¸¸çæ´»
+https://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8
+#EXTINF:-1 ,æµæ±è¡¢å·é¾æ¸¸ç»¼å
+https://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8
+#EXTINF:-1 ,æµæ±å°å¿
+https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
+#EXTINF:-1 ,æµæ±æ°ç æ¶ä»£
+http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+#EXTINF:-1 ,æµæ±å«è§
+https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
+#EXTINF:-1 ,æµæ±ææäºå¥
+http://l.cztvcloud.com/channels/lantian/SXwencheng2/720p.m3u8
+#EXTINF:-1 ,æµæ±æ°é»
+https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+#EXTINF:-1 ,æµæ±ä¼é²å°
+http://ali-m-l.cztv.com/channels/lantian/channel006/720p.m3u8
+#EXTINF:-1 ,æµæ±èå±±åµæ³ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXshengsi1/720p.m3u8
+#EXTINF:-1 ,æµæ±è¯¸æ¨æ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8
+#EXTINF:-1 ,éæ±äºå¥ç¤¾ä¼æ°ç
+http://zjtv-wshls.homecdn.com/live/2aa16.m3u8
+#EXTINF:-1 ,éæ±æ°é»ç»¼å
+http://cm-wshls.homecdn.com/live/2aa50.m3u8
+#EXTINF:-1 ,éæ±æ°é»ç»¼å
+http://zjtv-wshls.homecdn.com/live/2aa50.m3u8
+#EXTINF:-1 ,ä¹æ±çºªå½
+https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+#EXTINF:-1 ,ä¸­å½èæ°é»
+https://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8
+#EXTINF:-1 ,éåºæ±½æ©
+http://120.76.248.139/live/bfgd/4200000168.m3u8
+#EXTINF:-1 ,éåºéæ¢ç»¼å
+https://tlpc01.cqliving.com/ch1.m3u8
+#EXTINF:-1 ,éåºä¸è½½ç»¼å
+http://live-echotv.cdnvideo.ru/echotv/echotv.sdp/playlist.m3u8
+#EXTINF:-1 ,éåºä¸è½½ç»¼å
+http://ls.qingting.fm/live/273.m3u8
+#EXTINF:-1 ,éåºä¸å·ç§æ
+http://123.146.162.24:8017/Cz7WPb8/800/live.m3u8
+#EXTINF:-1 ,éåºä¸å·å½±è§æèº
+http://123.146.162.24:8017/d4ceB1a/1000/live.m3u8
+#EXTINF:-1 ,éåºéåºæ°é»
+http://stream3.xiancity.cn/5/sd/live.m3u8
+#EXTINF:-1 ,è¯¸æ¨æ°é»ç»¼å
+http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8?zzhed
+#EXTINF:-1 ,èªè´¡å¬å±
+http://110.189.153.160:1002/ggpd.flv
+#EXTINF:-1 ,èªè´¡ç»¼å
+http://110.189.153.160:1001/zhpd.flv

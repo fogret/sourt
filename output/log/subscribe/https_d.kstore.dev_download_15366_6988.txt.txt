@@ -1,0 +1,1042 @@
+å¤®å«é¢é,#genre#,DE=3
+
+CCTV-1,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-1H265_4000.m3u8 $èå°æ
+CCTV-2,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-2H265_4000.m3u8 $èå°æ
+CCTV-3,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-3H265_4000.m3u8 $èå°æ
+CCTV-4,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-4H265_4000.m3u8 $èå°æ
+CCTV-5,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-5H265_4000.m3u8 $èå°æ
+CCTV-5+,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-5plusH265_4000.m3u8 $èå°æ
+CCTV-6,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-6H265_4000.m3u8 $èå°æ
+CCTV-7,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-7H265_4000.m3u8 $èå°æ
+CCTV-8,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-8H265_4000.m3u8 $èå°æ
+CCTV-9,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-9H265_4000.m3u8 $èå°æ
+CCTV-10,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-10H265_4000.m3u8 $èå°æ
+CCTV-11,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-11-H265_4000.m3u8 $èå°æ
+CCTV-12,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-12H265_4000.m3u8 $èå°æ
+CCTV-13,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-xw_4000.m3u8 $èå°æ
+CCTV-14,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-14H265_4000.m3u8 $èå°æ
+CCTV-15,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-15-yyH265_4000.m3u8 $èå°æ
+CCTV-16,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-16_4000.m3u8 $èå°æ
+CCTV-16,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-16-4K_8000.m3u8 $èå°æ
+CCTV-17,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/CCTV-17_4000.m3u8 $èå°æ
+CHCå½±è¿·çµå½±,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/lnwsCHC-HDH265_4000.m3u8 $èå°æ
+CHCå¨ä½çµå½±,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/wqCHCdzdyH265_4000.m3u8 $èå°æ
+CHCå®¶åº­å½±é¢,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/jbtygqCHCjtyyH265_4000.m3u8 $èå°æ
+åäº¬å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/bjwsH265_4000.m3u8 $èå°æ
+ä¸æ¹å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/dfwsH265_4000.m3u8 $èå°æ
+å¤©æ´¥å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/tjwsH265_4000.m3u8 $èå°æ
+éåºå«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/cqwsH265_4000.m3u8 $èå°æ
+é»é¾æ±å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/hljwsH265_4000.m3u8 $èå°æ
+åæå«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/jlwsH265_4000.m3u8 $èå°æ
+è¾½å®å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/lnwsHDH264_4000.m3u8 $èå°æ
+åèå¤å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/nmgws_4000.m3u8 $èå°æ
+çèå«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/gsws_4000.m3u8 $èå°æ
+éæµ·å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/qhwsH264_2000.m3u8 $èå°æ
+éè¥¿å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/sxws_4000.m3u8 $èå°æ
+å±±è¥¿å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/sxws42_4000.m3u8 $èå°æ
+å±±ä¸å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/sdwsH265_4000.m3u8 $èå°æ
+å®å¾½å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/ahwsH265_4000.m3u8 $èå°æ
+æ²³åå«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/hnws35_4000.m3u8 $èå°æ
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/hbwsH265_4000.m3u8 $èå°æ
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/hnwsH265_4000.m3u8 $èå°æ
+æ±è¥¿å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/jxwsH265_4000.m3u8 $èå°æ
+æ±èå«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/jswsH265_4000.m3u8 $èå°æ
+æµæ±å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/zjwsH265_4000.m3u8 $èå°æ
+ä¸åå«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/dnwsfjwsH265_4000.m3u8 $èå°æ
+å¹¿ä¸å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/gdwsH265_4000.m3u8 $èå°æ
+æ·±å³å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/szwsH265_4000.m3u8 $èå°æ
+å¹¿è¥¿å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/gxws_4000.m3u8 $èå°æ
+äºåå«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/ynws_4000.m3u8 $èå°æ
+è´µå·å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/gzwsH265_4000.m3u8 $èå°æ
+åå·å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/scwsH265_4000.m3u8 $èå°æ
+åº·å·´å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/kbwsH264_2000.m3u8 $èå°æ
+æ°çå«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/xjws_4000.m3u8 $èå°æ
+åµå¢å«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/btws_4000.m3u8 $èå°æ
+è¥¿èå«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/xzwsH264_2000.m3u8 $èå°æ
+æµ·åå«è§,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/hnws_4000.m3u8 $èå°æ
+
+CCTV-1,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-1-AVS-4K264/G_CCTV-1-AVS-4K264/index.m3u8 $æ±èé¶æ²³
+CCTV-2,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-2-AVS-4K264/G_CCTV-2-AVS-4K264/index.m3u8 $æ±èé¶æ²³
+CCTV-3,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-3-AVS-4K264/G_CCTV-3-AVS-4K264/index.m3u8 $æ±èé¶æ²³
+CCTV-1,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-1-HQ/G_CCTV-1-HQ/index.m3u8 $æ±èé¶æ²³
+CCTV-2,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-2-HQ/G_CCTV-2-HQ/index.m3u8 $æ±èé¶æ²³
+CCTV-3,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-3-HQ/G_CCTV-3-HQ/index.m3u8 $æ±èé¶æ²³
+CCTV-4,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-4-HQ/G_CCTV-4-HQ/index.m3u8 $æ±èé¶æ²³
+CCTV-5,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-5-AVS-4K264/G_CCTV-5-AVS-4K264/index.m3u8 $æ±èé¶æ²³
+CCTV-5,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-5-HQ/G_CCTV-5-HQ/index.m3u8 $æ±èé¶æ²³
+CCTV-5+,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-5PLUS-HQ/G_CCTV-5PLUS-HQ/index.m3u8 $æ±èé¶æ²³
+CCTV-6,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-6-AVS-4K264/G_CCTV-6-AVS-4K264/index.m3u8 $æ±èé¶æ²³
+CCTV-6,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-6-HQ/G_CCTV-6-HQ/index.m3u8 $æ±èé¶æ²³
+CCTV-7,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-7-HQ/G_CCTV-7-HQ/index.m3u8 $æ±èé¶æ²³
+CCTV-8,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-8-AVS-4K264/G_CCTV-8-AVS-4K264/index.m3u8 $æ±èé¶æ²³
+CCTV-8,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-8-HQ/G_CCTV-8-HQ/index.m3u8 $æ±èé¶æ²³
+CCTV-9,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-9-HQ/G_CCTV-9-HQ/G_CCTV-9-HQ/index.m3u8 $æ±èé¶æ²³
+CCTV-10,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-10-HQ/G_CCTV-10-HQ/index.m3u8 $æ±èé¶æ²³
+CCTV-11,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-11-HQ/G_CCTV-11-HQ/index.m3u8 $æ±èé¶æ²³
+CCTV-12,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-12-HQ/G_CCTV-12-HQ/index.m3u8 $æ±èé¶æ²³
+CCTV-13,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-13-HQ/G_CCTV-13-HQ/index.m3u8 $æ±èé¶æ²³
+CCTV-14,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-14-HQ/G_CCTV-14-HQ/index.m3u8 $æ±èé¶æ²³
+CCTV-15,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-15-HQ/G_CCTV-15-HQ/index.m3u8 $æ±èé¶æ²³
+CCTV-16,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-16-HQ/G_CCTV-16-HQ/index.m3u8 $æ±èé¶æ²³
+CCTV-17,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CCTV-17-HQ/G_CCTV-17-HQ/index.m3u8 $æ±èé¶æ²³
+æ±èå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_JIANGSU-4K/G_JIANGSU-4K/index.m3u8 $æ±èé¶æ²³
+åäº¬å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_BEIJING-4K/G_BEIJING-4K/index.m3u8 $æ±èé¶æ²³
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_HUNAN-4K/G_HUNAN-4K/index.m3u8 $æ±èé¶æ²³
+æµæ±å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_ZHEJIANG-4K/G_ZHEJIANG-4K/index.m3u8 $æ±èé¶æ²³
+å±±ä¸å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_SHANDONG-4K/G_SHANDONG-4K/index.m3u8 $æ±èé¶æ²³
+åå·å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_SICHUAN-4K/G_SICHUAN-4K/index.m3u8 $æ±èé¶æ²³
+ä¸æ¹å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_DONGFANG-4K/G_DONGFANG-4K/index.m3u8 $æ±èé¶æ²³
+å¹¿ä¸å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_GUANGDONG-4K/G_GUANGDONG-4K/index.m3u8 $æ±èé¶æ²³
+æ·±å³å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_SHENZHEN-4K/G_SHENZHEN-4K/index.m3u8 $æ±èé¶æ²³
+åäº¬å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_BEIJING-HQ/G_BEIJING-HQ/index.m3u8 $æ±èé¶æ²³
+å¤©æ´¥å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_TIANJIN-HQ/G_TIANJIN-HQ/index.m3u8 $æ±èé¶æ²³
+è¾½å®å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_LIAONING-HQ/G_LIAONING-HQ/index.m3u8 $æ±èé¶æ²³
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_HUNAN-HQ/G_HUNAN-HQ/index.m3u8 $æ±èé¶æ²³
+æµæ±å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_ZHEJIANG-HQ/G_ZHEJIANG-HQ/index.m3u8 $æ±èé¶æ²³
+ä¸æ¹å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_DONGFANG-HQ/G_DONGFANG-HQ/index.m3u8 $æ±èé¶æ²³
+å®å¾½å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_ANHUI-HQ/G_ANHUI-HQ/index.m3u8 $æ±èé¶æ²³
+æ±èå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_JIANGSU-HQ/G_JIANGSU-HQ/index.m3u8 $æ±èé¶æ²³
+ä¸åå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/DNWS/DNWS/index.m3u8 $æ±èé¶æ²³
+å±±ä¸å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_SHANDONG-HQ/G_SHANDONG-HQ/index.m3u8 $æ±èé¶æ²³
+é»é¾æ±å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_HEILONGJIANG-HQ/G_HEILONGJIANG-HQ/index.m3u8 $æ±èé¶æ²³
+åæå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_JILIN-HQ/G_JILIN-HQ/index.m3u8 $æ±èé¶æ²³
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_HUBEI-HQ/G_HUBEI-HQ/index.m3u8 $æ±èé¶æ²³
+æ²³åå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_HEBEI-HQ/G_HEBEI-HQ/index.m3u8 $æ±èé¶æ²³
+æ²³åå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/HENAN/HENAN/index.m3u8 $æ±èé¶æ²³
+å¹¿ä¸å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_GUANGDONG-HQ/G_GUANGDONG-HQ/index.m3u8 $æ±èé¶æ²³
+æ·±å³å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_SHENZHEN-HQ/G_SHENZHEN-HQ/index.m3u8 $æ±èé¶æ²³
+çèå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_GANSU/G_GANSU/index.m3u8 $æ±èé¶æ²³
+æ±è¥¿å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_JIANGXI-HQ/G_JIANGXI-HQ/index.m3u8 $æ±èé¶æ²³
+åå·å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_SICHUAN-HQ/G_SICHUAN-HQ/index.m3u8 $æ±èé¶æ²³
+éåºå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_CHONGQING-HQ/G_CHONGQING-HQ/index.m3u8 $æ±èé¶æ²³
+è´µå·å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_GUIZHOU-HQ/G_GUIZHOU-HQ/index.m3u8 $æ±èé¶æ²³
+äºåå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_YUNNAN-HQ/G_YUNNAN-HQ/index.m3u8 $æ±èé¶æ²³
+æµ·åå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/LYWS/LYWS/index.m3u8 $æ±èé¶æ²³
+ä¸æ²å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_SANSHA-HQ/G_SANSHA-HQ/index.m3u8 $æ±èé¶æ²³
+åèå¤å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_NEIMENGGU/G_NEIMENGGU/index.m3u8 $æ±èé¶æ²³
+å®å¤å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_NINGXIA/G_NINGXIA/index.m3u8 $æ±èé¶æ²³
+å±±è¥¿å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/SXWS/SXWS/index.m3u8 $æ±èé¶æ²³
+éè¥¿å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_SHANXI/G_SHANXI/index.m3u8 $æ±èé¶æ²³
+å¹¿è¥¿å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/GXWS/GXWS/index.m3u8 $æ±èé¶æ²³
+è¥¿èå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_XIZANG/G_XIZANG/index.m3u8 $æ±èé¶æ²³
+æ°çå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_XINJIANG/G_XINJIANG/index.m3u8 $æ±èé¶æ²³
+éæµ·å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_QINGHAI/G_QINGHAI/index.m3u8 $æ±èé¶æ²³
+å¦é¨å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_XIAMEN/G_XIAMEN/index.m3u8 $æ±èé¶æ²³
+åµå¢å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_BINGTUAN/index.m3u8 $æ±èé¶æ²³
+åº·å·´å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_KANGBA/index.m3u8 $æ±èé¶æ²³
+å»¶è¾¹å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_YANBIAN/index.m3u8 $æ±èé¶æ²³
+å®å¤å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_ANDUO/index.m3u8 $æ±èé¶æ²³
+åæå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_NONGLIN/index.m3u8 $æ±èé¶æ²³
+
+CCTV-1,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229665/1.m3u8 $æ¹åç§»å¨
+CCTV-2,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229893/1.m3u8 $æ¹åç§»å¨
+CCTV-3,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221230150/1.m3u8 $æ¹åç§»å¨
+CCTV-4,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221230489/1.m3u8 $æ¹åç§»å¨
+CCTV-5,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221230165/1.m3u8 $æ¹åç§»å¨
+CCTV-5+,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221230455/1.m3u8 $æ¹åç§»å¨
+CCTV-6,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221230154/1.m3u8 $æ¹åç§»å¨
+CCTV-7,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221230442/1.m3u8 $æ¹åç§»å¨
+CCTV-8,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221230169/1.m3u8 $æ¹åç§»å¨
+CCTV-9,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221230330/1.m3u8 $æ¹åç§»å¨
+CCTV-10,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221230491/1.m3u8 $æ¹åç§»å¨
+CCTV-11,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229869/1.m3u8 $æ¹åç§»å¨
+CCTV-12,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221230363/1.m3u8 $æ¹åç§»å¨
+CCTV-13,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221230493/1.m3u8 $æ¹åç§»å¨
+CCTV-14,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229868/1.m3u8 $æ¹åç§»å¨
+CCTV-15,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229861/1.m3u8 $æ¹åç§»å¨
+CCTV-17,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229831/1.m3u8 $æ¹åç§»å¨
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229812/1.m3u8 $æ¹åç§»å¨
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229983/1.m3u8 $æ¹åç§»å¨
+ä¸æ¹å«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229808/1.m3u8 $æ¹åç§»å¨
+æ±èå«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229743/1.m3u8 $æ¹åç§»å¨
+æµæ±å«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229788/1.m3u8 $æ¹åç§»å¨
+æ·±å³å«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229712/1.m3u8 $æ¹åç§»å¨
+å®å¾½å«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229778/1.m3u8 $æ¹åç§»å¨
+é»é¾æ±å«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229816/1.m3u8 $æ¹åç§»å¨
+æ±è¥¿å«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229752/1.m3u8 $æ¹åç§»å¨
+è¾½å®å«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229825/1.m3u8 $æ¹åç§»å¨
+å±±ä¸å«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229827/1.m3u8 $æ¹åç§»å¨
+å¤©æ´¥å«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229786/1.m3u8 $æ¹åç§»å¨
+éåºå«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229756/1.m3u8 $æ¹åç§»å¨
+ä¸åå«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229810/1.m3u8 $æ¹åç§»å¨
+è´µå·å«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229758/1.m3u8 $æ¹åç§»å¨
+åå·å«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229901/1.m3u8 $æ¹åç§»å¨
+æ²³åå«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229870/1.m3u8 $æ¹åç§»å¨
+æ²³åå«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229840/1.m3u8 $æ¹åç§»å¨
+æµ·åå«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229794/1.m3u8 $æ¹åç§»å¨
+äºåå«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229723/1.m3u8 $æ¹åç§»å¨
+éè¥¿å«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229735/1.m3u8 $æ¹åç§»å¨
+å±±è¥¿å«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229721/1.m3u8 $æ¹åç§»å¨
+åèå¤å«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229704/1.m3u8 $æ¹åç§»å¨
+å®å¤å«è§,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/322122968
+è³è»è§ç,http://anfeind1.kmdns.net:19999/migunohosts.php?channel-id=FifastbLive&Contentid=3000000010000015686
+äºæä½è²,webview://https://live.kankanews.com/huikan?id=10
+
+CCTV-1,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228318/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+CCTV-2,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228348/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+CCTV-3,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236445/index.m3u8 $æµæ±ç§»å¨
+CCTV-4,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236442/index.m3u8 $æµæ±ç§»å¨
+CCTV-5,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236444/index.m3u8 $æµæ±ç§»å¨
+CCTV-5+,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236465/index.m3u8 $æµæ±ç§»å¨
+CCTV-6,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236448/index.m3u8 $æµæ±ç§»å¨
+CCTV-7,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228330/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+CCTV-8,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236512/index.m3u8 $æµæ±ç§»å¨
+CCTV-9,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236246/index.m3u8 $æµæ±ç§»å¨
+CCTV-10,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236520/index.m3u8 $æµæ±ç§»å¨
+CCTV-11,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232449/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+CCTV-12,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236203/index.m3u8 $æµæ±ç§»å¨
+CCTV-13,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230877/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+CCTV-14,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236317/index.m3u8 $æµæ±ç§»å¨
+CCTV-15,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236165/index.m3u8 $æµæ±ç§»å¨
+CCTV-16,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236181/index.m3u8 $æµæ±ç§»å¨
+CCTV-17,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229762/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+åäº¬å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236241/index.m3u8 $æµæ±ç§»å¨
+åµå¢å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236191/index.m3u8 $æµæ±ç§»å¨
+ä¸åå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236151/index.m3u8 $æµæ±ç§»å¨
+å¹¿è¥¿å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231292/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+è´µå·å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236236/index.m3u8 $æµæ±ç§»å¨
+æµ·å³¡å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236416/index.m3u8 $æµæ±ç§»å¨
+æ²³åå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231264/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228357/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236225/index.m3u8 $æµæ±ç§»å¨
+æ±èå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236221/index.m3u8 $æµæ±ç§»å¨
+æ±è¥¿å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236212/index.m3u8 $æµæ±ç§»å¨
+è¾½å®å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236161/index.m3u8 $æµæ±ç§»å¨
+åèå¤å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236270/index.m3u8 $æµæ±ç§»å¨
+å®å¤å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236209/index.m3u8 $æµæ±ç§»å¨
+å±±ä¸å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228308/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+å±±è¥¿å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236264/index.m3u8 $æµæ±ç§»å¨
+éè¥¿å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236370/index.m3u8 $æµæ±ç§»å¨
+æ·±å³å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236251/index.m3u8 $æµæ±ç§»å¨
+åå·å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236255/index.m3u8 $æµæ±ç§»å¨
+å¤©æ´¥å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228320/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+è¥¿èå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236274/index.m3u8 $æµæ±ç§»å¨
+æ°çå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236215/index.m3u8 $æµæ±ç§»å¨
+äºåå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236234/index.m3u8 $æµæ±ç§»å¨
+æµæ±å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236269/index.m3u8 $æµæ±ç§»å¨
+éåºå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232642/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+ä¸æ¹å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228354/1/index.m3u8 $æµæ±ç§»å¨
+æ²³åå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236242/index.m3u8 $æµæ±ç§»å¨
+å¹¿ä¸å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236262/index.m3u8 $æµæ±ç§»å¨
+å®å¾½å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236177/index.m3u8 $æµæ±ç§»å¨
+é»é¾æ±å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228302/1/index.m3u8 $æµæ±ç§»å¨
+åæå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236268/index.m3u8 $æµæ±ç§»å¨
+éæµ·å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236252/index.m3u8 $æµæ±ç§»å¨
+æµ·åå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236232/index.m3u8 $æµæ±ç§»å¨
+çèå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236201/index.m3u8 $æµæ±ç§»å¨
+
+CCTV-1,http://120.234.187.66:10086/rtp/239.10.0.114:1025 $å¹¿ä¸ç§»å¨
+CCTV-2,http://120.234.187.66:10086/rtp/239.10.0.207:1025 $å¹¿ä¸ç§»å¨
+CCTV-3,http://120.234.187.66:10086/rtp/239.10.0.101:1025 $å¹¿ä¸ç§»å¨
+CCTV-4,http://120.234.187.66:10086/rtp/239.10.0.245:1025 $å¹¿ä¸ç§»å¨
+CCTV-5,http://120.234.187.66:10086/rtp/239.10.0.102:1025 $å¹¿ä¸ç§»å¨
+CCTV-5+,http://120.234.187.66:10086/rtp/239.10.0.213:1025 $å¹¿ä¸ç§»å¨
+CCTV-6,http://120.234.187.66:10086/rtp/239.10.0.103:1025 $å¹¿ä¸ç§»å¨
+CCTV-7,http://120.234.187.66:10086/rtp/239.10.0.208:1025 $å¹¿ä¸ç§»å¨
+CCTV-8,http://120.234.187.66:10086/rtp/239.10.0.104:1025 $å¹¿ä¸ç§»å¨
+CCTV-9,http://120.234.187.66:10086/rtp/239.10.0.209:1025 $å¹¿ä¸ç§»å¨
+CCTV-10,http://120.234.187.66:10086/rtp/239.10.0.210:1025 $å¹¿ä¸ç§»å¨
+CCTV-11,http://120.234.187.66:10086/rtp/239.11.0.24:1025 $å¹¿ä¸ç§»å¨
+CCTV-12,http://120.234.187.66:10086/rtp/239.10.0.211:1025 $å¹¿ä¸ç§»å¨
+CCTV-13,http://120.234.187.66:10086/rtp/239.10.0.198:1025 $å¹¿ä¸ç§»å¨
+CCTV-14,http://120.234.187.66:10086/rtp/239.10.0.212:1025 $å¹¿ä¸ç§»å¨
+CCTV-15,http://120.234.187.66:10086/rtp/239.11.0.25:1025 $å¹¿ä¸ç§»å¨
+CCTV-16,http://120.234.187.66:10086/rtp/239.11.0.126:1025 $å¹¿ä¸ç§»å¨
+CCTV-17,http://120.234.187.66:10086/rtp/239.10.0.244:1025 $å¹¿ä¸ç§»å¨
+å¹¿ä¸å«è§,http://120.234.187.66:10086/rtp/239.10.0.111:1025 $å¹¿ä¸ç§»å¨
+å¤§æ¹¾åºå«è§,http://120.234.187.66:10086/rtp/239.11.0.78:1025 $å¹¿ä¸ç§»å¨
+æ¹åå«è§,http://120.234.187.66:10086/rtp/239.10.0.115:1025 $å¹¿ä¸ç§»å¨
+æµæ±å«è§,http://120.234.187.66:10086/rtp/239.10.0.179:1025 $å¹¿ä¸ç§»å¨
+æ±èå«è§,http://120.234.187.66:10086/rtp/239.10.0.180:1025 $å¹¿ä¸ç§»å¨
+åäº¬å«è§,http://120.234.187.66:10086/rtp/239.10.0.131:1025 $å¹¿ä¸ç§»å¨
+æ·±å³å«è§,http://120.234.187.66:10086/rtp/239.10.0.132:1025 $å¹¿ä¸ç§»å¨
+é»é¾æ±å«è§,http://120.234.187.66:10086/rtp/239.10.0.133:1025 $å¹¿ä¸ç§»å¨
+æ¹åå«è§,http://120.234.187.66:10086/rtp/239.10.0.134:1025 $å¹¿ä¸ç§»å¨
+å¤©æ´¥å«è§,http://120.234.187.66:10086/rtp/239.10.0.181:1025 $å¹¿ä¸ç§»å¨
+å±±ä¸å«è§,http://120.234.187.66:10086/rtp/239.10.0.182:1025 $å¹¿ä¸ç§»å¨
+ä¸æ¹å«è§,http://120.234.187.66:10086/rtp/239.10.0.183:1025 $å¹¿ä¸ç§»å¨
+è¾½å®å«è§,http://120.234.187.66:10086/rtp/239.10.0.185:1025 $å¹¿ä¸ç§»å¨
+åå·å«è§,http://120.234.187.66:10086/rtp/239.10.0.204:1025 $å¹¿ä¸ç§»å¨
+éåºå«è§,http://120.234.187.66:10086/rtp/239.10.0.205:1025 $å¹¿ä¸ç§»å¨
+å®å¾½å«è§,http://120.234.187.66:10086/rtp/239.10.0.203:1025 $å¹¿ä¸ç§»å¨
+è´µå·å«è§,http://120.234.187.66:10086/rtp/239.10.0.222:1025 $å¹¿ä¸ç§»å¨
+ä¸åå«è§,http://120.234.187.66:10086/rtp/239.10.0.77:1025 $å¹¿ä¸ç§»å¨
+æ²³åå«è§,http://120.234.187.66:10086/rtp/239.10.0.79:1025 $å¹¿ä¸ç§»å¨
+æ±è¥¿å«è§,http://120.234.187.66:10086/rtp/239.10.0.80:1025 $å¹¿ä¸ç§»å¨
+åæå«è§,http://120.234.187.66:10086/rtp/239.10.0.81:1025 $å¹¿ä¸ç§»å¨
+å¹¿è¥¿å«è§,http://120.234.187.66:10086/rtp/239.10.0.246:1025 $å¹¿ä¸ç§»å¨
+çèå«è§,http://120.234.187.66:10086/rtp/239.11.0.175:1025 $å¹¿ä¸ç§»å¨
+æ²³åå«è§,http://120.234.187.66:10086/rtp/239.11.0.94:1025 $å¹¿ä¸ç§»å¨
+äºåå«è§,http://120.234.187.66:10086/rtp/239.11.0.171:1025 $å¹¿ä¸ç§»å¨
+æµ·åå«è§,http://120.234.187.66:10086/rtp/239.11.0.172:1025 $å¹¿ä¸ç§»å¨
+ä¸æ²å«è§,http://120.234.187.66:10086/rtp/239.11.0.177:1025 $å¹¿ä¸ç§»å¨
+éæµ·å«è§,http://120.234.187.66:10086/rtp/239.11.0.179:1025 $å¹¿ä¸ç§»å¨
+å¹¿ä¸å«è§,http://120.234.187.66:10086/rtp/239.10.0.45:1025 $å¹¿ä¸ç§»å¨
+å±±ä¸å«è§,http://120.234.187.66:10086/rtp/239.10.0.56:1025 $å¹¿ä¸ç§»å¨
+
+CCTV-1,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/CCTV-1H265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CCTV-2,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/CCTV-2H265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CCTV-3,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/CCTV-3H265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CCTV-4,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/CCTV-4H265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CCTV-5,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/CCTV-5H265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CCTV-5+,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/CCTV-5plusH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CCTV-6,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/CCTV-6H265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CCTV-7,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/CCTV-7H265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CCTV-8,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/CCTV-8H265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CCTV-9,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/CCTV-9H265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CCTV-10,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/CCTV-10H265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CCTV-11,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/CCTV-11-H265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CCTV-12,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/CCTV-12H265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CCTV-13,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/CCTV-xw_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CCTV-14,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/CCTV-14H265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CCTV-15,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/CCTV-15-yyH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CCTV-16,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/CCTV-16_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CCTV-17,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/CCTV-17_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CHCå½±è¿·çµå½±,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/lnwsCHC-HDH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CHCå¨ä½çµå½±,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/wqCHCdzdyH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+CHCå®¶åº­å½±é¢,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/jbtygqCHCjtyyH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+åäº¬å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/bjwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+ä¸æ¹å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/dfwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+å¤©æ´¥å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/tjwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+éåºå«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/cqwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+é»é¾æ±å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/hljwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+åæå«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/jlwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+è¾½å®å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/lnwsHDH264_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+åèå¤å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/nmgws_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+çèå«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/gsws_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+éæµ·å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/qhwsH264_2000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+éè¥¿å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/sxws_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+å±±è¥¿å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/sxws42_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+å±±ä¸å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/sdwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+å®å¾½å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/ahwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+æ²³åå«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/hnws35_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/hbwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/hnwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+æ±è¥¿å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/jxwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+æ±èå«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/jswsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+æµæ±å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/zjwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+ä¸åå«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/dnwsfjwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+å¹¿ä¸å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/gdwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+æ·±å³å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/szwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+å¹¿è¥¿å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/gxws_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+äºåå«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/ynws_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+è´µå·å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/gzwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+åå·å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/scwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+æ°çå«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/xjws_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+åµå¢å«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/btws_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+è¥¿èå«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/xzwsH264_2000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+æµ·åå«è§,http://A/ku9/py/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/hnws_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $èå°æ
+
+CCTV-1,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225920/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+CCTV-2,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225918/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+CCTV-3,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225963/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+CCTV-4,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225898/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+CCTV-5,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225964/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+CCTV-5+,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225663/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+CCTV-6,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225965/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+CCTV-7,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225897/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+CCTV-8,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225966/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+CCTV-9,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225919/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+CCTV-10,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225917/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+CCTV-11,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225867/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+CCTV-12,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225915/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+CCTV-13,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225957/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+CCTV-14,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225916/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+CCTV-15,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225866/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+CCTV-16,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221226300/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+CCTV-17,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225977/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225912/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+æµæ±å«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225906/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+ä¸æ¹å«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225908/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+æ±èå«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225909/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+å®å¾½å«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225901/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+åäº¬å«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225913/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+å¤©æ´¥å«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225907/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+æ²³åå«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225900/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+æ²³åå«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221226336/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+å±±ä¸å«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225904/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225903/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+æ±è¥¿å«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221226324/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+ä¸åå«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225914/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+æ·±å³å«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225910/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+å¹¿ä¸å«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225905/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+å¹¿è¥¿å«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221226344/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+æµ·åå«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225930/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+äºåå«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221226339/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+è´µå·å«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225899/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+åå·å«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225733/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+éåºå«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221226310/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+å±±è¥¿å«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221226326/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+å®å¤å«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221226352/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+çèå«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221226337/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+æ°çå«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221226348/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+åµå¢å«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221226334/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+è¥¿èå«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221226330/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+é»é¾æ±å«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225911/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+åæå«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221226332/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+è¾½å®å«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225902/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+åèå¤å«è§,http://A/ku9/py/socks5.py?ip=116.135.67.93:2022&u=http://111.56.121.176/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225870/1.m3u8?fmt=ts2hls $åèå¤ç§»å¨
+
+CCTV-1,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221228287/index.m3u8 $æ±èç§»å¨
+CCTV-2,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221228616/index.m3u8 $æ±èç§»å¨
+CCTV-3,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221228188/index.m3u8 $æ±èç§»å¨
+CCTV-4,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221228307/index.m3u8 $æ±èç§»å¨
+CCTV-5,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227661/index.m3u8 $æ±èç§»å¨
+CCTV-5+,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221228492/index.m3u8 $æ±èç§»å¨
+CCTV-6,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221228196/index.m3u8 $æ±èç§»å¨
+CCTV-7,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221228640/index.m3u8 $æ±èç§»å¨
+CCTV-8,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221228084/index.m3u8 $æ±èç§»å¨
+CCTV-9,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221228619/index.m3u8 $æ±èç§»å¨
+CCTV-10,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227620/index.m3u8 $æ±èç§»å¨
+CCTV-11,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227524/index.m3u8 $æ±èç§»å¨
+CCTV-12,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221228630/index.m3u8 $æ±èç§»å¨
+CCTV-13,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221228660/index.m3u8 $æ±èç§»å¨
+CCTV-14,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227656/index.m3u8 $æ±èç§»å¨
+CCTV-15,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221228639/index.m3u8 $æ±èç§»å¨
+CCTV-16,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221228625/index.m3u8 $æ±èç§»å¨
+CCTV-17,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227578/index.m3u8 $æ±èç§»å¨
+å®å¾½å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221225634/index.m3u8 $æ±èç§»å¨
+åäº¬å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227246/index.m3u8 $æ±èç§»å¨
+ä¸æ¹å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227208/index.m3u8 $æ±èç§»å¨
+ä¸åå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227553/index.m3u8 $æ±èç§»å¨
+çèå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227568/index.m3u8 $æ±èç§»å¨
+å¹¿ä¸å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227249/index.m3u8 $æ±èç§»å¨
+å¹¿è¥¿å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221228183/index.m3u8 $æ±èç§»å¨
+è´µå·å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227551/index.m3u8 $æ±èç§»å¨
+æµ·åå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221228101/index.m3u8 $æ±èç§»å¨
+æ²³åå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227545/index.m3u8 $æ±èç§»å¨
+æ²³åå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227521/index.m3u8 $æ±èç§»å¨
+é»é¾æ±å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227252/index.m3u8 $æ±èç§»å¨
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227211/index.m3u8 $æ±èç§»å¨
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227220/index.m3u8 $æ±èç§»å¨
+åæå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221228631/index.m3u8 $æ±èç§»å¨
+æ±èå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227668/index.m3u8 $æ±èç§»å¨
+æ±è¥¿å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221225536/index.m3u8 $æ±èç§»å¨
+è¾½å®å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227380/index.m3u8 $æ±èç§»å¨
+éæµ·å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227554/index.m3u8 $æ±èç§»å¨
+ä¸æ²å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221228626/index.m3u8 $æ±èç§»å¨
+å±±ä¸å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227258/index.m3u8 $æ±èç§»å¨
+æ·±å³å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227307/index.m3u8 $æ±èç§»å¨
+åå·å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227556/index.m3u8 $æ±èç§»å¨
+å¤©æ´¥å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227212/index.m3u8 $æ±èç§»å¨
+äºåå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227571/index.m3u8 $æ±èç§»å¨
+æµæ±å«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227215/index.m3u8 $æ±èç§»å¨
+éåºå«è§,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://ott.mobaibox.com/PLTV/4/224/3221227550/index.m3u8 $æ±èç§»å¨
+
+CCTV-1,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/index.m3u8 $éè¥¿ç§»å¨
+CCTV-2,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226195/index.m3u8 $éè¥¿ç§»å¨
+CCTV-3,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://111.20.33.70/PLTV/88888893/224/3221226397/index.m3u8 $éè¥¿ç§»å¨
+CCTV-3,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226397/index.m3u8 $éè¥¿ç§»å¨
+CCTV-3,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221226023/index.m3u8 $éè¥¿ç§»å¨
+CCTV-3,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226397/index.m3u8 $éè¥¿ç§»å¨
+CCTV-4,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226191/index.m3u8 $éè¥¿ç§»å¨
+CCTV-5,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221226025/index.m3u8 $éè¥¿ç§»å¨
+CCTV-5+,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221225718/index.m3u8 $éè¥¿ç§»å¨
+CCTV-5+,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225761/index.m3u8 $éè¥¿ç§»å¨
+CCTV-6,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226393/index.m3u8 $éè¥¿ç§»å¨
+CCTV-6,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221225811/index.m3u8 $éè¥¿ç§»å¨
+CCTV-6,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221226027/index.m3u8 $éè¥¿ç§»å¨
+CCTV-6,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226011/index.m3u8 $éè¥¿ç§»å¨
+CCTV-7,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221225855/index.m3u8 $éè¥¿ç§»å¨
+CCTV-8,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226391/index.m3u8 $éè¥¿ç§»å¨
+CCTV-8,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221226029/index.m3u8 $éè¥¿ç§»å¨
+CCTV-8,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226391/index.m3u8 $éè¥¿ç§»å¨
+CCTV-9,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226197/index.m3u8 $éè¥¿ç§»å¨
+CCTV-9,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226197/index.m3u8 $éè¥¿ç§»å¨
+CCTV-10,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226189/index.m3u8 $éè¥¿ç§»å¨
+CCTV-10,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221225823/index.m3u8 $éè¥¿ç§»å¨
+CCTV-10,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226189/index.m3u8 $éè¥¿ç§»å¨
+CCTV-11,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226240/index.m3u8 $éè¥¿ç§»å¨
+CCTV-11,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221225825/index.m3u8 $éè¥¿ç§»å¨
+CCTV-12,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226190/index.m3u8 $éè¥¿ç§»å¨
+CCTV-13,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226233/index.m3u8 $éè¥¿ç§»å¨
+CCTV-13,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221225827/index.m3u8 $éè¥¿ç§»å¨
+CCTV-14,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221225857/index.m3u8 $éè¥¿ç§»å¨
+CCTV-14,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226193/index.m3u8 $éè¥¿ç§»å¨
+CCTV-15,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221225636/index.m3u8 $éè¥¿ç§»å¨
+CCTV-16,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8 $éè¥¿ç§»å¨
+CCTV-17,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221225859/index.m3u8 $éè¥¿ç§»å¨
+CCTV-17,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226198/index.m3u8 $éè¥¿ç§»å¨
+CHCå¨ä½çµå½±,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/index.m3u8 $éè¥¿ç§»å¨
+CHCå®¶åº­å½±é¢,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://111.20.33.70/PLTV/88888893/224/3221226462/index.m3u8 $éè¥¿ç§»å¨
+CHCå®¶åº­å½±é¢,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8 $éè¥¿ç§»å¨
+CHCå½±è¿·çµå½±,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8 $éè¥¿ç§»å¨
+CHCå½±è¿·çµå½±,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8 $éè¥¿ç§»å¨
+å®å¾½å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226203/1.m3u8 $éè¥¿ç§»å¨
+åäº¬å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225796/index.m3u8 $éè¥¿ç§»å¨
+åäº¬å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221225724/index.m3u8 $éè¥¿ç§»å¨
+ä¸æ¹å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225797/index.m3u8 $éè¥¿ç§»å¨
+ä¸åå«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225766/index.m3u8 $éè¥¿ç§»å¨
+å¹¿ä¸å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225803/index.m3u8 $éè¥¿ç§»å¨
+å¹¿ä¸å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221225680/index.m3u8 $éè¥¿ç§»å¨
+å¹¿ä¸å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225803/index.m3u8 $éè¥¿ç§»å¨
+é»é¾æ±å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225802/index.m3u8 $éè¥¿ç§»å¨
+é»é¾æ±å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221225690/index.m3u8 $éè¥¿ç§»å¨
+é»é¾æ±å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221225809/index.m3u8 $éè¥¿ç§»å¨
+é»é¾æ±å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225802/index.m3u8 $éè¥¿ç§»å¨
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226206/1.m3u8 $éè¥¿ç§»å¨
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225799/index.m3u8 $éè¥¿ç§»å¨
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225799/index.m3u8 $éè¥¿ç§»å¨
+æ±èå«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225800/index.m3u8 $éè¥¿ç§»å¨
+æ±èå«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221225602/index.m3u8 $éè¥¿ç§»å¨
+è¾½å®å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226201/1.m3u8 $éè¥¿ç§»å¨
+è¾½å®å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226201/index.m3u8 $éè¥¿ç§»å¨
+å±±ä¸å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226209/1.m3u8 $éè¥¿ç§»å¨
+éè¥¿å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://111.20.33.70/PLTV/88888893/224/3221225821/index.m3u8 $éè¥¿ç§»å¨
+éè¥¿å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.195/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225821/index.m3u8 $éè¥¿ç§»å¨
+æ·±å³å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221225764/index.m3u8 $éè¥¿ç§»å¨
+æ·±å³å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225801/index.m3u8 $éè¥¿ç§»å¨
+å¤©æ´¥å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.193/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226204/1.m3u8 $éè¥¿ç§»å¨
+äºåå«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.195/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225751/index.m3u8 $éè¥¿ç§»å¨
+æµæ±å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225798/index.m3u8 $éè¥¿ç§»å¨
+æµæ±å«è§,http://A/ku9/py/socks5.py?ip=101.34.81.120:31546&u=http://39.134.24.24/PLTV/88888888/224/3221225664/index.m3u8 $éè¥¿ç§»å¨
+
+CCTV-1,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228318/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+CCTV-2,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228348/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+CCTV-3,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236445/index.m3u8 $æµæ±ç§»å¨
+CCTV-4,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236442/index.m3u8 $æµæ±ç§»å¨
+CCTV-5,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236444/index.m3u8 $æµæ±ç§»å¨
+CCTV-5+,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236465/index.m3u8 $æµæ±ç§»å¨
+CCTV-6,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236448/index.m3u8 $æµæ±ç§»å¨
+CCTV-7,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228330/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+CCTV-8,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236512/index.m3u8 $æµæ±ç§»å¨
+CCTV-9,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236246/index.m3u8 $æµæ±ç§»å¨
+CCTV-10,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236520/index.m3u8 $æµæ±ç§»å¨
+CCTV-11,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232449/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+CCTV-12,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236203/index.m3u8 $æµæ±ç§»å¨
+CCTV-13,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230877/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+CCTV-14,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236317/index.m3u8 $æµæ±ç§»å¨
+CCTV-15,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236165/index.m3u8 $æµæ±ç§»å¨
+CCTV-16,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236181/index.m3u8 $æµæ±ç§»å¨
+CCTV-17,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229762/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+åäº¬å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236241/index.m3u8 $æµæ±ç§»å¨
+åµå¢å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236191/index.m3u8 $æµæ±ç§»å¨
+ä¸åå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236151/index.m3u8 $æµæ±ç§»å¨
+å¹¿è¥¿å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231292/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+è´µå·å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236236/index.m3u8 $æµæ±ç§»å¨
+æµ·å³¡å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236416/index.m3u8 $æµæ±ç§»å¨
+æ²³åå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231264/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228357/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+æ¹åå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236225/index.m3u8 $æµæ±ç§»å¨
+æ±èå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236221/index.m3u8 $æµæ±ç§»å¨
+æ±è¥¿å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236212/index.m3u8 $æµæ±ç§»å¨
+è¾½å®å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236161/index.m3u8 $æµæ±ç§»å¨
+åèå¤å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236270/index.m3u8 $æµæ±ç§»å¨
+å®å¤å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236209/index.m3u8 $æµæ±ç§»å¨
+å±±ä¸å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228308/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+å±±è¥¿å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236264/index.m3u8 $æµæ±ç§»å¨
+éè¥¿å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236370/index.m3u8 $æµæ±ç§»å¨
+æ·±å³å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236251/index.m3u8 $æµæ±ç§»å¨
+åå·å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236255/index.m3u8 $æµæ±ç§»å¨
+å¤©æ´¥å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228320/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+è¥¿èå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236274/index.m3u8 $æµæ±ç§»å¨
+æ°çå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236215/index.m3u8 $æµæ±ç§»å¨
+äºåå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236234/index.m3u8 $æµæ±ç§»å¨
+æµæ±å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236269/index.m3u8 $æµæ±ç§»å¨
+éåºå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232642/1/index.m3u8?fmt=ts2hls $æµæ±ç§»å¨
+ä¸æ¹å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228354/1/index.m3u8 $æµæ±ç§»å¨
+æ²³åå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236242/index.m3u8 $æµæ±ç§»å¨
+å¹¿ä¸å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236262/index.m3u8 $æµæ±ç§»å¨
+å®å¾½å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236177/index.m3u8 $æµæ±ç§»å¨
+é»é¾æ±å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228302/1/index.m3u8 $æµæ±ç§»å¨
+åæå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236268/index.m3u8 $æµæ±ç§»å¨
+éæµ·å«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236252/index.m3u8 $æµæ±ç§»å¨
+æµ·åå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236232/index.m3u8 $æµæ±ç§»å¨
+çèå«è§,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236201/index.m3u8 $æµæ±ç§»å¨
+
+å¹¿ä¸é¢é,#genre#
+
+CCTV-1,http://113.90.244.193:6921/rtp/239.77.0.86:5146 $å¹¿ä¸çµä¿¡
+CCTV-2,http://113.90.244.193:6921/rtp/239.77.0.137:5146 $å¹¿ä¸çµä¿¡
+CCTV-3,http://113.90.244.193:6921/rtp/239.77.0.169:5146 $å¹¿ä¸çµä¿¡
+CCTV-4,http://113.90.244.193:6921/rtp/239.77.0.78:5146 $å¹¿ä¸çµä¿¡
+CCTV-5,http://113.90.244.193:6921/rtp/239.77.0.170:5146 $å¹¿ä¸çµä¿¡
+CCTV-5+,http://113.90.244.193:6921/rtp/239.77.0.87:5146 $å¹¿ä¸çµä¿¡
+CCTV-6,http://113.90.244.193:6921/rtp/239.77.0.171:5146 $å¹¿ä¸çµä¿¡
+CCTV-7,http://113.90.244.193:6921/rtp/239.77.0.138:5146 $å¹¿ä¸çµä¿¡
+CCTV-8,http://113.90.244.193:6921/rtp/239.77.0.172:5146 $å¹¿ä¸çµä¿¡
+CCTV-9,http://113.90.244.193:6921/rtp/239.77.0.135:5146 $å¹¿ä¸çµä¿¡
+CCTV-10,http://113.90.244.193:6921/rtp/239.77.0.134:5146 $å¹¿ä¸çµä¿¡
+CCTV-11,http://113.90.244.193:6921/rtp/239.77.1.108:5146 $å¹¿ä¸çµä¿¡
+CCTV-12,http://113.90.244.193:6921/rtp/239.77.0.136:5146 $å¹¿ä¸çµä¿¡
+CCTV-13,http://113.90.244.193:6921/rtp/239.77.0.188:5146 $å¹¿ä¸çµä¿¡
+CCTV-14,http://113.90.244.193:6921/rtp/239.77.0.133:5146 $å¹¿ä¸çµä¿¡
+CCTV-15,http://113.90.244.193:6921/rtp/239.77.1.239:5146 $å¹¿ä¸çµä¿¡
+CCTV-16,http://113.90.244.193:6921/rtp/239.77.0.165:5146 $å¹¿ä¸çµä¿¡
+CCTV-17,http://113.90.244.193:6921/rtp/239.77.0.198:5146 $å¹¿ä¸çµä¿¡
+æ±å¤´ç»¼å,http://113.90.244.193:6921/rtp/239.253.43.45:5146$å¹¿ä¸çµä¿¡
+æ±å¤´ç»æµçæ´»,http://113.90.244.193:6921/rtp/239.253.43.46:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸å«è§,http://113.90.244.193:6921/rtp/239.77.0.153:5146 $å¹¿ä¸çµä¿¡
+éåºå«è§,http://113.90.244.193:6921/rtp/239.77.0.182:5146 $å¹¿ä¸çµä¿¡
+æ±èå«è§,http://113.90.244.193:6921/rtp/239.77.0.90:5146 $å¹¿ä¸çµä¿¡
+æµæ±å«è§,http://113.90.244.193:6921/rtp/239.77.0.89:5146 $å¹¿ä¸çµä¿¡
+ä¸æ¹å«è§,http://113.90.244.193:6921/rtp/239.77.0.98:5146 $å¹¿ä¸çµä¿¡
+æ·±å³å«è§,http://113.90.244.193:6921/rtp/239.77.0.92:5146 $å¹¿ä¸çµä¿¡
+åäº¬å«è§,http://113.90.244.193:6921/rtp/239.77.0.91:5146 $å¹¿ä¸çµä¿¡
+å±±ä¸å«è§,http://113.90.244.193:6921/rtp/239.77.0.94:5146 $å¹¿ä¸çµä¿¡
+å¤©æ´¥å«è§,http://113.90.244.193:6921/rtp/239.77.0.97:5146 $å¹¿ä¸çµä¿¡
+è´µå·å«è§,http://113.90.244.193:6921/rtp/239.77.0.230:5146 $å¹¿ä¸çµä¿¡
+åå·å«è§,http://113.90.244.193:6921/rtp/239.77.0.159:5146 $å¹¿ä¸çµä¿¡
+äºåå«è§,http://113.90.244.193:6921/rtp/239.253.43.37:5146 $å¹¿ä¸çµä¿¡
+å¹¿è¥¿å«è§,http://113.90.244.193:6921/rtp/239.77.0.139:5146 $å¹¿ä¸çµä¿¡
+é»é¾æ±å«è§,http://113.90.244.193:6921/rtp/239.77.0.93:5146 $å¹¿ä¸çµä¿¡
+å®å¾½å«è§,http://113.90.244.193:6921/rtp/239.77.0.183:5146 $å¹¿ä¸çµä¿¡
+å±±è¥¿å«è§,http://113.90.244.193:6921/rtp/239.77.0.69:5146 $å¹¿ä¸çµä¿¡
+æ±è¥¿å«è§,http://113.90.244.193:6921/rtp/239.77.0.149:5146 $å¹¿ä¸çµä¿¡
+æ¹åå«è§,http://113.90.244.193:6921/rtp/239.77.0.95:5146 $å¹¿ä¸çµä¿¡
+éè¥¿å«è§,http://113.90.244.193:6921/rtp/239.77.0.68:5146 $å¹¿ä¸çµä¿¡
+ä¸åå«è§,http://113.90.244.193:6921/rtp/239.77.0.146:5146 $å¹¿ä¸çµä¿¡
+å¦é¨å«è§,http://113.90.244.193:6921/rtp/239.77.0.96:5146 $å¹¿ä¸çµä¿¡
+åæå«è§,http://113.90.244.193:6921/rtp/239.77.0.150:5146 $å¹¿ä¸çµä¿¡
+è¾½å®å«è§,http://113.90.244.193:6921/rtp/239.77.1.103:5146 $å¹¿ä¸çµä¿¡
+åèå¤å«è§,http://113.90.244.193:6921/rtp/239.77.0.70:5146 $å¹¿ä¸çµä¿¡
+æ¹åå«è§,http://113.90.244.193:6921/rtp/239.77.0.88:5146 $å¹¿ä¸çµä¿¡
+å¹¿ä¸å«è§,http://113.90.244.193:6921/rtp/239.77.0.84:5146 $å¹¿ä¸çµä¿¡
+å¤§æ¹¾åºå«è§,http://113.90.244.193:6921/rtp/239.77.0.215:5146 $å¹¿ä¸çµä¿¡
+æ²³åå«è§,http://113.90.244.193:6921/rtp/239.77.0.17:5146 $å¹¿ä¸çµä¿¡
+æ²³åå«è§,http://113.90.244.193:6921/rtp/239.77.0.148:5146 $å¹¿ä¸çµä¿¡
+æµ·åå«è§,http://113.90.244.193:6921/rtp/239.253.43.35:5146 $å¹¿ä¸çµä¿¡
+å®å¤å«è§,http://113.90.244.193:6921/rtp/239.77.0.49:5146 $å¹¿ä¸çµä¿¡
+çèå«è§,http://113.90.244.193:6921/rtp/239.77.0.189:5146 $å¹¿ä¸çµä¿¡
+éæµ·å«è§,http://113.90.244.193:6921/rtp/239.77.1.70:5146 $å¹¿ä¸çµä¿¡
+æ°çå«è§,http://113.90.244.193:6921/rtp/239.77.0.47:5146 $å¹¿ä¸çµä¿¡
+è¥¿èå«è§,http://113.90.244.193:6921/rtp/239.77.0.46:5146 $å¹¿ä¸çµä¿¡
+åµå¢å«è§,http://113.90.244.193:6921/rtp/239.77.0.48:5146 $å¹¿ä¸çµä¿¡
+ä¸æ²å«è§,http://113.90.244.193:6921/rtp/239.253.43.113:5146 $å¹¿ä¸çµä¿¡
+å¹¿ä¸ç æ±,http://113.90.244.193:6921/rtp/239.77.0.114:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸æ°é»,http://113.90.244.193:6921/rtp/239.77.0.173:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸ä½è²,http://113.90.244.193:6921/rtp/239.77.0.112:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸æ°ç,http://113.90.244.193:6921/rtp/239.77.0.225:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸å½±è§,http://113.90.244.193:6921/rtp/239.77.0.217:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸å°å¿,http://113.90.244.193:6921/rtp/239.77.0.250:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸4Kè¶é«æ¸,http://113.90.244.193:6921/rtp/239.77.0.244:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸ç»æµç§æ,http://113.90.244.193:6921/rtp/239.77.0.167:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸åä½³å¡é,http://113.90.244.193:6921/rtp/239.77.0.179:5146$å¹¿ä¸çµä¿¡
+å¹¿å·ç»¼å,http://113.90.244.193:6921/rtp/239.253.43.71:5146$å¹¿ä¸çµä¿¡
+å¹¿å·æ°é»,http://113.90.244.193:6921/rtp/239.253.43.72:5146$å¹¿ä¸çµä¿¡
+å¹¿å·å½±è§,http://113.90.244.193:6921/rtp/239.253.43.73:5146$å¹¿ä¸çµä¿¡
+å¹¿å·æ³æ²»,http://113.90.244.193:6921/rtp/239.253.43.74:5146$å¹¿ä¸çµä¿¡
+å¹¿å·åå½é½å¸,http://113.90.244.193:6921/rtp/239.253.43.99:5146$å¹¿ä¸çµä¿¡
+æ·±å³é½å¸,http://113.90.244.193:6921/rtp/239.77.1.176:5146$å¹¿ä¸çµä¿¡
+æ·±å³å¨±ä¹,http://113.90.244.193:6921/rtp/239.77.1.243:5146$å¹¿ä¸çµä¿¡
+æ·±å³å¬å±,http://113.90.244.193:6921/rtp/239.77.1.178:5146$å¹¿ä¸çµä¿¡
+æ·±å³å°å¿,http://113.90.244.193:6921/rtp/239.77.1.244:5146$å¹¿ä¸çµä¿¡
+æ·±å³çµè§å§,http://113.90.244.193:6921/rtp/239.77.1.177:5146$å¹¿ä¸çµä¿¡
+æ·±å³çµè§å§,http://113.90.244.193:6921/rtp/239.77.1.125:5146$å¹¿ä¸çµä¿¡
+æ·±å³å¬å±,http://113.90.244.193:6921/rtp/239.77.1.126:5146$å¹¿ä¸çµä¿¡
+æ·±å³é½å¸,http://113.90.244.193:6921/rtp/239.77.1.124:5146$å¹¿ä¸çµä¿¡
+æ·±å³å®å®,http://113.90.244.193:6921/rtp/239.77.1.67:5146$å¹¿ä¸çµä¿¡
+æ·±å³é¾å²,http://113.90.244.193:6921/rtp/239.77.1.223:5146$å¹¿ä¸çµä¿¡
+ä½å±±ç»¼å,http://113.90.244.193:6921/rtp/239.253.43.57:5146$å¹¿ä¸çµä¿¡
+ä½å±±åå¸çæ´»,http://113.90.244.193:6921/rtp/239.253.43.53:5146$å¹¿ä¸çµä¿¡
+ä½å±±åæµ·,http://113.90.244.193:6921/rtp/239.253.43.54:5146$å¹¿ä¸çµä¿¡
+ä½å±±é¡ºå¾·,http://113.90.244.193:6921/rtp/239.253.43.55:5146$å¹¿ä¸çµä¿¡
+æ­é³ç»¼å,http://113.90.244.193:6921/rtp/239.77.0.229:5146$å¹¿ä¸çµä¿¡
+æ­é³çæ´»,http://113.90.244.193:6921/rtp/239.77.0.251:5146$å¹¿ä¸çµä¿¡
+æ½®å·ç»¼å,http://113.90.244.193:6921/rtp/239.253.43.70:5146$å¹¿ä¸çµä¿¡
+æ½®å·æ°ç,http://113.90.244.193:6921/rtp/239.253.43.75:5146$å¹¿ä¸çµä¿¡
+ä¸èæ°é»ç»¼å,http://113.90.244.193:6921/rtp/239.253.43.104:5146$å¹¿ä¸çµä¿¡
+ä¸­å±±ç»¼å,http://113.90.244.193:6921/rtp/239.253.43.62:5146$å¹¿ä¸çµä¿¡
+HZTV-1,http://113.90.244.193:6921/rtp/239.77.1.232:5146$å¹¿ä¸çµä¿¡
+HZTV-2,http://113.90.244.193:6921/rtp/239.77.1.233:5146$å¹¿ä¸çµä¿¡
+ç æµ·-1,http://113.90.244.193:6921/rtp/239.77.0.155:5146$å¹¿ä¸çµä¿¡
+èåºç»¼å,http://113.90.244.193:6921/rtp/239.253.43.1:5146$å¹¿ä¸çµä¿¡
+èåºçæ´»æå¡,http://113.90.244.193:6921/rtp/239.253.43.2:5146$å¹¿ä¸çµä¿¡
+æ¸è¿æ°é»ç»¼å,http://113.90.244.193:6921/rtp/239.253.43.33:5146$å¹¿ä¸çµä¿¡
+æ²³æºç»¼å,http://113.90.244.193:6921/rtp/239.253.43.213:5146$å¹¿ä¸çµä¿¡
+æ²³æºå¬å±,http://113.90.244.193:6921/rtp/239.253.43.214:5146$å¹¿ä¸çµä¿¡
+é¶å³æ°é»ç»¼å,http://113.90.244.193:6921/rtp/239.77.0.117:5146$å¹¿ä¸çµä¿¡
+æ¹æ±æ°é»ç»¼å,http://113.90.244.193:6921/rtp/239.77.0.141:5146$å¹¿ä¸çµä¿¡
+äºæµ®ç»¼å,http://113.90.244.193:6921/rtp/239.77.0.253:5146$å¹¿ä¸çµä¿¡
+äºæµ®ææ,http://113.90.244.193:6921/rtp/239.77.0.254:5146$å¹¿ä¸çµä¿¡
+èåç»¼å,http://113.90.244.193:6921/rtp/239.77.0.206:5146$å¹¿ä¸çµä¿¡
+èåæåçæ´»,http://113.90.244.193:6921/rtp/239.77.0.207:5146$å¹¿ä¸çµä¿¡
+æ±é¨ç»¼å,http://113.90.244.193:6921/rtp/239.77.0.201:5146$å¹¿ä¸çµä¿¡
+æ±å°¾æ°é»ç»¼å,http://113.90.244.193:6921/rtp/239.77.0.25:5146$å¹¿ä¸çµä¿¡
+.
+CCTV-1,http://59.34.211.186:4800/rtp/239.77.0.86:5146 $å¹¿ä¸çµä¿¡
+CCTV-2,http://59.34.211.186:4800/rtp/239.77.0.137:5146 $å¹¿ä¸çµä¿¡
+CCTV-3,http://59.34.211.186:4800/rtp/239.77.0.169:5146 $å¹¿ä¸çµä¿¡
+CCTV-4,http://59.34.211.186:4800/rtp/239.77.0.78:5146 $å¹¿ä¸çµä¿¡
+CCTV-5,http://59.34.211.186:4800/rtp/239.77.0.170:5146 $å¹¿ä¸çµä¿¡
+CCTV-5+,http://59.34.211.186:4800/rtp/239.77.0.87:5146 $å¹¿ä¸çµä¿¡
+CCTV-6,http://59.34.211.186:4800/rtp/239.77.0.171:5146 $å¹¿ä¸çµä¿¡
+CCTV-7,http://59.34.211.186:4800/rtp/239.77.0.138:5146 $å¹¿ä¸çµä¿¡
+CCTV-8,http://59.34.211.186:4800/rtp/239.77.0.172:5146 $å¹¿ä¸çµä¿¡
+CCTV-9,http://59.34.211.186:4800/rtp/239.77.0.135:5146 $å¹¿ä¸çµä¿¡
+CCTV-10,http://59.34.211.186:4800/rtp/239.77.0.134:5146 $å¹¿ä¸çµä¿¡
+CCTV-11,http://59.34.211.186:4800/rtp/239.77.1.108:5146 $å¹¿ä¸çµä¿¡
+CCTV-12,http://59.34.211.186:4800/rtp/239.77.0.136:5146 $å¹¿ä¸çµä¿¡
+CCTV-13,http://59.34.211.186:4800/rtp/239.77.0.188:5146 $å¹¿ä¸çµä¿¡
+CCTV-14,http://59.34.211.186:4800/rtp/239.77.0.133:5146 $å¹¿ä¸çµä¿¡
+CCTV-15,http://59.34.211.186:4800/rtp/239.77.1.239:5146 $å¹¿ä¸çµä¿¡
+CCTV-16,http://59.34.211.186:4800/rtp/239.77.0.165:5146 $å¹¿ä¸çµä¿¡
+CCTV-17,http://59.34.211.186:4800/rtp/239.77.0.198:5146 $å¹¿ä¸çµä¿¡
+æ±å¤´ç»¼å,http://59.34.211.186:4800/rtp/239.253.43.45:5146$å¹¿ä¸çµä¿¡
+æ±å¤´ç»æµçæ´»,http://59.34.211.186:4800/rtp/239.253.43.46:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸å«è§,http://59.34.211.186:4800/rtp/239.77.0.153:5146 $å¹¿ä¸çµä¿¡
+éåºå«è§,http://59.34.211.186:4800/rtp/239.77.0.182:5146 $å¹¿ä¸çµä¿¡
+æ±èå«è§,http://59.34.211.186:4800/rtp/239.77.0.90:5146 $å¹¿ä¸çµä¿¡
+æµæ±å«è§,http://59.34.211.186:4800/rtp/239.77.0.89:5146 $å¹¿ä¸çµä¿¡
+ä¸æ¹å«è§,http://59.34.211.186:4800/rtp/239.77.0.98:5146 $å¹¿ä¸çµä¿¡
+æ·±å³å«è§,http://59.34.211.186:4800/rtp/239.77.0.92:5146 $å¹¿ä¸çµä¿¡
+åäº¬å«è§,http://59.34.211.186:4800/rtp/239.77.0.91:5146 $å¹¿ä¸çµä¿¡
+å±±ä¸å«è§,http://59.34.211.186:4800/rtp/239.77.0.94:5146 $å¹¿ä¸çµä¿¡
+å¤©æ´¥å«è§,http://59.34.211.186:4800/rtp/239.77.0.97:5146 $å¹¿ä¸çµä¿¡
+è´µå·å«è§,http://59.34.211.186:4800/rtp/239.77.0.230:5146 $å¹¿ä¸çµä¿¡
+åå·å«è§,http://59.34.211.186:4800/rtp/239.77.0.159:5146 $å¹¿ä¸çµä¿¡
+äºåå«è§,http://59.34.211.186:4800/rtp/239.253.43.37:5146 $å¹¿ä¸çµä¿¡
+å¹¿è¥¿å«è§,http://59.34.211.186:4800/rtp/239.77.0.139:5146 $å¹¿ä¸çµä¿¡
+é»é¾æ±å«è§,http://59.34.211.186:4800/rtp/239.77.0.93:5146 $å¹¿ä¸çµä¿¡
+å®å¾½å«è§,http://59.34.211.186:4800/rtp/239.77.0.183:5146 $å¹¿ä¸çµä¿¡
+å±±è¥¿å«è§,http://59.34.211.186:4800/rtp/239.77.0.69:5146 $å¹¿ä¸çµä¿¡
+æ±è¥¿å«è§,http://59.34.211.186:4800/rtp/239.77.0.149:5146 $å¹¿ä¸çµä¿¡
+æ¹åå«è§,http://59.34.211.186:4800/rtp/239.77.0.95:5146 $å¹¿ä¸çµä¿¡
+éè¥¿å«è§,http://59.34.211.186:4800/rtp/239.77.0.68:5146 $å¹¿ä¸çµä¿¡
+ä¸åå«è§,http://59.34.211.186:4800/rtp/239.77.0.146:5146 $å¹¿ä¸çµä¿¡
+å¦é¨å«è§,http://59.34.211.186:4800/rtp/239.77.0.96:5146 $å¹¿ä¸çµä¿¡
+åæå«è§,http://59.34.211.186:4800/rtp/239.77.0.150:5146 $å¹¿ä¸çµä¿¡
+è¾½å®å«è§,http://59.34.211.186:4800/rtp/239.77.1.103:5146 $å¹¿ä¸çµä¿¡
+åèå¤å«è§,http://59.34.211.186:4800/rtp/239.77.0.70:5146 $å¹¿ä¸çµä¿¡
+æ¹åå«è§,http://59.34.211.186:4800/rtp/239.77.0.88:5146 $å¹¿ä¸çµä¿¡
+å¹¿ä¸å«è§,http://59.34.211.186:4800/rtp/239.77.0.84:5146 $å¹¿ä¸çµä¿¡
+å¤§æ¹¾åºå«è§,http://59.34.211.186:4800/rtp/239.77.0.215:5146 $å¹¿ä¸çµä¿¡
+æ²³åå«è§,http://59.34.211.186:4800/rtp/239.77.0.17:5146 $å¹¿ä¸çµä¿¡
+æ²³åå«è§,http://59.34.211.186:4800/rtp/239.77.0.148:5146 $å¹¿ä¸çµä¿¡
+æµ·åå«è§,http://59.34.211.186:4800/rtp/239.253.43.35:5146 $å¹¿ä¸çµä¿¡
+å®å¤å«è§,http://59.34.211.186:4800/rtp/239.77.0.49:5146 $å¹¿ä¸çµä¿¡
+çèå«è§,http://59.34.211.186:4800/rtp/239.77.0.189:5146 $å¹¿ä¸çµä¿¡
+éæµ·å«è§,http://59.34.211.186:4800/rtp/239.77.1.70:5146 $å¹¿ä¸çµä¿¡
+æ°çå«è§,http://59.34.211.186:4800/rtp/239.77.0.47:5146 $å¹¿ä¸çµä¿¡
+è¥¿èå«è§,http://59.34.211.186:4800/rtp/239.77.0.46:5146 $å¹¿ä¸çµä¿¡
+åµå¢å«è§,http://59.34.211.186:4800/rtp/239.77.0.48:5146 $å¹¿ä¸çµä¿¡
+ä¸æ²å«è§,http://59.34.211.186:4800/rtp/239.253.43.113:5146 $å¹¿ä¸çµä¿¡
+å¹¿ä¸å½±è§,http://59.34.211.186:4800/rtp/239.77.0.217:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸ç æ±,http://59.34.211.186:4800/rtp/239.77.0.114:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸æ°é»,http://59.34.211.186:4800/rtp/239.77.0.173:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸ä½è²,http://59.34.211.186:4800/rtp/239.77.0.112:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸æ°ç,http://59.34.211.186:4800/rtp/239.77.0.225:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸4Kè¶é«æ¸,http://59.34.211.186:4800/rtp/239.77.0.244:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸ç»æµç§æ,http://59.34.211.186:4800/rtp/239.77.0.167:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸å°å¿,http://59.34.211.186:4800/rtp/239.77.0.250:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸åä½³å¡é,http://59.34.211.186:4800/rtp/239.77.0.179:5146$å¹¿ä¸çµä¿¡
+å¹¿å·ç»¼å,http://59.34.211.186:4800/rtp/239.253.43.71:5146$å¹¿ä¸çµä¿¡
+å¹¿å·æ°é»,http://59.34.211.186:4800/rtp/239.253.43.72:5146$å¹¿ä¸çµä¿¡
+å¹¿å·å½±è§,http://59.34.211.186:4800/rtp/239.253.43.73:5146$å¹¿ä¸çµä¿¡
+å¹¿å·æ³æ²»,http://59.34.211.186:4800/rtp/239.253.43.74:5146$å¹¿ä¸çµä¿¡
+å¹¿å·åå½é½å¸,http://59.34.211.186:4800/rtp/239.253.43.99:5146$å¹¿ä¸çµä¿¡
+æ·±å³é½å¸,http://59.34.211.186:4800/rtp/239.77.1.176:5146$å¹¿ä¸çµä¿¡
+æ·±å³å¨±ä¹,http://59.34.211.186:4800/rtp/239.77.1.243:5146$å¹¿ä¸çµä¿¡
+æ·±å³å¬å±,http://59.34.211.186:4800/rtp/239.77.1.178:5146$å¹¿ä¸çµä¿¡
+æ·±å³å°å¿,http://59.34.211.186:4800/rtp/239.77.1.244:5146$å¹¿ä¸çµä¿¡
+æ·±å³çµè§å§,http://59.34.211.186:4800/rtp/239.77.1.177:5146$å¹¿ä¸çµä¿¡
+æ·±å³çµè§å§,http://59.34.211.186:4800/rtp/239.77.1.125:5146$å¹¿ä¸çµä¿¡
+æ·±å³å¬å±,http://59.34.211.186:4800/rtp/239.77.1.126:5146$å¹¿ä¸çµä¿¡
+æ·±å³é½å¸,http://59.34.211.186:4800/rtp/239.77.1.124:5146$å¹¿ä¸çµä¿¡
+æ·±å³å®å®,http://59.34.211.186:4800/rtp/239.77.1.67:5146$å¹¿ä¸çµä¿¡
+æ·±å³é¾å²,http://59.34.211.186:4800/rtp/239.77.1.223:5146$å¹¿ä¸çµä¿¡
+ä½å±±ç»¼å,http://59.34.211.186:4800/rtp/239.253.43.57:5146$å¹¿ä¸çµä¿¡
+ä½å±±åå¸çæ´»,http://59.34.211.186:4800/rtp/239.253.43.53:5146$å¹¿ä¸çµä¿¡
+ä½å±±åæµ·,http://59.34.211.186:4800/rtp/239.253.43.54:5146$å¹¿ä¸çµä¿¡
+ä½å±±é¡ºå¾·,http://59.34.211.186:4800/rtp/239.253.43.55:5146$å¹¿ä¸çµä¿¡
+æ­é³ç»¼å,http://59.34.211.186:4800/rtp/239.77.0.229:5146$å¹¿ä¸çµä¿¡
+æ­é³çæ´»,http://59.34.211.186:4800/rtp/239.77.0.251:5146$å¹¿ä¸çµä¿¡
+æ½®å·ç»¼å,http://59.34.211.186:4800/rtp/239.253.43.70:5146$å¹¿ä¸çµä¿¡
+æ½®å·æ°ç,http://59.34.211.186:4800/rtp/239.253.43.75:5146$å¹¿ä¸çµä¿¡
+ä¸èæ°é»ç»¼å,http://59.34.211.186:4800/rtp/239.253.43.104:5146$å¹¿ä¸çµä¿¡
+ä¸­å±±ç»¼å,http://59.34.211.186:4800/rtp/239.253.43.62:5146$å¹¿ä¸çµä¿¡
+HZTV-1,http://59.34.211.186:4800/rtp/239.77.1.232:5146$å¹¿ä¸çµä¿¡
+HZTV-2,http://59.34.211.186:4800/rtp/239.77.1.233:5146$å¹¿ä¸çµä¿¡
+ç æµ·-1,http://59.34.211.186:4800/rtp/239.77.0.155:5146$å¹¿ä¸çµä¿¡
+èåºç»¼å,http://59.34.211.186:4800/rtp/239.253.43.1:5146$å¹¿ä¸çµä¿¡
+èåºçæ´»æå¡,http://59.34.211.186:4800/rtp/239.253.43.2:5146$å¹¿ä¸çµä¿¡
+æ¸è¿æ°é»ç»¼å,http://59.34.211.186:4800/rtp/239.253.43.33:5146$å¹¿ä¸çµä¿¡
+æ²³æºç»¼å,http://59.34.211.186:4800/rtp/239.253.43.213:5146$å¹¿ä¸çµä¿¡
+æ²³æºå¬å±,http://59.34.211.186:4800/rtp/239.253.43.214:5146$å¹¿ä¸çµä¿¡
+é¶å³æ°é»ç»¼å,http://59.34.211.186:4800/rtp/239.77.0.117:5146$å¹¿ä¸çµä¿¡
+æ¹æ±æ°é»ç»¼å,http://59.34.211.186:4800/rtp/239.77.0.141:5146$å¹¿ä¸çµä¿¡
+äºæµ®ç»¼å,http://59.34.211.186:4800/rtp/239.77.0.253:5146$å¹¿ä¸çµä¿¡
+äºæµ®ææ,http://59.34.211.186:4800/rtp/239.77.0.254:5146$å¹¿ä¸çµä¿¡
+èåç»¼å,http://59.34.211.186:4800/rtp/239.77.0.206:5146$å¹¿ä¸çµä¿¡
+èåæåçæ´»,http://59.34.211.186:4800/rtp/239.77.0.207:5146$å¹¿ä¸çµä¿¡
+æ±é¨ç»¼å,http://59.34.211.186:4800/rtp/239.77.0.201:5146$å¹¿ä¸çµä¿¡
+æ±å°¾æ°é»ç»¼å,http://59.34.211.186:4800/rtp/239.77.0.25:5146$å¹¿ä¸çµä¿¡
+.
+CCTV-1,http://113.77.24.204:8188/rtp/239.77.0.86:5146 $å¹¿ä¸çµä¿¡
+CCTV-2,http://113.77.24.204:8188/rtp/239.77.0.137:5146 $å¹¿ä¸çµä¿¡
+CCTV-3,http://113.77.24.204:8188/rtp/239.77.0.169:5146 $å¹¿ä¸çµä¿¡
+CCTV-4,http://113.77.24.204:8188/rtp/239.77.0.78:5146 $å¹¿ä¸çµä¿¡
+CCTV-5,http://113.77.24.204:8188/rtp/239.77.0.170:5146 $å¹¿ä¸çµä¿¡
+CCTV-5+,http://113.77.24.204:8188/rtp/239.77.0.87:5146 $å¹¿ä¸çµä¿¡
+CCTV-6,http://113.77.24.204:8188/rtp/239.77.0.171:5146 $å¹¿ä¸çµä¿¡
+CCTV-7,http://113.77.24.204:8188/rtp/239.77.0.138:5146 $å¹¿ä¸çµä¿¡
+CCTV-8,http://113.77.24.204:8188/rtp/239.77.0.172:5146 $å¹¿ä¸çµä¿¡
+CCTV-9,http://113.77.24.204:8188/rtp/239.77.0.135:5146 $å¹¿ä¸çµä¿¡
+CCTV-10,http://113.77.24.204:8188/rtp/239.77.0.134:5146 $å¹¿ä¸çµä¿¡
+CCTV-11,http://113.77.24.204:8188/rtp/239.77.1.108:5146 $å¹¿ä¸çµä¿¡
+CCTV-12,http://113.77.24.204:8188/rtp/239.77.0.136:5146 $å¹¿ä¸çµä¿¡
+CCTV-13,http://113.77.24.204:8188/rtp/239.77.0.188:5146 $å¹¿ä¸çµä¿¡
+CCTV-14,http://113.77.24.204:8188/rtp/239.77.0.133:5146 $å¹¿ä¸çµä¿¡
+CCTV-15,http://113.77.24.204:8188/rtp/239.77.1.239:5146 $å¹¿ä¸çµä¿¡
+CCTV-16,http://113.77.24.204:8188/rtp/239.77.0.165:5146 $å¹¿ä¸çµä¿¡
+CCTV-17,http://113.77.24.204:8188/rtp/239.77.0.198:5146 $å¹¿ä¸çµä¿¡
+æ±å¤´ç»¼å,http://113.77.24.204:8188/rtp/239.253.43.45:5146$å¹¿ä¸çµä¿¡
+æ±å¤´ç»æµçæ´»,http://113.77.24.204:8188/rtp/239.253.43.46:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸å«è§,http://113.77.24.204:8188/rtp/239.77.0.153:5146 $å¹¿ä¸çµä¿¡
+éåºå«è§,http://113.77.24.204:8188/rtp/239.77.0.182:5146 $å¹¿ä¸çµä¿¡
+æ±èå«è§,http://113.77.24.204:8188/rtp/239.77.0.90:5146 $å¹¿ä¸çµä¿¡
+æµæ±å«è§,http://113.77.24.204:8188/rtp/239.77.0.89:5146 $å¹¿ä¸çµä¿¡
+ä¸æ¹å«è§,http://113.77.24.204:8188/rtp/239.77.0.98:5146 $å¹¿ä¸çµä¿¡
+æ·±å³å«è§,http://113.77.24.204:8188/rtp/239.77.0.92:5146 $å¹¿ä¸çµä¿¡
+åäº¬å«è§,http://113.77.24.204:8188/rtp/239.77.0.91:5146 $å¹¿ä¸çµä¿¡
+å±±ä¸å«è§,http://113.77.24.204:8188/rtp/239.77.0.94:5146 $å¹¿ä¸çµä¿¡
+å¤©æ´¥å«è§,http://113.77.24.204:8188/rtp/239.77.0.97:5146 $å¹¿ä¸çµä¿¡
+è´µå·å«è§,http://113.77.24.204:8188/rtp/239.77.0.230:5146 $å¹¿ä¸çµä¿¡
+åå·å«è§,http://113.77.24.204:8188/rtp/239.77.0.159:5146 $å¹¿ä¸çµä¿¡
+äºåå«è§,http://113.77.24.204:8188/rtp/239.253.43.37:5146 $å¹¿ä¸çµä¿¡
+å¹¿è¥¿å«è§,http://113.77.24.204:8188/rtp/239.77.0.139:5146 $å¹¿ä¸çµä¿¡
+é»é¾æ±å«è§,http://113.77.24.204:8188/rtp/239.77.0.93:5146 $å¹¿ä¸çµä¿¡
+å®å¾½å«è§,http://113.77.24.204:8188/rtp/239.77.0.183:5146 $å¹¿ä¸çµä¿¡
+å±±è¥¿å«è§,http://113.77.24.204:8188/rtp/239.77.0.69:5146 $å¹¿ä¸çµä¿¡
+æ±è¥¿å«è§,http://113.77.24.204:8188/rtp/239.77.0.149:5146 $å¹¿ä¸çµä¿¡
+æ¹åå«è§,http://113.77.24.204:8188/rtp/239.77.0.95:5146 $å¹¿ä¸çµä¿¡
+éè¥¿å«è§,http://113.77.24.204:8188/rtp/239.77.0.68:5146 $å¹¿ä¸çµä¿¡
+ä¸åå«è§,http://113.77.24.204:8188/rtp/239.77.0.146:5146 $å¹¿ä¸çµä¿¡
+å¦é¨å«è§,http://113.77.24.204:8188/rtp/239.77.0.96:5146 $å¹¿ä¸çµä¿¡
+åæå«è§,http://113.77.24.204:8188/rtp/239.77.0.150:5146 $å¹¿ä¸çµä¿¡
+è¾½å®å«è§,http://113.77.24.204:8188/rtp/239.77.1.103:5146 $å¹¿ä¸çµä¿¡
+åèå¤å«è§,http://113.77.24.204:8188/rtp/239.77.0.70:5146 $å¹¿ä¸çµä¿¡
+æ¹åå«è§,http://113.77.24.204:8188/rtp/239.77.0.88:5146 $å¹¿ä¸çµä¿¡
+å¹¿ä¸å«è§,http://113.77.24.204:8188/rtp/239.77.0.84:5146 $å¹¿ä¸çµä¿¡
+å¤§æ¹¾åºå«è§,http://113.77.24.204:8188/rtp/239.77.0.215:5146 $å¹¿ä¸çµä¿¡
+æ²³åå«è§,http://113.77.24.204:8188/rtp/239.77.0.17:5146 $å¹¿ä¸çµä¿¡
+æ²³åå«è§,http://113.77.24.204:8188/rtp/239.77.0.148:5146 $å¹¿ä¸çµä¿¡
+æµ·åå«è§,http://113.77.24.204:8188/rtp/239.253.43.35:5146 $å¹¿ä¸çµä¿¡
+å®å¤å«è§,http://113.77.24.204:8188/rtp/239.77.0.49:5146 $å¹¿ä¸çµä¿¡
+çèå«è§,http://113.77.24.204:8188/rtp/239.77.0.189:5146 $å¹¿ä¸çµä¿¡
+éæµ·å«è§,http://113.77.24.204:8188/rtp/239.77.1.70:5146 $å¹¿ä¸çµä¿¡
+æ°çå«è§,http://113.77.24.204:8188/rtp/239.77.0.47:5146 $å¹¿ä¸çµä¿¡
+è¥¿èå«è§,http://113.77.24.204:8188/rtp/239.77.0.46:5146 $å¹¿ä¸çµä¿¡
+åµå¢å«è§,http://113.77.24.204:8188/rtp/239.77.0.48:5146 $å¹¿ä¸çµä¿¡
+ä¸æ²å«è§,http://113.77.24.204:8188/rtp/239.253.43.113:5146 $å¹¿ä¸çµä¿¡
+å¹¿ä¸ç æ±,http://113.77.24.204:8188/rtp/239.77.0.114:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸æ°é»,http://113.77.24.204:8188/rtp/239.77.0.173:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸ä½è²,http://113.77.24.204:8188/rtp/239.77.0.112:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸æ°ç,http://113.77.24.204:8188/rtp/239.77.0.225:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸å½±è§,http://113.77.24.204:8188/rtp/239.77.0.217:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸å°å¿,http://113.77.24.204:8188/rtp/239.77.0.250:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸4Kè¶é«æ¸,http://113.77.24.204:8188/rtp/239.77.0.244:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸ç»æµç§æ,http://113.77.24.204:8188/rtp/239.77.0.167:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸åä½³å¡é,http://113.77.24.204:8188/rtp/239.77.0.179:5146$å¹¿ä¸çµä¿¡
+å¹¿å·ç»¼å,http://113.77.24.204:8188/rtp/239.253.43.71:5146$å¹¿ä¸çµä¿¡
+å¹¿å·æ°é»,http://113.77.24.204:8188/rtp/239.253.43.72:5146$å¹¿ä¸çµä¿¡
+å¹¿å·å½±è§,http://113.77.24.204:8188/rtp/239.253.43.73:5146$å¹¿ä¸çµä¿¡
+å¹¿å·æ³æ²»,http://113.77.24.204:8188/rtp/239.253.43.74:5146$å¹¿ä¸çµä¿¡
+å¹¿å·åå½é½å¸,http://113.77.24.204:8188/rtp/239.253.43.99:5146$å¹¿ä¸çµä¿¡
+æ·±å³é½å¸,http://113.77.24.204:8188/rtp/239.77.1.176:5146$å¹¿ä¸çµä¿¡
+æ·±å³å¨±ä¹,http://113.77.24.204:8188/rtp/239.77.1.243:5146$å¹¿ä¸çµä¿¡
+æ·±å³å¬å±,http://113.77.24.204:8188/rtp/239.77.1.178:5146$å¹¿ä¸çµä¿¡
+æ·±å³å°å¿,http://113.77.24.204:8188/rtp/239.77.1.244:5146$å¹¿ä¸çµä¿¡
+æ·±å³çµè§å§,http://113.77.24.204:8188/rtp/239.77.1.177:5146$å¹¿ä¸çµä¿¡
+æ·±å³çµè§å§,http://113.77.24.204:8188/rtp/239.77.1.125:5146$å¹¿ä¸çµä¿¡
+æ·±å³å¬å±,http://113.77.24.204:8188/rtp/239.77.1.126:5146$å¹¿ä¸çµä¿¡
+æ·±å³é½å¸,http://113.77.24.204:8188/rtp/239.77.1.124:5146$å¹¿ä¸çµä¿¡
+æ·±å³å®å®,http://113.77.24.204:8188/rtp/239.77.1.67:5146$å¹¿ä¸çµä¿¡
+æ·±å³é¾å²,http://113.77.24.204:8188/rtp/239.77.1.223:5146$å¹¿ä¸çµä¿¡
+ä½å±±ç»¼å,http://113.77.24.204:8188/rtp/239.253.43.57:5146$å¹¿ä¸çµä¿¡
+ä½å±±åå¸çæ´»,http://113.77.24.204:8188/rtp/239.253.43.53:5146$å¹¿ä¸çµä¿¡
+ä½å±±åæµ·,http://113.77.24.204:8188/rtp/239.253.43.54:5146$å¹¿ä¸çµä¿¡
+ä½å±±é¡ºå¾·,http://113.77.24.204:8188/rtp/239.253.43.55:5146$å¹¿ä¸çµä¿¡
+æ­é³ç»¼å,http://113.77.24.204:8188/rtp/239.77.0.229:5146$å¹¿ä¸çµä¿¡
+æ­é³çæ´»,http://113.77.24.204:8188/rtp/239.77.0.251:5146$å¹¿ä¸çµä¿¡
+æ½®å·ç»¼å,http://113.77.24.204:8188/rtp/239.253.43.70:5146$å¹¿ä¸çµä¿¡
+æ½®å·æ°ç,http://113.77.24.204:8188/rtp/239.253.43.75:5146$å¹¿ä¸çµä¿¡
+ä¸èæ°é»ç»¼å,http://113.77.24.204:8188/rtp/239.253.43.104:5146$å¹¿ä¸çµä¿¡
+ä¸­å±±ç»¼å,http://113.77.24.204:8188/rtp/239.253.43.62:5146$å¹¿ä¸çµä¿¡
+HZTV-1,http://113.77.24.204:8188/rtp/239.77.1.232:5146$å¹¿ä¸çµä¿¡
+HZTV-2,http://113.77.24.204:8188/rtp/239.77.1.233:5146$å¹¿ä¸çµä¿¡
+ç æµ·-1,http://113.77.24.204:8188/rtp/239.77.0.155:5146$å¹¿ä¸çµä¿¡
+èåºç»¼å,http://113.77.24.204:8188/rtp/239.253.43.1:5146$å¹¿ä¸çµä¿¡
+èåºçæ´»æå¡,http://113.77.24.204:8188/rtp/239.253.43.2:5146$å¹¿ä¸çµä¿¡
+æ¸è¿æ°é»ç»¼å,http://113.77.24.204:8188/rtp/239.253.43.33:5146$å¹¿ä¸çµä¿¡
+æ²³æºç»¼å,http://113.77.24.204:8188/rtp/239.253.43.213:5146$å¹¿ä¸çµä¿¡
+æ²³æºå¬å±,http://113.77.24.204:8188/rtp/239.253.43.214:5146$å¹¿ä¸çµä¿¡
+é¶å³æ°é»ç»¼å,http://113.77.24.204:8188/rtp/239.77.0.117:5146$å¹¿ä¸çµä¿¡
+æ¹æ±æ°é»ç»¼å,http://113.77.24.204:8188/rtp/239.77.0.141:5146$å¹¿ä¸çµä¿¡
+äºæµ®ç»¼å,http://113.77.24.204:8188/rtp/239.77.0.253:5146$å¹¿ä¸çµä¿¡
+äºæµ®ææ,http://113.77.24.204:8188/rtp/239.77.0.254:5146$å¹¿ä¸çµä¿¡
+èåç»¼å,http://113.77.24.204:8188/rtp/239.77.0.206:5146$å¹¿ä¸çµä¿¡
+èåæåçæ´»,http://113.77.24.204:8188/rtp/239.77.0.207:5146$å¹¿ä¸çµä¿¡
+æ±é¨ç»¼å,http://113.77.24.204:8188/rtp/239.77.0.201:5146$å¹¿ä¸çµä¿¡
+æ±å°¾æ°é»ç»¼å,http://113.77.24.204:8188/rtp/239.77.0.25:5146$å¹¿ä¸çµä¿¡
+.
+CCTV-1,http://113.101.244.109:8128/rtp/239.77.0.86:5146 $å¹¿ä¸çµä¿¡
+CCTV-2,http://113.101.244.109:8128/rtp/239.77.0.137:5146 $å¹¿ä¸çµä¿¡
+CCTV-3,http://113.101.244.109:8128/rtp/239.77.0.169:5146 $å¹¿ä¸çµä¿¡
+CCTV-4,http://113.101.244.109:8128/rtp/239.77.0.78:5146 $å¹¿ä¸çµä¿¡
+CCTV-5,http://113.101.244.109:8128/rtp/239.77.0.170:5146 $å¹¿ä¸çµä¿¡
+CCTV-5+,http://113.101.244.109:8128/rtp/239.77.0.87:5146 $å¹¿ä¸çµä¿¡
+CCTV-6,http://113.101.244.109:8128/rtp/239.77.0.171:5146 $å¹¿ä¸çµä¿¡
+CCTV-7,http://113.101.244.109:8128/rtp/239.77.0.138:5146 $å¹¿ä¸çµä¿¡
+CCTV-8,http://113.101.244.109:8128/rtp/239.77.0.172:5146 $å¹¿ä¸çµä¿¡
+CCTV-9,http://113.101.244.109:8128/rtp/239.77.0.135:5146 $å¹¿ä¸çµä¿¡
+CCTV-10,http://113.101.244.109:8128/rtp/239.77.0.134:5146 $å¹¿ä¸çµä¿¡
+CCTV-11,http://113.101.244.109:8128/rtp/239.77.1.108:5146 $å¹¿ä¸çµä¿¡
+CCTV-12,http://113.101.244.109:8128/rtp/239.77.0.136:5146 $å¹¿ä¸çµä¿¡
+CCTV-13,http://113.101.244.109:8128/rtp/239.77.0.188:5146 $å¹¿ä¸çµä¿¡
+CCTV-14,http://113.101.244.109:8128/rtp/239.77.0.133:5146 $å¹¿ä¸çµä¿¡
+CCTV-15,http://113.101.244.109:8128/rtp/239.77.1.239:5146 $å¹¿ä¸çµä¿¡
+CCTV-16,http://113.101.244.109:8128/rtp/239.77.0.165:5146 $å¹¿ä¸çµä¿¡
+CCTV-17,http://113.101.244.109:8128/rtp/239.77.0.198:5146 $å¹¿ä¸çµä¿¡
+æ±å¤´ç»¼å,http://113.101.244.109:8128/rtp/239.253.43.45:5146$å¹¿ä¸çµä¿¡
+æ±å¤´ç»æµçæ´»,http://113.101.244.109:8128/rtp/239.253.43.46:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸å«è§,http://113.101.244.109:8128/rtp/239.77.0.153:5146 $å¹¿ä¸çµä¿¡
+éåºå«è§,http://113.101.244.109:8128/rtp/239.77.0.182:5146 $å¹¿ä¸çµä¿¡
+æ±èå«è§,http://113.101.244.109:8128/rtp/239.77.0.90:5146 $å¹¿ä¸çµä¿¡
+æµæ±å«è§,http://113.101.244.109:8128/rtp/239.77.0.89:5146 $å¹¿ä¸çµä¿¡
+ä¸æ¹å«è§,http://113.101.244.109:8128/rtp/239.77.0.98:5146 $å¹¿ä¸çµä¿¡
+æ·±å³å«è§,http://113.101.244.109:8128/rtp/239.77.0.92:5146 $å¹¿ä¸çµä¿¡
+åäº¬å«è§,http://113.101.244.109:8128/rtp/239.77.0.91:5146 $å¹¿ä¸çµä¿¡
+å±±ä¸å«è§,http://113.101.244.109:8128/rtp/239.77.0.94:5146 $å¹¿ä¸çµä¿¡
+å¤©æ´¥å«è§,http://113.101.244.109:8128/rtp/239.77.0.97:5146 $å¹¿ä¸çµä¿¡
+è´µå·å«è§,http://113.101.244.109:8128/rtp/239.77.0.230:5146 $å¹¿ä¸çµä¿¡
+åå·å«è§,http://113.101.244.109:8128/rtp/239.77.0.159:5146 $å¹¿ä¸çµä¿¡
+äºåå«è§,http://113.101.244.109:8128/rtp/239.253.43.37:5146 $å¹¿ä¸çµä¿¡
+å¹¿è¥¿å«è§,http://113.101.244.109:8128/rtp/239.77.0.139:5146 $å¹¿ä¸çµä¿¡
+é»é¾æ±å«è§,http://113.101.244.109:8128/rtp/239.77.0.93:5146 $å¹¿ä¸çµä¿¡
+å®å¾½å«è§,http://113.101.244.109:8128/rtp/239.77.0.183:5146 $å¹¿ä¸çµä¿¡
+å±±è¥¿å«è§,http://113.101.244.109:8128/rtp/239.77.0.69:5146 $å¹¿ä¸çµä¿¡
+æ±è¥¿å«è§,http://113.101.244.109:8128/rtp/239.77.0.149:5146 $å¹¿ä¸çµä¿¡
+æ¹åå«è§,http://113.101.244.109:8128/rtp/239.77.0.95:5146 $å¹¿ä¸çµä¿¡
+éè¥¿å«è§,http://113.101.244.109:8128/rtp/239.77.0.68:5146 $å¹¿ä¸çµä¿¡
+ä¸åå«è§,http://113.101.244.109:8128/rtp/239.77.0.146:5146 $å¹¿ä¸çµä¿¡
+å¦é¨å«è§,http://113.101.244.109:8128/rtp/239.77.0.96:5146 $å¹¿ä¸çµä¿¡
+åæå«è§,http://113.101.244.109:8128/rtp/239.77.0.150:5146 $å¹¿ä¸çµä¿¡
+è¾½å®å«è§,http://113.101.244.109:8128/rtp/239.77.1.103:5146 $å¹¿ä¸çµä¿¡
+åèå¤å«è§,http://113.101.244.109:8128/rtp/239.77.0.70:5146 $å¹¿ä¸çµä¿¡
+æ¹åå«è§,http://113.101.244.109:8128/rtp/239.77.0.88:5146 $å¹¿ä¸çµä¿¡
+å¹¿ä¸å«è§,http://113.101.244.109:8128/rtp/239.77.0.84:5146 $å¹¿ä¸çµä¿¡
+å¤§æ¹¾åºå«è§,http://113.101.244.109:8128/rtp/239.77.0.215:5146 $å¹¿ä¸çµä¿¡
+æ²³åå«è§,http://113.101.244.109:8128/rtp/239.77.0.17:5146 $å¹¿ä¸çµä¿¡
+æ²³åå«è§,http://113.101.244.109:8128/rtp/239.77.0.148:5146 $å¹¿ä¸çµä¿¡
+æµ·åå«è§,http://113.101.244.109:8128/rtp/239.253.43.35:5146 $å¹¿ä¸çµä¿¡
+å®å¤å«è§,http://113.101.244.109:8128/rtp/239.77.0.49:5146 $å¹¿ä¸çµä¿¡
+çèå«è§,http://113.101.244.109:8128/rtp/239.77.0.189:5146 $å¹¿ä¸çµä¿¡
+éæµ·å«è§,http://113.101.244.109:8128/rtp/239.77.1.70:5146 $å¹¿ä¸çµä¿¡
+æ°çå«è§,http://113.101.244.109:8128/rtp/239.77.0.47:5146 $å¹¿ä¸çµä¿¡
+è¥¿èå«è§,http://113.101.244.109:8128/rtp/239.77.0.46:5146 $å¹¿ä¸çµä¿¡
+åµå¢å«è§,http://113.101.244.109:8128/rtp/239.77.0.48:5146 $å¹¿ä¸çµä¿¡
+ä¸æ²å«è§,http://113.101.244.109:8128/rtp/239.253.43.113:5146 $å¹¿ä¸çµä¿¡
+å¹¿ä¸ç æ±,http://113.101.244.109:8128/rtp/239.77.0.114:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸æ°é»,http://113.101.244.109:8128/rtp/239.77.0.173:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸ä½è²,http://113.101.244.109:8128/rtp/239.77.0.112:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸æ°ç,http://113.101.244.109:8128/rtp/239.77.0.225:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸å½±è§,http://113.101.244.109:8128/rtp/239.77.0.217:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸å°å¿,http://113.101.244.109:8128/rtp/239.77.0.250:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸4Kè¶é«æ¸,http://113.101.244.109:8128/rtp/239.77.0.244:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸ç»æµç§æ,http://113.101.244.109:8128/rtp/239.77.0.167:5146$å¹¿ä¸çµä¿¡
+å¹¿ä¸åä½³å¡é,http://113.101.244.109:8128/rtp/239.77.0.179:5146$å¹¿ä¸çµä¿¡
+å¹¿å·ç»¼å,http://113.101.244.109:8128/rtp/239.253.43.71:5146$å¹¿ä¸çµä¿¡
+å¹¿å·æ°é»,http://113.101.244.109:8128/rtp/239.253.43.72:5146$å¹¿ä¸çµä¿¡
+å¹¿å·å½±è§,http://113.101.244.109:8128/rtp/239.253.43.73:5146$å¹¿ä¸çµä¿¡
+å¹¿å·æ³æ²»,http://113.101.244.109:8128/rtp/239.253.43.74:5146$å¹¿ä¸çµä¿¡
+å¹¿å·åå½é½å¸,http://113.101.244.109:8128/rtp/239.253.43.99:5146$å¹¿ä¸çµä¿¡
+æ·±å³é½å¸,http://113.101.244.109:8128/rtp/239.77.1.176:5146$å¹¿ä¸çµä¿¡
+æ·±å³å¨±ä¹,http://113.101.244.109:8128/rtp/239.77.1.243:5146$å¹¿ä¸çµä¿¡
+æ·±å³å¬å±,http://113.101.244.109:8128/rtp/239.77.1.178:5146$å¹¿ä¸çµä¿¡
+æ·±å³å°å¿,http://113.101.244.109:8128/rtp/239.77.1.244:5146$å¹¿ä¸çµä¿¡
+æ·±å³çµè§å§,http://113.101.244.109:8128/rtp/239.77.1.177:5146$å¹¿ä¸çµä¿¡
+æ·±å³çµè§å§,http://113.101.244.109:8128/rtp/239.77.1.125:5146$å¹¿ä¸çµä¿¡
+æ·±å³å¬å±,http://113.101.244.109:8128/rtp/239.77.1.126:5146$å¹¿ä¸çµä¿¡
+æ·±å³é½å¸,http://113.101.244.109:8128/rtp/239.77.1.124:5146$å¹¿ä¸çµä¿¡
+æ·±å³å®å®,http://113.101.244.109:8128/rtp/239.77.1.67:5146$å¹¿ä¸çµä¿¡
+æ·±å³é¾å²,http://113.101.244.109:8128/rtp/239.77.1.223:5146$å¹¿ä¸çµä¿¡
+ä½å±±ç»¼å,http://113.101.244.109:8128/rtp/239.253.43.57:5146$å¹¿ä¸çµä¿¡
+ä½å±±åå¸çæ´»,http://113.101.244.109:8128/rtp/239.253.43.53:5146$å¹¿ä¸çµä¿¡
+ä½å±±åæµ·,http://113.101.244.109:8128/rtp/239.253.43.54:5146$å¹¿ä¸çµä¿¡
+ä½å±±é¡ºå¾·,http://113.101.244.109:8128/rtp/239.253.43.55:5146$å¹¿ä¸çµä¿¡
+æ­é³ç»¼å,http://113.101.244.109:8128/rtp/239.77.0.229:5146$å¹¿ä¸çµä¿¡
+æ­é³çæ´»,http://113.101.244.109:8128/rtp/239.77.0.251:5146$å¹¿ä¸çµä¿¡
+æ½®å·ç»¼å,http://113.101.244.109:8128/rtp/239.253.43.70:5146$å¹¿ä¸çµä¿¡
+æ½®å·æ°ç,http://113.101.244.109:8128/rtp/239.253.43.75:5146$å¹¿ä¸çµä¿¡
+ä¸èæ°é»ç»¼å,http://113.101.244.109:8128/rtp/239.253.43.104:5146$å¹¿ä¸çµä¿¡
+ä¸­å±±ç»¼å,http://113.101.244.109:8128/rtp/239.253.43.62:5146$å¹¿ä¸çµä¿¡
+HZTV-1,http://113.101.244.109:8128/rtp/239.77.1.232:5146$å¹¿ä¸çµä¿¡
+HZTV-2,http://113.101.244.109:8128/rtp/239.77.1.233:5146$å¹¿ä¸çµä¿¡
+ç æµ·-1,http://113.101.244.109:8128/rtp/239.77.0.155:5146$å¹¿ä¸çµä¿¡
+èåºç»¼å,http://113.101.244.109:8128/rtp/239.253.43.1:5146$å¹¿ä¸çµä¿¡
+èåºçæ´»æå¡,http://113.101.244.109:8128/rtp/239.253.43.2:5146$å¹¿ä¸çµä¿¡
+æ¸è¿æ°é»ç»¼å,http://113.101.244.109:8128/rtp/239.253.43.33:5146$å¹¿ä¸çµä¿¡
+æ²³æºç»¼å,http://113.101.244.109:8128/rtp/239.253.43.213:5146$å¹¿ä¸çµä¿¡
+æ²³æºå¬å±,http://113.101.244.109:8128/rtp/239.253.43.214:5146$å¹¿ä¸çµä¿¡
+é¶å³æ°é»ç»¼å,http://113.101.244.109:8128/rtp/239.77.0.117:5146$å¹¿ä¸çµä¿¡
+æ¹æ±æ°é»ç»¼å,http://113.101.244.109:8128/rtp/239.77.0.141:5146$å¹¿ä¸çµä¿¡
+äºæµ®ç»¼å,http://113.101.244.109:8128/rtp/239.77.0.253:5146$å¹¿ä¸çµä¿¡
+äºæµ®ææ,http://113.101.244.109:8128/rtp/239.77.0.254:5146$å¹¿ä¸çµä¿¡
+èåç»¼å,http://113.101.244.109:8128/rtp/239.77.0.206:5146$å¹¿ä¸çµä¿¡
+èåæåçæ´»,http://113.101.244.109:8128/rtp/239.77.0.207:5146$å¹¿ä¸çµä¿¡
+æ±é¨ç»¼å,http://113.101.244.109:8128/rtp/239.77.0.201:5146$å¹¿ä¸çµä¿¡
+æ±å°¾æ°é»ç»¼å,http://113.101.244.109:8128/rtp/239.77.0.25:5146$å¹¿ä¸çµä¿¡
+
+å¹¿ä¸ç»æµç§æ,http://112.89.121.21:80/PLTV/88888973/224/3221225752/10000100000000060000000000334591_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,7807,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowmoxHIkVT2YRc54nGjGZOvg:20181110091937,END&GuardEncType=2$èéä¸ç¨
+å¹¿ä¸4Kè¶é«æ¸,http://120.87.4.5:80/PLTV/88888973/224/3221226174/10000100000000060000000001154677_0.smil/01.m3u8?fmt=ts2hls,83,01.m3u8,0,28893,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowks7JFSNmqxY+Vs2cx118+R:20181110091937,END&GuardEncType=2$èéä¸ç¨
+å¹¿ä¸ç æ±,http://121.9.14.195:50085/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
+å¹¿ä¸ä½è²,http://121.9.14.195:50085/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
+å¹¿ä¸å½±è§,http://121.9.14.195:50085/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&authid=0
+å¹¿ä¸æ°é»,http://121.9.14.195:50085/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0
+å¹¿ä¸ç»æµç§æ,http://121.9.14.195:50085/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
+å¹¿å·æ°é»,https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=f80e5b7654c57c7571a314d94befe320&txTime=19019c051d5
+å¹¿å·ç»¼å,https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=5d7708684007fcea395caff98369084c&txTime=19019c37743
+çªç¦ºçµè§å°,http://video.epaper.pybtv.cn:8080/live/rtmp_live_demo.flv
+æ¢å·ç»¼å,https://livepull.hellohakka.cn/live/ch_zonghe.m3u8
+æ¢å·å®¢å®¶çæ´»,https://livepull.hellohakka.cn/live/ch_kejiashenghuo.m3u8
+äºåçµè§å°,http://p2hs.vzan.com/slowlive/621139761151691240/live.m3u8
+æ±å°¾æ°é»ç»¼å,https://iswtv.swrtv.com/live/xwzhpd.m3u8
+æ±å°¾æåçæ´»,https://iswtv.swrtv.com/live/whshpd.m3u8
+æ¸è¿æ°é»ç»¼å,http://vlivestream.qyrb.cn/qyLiveSlow/74.m3u8
+ä¸èæ°é»ç»¼å,http://stream.sun0769.com/dgrtv1/mp4tv1_1500/index.m3u8
+ä¸èçæ´»èµè®¯,http://stream.sun0769.com/dgrtv1/mp4tv2_1500/index.m3u8
+
+æ¸¯å°é¢é,#genre#
+
+å¤å°ä¸­æ,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236260/index.m3u8 $æµæ±ç§»å¨
+å¤å°èµè®¯,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236197/index.m3u8 $æµæ±ç§»å¨
+å¤å°ä¸­æ,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/test1_4000.m3u8$èå°æ
+å¤å°èµè®¯,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/test2_4000.m3u8$èå°æ
+å¤å°ä¸­æ,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/cntv/live1/HD-10000k-1080P-fhchinese5s/HD-10000k-1080P-fhchinese5s/index.m3u8 $æ±èé¶æ²³
+å¤å°èµè®¯,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/cntv/live1/HD-10000k-1080P-fhzixun5s/HD-10000k-1080P-fhzixun5s/index.m3u8 $æ±èé¶æ²³
+å¤å°é¦æ¸¯,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/cntv/live1/HD-10000k-1080P-fhhongkong5s/HD-10000k-1080P-fhhongkong5s/index.m3u8 $æ±èé¶æ²³
+
+å¤å°ä¸­æ,http://61.184.46.85:85/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&authid=0
+å¤å°èµè®¯,http://61.184.46.85:85/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&authid=0
+å¤å°ä¸­æ,http://115.44.140.170:18180/TV00000000000000000008@HHZT
+å¤å°èµè®¯,http://115.44.140.170:18180/TV00000000000000000009@HHZT
+å¤å°é¦æ¸¯,http://115.44.140.170:18180/TV00000000000000000024@HHZT
+TVBç¿¡ç¿ å°,http://115.44.140.170:18180/TV00000000000000000032@HHZT
+TVBæ çº¿æ°é»å°,http://115.44.140.170:18180/TV00000000000000000034@HHZT
+TVBæç å°,http://115.44.140.170:18180/TV00000000000000000035@HHZT
+RTHK31,http://115.44.140.170:18180/TV00000000000000000019@HHZT
+RTHK32,http://115.44.140.170:18180/TV00000000000000000017@HHZT
+viutv,http://115.44.140.170:18180/TV00000000000000000037@HHZT
+
+å¤å°ä¸­æ,http://cdn6.163189.xyz/163189/fhzw $6163189
+å¤å°èµè®¯,http://cdn6.163189.xyz/163189/fhzx $6163189
+å¤å°é¦æ¸¯,http://cdn6.163189.xyz/163189/fhhk $6163189
+TVBç¿¡ç¿ å°,http://119.140.58.191:1698/hls/83/index.m3u8
+TVBç¿¡ç¿ å°,http://74.91.26.218:82/live/jade.m3u8
+TVBæ çº¿æ°é»å°,http://74.91.26.218:82/live/inews.m3u8
+å¤å°ä¸­æ,http://A/ku9/js/fhshow.js?id=fhzw$å¤å°ç§
+å¤å°èµè®¯,http://A/ku9/js/fhshow.js?id=fhzx$å¤å°ç§
+å¤å°é¦æ¸¯,http://A/ku9/js/fhshow.js?id=fhhk$å¤å°ç§
+ç¯ççµè§å°,http://utv1.hqtvzb.com:9999/hls/world.m3u8
+
+å­åå¼å¥,#genre#
+
+TVB Plus,http://67.220.71.199:2347/livehttpplay?channel_id=30023
+TVB Plus,https://vdm6-hw.nbgdsygs.com/live/h6-2.flv$å­åå¾åº
+TVB Plus,http://o11.163189.xyz/stream/tvb/tvbp/
+TVB Plus,http://gd.wsd.gd.cn:1698/hls/94/index.m3u8
+TVB Plus,http://74.91.26.218:82/live/j2.m3u8
+æ°æ¾³,https://play8398.lianwin88.com/live/mosixmark.flv
+èæ¾³,https://vdm6-ali.hrypl168.com/live/a6.flv
+èæ¾³,https://vdm6-hw.qunleniuniu.com/live/2032-2.flv
