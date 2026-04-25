@@ -1,12 +1,4 @@
-cache.gz
-*.gz
 dist
 build
 .idea
 __pycache__/
-*.log
-output/
-logs/
-*.tmp
-*.pickle
-temp/
