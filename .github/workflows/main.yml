@@ -10,6 +10,9 @@ name: 'Update schedule'
 # If scheduled execution is required, use other deployment methods.
 
 on:
+  schedule:
+    # 北京时间周一凌晨4点，对应UTC时间周日20:00
+    - cron: "0 20 * * 0"
   workflow_dispatch:
 
 jobs:
@@ -35,7 +38,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - name: Install pipenv
         run: pip3 install --user pipenv
-      - name: Install dependecies
+      - name: Install dependencies
         run: pipenv --python 3.13 && pipenv install --deploy
       - name: Update
         run: pipenv run dev
