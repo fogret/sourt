@@ -55,23 +55,3 @@ jobs:
             git commit -m "Github Action Auto Updated"
             git push --force
           fi
-
-      # 同步到 fogret/soute
-      - name: Checkout public repo fogret/soute
-        uses: actions/checkout@v4
-        with:
-          repository: fogret/soute
-          token: ${{ secrets.SOUTE_REPO_TOKEN }}
-          path: public-repo
-
-      - name: Copy result.m3u
-        run: cp -f output/result.m3u public-repo/
-
-      - name: Push to soute
-        run: |
-          cd public-repo
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
-          git add result.m3u
-          git commit -m "Sync result.m3u" || true
-          git push
